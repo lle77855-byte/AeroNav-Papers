@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T21:31:06.004024+00:00",
+  "updated_at": "2026-10-10T10:27:18.261082+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -17390,59 +17390,289 @@
         "world model"
       ],
       "added_at": "2026-09-18T08:54:45.554191+00:00"
+    },
+    {
+      "id": "2610.11328",
+      "arxiv_id": "2610.11328",
+      "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+      "authors": [
+        "Yuxuan Cao",
+        "Junlong Li",
+        "Hao Li",
+        "Junxian He"
+      ],
+      "published": "2026-10-08",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.11328",
+      "pdf_url": "https://arxiv.org/pdf/2610.11328",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 8,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Advances in foundation models are driving efforts to introduce agents to assist people in the physical world.",
+      "why_it_matters": "与空间智能、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "instruction",
+        "spatial intelligence",
+        "spatial understanding",
+        "waypoint"
+      ],
+      "added_at": "2026-10-10T10:26:59.425736+00:00"
+    },
+    {
+      "id": "2610.11322",
+      "arxiv_id": "2610.11322",
+      "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
+      "authors": [
+        "Chuanrui Zhang",
+        "Zaijia Yang",
+        "Duomin Wang",
+        "Lu Shi",
+        "Daquan Zhou",
+        "Ruihua Zhang",
+        "Ziwei Wang"
+      ],
+      "published": "2026-10-08",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.11322",
+      "pdf_url": "https://arxiv.org/pdf/2610.11322",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "真机与 Sim2Real",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real、空间智能，主要研究问题可概括为：USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Geometrically faithful and functional articulated 3D assets are essential for real-to-sim robot manipulation, where policies trained in simulation must transfer to physical objects.",
+      "why_it_matters": "与真机与 Sim2Real、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "geometry",
+        "real robot"
+      ],
+      "added_at": "2026-10-10T10:27:05.832499+00:00"
+    },
+    {
+      "id": "2610.11171",
+      "arxiv_id": "2610.11171",
+      "title": "VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding",
+      "authors": [
+        "Runquan Gui",
+        "Hanzhu Chen",
+        "Zehao Wang",
+        "Hanxin Zhu",
+        "Xin Li",
+        "Zhibo Chen"
+      ],
+      "published": "2026-10-08",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.11171",
+      "pdf_url": "https://arxiv.org/pdf/2610.11171",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "主动感知与重建"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、主动感知与重建，主要研究问题可概括为：VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Long-form video understanding often involves multiple questions about different aspects of the same recording.",
+      "why_it_matters": "与多模态大模型与智能体、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "exploration"
+      ],
+      "added_at": "2026-10-10T10:27:08.984556+00:00"
+    },
+    {
+      "id": "2610.10635",
+      "arxiv_id": "2610.10635",
+      "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+      "authors": [
+        "Xi Chen",
+        "Zhe Liu",
+        "Xiaogang Xu",
+        "Jiafei Xu",
+        "Chunyi Zhou",
+        "Yuan Su",
+        "Rui Zeng",
+        "Tianyu Du",
+        "Kelu Yao",
+        "Chao Li",
+        "Shouling Ji"
+      ],
+      "published": "2026-10-07",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.10635",
+      "pdf_url": "https://arxiv.org/pdf/2610.10635",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空域 VLN",
+        "UAV 目标搜索"
+      ],
+      "relevance_score": 6,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a frozen OpenFly navigator, this \\emph{instr",
+      "why_it_matters": "与空域 VLN、UAV 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "instruction"
+      ],
+      "added_at": "2026-10-10T10:27:02.707712+00:00"
+    },
+    {
+      "id": "2610.10962",
+      "arxiv_id": "2610.10962",
+      "title": "iAm.md: Robot Skill Self-Assessment through Agentic Introspection for Unknown Open-Vocabulary Domains",
+      "authors": [
+        "Vincenzo Guarino",
+        "Emanuele Musumeci",
+        "Vincenzo Suriani",
+        "Daniele Nardi"
+      ],
+      "published": "2026-10-07",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.10962",
+      "pdf_url": "https://arxiv.org/pdf/2610.10962",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：iAm.md: Robot Skill Self-Assessment through Agentic Introspection for Unknown Open-Vocabulary Domains。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Agentic AI based on Large Language Model generalization capabilities offers a wide range of potential applications, including planning for embodied tasks.",
+      "why_it_matters": "与多模态大模型与智能体、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "deployment"
+      ],
+      "added_at": "2026-10-10T10:27:12.090511+00:00"
+    },
+    {
+      "id": "2610.10787",
+      "arxiv_id": "2610.10787",
+      "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+      "authors": [
+        "Gengze Zhou",
+        "Yicong Hong",
+        "Jiazhao Zhang",
+        "Xunyi Zhao",
+        "Jian Zhou",
+        "Zixing Lei",
+        "Zun Wang",
+        "Chongyang Zhao",
+        "Xionghui Chen",
+        "Stephen Gould",
+        "Anton van den Hengel",
+        "Qi Wu"
+      ],
+      "published": "2026-10-07",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.10787",
+      "pdf_url": "https://arxiv.org/pdf/2610.10787",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "地面 VLN",
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/16b3e73a27a99b8d134b005fcd51f98fe2c7b951",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦地面 VLN、多模态大模型与智能体，主要研究问题可概括为：NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agen",
+      "why_it_matters": "与地面 VLN、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "evaluation",
+        "r2r"
+      ],
+      "added_at": "2026-10-10T10:27:15.260623+00:00"
     }
   ],
   "briefing": {
-    "text": "本批主线：世界模型与结构化表征正承接导航中的想象、规划与安全评测。首推SearchWorld，以BEV空间记忆叠加价值引导想象驱动无人机目标搜索，把UAV-ON成功率提至23.8%，示范了世界模型从预测走向决策；其次，Learning Modular Policy for Multi-Floor Object Navigation把全局策略拆为层内探索与层间切换，理想假设下理论等价，并诊断出感知与爬楼稳定性才是多层导航的主要瓶颈，分析范式可复用；RT-Safe则让城市环境在智能体推理期间持续演化，八个VLM智能体高任务成功率下安全完成率极低，直指实时安全盲区。趋势：评测重心正从静态成功率转向演化世界中的实时安全。",
+    "text": "",
     "added": 6,
-    "at": "2026-10-09T21:32:20.614824+00:00",
+    "at": "2026-10-10T10:27:18.261104+00:00",
     "new": [
       {
-        "t": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
-        "u": "https://arxiv.org/abs/2610.09335",
-        "r": 10,
-        "g": 8,
-        "s": "SearchWorld面向无人机目标搜索提出循环状态空间世界模型，融合BEV空间记忆与价值引导想象，解码空间价值层指导想象推演，在UAV-ON上把成功率提升到23.8%。",
+        "t": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+        "u": "https://arxiv.org/abs/2610.11328",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "OntoPlan: An Ontology-Grounded Scene Representation and Agentic Framework for Scalable Robot Task Planning",
-        "u": "https://arxiv.org/abs/2610.07649",
-        "r": 8,
-        "g": 7,
-        "s": "OntoPlan以本体统一物体、空间、关系与状态的符号词汇，用智能体框架解析指令、按需检索并生成可执行规划，在五个室内环境150个任务上成功率0.89、token开销远低于基线。",
-        "c": "https://github.com/namhyeongwoo/OntoPlan"
-      },
-      {
-        "t": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
-        "u": "https://arxiv.org/abs/2610.08941",
-        "r": 7,
-        "g": 6,
-        "s": "SPW-Nav是流式全景世界模型，从单张全景图出发，实时理解移动指令并流式生成一分钟2K360度视频，支持指令即时切换，并构建了带相机轨迹与人工验证指令的数据集SPW-NavSet。",
+        "t": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+        "u": "https://arxiv.org/abs/2610.10635",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Learning Modular Policy for Multi-Floor Object Navigation:A Factorized Framework for Diagnostic Study",
-        "u": "https://arxiv.org/abs/2610.06958",
-        "r": 10,
-        "g": 7,
-        "s": "针对多层建筑ObjectNav稀疏奖励难题，提出将全局策略因子化为层内探索与层间切换的分层模块化框架，层内策略经VLM探索逻辑蒸馏初始化用于RL，理想假设下理论等价于全局策略，诊断出感知与爬楼稳定性为主要瓶颈。",
+        "t": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
+        "u": "https://arxiv.org/abs/2610.11322",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦真机与 Sim2Real、空间智能，主要研究问题可概括为：USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "RT-Safe: Benchmarking Agent Safety in Real-Time Embodied Environment",
-        "u": "https://arxiv.org/abs/2610.09294",
-        "r": 9,
-        "g": 8,
-        "s": "RT-SAFE提出模拟城市环境下的实时具身安全基准，结合导航任务、移动行人、环境危险与交通规则，让世界在智能体推理与执行期间持续演化，评测八个VLM智能体，发现高任务成功率下安全完成率极低。",
+        "t": "VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding",
+        "u": "https://arxiv.org/abs/2610.11171",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、主动感知与重建，主要研究问题可概括为：VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks",
-        "u": "https://arxiv.org/abs/2610.08862",
-        "r": 8,
-        "g": 8,
-        "s": "CIRRA提出双层持续指令调和框架，用LLM语义推理加规则结构整合，把新子任务局部插入位置匹配的执行主干，减少歧义与冗余执行，并在CHIRP基准与Unitree G1真机验证。",
+        "t": "iAm.md: Robot Skill Self-Assessment through Agentic Introspection for Unknown Open-Vocabulary Domains",
+        "u": "https://arxiv.org/abs/2610.10962",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：iAm.md: Robot Skill Self-Assessment through Agentic Introspection for Unknown Open-Vocabulary Domains。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+        "u": "https://arxiv.org/abs/2610.10787",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦地面 VLN、多模态大模型与智能体，主要研究问题可概括为：NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
