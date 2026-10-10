@@ -9,7 +9,7 @@ from pathlib import Path
 import requests
 
 ROOT=Path(__file__).resolve().parents[1]
-SITE="https://shawnjx.github.io/AeroNav-Papers/"
+SITE="https://lle77855-byte.github.io/AeroNav-Papers/"
 
 def send(title,desp):
     key=os.getenv("SERVERCHAN_SENDKEY","")
