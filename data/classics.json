@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T15:42:59.008730+00:00",
+  "updated_at": "2026-10-11T16:13:35.471025+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -6389,6 +6389,38 @@
       "added_at": "2026-09-06T18:49:29.317136+00:00"
     },
     {
+      "id": "https://openalex.org/W4213209987",
+      "arxiv_id": "",
+      "title": "Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback",
+      "authors": [
+        "Duanfeng Chu",
+        "Haoran Li",
+        "Chenyang Zhao",
+        "Tuqiang Zhou"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "citation_count": 160,
+      "url": "https://doi.org/10.1109/tits.2022.3150365",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The simplified vehicle model often results in inaccuracy with respect to the conventional model predictive control (MPC) as it causes steady error in tracking control, which has negative implications for vehicle cornerin",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "model predictive control",
+        "trajectory planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-11T16:13:35.471025+00:00"
+    },
+    {
       "id": "https://openalex.org/W4391676180",
       "arxiv_id": "2312.17487",
       "title": "LiDAR odometry survey: recent advancements and remaining challenges",
@@ -7030,6 +7062,80 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4405624835",
+      "arxiv_id": "",
+      "title": "Advances in UAV avionics systems architecture, classification and integration: A comprehensive review and future perspectives",
+      "authors": [
+        "Hashim A. Hashim"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Results in Engineering",
+      "citation_count": 80,
+      "url": "https://doi.org/10.1016/j.rineng.2024.103786",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Advances in UAV avionics systems architecture, classification and integration: A comprehensive review and future perspectives。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Avionics systems of an Unmanned Aerial Vehicle (UAV) or drone are the critical electronic components found onboard that regulate, navigate, and control UAV travel while ensuring public safety.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "drone",
+        "uav"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-11T16:13:35.471025+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4402733575",
+      "arxiv_id": "",
+      "title": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
+      "authors": [
+        "Tai Wang",
+        "Xiaohan Mao",
+        "Chenming Zhu",
+        "Runsen Xu",
+        "Ruiyuan Lyu",
+        "Peisen Li",
+        "Xiao Chen",
+        "Wenwei Zhang",
+        "Kai Chen",
+        "Tianfan Xue",
+        "Xihui Liu",
+        "Cewu Lu"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 80,
+      "url": "https://doi.org/10.1109/cvpr52733.2024.01868",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In the realm of computer vision and robotics, embodied agents are expected to explore their environment and carry out human instructions.",
+      "why_it_matters": "与空域 VLN、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "benchmark",
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-11T16:13:35.471025+00:00"
     },
     {
       "id": "s2:22cb569525194d67e964f61fa102506429cf85f4",
@@ -9632,20 +9738,37 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-10T15:42:59.008730+00:00",
   "briefing": {
-    "text": "本轮入库聚焦大模型推理能力向自主智能体演进这一主线。最值得读的是From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review：它把2019—2025年约60个推理与智能体基准纳入统一分类，覆盖数学、代码、多模态与具身任务，并梳理ACP/MCP/A2A等协作协议与近两年智能体框架，可直接当作具身导航评测选型与框架设计的检索地图，42次被引也印证其参考价值。趋势上，评测重心正从静态单任务基准转向多智能体协作与具身落地，协议标准化将是下一阶段的关键变量。",
-    "added": 1,
-    "at": "2026-10-09T10:23:47.001862+00:00",
+    "text": "",
+    "added": 3,
+    "at": "2026-10-11T16:13:35.471025+00:00",
     "new": [
       {
-        "t": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
-        "u": "https://doi.org/10.1109/access.2026.3698694",
-        "r": 7,
-        "g": 6,
-        "s": "该综述系统梳理2019—2025年LLM推理与智能体评测基准，提出约60个基准的统一分类体系，涵盖数学、代码、多模态与具身任务等，并回顾2023—2025年智能体框架、ACP/MCP/A2A协作协议及多领域应用与未来方向。",
+        "t": "Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback",
+        "u": "https://doi.org/10.1109/tits.2022.3150365",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 42
+        "cit": 160
+      },
+      {
+        "t": "Advances in UAV avionics systems architecture, classification and integration: A comprehensive review and future perspectives",
+        "u": "https://doi.org/10.1016/j.rineng.2024.103786",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Advances in UAV avionics systems architecture, classification and integration: A comprehensive review and future perspectives。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 80
+      },
+      {
+        "t": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
+        "u": "https://doi.org/10.1109/cvpr52733.2024.01868",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 80
       }
     ]
   }
