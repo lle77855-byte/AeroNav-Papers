@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T11:42:33.361845+00:00",
+  "updated_at": "2026-10-13T17:21:56.618942+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18103,6 +18103,80 @@
       "added_at": "2026-10-12T11:42:27.256910+00:00"
     },
     {
+      "id": "2610.12881",
+      "arxiv_id": "2610.12881",
+      "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+      "authors": [
+        "Zheng Ren",
+        "Yanning Wang",
+        "Ziheng Huang",
+        "Fei Huang",
+        "Shiqi Wang",
+        "Ziqian Ye",
+        "Yang Yue"
+      ],
+      "published": "2026-10-09",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.12881",
+      "pdf_url": "https://arxiv.org/pdf/2610.12881",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "空间智能",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 8,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models.",
+      "why_it_matters": "与具身基准与评测、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "mllm",
+        "multimodal large language model",
+        "spatial reasoning",
+        "world model"
+      ],
+      "added_at": "2026-10-13T17:21:50.510745+00:00"
+    },
+    {
+      "id": "2610.12975",
+      "arxiv_id": "2610.12975",
+      "title": "SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents",
+      "authors": [
+        "P N Bhargav Teja",
+        "Velpula Lokesh Reddy",
+        "Madhu Basumata",
+        "Susen Sarkar",
+        "Rajasekhara Reddy Duvvuru Muni"
+      ],
+      "published": "2026-10-09",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.12975",
+      "pdf_url": "https://arxiv.org/pdf/2610.12975",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present SmartSalesBench, the first multi-turn conversational benchmark explicitly designed to evaluate large language model (LLM) sales agents against psychologically grounded, resistant buyer personas.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-10-13T17:21:53.618455+00:00"
+    },
+    {
       "id": "2610.11328",
       "arxiv_id": "2610.11328",
       "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
@@ -18490,183 +18564,23 @@
   ],
   "briefing": {
     "text": "",
-    "added": 22,
-    "at": "2026-10-12T11:42:33.361866+00:00",
+    "added": 2,
+    "at": "2026-10-13T17:21:56.618964+00:00",
     "new": [
       {
-        "t": "Robust and Scalable UAV-UGV Planning for Aerial Monitoring under Energy and Precedence Constraints",
-        "u": "https://arxiv.org/abs/2610.12670",
+        "t": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+        "u": "https://arxiv.org/abs/2610.12881",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Robust and Scalable UAV-UGV Planning for Aerial Monitoring under Energy and Precedence Constraints。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
-        "u": "https://arxiv.org/abs/2610.13832",
+        "t": "SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents",
+        "u": "https://arxiv.org/abs/2610.12975",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：SpatialASM: Internalizing Active Mentalization for Spatial Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback",
-        "u": "https://arxiv.org/abs/2610.12549",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents",
-        "u": "https://arxiv.org/abs/2610.12957",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Sampling-based Kinodynamic Planning with World Models",
-        "u": "https://arxiv.org/abs/2610.12910",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：Sampling-based Kinodynamic Planning with World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation",
-        "u": "https://arxiv.org/abs/2610.13849",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、空域 VLN，主要研究问题可概括为：HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
-        "u": "https://arxiv.org/abs/2610.13438",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/Alibaba-NLP/qqr"
-      },
-      {
-        "t": "PATACON: GPU-Parallel Tangent-Bundle RRT-Connect for Constrained Motion Planning",
-        "u": "https://arxiv.org/abs/2610.13195",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：PATACON: GPU-Parallel Tangent-Bundle RRT-Connect for Constrained Motion Planning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding",
-        "u": "https://arxiv.org/abs/2610.13164",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Web$hell: A Unified Interface for Agentic Web Access",
-        "u": "https://arxiv.org/abs/2610.13416",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Web$hell: A Unified Interface for Agentic Web Access。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
-        "u": "https://arxiv.org/abs/2610.13409",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/wyh-autonomy/maneuverflow"
-      },
-      {
-        "t": "Robust Vision-Language Navigation with Awareness of Instruction-Execution Progress",
-        "u": "https://arxiv.org/abs/2610.13104",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Robust Vision-Language Navigation with Awareness of Instruction-Execution Progress。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Benchmarking Answer-Grounding Consistency in Remote Sensing Visual Question Answering",
-        "u": "https://arxiv.org/abs/2610.13636",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Benchmarking Answer-Grounding Consistency in Remote Sensing Visual Question Answering。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning",
-        "u": "https://arxiv.org/abs/2610.12761",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦规划智能体、UAV 目标搜索，主要研究问题可概括为：Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
-        "u": "https://arxiv.org/abs/2610.13862",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories",
-        "u": "https://arxiv.org/abs/2610.13643",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "When LiDAR Fades, Radar Takes Over: LiDAR Reliability-Aware Adaptive Localization Under Airborne Obscurants",
-        "u": "https://arxiv.org/abs/2610.13788",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：When LiDAR Fades, Radar Takes Over: LiDAR Reliability-Aware Adaptive Localization Under Airborne Obscurants。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "GuidedNav: Shaping Vision-Language Navigation Representations through Pre-action Attention and Spatial Guidance",
-        "u": "https://arxiv.org/abs/2610.13122",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：GuidedNav: Shaping Vision-Language Navigation Representations through Pre-action Attention and Spatial Guidance。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "GLIMPSE: Global-Local Indexing with Multi-Precision Spectral Encoding for Explorable Video World Models",
-        "u": "https://arxiv.org/abs/2610.13706",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：GLIMPSE: Global-Local Indexing with Multi-Precision Spectral Encoding for Explorable Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "A Real-World CAD Segmentation Benchmark: Comparing Rule-Based and Learning-Based Approaches through Hole Detection",
-        "u": "https://arxiv.org/abs/2610.13466",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：A Real-World CAD Segmentation Benchmark: Comparing Rule-Based and Learning-Based Approaches through Hole Detection。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Cubic Spline Interpolation for Smooth Trajectory Generation in Autonomous Motion Systems",
-        "u": "https://arxiv.org/abs/2610.12826",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Cubic Spline Interpolation for Smooth Trajectory Generation in Autonomous Motion Systems。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Graph-Based Heuristics for Minimum Constraint Removal in Cluttered Robot Motion Planning",
-        "u": "https://arxiv.org/abs/2610.12609",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Graph-Based Heuristics for Minimum Constraint Removal in Cluttered Robot Motion Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
