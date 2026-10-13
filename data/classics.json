@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T19:38:19.834906+00:00",
+  "updated_at": "2026-10-13T17:22:26.183366+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -1147,6 +1147,41 @@
       "added_at": "2026-09-02T02:58:22Z"
     },
     {
+      "id": "2310.03744",
+      "arxiv_id": "2310.03744",
+      "title": "Improved Baselines with Visual Instruction Tuning",
+      "authors": [
+        "Haotian Liu",
+        "Chunyuan Li",
+        "Yuheng Li",
+        "Yong Jae Lee"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 1590,
+      "url": "https://arxiv.org/abs/2310.03744",
+      "pdf_url": "https://arxiv.org/pdf/2310.03744",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：Improved Baselines with Visual Instruction Tuning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large multimodal models (LMM) have recently shown encouraging progress with visual instruction tuning.",
+      "why_it_matters": "与空域 VLN、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration",
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4404782209",
       "arxiv_id": "2305.19118",
       "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
@@ -1568,6 +1603,42 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-08T10:03:38.564482+00:00"
+    },
+    {
+      "id": "2307.06435",
+      "arxiv_id": "2307.06435",
+      "title": "A Comprehensive Overview of Large Language Models",
+      "authors": [
+        "Humza Naveed",
+        "Asad Ullah Khan",
+        "Shi Qiu",
+        "Muhammad Saqib",
+        "Saeed Anwar",
+        "Muhammad Usman",
+        "Naveed Akhtar",
+        "Nick M. Barnes",
+        "Ajmal Saeed Mian"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "ACM Transactions on Intelligent Systems and Technology",
+      "citation_count": 1091,
+      "url": "https://arxiv.org/abs/2307.06435",
+      "pdf_url": "https://arxiv.org/pdf/2307.06435",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：A Comprehensive Overview of Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large Language Models (LLMs) have recently demonstrated remarkable capabilities in natural language processing tasks and beyond.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4402754134",
@@ -1994,6 +2065,42 @@
       "added_at": "2026-09-12T13:20:59.958810+00:00"
     },
     {
+      "id": "2112.12130",
+      "arxiv_id": "2112.12130",
+      "title": "NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
+      "authors": [
+        "Zihan Zhu",
+        "Songyou Peng",
+        "Viktor Larsson",
+        "Weiwei Xu",
+        "Hujun Bao",
+        "Zhaopeng Cui",
+        "Martin R. Oswald",
+        "Marc Pollefeys"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 821,
+      "url": "https://arxiv.org/abs/2112.12130",
+      "pdf_url": "https://arxiv.org/pdf/2112.12130",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：NICE-SLAM: Neural Implicit Scalable Encoding for SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Neural implicit representations have recently shown encouraging results in various domains, including promising progress in simultaneous localization and mapping (SLAM).",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "2302.14045",
       "arxiv_id": "2302.14045",
       "title": "Language Is Not All You Need: Aligning Perception with Language Models",
@@ -2229,6 +2336,41 @@
       "added_at": "2026-09-02T06:05:40Z"
     },
     {
+      "id": "2109.13410",
+      "arxiv_id": "2109.13410",
+      "title": "KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D",
+      "authors": [
+        "Yiyi Liao",
+        "Jun Xie",
+        "Andreas Geiger"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "citation_count": 735,
+      "url": "https://arxiv.org/abs/2109.13410",
+      "pdf_url": "https://arxiv.org/pdf/2109.13410",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "状态估计与控制",
+        "空间智能"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Transactions on Pattern Analysis and Machine Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：For the last few decades, several major subfields of artificial intelligence including computer vision, graphics, and robotics have progressed largely independently from each other.",
+      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "benchmark",
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4402727865",
       "arxiv_id": "2312.06741",
       "title": "Gaussian Splatting SLAM",
@@ -2263,6 +2405,46 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T04:03:14Z"
+    },
+    {
+      "id": "2209.07753",
+      "arxiv_id": "2209.07753",
+      "title": "Code as Policies: Language Model Programs for Embodied Control",
+      "authors": [
+        "Jacky Liang",
+        "Wenlong Huang",
+        "Fei Xia",
+        "Peng Xu",
+        "Karol Hausman",
+        "Brian Ichter",
+        "Pete Florence",
+        "Andy Zeng"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 718,
+      "url": "https://arxiv.org/abs/2209.07753",
+      "pdf_url": "https://arxiv.org/pdf/2209.07753",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Code as Policies: Language Model Programs for Embodied Control。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models (LLMs) trained on code-completion have been shown to be capable of synthesizing simple Python programs from docstrings [1].",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "real robot",
+        "waypoint"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4383108296",
@@ -2334,6 +2516,38 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-09-02T06:28:08Z"
+    },
+    {
+      "id": "2104.06405",
+      "arxiv_id": "2104.06405",
+      "title": "BARF: Bundle-Adjusting Neural Radiance Fields",
+      "authors": [
+        "Chen-Hsuan Lin",
+        "Wei-Chiu Ma",
+        "Antonio B. Torralba",
+        "Simon Lucey"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 626,
+      "url": "https://arxiv.org/abs/2104.06405",
+      "pdf_url": "https://arxiv.org/pdf/2104.06405",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：BARF: Bundle-Adjusting Neural Radiance Fields。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Neural Radiance Fields (NeRF) [31] have recently gained a surge of interest within the computer vision community for its power to synthesize photorealistic novel views of real-world scenes.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4229007520",
@@ -2456,6 +2670,38 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T04:03:14Z"
+    },
+    {
+      "id": "2104.10831",
+      "arxiv_id": "2104.10831",
+      "title": "LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping",
+      "authors": [
+        "Tixiao Shan",
+        "Brendan Englot",
+        "Carlo Ratti",
+        "Daniela L. Rus"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 594,
+      "url": "https://arxiv.org/abs/2104.10831",
+      "pdf_url": "https://arxiv.org/pdf/2104.10831",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We propose a framework for tightly-coupled lidar-visual-inertial odometry via smoothing and mapping, LVI-SAM, that achieves real-time state estimation and map-building with high accuracy and robustness.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "odometry",
+        "state estimation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "2404.15506",
@@ -2615,6 +2861,37 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T04:46:08Z"
+    },
+    {
+      "id": "2109.07547",
+      "arxiv_id": "2109.07547",
+      "title": "RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching",
+      "authors": [
+        "Lahav Lipson",
+        "Zachary Teed",
+        "Jia Hao Deng"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "International Conference on 3D Vision (3DV)",
+      "citation_count": 534,
+      "url": "https://arxiv.org/abs/2109.07547",
+      "pdf_url": "https://arxiv.org/pdf/2109.07547",
+      "code_url": "https://github.com/princeton-vl/RAFT-Stereo",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce RAFT-Stereo, a new deep architecture for rectified stereo based on the optical flow network RAFT [35].",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "leaderboard"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4402727272",
@@ -2805,6 +3082,38 @@
       "added_at": "2026-09-26T14:03:39.635862+00:00"
     },
     {
+      "id": "2308.06767",
+      "arxiv_id": "2308.06767",
+      "title": "A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations",
+      "authors": [
+        "Hongrong Cheng",
+        "Miao Zhang",
+        "Qinfeng Shi"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "citation_count": 493,
+      "url": "https://arxiv.org/abs/2308.06767",
+      "pdf_url": "https://arxiv.org/pdf/2308.06767",
+      "code_url": "https://github.com/hrcheng1066/awesome-pruning",
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Transactions on Pattern Analysis and Machine Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Modern deep neural networks, particularly recent large language models, come with massive model sizes that require significant computational and storage resources.",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4393154152",
       "arxiv_id": "2305.16986",
       "title": "NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models",
@@ -2876,6 +3185,39 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-09-16T08:29:40.746326+00:00"
+    },
+    {
+      "id": "2312.06741",
+      "arxiv_id": "2312.06741",
+      "title": "Gaussian Splatting SLAM",
+      "authors": [
+        "Hidenobu Matsuki",
+        "Riku Murai",
+        "Paul H. J. Kelly",
+        "Andrew J. Davison"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 485,
+      "url": "https://arxiv.org/abs/2312.06741",
+      "pdf_url": "https://arxiv.org/pdf/2312.06741",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制",
+        "空间智能"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Gaussian Splatting SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present the first application of 3D Gaussian Splatting in monocular SLAM, the most fundamental but the hardest setup for Visual SLAM.",
+      "why_it_matters": "与状态估计与控制、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4402670135",
@@ -2952,6 +3294,41 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T04:03:14Z"
+    },
+    {
+      "id": "2312.02126",
+      "arxiv_id": "2312.02126",
+      "title": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM",
+      "authors": [
+        "Nikhil Keetha",
+        "Jay Karhade",
+        "Krishna Murthy Jatavallabhula",
+        "Gengshan Yang",
+        "Sebastian Scherer",
+        "Deva Ramanan",
+        "Jonathon Luiten"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 452,
+      "url": "https://arxiv.org/abs/2312.02126",
+      "pdf_url": "https://arxiv.org/pdf/2312.02126",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Dense simultaneous localization and mapping (SLAM) is crucial for robotics and augmented reality applications.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4385431115",
@@ -3037,6 +3414,46 @@
       "added_at": "2026-09-02T06:05:40Z"
     },
     {
+      "id": "2307.14334",
+      "arxiv_id": "2307.14334",
+      "title": "Towards Generalist Biomedical AI",
+      "authors": [
+        "Tao Tu",
+        "Shekoofeh Azizi",
+        "Danny Driess",
+        "Mike Schaekermann",
+        "Mohamed Amin",
+        "Pi-Chuan Chang",
+        "Andrew W. Carroll",
+        "Charles T. Lau",
+        "Ryutaro Tanno",
+        "Sofia Ira Ktena",
+        "Anil Palepu",
+        "Basil Mustafa"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "NEJM AI",
+      "citation_count": 447,
+      "url": "https://arxiv.org/abs/2307.14334",
+      "pdf_url": "https://arxiv.org/pdf/2307.14334",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Towards Generalist Biomedical AI。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Medicine is inherently multimodal, with rich data modalities spanning text, imaging, genomics, and more.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4401417422",
       "arxiv_id": "2310.07896",
       "title": "NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration",
@@ -3109,6 +3526,140 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "2211.06687",
+      "arxiv_id": "2211.06687",
+      "title": "Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation",
+      "authors": [
+        "Yusong Wu",
+        "Ke Chen",
+        "Tianyu Zhang",
+        "Yuchen Hui",
+        "Taylor Berg-Kirkpatrick",
+        "Shlomo Dubnov"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+      "citation_count": 437,
+      "url": "https://arxiv.org/abs/2211.06687",
+      "pdf_url": "https://arxiv.org/pdf/2211.06687",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Contrastive learning has shown remarkable success in the field of multimodal representation learning.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2103.00190",
+      "arxiv_id": "2103.00190",
+      "title": "Geometrically Constrained Trajectory Optimization for Multicopters",
+      "authors": [
+        "Zhepei Wang",
+        "Xin Zhou",
+        "Chao Xu",
+        "Fei Gao"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Robotics",
+      "citation_count": 433,
+      "url": "https://arxiv.org/abs/2103.00190",
+      "pdf_url": "https://arxiv.org/pdf/2103.00190",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Geometrically Constrained Trajectory Optimization for Multicopters。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this article, we present an optimization-based framework for multicopter trajectory planning subject to geometrical configuration constraints and user-defined dynamic constraints.",
+      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "trajectory planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2308.00692",
+      "arxiv_id": "2308.00692",
+      "title": "LISA: Reasoning Segmentation via Large Language Model",
+      "authors": [
+        "Xin Lai",
+        "Zhuotao Tian",
+        "Yukang Chen",
+        "Yanwei Li",
+        "Yuhui Yuan",
+        "Shu Liu",
+        "Jiaya Jia"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 430,
+      "url": "https://arxiv.org/abs/2308.00692",
+      "pdf_url": "https://arxiv.org/pdf/2308.00692",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "空域 VLN",
+        "多模态大模型与智能体"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：LISA: Reasoning Segmentation via Large Language Model。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Although perception systems have made remarkable ad-vancements in recent years, they still rely on explicit human instruction or pre-defined categories to identify the target objects before executing visual recognition t",
+      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "multimodal large language model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2109.07982",
+      "arxiv_id": "2109.07982",
+      "title": "R 3 LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package",
+      "authors": [
+        "Jiarong Lin",
+        "Fu Zhang"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 422,
+      "url": "https://arxiv.org/abs/2109.07982",
+      "pdf_url": "https://arxiv.org/pdf/2109.07982",
+      "code_url": "https://github.com/hku-mars/r31ive",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：R 3 LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this paper, we propose a novel LiDAR-Inertial-Visual sensor fusion framework termed R3LIVE, which takes advantage of measurement of LiDAR, inertial, and visual sensors to achieve robust and accurate state estimation.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "odometry",
+        "state estimation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W3199184510",
@@ -3257,6 +3808,39 @@
       "added_at": "2026-09-02T06:05:40Z"
     },
     {
+      "id": "2212.04088",
+      "arxiv_id": "2212.04088",
+      "title": "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models",
+      "authors": [
+        "Chan Hee Song",
+        "Brian M. Sadler",
+        "Jiaman Wu",
+        "Wei‐Lun Chao",
+        "Clayton B. Washington",
+        "Yu Su"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 418,
+      "url": "https://arxiv.org/abs/2212.04088",
+      "pdf_url": "https://arxiv.org/pdf/2212.04088",
+      "code_url": "",
+      "topics": [
+        "空域 VLN"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN，主要研究问题可概括为：LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：This study focuses on using large language models (LLMs) as a planner for embodied agents that can follow natural language instructions to complete complex tasks in a visually-perceived environment.",
+      "why_it_matters": "与空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4390494915",
       "arxiv_id": "2205.02824",
       "title": "Rapid locomotion via reinforcement learning",
@@ -3291,6 +3875,39 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4402671548",
+      "arxiv_id": "",
+      "title": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+      "authors": [
+        "Muhammad Maaz",
+        "Hanoona Rasheed",
+        "Salman Hameed Khan",
+        "Fahad Shahbaz Khan"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "citation_count": 417,
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.679",
+      "pdf_url": "",
+      "code_url": "https://github.com/mbzuai-oryx/Video-ChatGPT",
+      "topics": [
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Conversation agents fueled by Large Language Models (LLMs) are providing a new way to interact with visual data.",
+      "why_it_matters": "与空域 VLN、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W3125164440",
@@ -3441,6 +4058,37 @@
       "added_at": "2026-09-02T06:05:40Z"
     },
     {
+      "id": "2103.07899",
+      "arxiv_id": "2103.07899",
+      "title": "GVINS: Tightly Coupled GNSS–Visual–Inertial Fusion for Smooth and Consistent State Estimation",
+      "authors": [
+        "Shaozu Cao",
+        "Xiuyuan Lu",
+        "Shaojie Shen"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Robotics",
+      "citation_count": 395,
+      "url": "https://arxiv.org/abs/2103.07899",
+      "pdf_url": "https://arxiv.org/pdf/2103.07899",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：GVINS: Tightly Coupled GNSS–Visual–Inertial Fusion for Smooth and Consistent State Estimation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Visual–inertial odometry (VIO) is known to suffer from drifting, especially over long-term runs.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "odometry",
+        "state estimation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4399399400",
       "arxiv_id": "2401.16822",
       "title": "EarthGPT: A Universal Multimodal Large Language Model for Multisensor Image Comprehension in Remote Sensing Domain",
@@ -3512,6 +4160,43 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-03T19:57:56Z"
+    },
+    {
+      "id": "2311.11700",
+      "arxiv_id": "2311.11700",
+      "title": "GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting",
+      "authors": [
+        "Chi Yan",
+        "Delin Qu",
+        "Dan Xu",
+        "Bin Zhao",
+        "Zhigang Wang",
+        "Dong Wang",
+        "Xuelong Li"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 384,
+      "url": "https://arxiv.org/abs/2311.11700",
+      "pdf_url": "https://arxiv.org/pdf/2311.11700",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制",
+        "空间智能"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this paper, we introduce GS-SLAM that first utilizes 3D Gaussian representation in the Simultaneous Localization and Mapping (SLAM) system.",
+      "why_it_matters": "与状态估计与控制、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "2503.03751",
@@ -3706,6 +4391,121 @@
       "added_at": "2026-09-30T09:35:17.794817+00:00"
     },
     {
+      "id": "2010.11561",
+      "arxiv_id": "2010.11561",
+      "title": "FUEL: Fast UAV Exploration Using Incremental Frontier Structure and Hierarchical Planning",
+      "authors": [
+        "Boyu Zhou",
+        "Yichen Zhang",
+        "Xinyi Chen",
+        "Shaojie Shen"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE Robotics and Automation Letters",
+      "citation_count": 349,
+      "url": "https://arxiv.org/abs/2010.11561",
+      "pdf_url": "https://arxiv.org/pdf/2010.11561",
+      "code_url": "https://github.com/HKUST-Aerial-Robotics/FUEL",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Robotics and Automation Letters），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：FUEL: Fast UAV Exploration Using Incremental Frontier Structure and Hierarchical Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Autonomous exploration is a fundamental problem for various applications of unmanned aerial vehicles(UAVs).",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "exploration",
+        "uav"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2210.05714",
+      "arxiv_id": "2210.05714",
+      "title": "Visual Language Maps for Robot Navigation",
+      "authors": [
+        "Chenguang Huang",
+        "Oier Mees",
+        "Andy Zeng",
+        "Wolfram Burgard"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 347,
+      "url": "https://arxiv.org/abs/2210.05714",
+      "pdf_url": "https://arxiv.org/pdf/2210.05714",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "多模态大模型与智能体",
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Visual Language Maps for Robot Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Grounding language to the visual observations of a navigating agent can be performed using off-the-shelf visual-language models pretrained on Internet-scale data (e.g., image captions).",
+      "why_it_matters": "与空域 VLN、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration",
+        "instruction",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2311.12320",
+      "arxiv_id": "2311.12320",
+      "title": "A Survey on Multimodal Large Language Models for Autonomous Driving",
+      "authors": [
+        "Can Cui",
+        "Yunsheng Ma",
+        "Xu Cao",
+        "Wenqian Ye",
+        "Yang Zhou",
+        "Kaizhao Liang",
+        "Jintai Chen",
+        "Juanwu Lu",
+        "Zichong Yang",
+        "Kuei-Da Liao",
+        "Tianren Gao",
+        "Erlong Li"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)",
+      "citation_count": 347,
+      "url": "https://arxiv.org/abs/2311.12320",
+      "pdf_url": "https://arxiv.org/pdf/2311.12320",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：A Survey on Multimodal Large Language Models for Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：With the emergence of Large Language Models (LLMs) and Vision Foundation Models (VFMs), multimodal AI systems benefiting from large models have the potential to equally perceive the real world, make decisions, and contro",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "mllm",
+        "multimodal large language model",
+        "real world"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4226481925",
       "arxiv_id": "2106.14386",
       "title": "Kimera-Multi: Robust, Distributed, Dense Metric-Semantic SLAM for Multi-Robot Systems",
@@ -3743,6 +4543,41 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T06:48:10Z"
+    },
+    {
+      "id": "2011.02523",
+      "arxiv_id": "2011.02523",
+      "title": "Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding",
+      "authors": [
+        "Mike Roberts",
+        "Jason Ramapuram",
+        "Anurag Ranjan",
+        "Atulit Kumar",
+        "Miguel Ángel Bautista",
+        "Nathan Paczan",
+        "Russ Webb",
+        "Joshua M. Susskind"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 343,
+      "url": "https://arxiv.org/abs/2011.02523",
+      "pdf_url": "https://arxiv.org/pdf/2011.02523",
+      "code_url": "",
+      "topics": [
+        "空间智能"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空间智能，主要研究问题可概括为：Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：For many fundamental scene understanding tasks, it is difficult or impossible to obtain per-pixel ground truth labels from real images.",
+      "why_it_matters": "与空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4386718967",
@@ -3814,6 +4649,43 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-26T14:03:39.635862+00:00"
+    },
+    {
+      "id": "2207.00254",
+      "arxiv_id": "2207.00254",
+      "title": "A Survey on Active Simultaneous Localization and Mapping: State of the Art and New Frontiers",
+      "authors": [
+        "Julio A. Placed",
+        "Jared Strader",
+        "Henry Carrillo",
+        "Nikolay Atanasov",
+        "Vadim Indelman",
+        "Luca Carlone",
+        "José A. Castellanos"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Robotics",
+      "citation_count": 332,
+      "url": "https://arxiv.org/abs/2207.00254",
+      "pdf_url": "https://arxiv.org/pdf/2207.00254",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制",
+        "主动感知与重建"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、主动感知与重建，主要研究问题可概括为：A Survey on Active Simultaneous Localization and Mapping: State of the Art and New Frontiers。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Active Simultaneous Localization and Mapping (SLAM) is the problem of planning and controlling the motion of a robot to build the most accurate and complete model of the surrounding environment.",
+      "why_it_matters": "与状态估计与控制、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "active perception",
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W3120564201",
@@ -3997,6 +4869,45 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T04:46:08Z"
+    },
+    {
+      "id": "2303.12077",
+      "arxiv_id": "2303.12077",
+      "title": "VAD: Vectorized Scene Representation for Efficient Autonomous Driving",
+      "authors": [
+        "Bo Jiang",
+        "Shaoyu Chen",
+        "Qing Xu",
+        "Bencheng Liao",
+        "Jiajie Chen",
+        "Helong Zhou",
+        "Qian Zhang",
+        "Wenyu Liu",
+        "Chang Huang",
+        "Xinggang Wang"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 322,
+      "url": "https://arxiv.org/abs/2303.12077",
+      "pdf_url": "https://arxiv.org/pdf/2303.12077",
+      "code_url": "https://github.com/hustvl/VAD",
+      "topics": [
+        "真机与 Sim2Real",
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real、状态估计与控制，主要研究问题可概括为：VAD: Vectorized Scene Representation for Efficient Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Autonomous driving requires a comprehensive understanding of the surrounding environment for reliable trajectory planning.",
+      "why_it_matters": "与真机与 Sim2Real、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "trajectory planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "2202.11742",
@@ -4269,6 +5180,37 @@
       "added_at": "2026-09-05T04:46:08Z"
     },
     {
+      "id": "2007.03465",
+      "arxiv_id": "2007.03465",
+      "title": "RAPTOR: Robust and Perception-Aware Trajectory Replanning for Quadrotor Fast Flight",
+      "authors": [
+        "Boyu Zhou",
+        "Jie Pan",
+        "Fei Gao",
+        "Shaojie Shen"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Robotics",
+      "citation_count": 308,
+      "url": "https://arxiv.org/abs/2007.03465",
+      "pdf_url": "https://arxiv.org/pdf/2007.03465",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：RAPTOR: Robust and Perception-Aware Trajectory Replanning for Quadrotor Fast Flight。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recent advances in trajectory replanning have enabled quadrotor to navigate autonomously in unknown environments.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4282830511",
       "arxiv_id": "",
       "title": "A Review of Multi-Sensor Fusion SLAM Systems Based on 3D LIDAR",
@@ -4381,6 +5323,38 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-08T05:39:39.759268+00:00"
+    },
+    {
+      "id": "2112.13659",
+      "arxiv_id": "2112.13659",
+      "title": "M2DGR: A Multi-Sensor and Multi-Scenario SLAM Dataset for Ground Robots",
+      "authors": [
+        "Jie Yin",
+        "Ang Li",
+        "Tao Li",
+        "Wenxian Yu",
+        "Danping Zou"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE Robotics and Automation Letters",
+      "citation_count": 299,
+      "url": "https://arxiv.org/abs/2112.13659",
+      "pdf_url": "https://arxiv.org/pdf/2112.13659",
+      "code_url": "https://github.com/SJTU-ViSYS/M2DGR",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Robotics and Automation Letters），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：M2DGR: A Multi-Sensor and Multi-Scenario SLAM Dataset for Ground Robots。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce M2DGR: a novel large-scale dataset collected by a ground robot with a full sensor-suite including six fish-eye and one sky-pointing RGB cameras, an infrared camera, an event camera, a Visual-Inertial Sensor ",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W3185165122",
@@ -4496,6 +5470,38 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "2102.12400",
+      "arxiv_id": "2102.12400",
+      "title": "R $^2$ LIVE: A Robust, Real-Time, LiDAR-Inertial-Visual Tightly-Coupled State Estimator and Mapping",
+      "authors": [
+        "Jiarong Lin",
+        "Chunran Zheng",
+        "Wei Dong Xu",
+        "Fu Zhang"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE Robotics and Automation Letters",
+      "citation_count": 292,
+      "url": "https://arxiv.org/abs/2102.12400",
+      "pdf_url": "https://arxiv.org/pdf/2102.12400",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Robotics and Automation Letters），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：R $^2$ LIVE: A Robust, Real-Time, LiDAR-Inertial-Visual Tightly-Coupled State Estimator and Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this letter, we propose a robust, real-time tightly-coupled multi-sensor fusion framework, which fuses measurements from LiDAR, inertial sensor, and visual camera to achieve robust and accurate state estimation.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "odometry",
+        "state estimation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4388692454",
@@ -4713,6 +5719,36 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-09-03T19:57:56Z"
+    },
+    {
+      "id": "2210.13641",
+      "arxiv_id": "2210.13641",
+      "title": "NeRF-SLAM: Real-Time Dense Monocular SLAM with Neural Radiance Fields",
+      "authors": [
+        "Antoni Rosinol",
+        "John J. Leonard",
+        "Luca Carlone"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "citation_count": 280,
+      "url": "https://arxiv.org/abs/2210.13641",
+      "pdf_url": "https://arxiv.org/pdf/2210.13641",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：NeRF-SLAM: Real-Time Dense Monocular SLAM with Neural Radiance Fields。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We propose a novel geometric and photometric 3D mapping pipeline for accurate and real-time scene reconstruction from casually taken monocular images.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4319302559",
@@ -9738,38 +10774,280 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-12T19:38:19.834906+00:00",
   "briefing": {
     "text": "",
-    "added": 3,
-    "at": "2026-10-11T16:13:35.471025+00:00",
+    "added": 30,
+    "at": "2026-10-13T17:22:26.183366+00:00",
     "new": [
       {
-        "t": "Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback",
-        "u": "https://doi.org/10.1109/tits.2022.3150365",
+        "t": "Improved Baselines with Visual Instruction Tuning",
+        "u": "https://arxiv.org/abs/2310.03744",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：Improved Baselines with Visual Instruction Tuning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 160
+        "cit": 1590
       },
       {
-        "t": "Advances in UAV avionics systems architecture, classification and integration: A comprehensive review and future perspectives",
-        "u": "https://doi.org/10.1016/j.rineng.2024.103786",
+        "t": "A Comprehensive Overview of Large Language Models",
+        "u": "https://arxiv.org/abs/2307.06435",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Advances in UAV avionics systems architecture, classification and integration: A comprehensive review and future perspectives。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：A Comprehensive Overview of Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 80
+        "cit": 1091
       },
       {
-        "t": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
-        "u": "https://doi.org/10.1109/cvpr52733.2024.01868",
+        "t": "NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
+        "u": "https://arxiv.org/abs/2112.12130",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：NICE-SLAM: Neural Implicit Scalable Encoding for SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 80
+        "cit": 821
+      },
+      {
+        "t": "KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D",
+        "u": "https://arxiv.org/abs/2109.13410",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 735
+      },
+      {
+        "t": "Code as Policies: Language Model Programs for Embodied Control",
+        "u": "https://arxiv.org/abs/2209.07753",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Code as Policies: Language Model Programs for Embodied Control。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 718
+      },
+      {
+        "t": "BARF: Bundle-Adjusting Neural Radiance Fields",
+        "u": "https://arxiv.org/abs/2104.06405",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：BARF: Bundle-Adjusting Neural Radiance Fields。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 626
+      },
+      {
+        "t": "LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping",
+        "u": "https://arxiv.org/abs/2104.10831",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 594
+      },
+      {
+        "t": "RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching",
+        "u": "https://arxiv.org/abs/2109.07547",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/princeton-vl/RAFT-Stereo",
+        "cit": 534
+      },
+      {
+        "t": "A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations",
+        "u": "https://arxiv.org/abs/2308.06767",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/hrcheng1066/awesome-pruning",
+        "cit": 493
+      },
+      {
+        "t": "Gaussian Splatting SLAM",
+        "u": "https://arxiv.org/abs/2312.06741",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Gaussian Splatting SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 485
+      },
+      {
+        "t": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM",
+        "u": "https://arxiv.org/abs/2312.02126",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 452
+      },
+      {
+        "t": "Towards Generalist Biomedical AI",
+        "u": "https://arxiv.org/abs/2307.14334",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Towards Generalist Biomedical AI。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 447
+      },
+      {
+        "t": "Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation",
+        "u": "https://arxiv.org/abs/2211.06687",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 437
+      },
+      {
+        "t": "Geometrically Constrained Trajectory Optimization for Multicopters",
+        "u": "https://arxiv.org/abs/2103.00190",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Geometrically Constrained Trajectory Optimization for Multicopters。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 433
+      },
+      {
+        "t": "LISA: Reasoning Segmentation via Large Language Model",
+        "u": "https://arxiv.org/abs/2308.00692",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：LISA: Reasoning Segmentation via Large Language Model。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 430
+      },
+      {
+        "t": "R 3 LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package",
+        "u": "https://arxiv.org/abs/2109.07982",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：R 3 LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/hku-mars/r31ive",
+        "cit": 422
+      },
+      {
+        "t": "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models",
+        "u": "https://arxiv.org/abs/2212.04088",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN，主要研究问题可概括为：LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 418
+      },
+      {
+        "t": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+        "u": "https://doi.org/10.18653/v1/2024.acl-long.679",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/mbzuai-oryx/Video-ChatGPT",
+        "cit": 417
+      },
+      {
+        "t": "GVINS: Tightly Coupled GNSS–Visual–Inertial Fusion for Smooth and Consistent State Estimation",
+        "u": "https://arxiv.org/abs/2103.07899",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：GVINS: Tightly Coupled GNSS–Visual–Inertial Fusion for Smooth and Consistent State Estimation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 395
+      },
+      {
+        "t": "GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting",
+        "u": "https://arxiv.org/abs/2311.11700",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 384
+      },
+      {
+        "t": "FUEL: Fast UAV Exploration Using Incremental Frontier Structure and Hierarchical Planning",
+        "u": "https://arxiv.org/abs/2010.11561",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：FUEL: Fast UAV Exploration Using Incremental Frontier Structure and Hierarchical Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/HKUST-Aerial-Robotics/FUEL",
+        "cit": 349
+      },
+      {
+        "t": "Visual Language Maps for Robot Navigation",
+        "u": "https://arxiv.org/abs/2210.05714",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Visual Language Maps for Robot Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 347
+      },
+      {
+        "t": "A Survey on Multimodal Large Language Models for Autonomous Driving",
+        "u": "https://arxiv.org/abs/2311.12320",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：A Survey on Multimodal Large Language Models for Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 347
+      },
+      {
+        "t": "Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding",
+        "u": "https://arxiv.org/abs/2011.02523",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空间智能，主要研究问题可概括为：Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 343
+      },
+      {
+        "t": "A Survey on Active Simultaneous Localization and Mapping: State of the Art and New Frontiers",
+        "u": "https://arxiv.org/abs/2207.00254",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、主动感知与重建，主要研究问题可概括为：A Survey on Active Simultaneous Localization and Mapping: State of the Art and New Frontiers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 332
+      },
+      {
+        "t": "VAD: Vectorized Scene Representation for Efficient Autonomous Driving",
+        "u": "https://arxiv.org/abs/2303.12077",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦真机与 Sim2Real、状态估计与控制，主要研究问题可概括为：VAD: Vectorized Scene Representation for Efficient Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/hustvl/VAD",
+        "cit": 322
+      },
+      {
+        "t": "RAPTOR: Robust and Perception-Aware Trajectory Replanning for Quadrotor Fast Flight",
+        "u": "https://arxiv.org/abs/2007.03465",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：RAPTOR: Robust and Perception-Aware Trajectory Replanning for Quadrotor Fast Flight。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 308
+      },
+      {
+        "t": "M2DGR: A Multi-Sensor and Multi-Scenario SLAM Dataset for Ground Robots",
+        "u": "https://arxiv.org/abs/2112.13659",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：M2DGR: A Multi-Sensor and Multi-Scenario SLAM Dataset for Ground Robots。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/SJTU-ViSYS/M2DGR",
+        "cit": 299
+      },
+      {
+        "t": "R $^2$ LIVE: A Robust, Real-Time, LiDAR-Inertial-Visual Tightly-Coupled State Estimator and Mapping",
+        "u": "https://arxiv.org/abs/2102.12400",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：R $^2$ LIVE: A Robust, Real-Time, LiDAR-Inertial-Visual Tightly-Coupled State Estimator and Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 292
+      },
+      {
+        "t": "NeRF-SLAM: Real-Time Dense Monocular SLAM with Neural Radiance Fields",
+        "u": "https://arxiv.org/abs/2210.13641",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：NeRF-SLAM: Real-Time Dense Monocular SLAM with Neural Radiance Fields。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 280
       }
     ]
   }
