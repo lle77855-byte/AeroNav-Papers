@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:04:40.058686+00:00",
+  "updated_at": "2026-10-16T14:33:52.712573+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -3952,6 +3952,43 @@
       "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
+      "id": "2112.04359",
+      "arxiv_id": "2112.04359",
+      "title": "Ethical and social risks of harm from Language Models",
+      "authors": [
+        "Laura Weidinger",
+        "Mellor, John",
+        "Maribeth Rauh",
+        "Conor Griffin",
+        "Jonathan Uesato",
+        "Po-Sen Huang",
+        "Myra Cheng",
+        "Mia Glaese",
+        "Borja Balle",
+        "Atoosa Kasirzadeh",
+        "Zac Kenton",
+        "Sasha Brown"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 473,
+      "url": "https://arxiv.org/abs/2112.04359",
+      "pdf_url": "https://arxiv.org/pdf/2112.04359",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Ethical and social risks of harm from Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs).",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4385431115",
       "arxiv_id": "2302.07241",
       "title": "ConceptFusion: Open-set multimodal 3D mapping",
@@ -5185,6 +5222,43 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-08T06:11:06.415511+00:00"
+    },
+    {
+      "id": "2309.16609",
+      "arxiv_id": "2309.16609",
+      "title": "Qwen Technical Report",
+      "authors": [
+        "Jinze Bai",
+        "Shuai Bai",
+        "Chu, Yunfei",
+        "Zeyu Cui",
+        "Kai Dang",
+        "Xiaodong Deng",
+        "Fan, Yang",
+        "Wenbin Ge",
+        "Han Yu",
+        "Fei Huang",
+        "Binyuan Hui",
+        "Ji, Luo"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 331,
+      "url": "https://arxiv.org/abs/2309.16609",
+      "pdf_url": "https://arxiv.org/pdf/2309.16609",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Qwen Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models (LLMs) have revolutionized the field of artificial intelligence, enabling natural language processing tasks that were previously thought to be exclusive to humans.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "https://openalex.org/W3120564201",
@@ -7814,6 +7888,34 @@
       "added_at": "2026-10-14T14:54:47.083131+00:00"
     },
     {
+      "id": "2109.08472",
+      "arxiv_id": "2109.08472",
+      "title": "ActionCLIP: A New Paradigm for Video Action Recognition",
+      "authors": [
+        "Mengmeng Wang",
+        "Jiazheng Xing",
+        "Yong Liu"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 215,
+      "url": "https://arxiv.org/abs/2109.08472",
+      "pdf_url": "https://arxiv.org/pdf/2109.08472",
+      "code_url": "https://github.com/sallymmx/ActionCLIP.git",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：ActionCLIP: A New Paradigm for Video Action Recognition。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The canonical approach to video action recognition dictates a neural model to do a classic and standard 1-of-N majority vote task.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4388755261",
       "arxiv_id": "2301.06230",
       "title": "Swarm-SLAM: Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems",
@@ -8033,6 +8135,73 @@
       "added_at": "2026-09-26T14:03:39.635862+00:00"
     },
     {
+      "id": "2101.06557",
+      "arxiv_id": "2101.06557",
+      "title": "TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors",
+      "authors": [
+        "Simon Suo",
+        "Sebastian Regalado",
+        "Sergio Casas",
+        "Raquel Urtasun"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 201,
+      "url": "https://arxiv.org/abs/2101.06557",
+      "pdf_url": "https://arxiv.org/pdf/2101.06557",
+      "code_url": "",
+      "topics": [
+        "真机与 Sim2Real",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real、具身基准与评测，主要研究问题可概括为：TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Simulation has the potential to massively scale evaluation of self-driving systems, enabling rapid development as well as safe deployment.",
+      "why_it_matters": "与真机与 Sim2Real、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "evaluation",
+        "real world"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2107.06383",
+      "arxiv_id": "2107.06383",
+      "title": "How Much Can CLIP Benefit Vision-and-Language Tasks?",
+      "authors": [
+        "Sheng Shen",
+        "Liunian Harold Li",
+        "Hao Xuan Tan",
+        "Mohit Bansal",
+        "Anna Rohrbach",
+        "Kai-Wei Chang",
+        "Zhewei Yao",
+        "Kurt Keutzer"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 200,
+      "url": "https://arxiv.org/abs/2107.06383",
+      "pdf_url": "https://arxiv.org/pdf/2107.06383",
+      "code_url": "https://github.com/clip-vil/CLIP-ViL",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：How Much Can CLIP Benefit Vision-and-Language Tasks?。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Most existing Vision-and-Language (V&L) models rely on pre-trained visual encoders, using a relatively small set of manually-annotated data (as compared to web-crawled data), to perceive the visual world.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4285506552",
       "arxiv_id": "2205.13135",
       "title": "LAMP 2.0: A Robust Multi-Robot SLAM System for Operation in Challenging Large-Scale Underground Environments",
@@ -8165,6 +8334,114 @@
       "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
+      "id": "2309.10062",
+      "arxiv_id": "2309.10062",
+      "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
+      "authors": [
+        "Shyam Sundar Kannan",
+        "Vishnunandan L. N. Venkatesh",
+        "Byung‐Cheol Min"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "citation_count": 195,
+      "url": "https://arxiv.org/abs/2309.10062",
+      "pdf_url": "https://arxiv.org/pdf/2309.10062",
+      "code_url": "",
+      "topics": [
+        "规划智能体",
+        "具身基准与评测",
+        "空域 VLN"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦规划智能体、具身基准与评测，主要研究问题可概括为：SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this work, we introduce SMART-LLM, an innovative framework designed for embodied multi-robot task planning.",
+      "why_it_matters": "与规划智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "task planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2401.16822",
+      "arxiv_id": "2401.16822",
+      "title": "EarthGPT: A Universal Multimodal Large Language Model for Multisensor Image Comprehension in Remote Sensing Domain",
+      "authors": [
+        "Wei Zhang",
+        "Miaoxin Cai",
+        "Tong Zhang",
+        "Yin Zhuang",
+        "Xuerui Mao"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "citation_count": 194,
+      "url": "https://arxiv.org/abs/2401.16822",
+      "pdf_url": "https://arxiv.org/pdf/2401.16822",
+      "code_url": "https://github.com/wivizhang/EarthGPT",
+      "topics": [
+        "多模态大模型与智能体",
+        "空域 VLN"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Transactions on Geoscience and Remote Sensing），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：EarthGPT: A Universal Multimodal Large Language Model for Multisensor Image Comprehension in Remote Sensing Domain。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multi-modal large language models (MLLMs) have demonstrated remarkable success in vision and visual-language tasks within the natural image domain.",
+      "why_it_matters": "与多模态大模型与智能体、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2310.01957",
+      "arxiv_id": "2310.01957",
+      "title": "Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving",
+      "authors": [
+        "Long Chen",
+        "Oleg Sinavski",
+        "Jan Hünermann",
+        "Alice Karnsund",
+        "Andrew James Willmott",
+        "Danny Birch",
+        "Daniel Maund",
+        "Jamie Shotton"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 189,
+      "url": "https://arxiv.org/abs/2310.01957",
+      "pdf_url": "https://arxiv.org/pdf/2310.01957",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large Language Models (LLMs) have shown promise in the autonomous driving sector, particularly in generalization and interpretability.",
+      "why_it_matters": "与具身基准与评测、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "exploration"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "2103.04131",
       "arxiv_id": "2103.04131",
       "title": "Omni-Swarm: A Decentralized Omnidirectional Visual–Inertial–UWB State Estimation System for Aerial Swarms",
@@ -8247,6 +8524,70 @@
       "added_at": "2026-09-05T06:35:42Z"
     },
     {
+      "id": "2401.06209",
+      "arxiv_id": "2401.06209",
+      "title": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+      "authors": [
+        "Shengbang Tong",
+        "Zhuang Liu",
+        "Yuexiang Zhai",
+        "Yi Ma",
+        "Yann LeCun",
+        "Saining Xie"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 185,
+      "url": "https://arxiv.org/abs/2401.06209",
+      "pdf_url": "https://arxiv.org/pdf/2401.06209",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Is vision good enough for language?",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "mllm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4295511970",
+      "arxiv_id": "",
+      "title": "In the Body’s Eye: The computational anatomy of interoceptive inference",
+      "authors": [
+        "Micah Allen",
+        "Andrew Levy",
+        "Thomas Parr",
+        "Karl John Friston"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "PLoS Computational Biology",
+      "citation_count": 183,
+      "url": "https://doi.org/10.1371/journal.pcbi.1010490",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010490&type=printable",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：In the Body’s Eye: The computational anatomy of interoceptive inference。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：A growing body of evidence highlights the intricate linkage of exteroceptive perception to the rhythmic activity of the visceral body.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4383109324",
       "arxiv_id": "2209.13274",
       "title": "Orbeez-SLAM: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping",
@@ -8289,6 +8630,172 @@
       "added_at": "2026-09-08T05:39:39.759268+00:00"
     },
     {
+      "id": "2205.14953",
+      "arxiv_id": "2205.14953",
+      "title": "Multi-Agent Reinforcement Learning is a Sequence Modeling Problem",
+      "authors": [
+        "Muning Wen",
+        "Jakub Grudzien Kuba",
+        "Runji Lin",
+        "Weinan Zhang",
+        "Ying Wen",
+        "Jun Wang",
+        "Yaodong Yang"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 180,
+      "url": "https://arxiv.org/abs/2205.14953",
+      "pdf_url": "https://arxiv.org/pdf/2205.14953",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Multi-Agent Reinforcement Learning is a Sequence Modeling Problem。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large sequence model (SM) such as GPT series and BERT has displayed outstanding performance and generalization capabilities on vision, language, and recently reinforcement learning tasks.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2203.03749",
+      "arxiv_id": "2203.03749",
+      "title": "Direct LiDAR-Inertial Odometry: Lightweight LIO with Continuous-Time Motion Correction",
+      "authors": [
+        "Kenny Chen",
+        "Ryan Nemiroff",
+        "Brett T. Lopez"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 178,
+      "url": "https://arxiv.org/abs/2203.03749",
+      "pdf_url": "https://arxiv.org/pdf/2203.03749",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Direct LiDAR-Inertial Odometry: Lightweight LIO with Continuous-Time Motion Correction。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Aggressive motions from agile flights or traversing irregular terrain induce motion distortion in LiDAR scans that can degrade state estimation and mapping.",
+      "why_it_matters": "与状态估计与控制、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "localization",
+        "odometry",
+        "state estimation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2312.07488",
+      "arxiv_id": "2312.07488",
+      "title": "LMDrive: Closed-Loop End-to-End Driving with Large Language Models",
+      "authors": [
+        "Hao Shao",
+        "Yuxuan Hu",
+        "Letian Wang",
+        "Guanglu Song",
+        "Steven L. Waslander",
+        "Yu Liu",
+        "Hongsheng Li"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 177,
+      "url": "https://arxiv.org/abs/2312.07488",
+      "pdf_url": "https://arxiv.org/pdf/2312.07488",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：LMDrive: Closed-Loop End-to-End Driving with Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Despite significant recent progress in the field of autonomous driving, modern methods still struggle and can incur serious accidents when encountering long-tail unfore-seen events and challenging urban scenarios.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "waypoint"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2202.04053",
+      "arxiv_id": "2202.04053",
+      "title": "DALL-EVAL: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models",
+      "authors": [
+        "Jaemin Cho",
+        "Abhay Zala",
+        "Mohit Bansal"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 177,
+      "url": "https://arxiv.org/abs/2202.04053",
+      "pdf_url": "https://arxiv.org/pdf/2202.04053",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：DALL-EVAL: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recently, DALL-E [45], a multimodal transformer language model, and its variants including diffusion models have shown high-quality text-to-image generation capabilities.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2112.09583",
+      "arxiv_id": "2112.09583",
+      "title": "Align and Prompt: Video-and-Language Pre-training with Entity Prompts",
+      "authors": [
+        "Dongxu Li",
+        "Junnan Li",
+        "Hongdong Li",
+        "Juan Carlos Niebles",
+        "Steven C. H. Hoi"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 177,
+      "url": "https://arxiv.org/abs/2112.09583",
+      "pdf_url": "https://arxiv.org/pdf/2112.09583",
+      "code_url": "https://github.com/salesforce/ALPRO",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Align and Prompt: Video-and-Language Pre-training with Entity Prompts。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Yidco-and-language pre-training has shown promising improvements on various downstream tasks.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4226142707",
       "arxiv_id": "",
       "title": "Artificial Intelligence Approaches for UAV Navigation: Recent Advances and Future Challenges",
@@ -8322,6 +8829,74 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T18:45:24.442900+00:00"
+    },
+    {
+      "id": "2307.04738",
+      "arxiv_id": "2307.04738",
+      "title": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models",
+      "authors": [
+        "Zhao Mandi",
+        "Shreeya Jain",
+        "Shuran Song"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 175,
+      "url": "https://arxiv.org/abs/2307.04738",
+      "pdf_url": "https://arxiv.org/pdf/2307.04738",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "地面 VLN",
+        "多模态大模型与智能体"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、地面 VLN，主要研究问题可概括为：RoCo: Dialectic Multi-Robot Collaboration with Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We propose a novel approach to multi-robot collaboration that harnesses the power of pre-trained large language models (LLMs) for both high-level communication and low-level path planning.",
+      "why_it_matters": "与具身基准与评测、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "llm agent",
+        "real world",
+        "trajectory planning",
+        "waypoint"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2205.04422",
+      "arxiv_id": "2205.04422",
+      "title": "Motion planning around obstacles with convex optimization",
+      "authors": [
+        "Tobia Marcucci",
+        "M. L. Petersen",
+        "David von Wrangel",
+        "Russ Tedrake"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Science Robotics",
+      "citation_count": 175,
+      "url": "https://arxiv.org/abs/2205.04422",
+      "pdf_url": "https://arxiv.org/pdf/2205.04422",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：Motion planning around obstacles with convex optimization。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：From quadrotors delivering packages in urban areas to robot arms moving in confined warehouses, motion planning around obstacles is a core challenge in modern robotics.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "motion planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "2204.12831",
@@ -8361,6 +8936,39 @@
       "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
+      "id": "2207.04429",
+      "arxiv_id": "2207.04429",
+      "title": "LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action",
+      "authors": [
+        "Dhruv Shah",
+        "Błażej Osiński",
+        "Brian Ichter",
+        "Sergey Levine"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 171,
+      "url": "https://arxiv.org/abs/2207.04429",
+      "pdf_url": "https://arxiv.org/pdf/2207.04429",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "地面 VLN"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Goal-conditioned policies for robotic navigation can be trained on large, unannotated datasets, providing for good generalization to real-world settings.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction",
+        "instruction following"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4206841593",
       "arxiv_id": "",
       "title": "IEEE Journal of Oceanic Engineering",
@@ -8391,6 +8999,41 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T18:45:24.442900+00:00"
+    },
+    {
+      "id": "2206.08129",
+      "arxiv_id": "2206.08129",
+      "title": "Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline",
+      "authors": [
+        "Penghao Wu",
+        "Xiaosong Jia",
+        "Li Chen",
+        "Junchi Yan",
+        "Hongyang Li",
+        "Yu Qiao"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 170,
+      "url": "https://arxiv.org/abs/2206.08129",
+      "pdf_url": "https://arxiv.org/pdf/2206.08129",
+      "code_url": "https://github.com/OpenPerceptionX/TCP",
+      "topics": [
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Current end-to-end autonomous driving methods either run a controller based on a planned trajectory or perform control prediction directly, which have spanned two separately studied lines of research.",
+      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "leaderboard",
+        "trajectory planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "2201.04114",
@@ -8498,6 +9141,110 @@
       "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
+      "id": "2304.04370",
+      "arxiv_id": "2304.04370",
+      "title": "OpenAGI: When LLM Meets Domain Experts",
+      "authors": [
+        "Yingqiang Ge",
+        "Wenyue Hua",
+        "Kai Mei",
+        "Zelong Li",
+        "Juntao Tan",
+        "Shuyuan Xu",
+        "Zelong Li",
+        "Yongfeng Zhang"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 162,
+      "url": "https://arxiv.org/abs/2304.04370",
+      "pdf_url": "https://arxiv.org/pdf/2304.04370",
+      "code_url": "https://github.com/agiresearch/OpenAGI",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：OpenAGI: When LLM Meets Domain Experts。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Human Intelligence (HI) excels at combining basic skills to solve complex tasks.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2303.11396",
+      "arxiv_id": "2303.11396",
+      "title": "Text2Tex: Text-driven Texture Synthesis via Diffusion Models",
+      "authors": [
+        "Dave Zhenyu Chen",
+        "Yawar Siddiqui",
+        "Hsin-Ying Lee",
+        "Sergey Tulyakov",
+        "Matthias Nießner"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 162,
+      "url": "https://arxiv.org/abs/2303.11396",
+      "pdf_url": "https://arxiv.org/pdf/2303.11396",
+      "code_url": "",
+      "topics": [
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦主动感知与重建，主要研究问题可概括为：Text2Tex: Text-driven Texture Synthesis via Diffusion Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present Text2Tex, a novel method for generating high-quality textures for 3D meshes from the given text prompts.",
+      "why_it_matters": "与主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "next best view"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2202.12028",
+      "arxiv_id": "2202.12028",
+      "title": "Evolutionary Multi-Objective Reinforcement Learning Based Trajectory Control and Task Offloading in UAV-Assisted Mobile Edge Computing",
+      "authors": [
+        "Fuhong Song",
+        "Huanlai Xing",
+        "Xinhan Wang",
+        "Shouxi Luo",
+        "Penglin Dai",
+        "Zhiwen Xiao",
+        "Bowen Zhao"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Mobile Computing",
+      "citation_count": 161,
+      "url": "https://arxiv.org/abs/2202.12028",
+      "pdf_url": "https://arxiv.org/pdf/2202.12028",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Evolutionary Multi-Objective Reinforcement Learning Based Trajectory Control and Task Offloading in UAV-Assisted Mobile Edge Computing。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：This paper studies the trajectory control and task offloading (TCTO) problem in an unmanned aerial vehicle (UAV)-assisted mobile edge computing system, where a UAV flies along a planned trajectory to collect computation ",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "uav"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4377008028",
       "arxiv_id": "2205.03716",
       "title": "A Review on Viewpoints and Path Planning for UAV-Based 3-D Reconstruction",
@@ -8537,6 +9284,113 @@
       "added_at": "2026-09-06T18:49:29.317136+00:00"
     },
     {
+      "id": "2302.03594",
+      "arxiv_id": "2302.03594",
+      "title": "NICER-SLAM: Neural Implicit Scene Encoding for RGB SLAM",
+      "authors": [
+        "Zihan Zhu",
+        "Songyou Peng",
+        "Viktor Larsson",
+        "Zhaopeng Cui",
+        "Martin R. Oswald",
+        "Andreas Geiger",
+        "Marc Pollefeys"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "International Conference on 3D Vision (3DV)",
+      "citation_count": 157,
+      "url": "https://arxiv.org/abs/2302.03594",
+      "pdf_url": "https://arxiv.org/pdf/2302.03594",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：NICER-SLAM: Neural Implicit Scene Encoding for RGB SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Neural implicit representations have recently become popular in simultaneous localization and mapping (SLAM), especially in dense visual SLAM.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2309.02436",
+      "arxiv_id": "2309.02436",
+      "title": "GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction",
+      "authors": [
+        "Youmin Zhang",
+        "Fabio Tosi",
+        "Stefano Mattoccia",
+        "Matteo Poggi"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 154,
+      "url": "https://arxiv.org/abs/2309.02436",
+      "pdf_url": "https://arxiv.org/pdf/2309.02436",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制",
+        "空间智能"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Neural implicit representations have recently demonstrated compelling results on dense Simultaneous Localization And Mapping (SLAM) but suffer from the accumulation of errors in camera tracking and distortion in the reco",
+      "why_it_matters": "与状态估计与控制、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2204.10704",
+      "arxiv_id": "2204.10704",
+      "title": "SUES-200: A Multi-Height Multi-Scene Cross-View Image Benchmark Across Drone and Satellite",
+      "authors": [
+        "Runzhe Zhu",
+        "Ling Yin",
+        "Mingze Yang",
+        "Fei Wu",
+        "Yuncheng Yang",
+        "Wenbo Hu"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "citation_count": 153,
+      "url": "https://arxiv.org/abs/2204.10704",
+      "pdf_url": "https://arxiv.org/pdf/2204.10704",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：SUES-200: A Multi-Height Multi-Scene Cross-View Image Benchmark Across Drone and Satellite。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Cross-view image matching aims to match images of the same target scene acquired from different platforms.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "drone",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4391676180",
       "arxiv_id": "2312.17487",
       "title": "LiDAR odometry survey: recent advancements and remaining challenges",
@@ -8572,6 +9426,108 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "2312.03275",
+      "arxiv_id": "2312.03275",
+      "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+      "authors": [
+        "Naoki Yokoyama",
+        "Sehoon Ha",
+        "Dhruv Batra",
+        "Jiuguang Wang",
+        "Bernadette Bucher"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 151,
+      "url": "https://arxiv.org/abs/2312.03275",
+      "pdf_url": "https://arxiv.org/pdf/2312.03275",
+      "code_url": "",
+      "topics": [
+        "ObjectNav 目标搜索",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦ObjectNav 目标搜索、真机与 Sim2Real，主要研究问题可概括为：VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Understanding how humans leverage semantic knowledge to navigate unfamiliar environments and decide where to explore next is pivotal for developing robots capable of human-like search behaviors.",
+      "why_it_matters": "与ObjectNav 目标搜索、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "object goal navigation",
+        "real world",
+        "semantic navigation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4407192196",
+      "arxiv_id": "",
+      "title": "Remote Sensing and Geospatial Analysis in the Big Data Era: A Survey",
+      "authors": [
+        "Elias Dritsas",
+        "Μαρία Τρίγκα"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Remote Sensing",
+      "citation_count": 149,
+      "url": "https://doi.org/10.3390/rs17030550",
+      "pdf_url": "https://www.mdpi.com/2072-4292/17/3/550/pdf?version=1738830087",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Remote Sensing and Geospatial Analysis in the Big Data Era: A Survey。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The present survey examines the role of big data analytics in advancing remote sensing and geospatial analysis.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2209.13274",
+      "arxiv_id": "2209.13274",
+      "title": "Orbeez-SLAM: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping",
+      "authors": [
+        "Chi-Ming Chung",
+        "Yang-Che Tseng",
+        "Ya-Ching Hsu",
+        "Xiang-Qian Shi",
+        "Yun-Hung Hua",
+        "Jia-Fong Yeh",
+        "Wen‐Chin Chen",
+        "Yi‐Ting Chen",
+        "Winston H. Hsu"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 149,
+      "url": "https://arxiv.org/abs/2209.13274",
+      "pdf_url": "https://arxiv.org/pdf/2209.13274",
+      "code_url": "https://github.com/MarvinChung/Orbeez-SLAM",
+      "topics": [
+        "状态估计与控制",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、真机与 Sim2Real，主要研究问题可概括为：Orbeez-SLAM: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：A spatial AI that can perform complex tasks through visual signals and cooperate with humans is highly anticipated.",
+      "why_it_matters": "与状态估计与控制、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "odometry",
+        "real world",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "https://openalex.org/W4408841099",
@@ -8615,6 +9571,80 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "2403.17134",
+      "arxiv_id": "2403.17134",
+      "title": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair",
+      "authors": [
+        "Islem Bouzenia",
+        "Prémkumar Dévanbu",
+        "Michael Pradel"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "IEEE/ACM International Conference on Software Engineering (ICSE)",
+      "citation_count": 147,
+      "url": "https://arxiv.org/abs/2403.17134",
+      "pdf_url": "https://arxiv.org/pdf/2403.17134",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：RepairAgent: An Autonomous, LLM-Based Agent for Program Repair。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2306.13394",
+      "arxiv_id": "2306.13394",
+      "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "authors": [
+        "Chaoyou Fu",
+        "Peixian Chen",
+        "Yunhang Shen",
+        "Yulei Qin",
+        "Mengdan Zhang",
+        "Lin Xu",
+        "Jinrui Yang",
+        "Xiawu Zheng",
+        "Ke Li",
+        "Xing Wei Sun",
+        "Yunsheng Wu",
+        "Rongrong Ji"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 145,
+      "url": "https://arxiv.org/abs/2306.13394",
+      "pdf_url": "https://arxiv.org/pdf/2306.13394",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "空间智能"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Interest in applying Large Language Models (LLMs), which use natural language processing (NLP) to provide human-like responses to text-based questions, to geospatial tasks has grown rapidly.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "multimodal large language model",
+        "spatial reasoning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "2307.06082",
@@ -11811,281 +12841,280 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-16T08:04:40.058686+00:00",
   "briefing": {
     "text": "",
     "added": 30,
-    "at": "2026-10-14T14:54:47.083131+00:00",
+    "at": "2026-10-16T14:33:52.712573+00:00",
     "new": [
       {
-        "t": "Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM",
-        "u": "https://arxiv.org/abs/2304.14377",
+        "t": "Ethical and social risks of harm from Language Models",
+        "u": "https://arxiv.org/abs/2112.04359",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Ethical and social risks of harm from Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 275
+        "cit": 473
       },
       {
-        "t": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
-        "u": "https://arxiv.org/abs/2303.17760",
+        "t": "Qwen Technical Report",
+        "u": "https://arxiv.org/abs/2309.16609",
         "r": null,
         "g": null,
-        "s": "该工作聚焦主动感知与重建、空域 VLN，主要研究问题可概括为：CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/camel-ai/camel",
-        "cit": 270
-      },
-      {
-        "t": "Simultaneous Navigation and Radio Mapping for Cellular-Connected UAV With Deep Reinforcement Learning",
-        "u": "https://arxiv.org/abs/2003.07574",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Simultaneous Navigation and Radio Mapping for Cellular-Connected UAV With Deep Reinforcement Learning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Qwen Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 264
+        "cit": 331
       },
       {
-        "t": "LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM",
-        "u": "https://arxiv.org/abs/2103.05056",
+        "t": "ActionCLIP: A New Paradigm for Video Action Recognition",
+        "u": "https://arxiv.org/abs/2109.08472",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：ActionCLIP: A New Paradigm for Video Action Recognition。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/sallymmx/ActionCLIP.git",
+        "cit": 215
+      },
+      {
+        "t": "TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors",
+        "u": "https://arxiv.org/abs/2101.06557",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦真机与 Sim2Real、具身基准与评测，主要研究问题可概括为：TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 258
+        "cit": 201
       },
       {
-        "t": "RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System",
-        "u": "https://arxiv.org/abs/2209.08533",
+        "t": "How Much Can CLIP Benefit Vision-and-Language Tasks?",
+        "u": "https://arxiv.org/abs/2107.06383",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 251
-      },
-      {
-        "t": "Multimodal Large Language Models: A Survey",
-        "u": "https://arxiv.org/abs/2311.13165",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Multimodal Large Language Models: A Survey。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 249
-      },
-      {
-        "t": "Self-Collaboration Code Generation via ChatGPT",
-        "u": "https://arxiv.org/abs/2304.07590",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Self-Collaboration Code Generation via ChatGPT。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 249
-      },
-      {
-        "t": "GeoChat:Grounded Large Vision-Language Model for Remote Sensing",
-        "u": "https://arxiv.org/abs/2311.15826",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：GeoChat:Grounded Large Vision-Language Model for Remote Sensing。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 248
-      },
-      {
-        "t": "ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields",
-        "u": "https://arxiv.org/abs/2211.11704",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 247
-      },
-      {
-        "t": "Point-SLAM: Dense Neural Point Cloud-based SLAM",
-        "u": "https://arxiv.org/abs/2304.04278",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：Point-SLAM: Dense Neural Point Cloud-based SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/eriksandstroem/Point-SLAM",
-        "cit": 244
-      },
-      {
-        "t": "FAST-LIVO: Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry",
-        "u": "https://arxiv.org/abs/2203.00893",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：FAST-LIVO: Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/hku-mars/FAST-LIVO",
-        "cit": 241
-      },
-      {
-        "t": "SeaDronesSee: A Maritime Benchmark for Detecting Humans in Open Water",
-        "u": "https://arxiv.org/abs/2105.01922",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：SeaDronesSee: A Maritime Benchmark for Detecting Humans in Open Water。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 237
-      },
-      {
-        "t": "LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead",
-        "u": "https://arxiv.org/abs/2404.04834",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 235
-      },
-      {
-        "t": "EagerMOT: 3D Multi-Object Tracking via Sensor Fusion",
-        "u": "https://arxiv.org/abs/2104.14682",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、世界模型，主要研究问题可概括为：EagerMOT: 3D Multi-Object Tracking via Sensor Fusion。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/aleksandrkim61/EagerMOT",
-        "cit": 229
-      },
-      {
-        "t": "Driving Behavior Modeling Using Naturalistic Human Driving Data With Inverse Reinforcement Learning",
-        "u": "https://arxiv.org/abs/2010.03118",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Driving Behavior Modeling Using Naturalistic Human Driving Data With Inverse Reinforcement Learning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 228
-      },
-      {
-        "t": "Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image",
-        "u": "https://arxiv.org/abs/2307.10984",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/YvanYin/Metric3D",
-        "cit": 225
-      },
-      {
-        "t": "BALM: Bundle Adjustment for Lidar Mapping",
-        "u": "https://arxiv.org/abs/2010.08215",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：BALM: Bundle Adjustment for Lidar Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/hku-mars/BALM",
-        "cit": 224
-      },
-      {
-        "t": "EGO-Swarm: A Fully Autonomous and Decentralized Quadrotor Swarm System in Cluttered Environments",
-        "u": "https://arxiv.org/abs/2011.04183",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：EGO-Swarm: A Fully Autonomous and Decentralized Quadrotor Swarm System in Cluttered Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 222
-      },
-      {
-        "t": "Photo-SLAM: Real-Time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras",
-        "u": "https://arxiv.org/abs/2311.16728",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：Photo-SLAM: Real-Time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 216
-      },
-      {
-        "t": "Reinforcement Learning for Robust Parameterized Locomotion Control of Bipedal Robots",
-        "u": "https://arxiv.org/abs/2103.14295",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Reinforcement Learning for Robust Parameterized Locomotion Control of Bipedal Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 214
-      },
-      {
-        "t": "UAV Trajectory Planning in Wireless Sensor Networks for Energy Consumption Minimization by Deep Reinforcement Learning",
-        "u": "https://arxiv.org/abs/2108.00354",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：UAV Trajectory Planning in Wireless Sensor Networks for Energy Consumption Minimization by Deep Reinforcement Learning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 214
-      },
-      {
-        "t": "Super Odometry: IMU-centric LiDAR-Visual-Inertial Estimator for Challenging Environments",
-        "u": "https://arxiv.org/abs/2104.14938",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Super Odometry: IMU-centric LiDAR-Visual-Inertial Estimator for Challenging Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：How Much Can CLIP Benefit Vision-and-Language Tasks?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/clip-vil/CLIP-ViL",
         "cit": 200
       },
       {
-        "t": "FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry",
-        "u": "https://arxiv.org/abs/2408.14035",
+        "t": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
+        "u": "https://arxiv.org/abs/2309.10062",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦规划智能体、具身基准与评测，主要研究问题可概括为：SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 191
+        "cit": 195
       },
       {
-        "t": "Large Language Models Are Zero-Shot Time Series Forecasters",
-        "u": "https://arxiv.org/abs/2310.07820",
+        "t": "EarthGPT: A Universal Multimodal Large Language Model for Multisensor Image Comprehension in Remote Sensing Domain",
+        "u": "https://arxiv.org/abs/2401.16822",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Large Language Models Are Zero-Shot Time Series Forecasters。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：EarthGPT: A Universal Multimodal Large Language Model for Multisensor Image Comprehension in Remote Sensing Domain。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/wivizhang/EarthGPT",
+        "cit": 194
+      },
+      {
+        "t": "Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving",
+        "u": "https://arxiv.org/abs/2310.01957",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 190
+        "cit": 189
       },
       {
-        "t": "VisualGPT: Data-efficient Adaptation of Pretrained Language Models for Image Captioning",
-        "u": "https://arxiv.org/abs/2102.10407",
+        "t": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+        "u": "https://arxiv.org/abs/2401.06209",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：VisualGPT: Data-efficient Adaptation of Pretrained Language Models for Image Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/Vision-CAIR/VisualGPT",
-        "cit": 188
-      },
-      {
-        "t": "HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model",
-        "u": "https://arxiv.org/abs/2406.11519",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 187
-      },
-      {
-        "t": "CogAgent: A Visual Language Model for GUI Agents",
-        "u": "https://arxiv.org/abs/2312.08914",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：CogAgent: A Visual Language Model for GUI Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/THUDM/CogVLM",
-        "cit": 187
-      },
-      {
-        "t": "GLaMM: Pixel Grounding Large Multimodal Model",
-        "u": "https://arxiv.org/abs/2311.03356",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：GLaMM: Pixel Grounding Large Multimodal Model。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
         "cit": 185
       },
       {
-        "t": "LAMP 2.0: A Robust Multi-Robot SLAM System for Operation in Challenging Large-Scale Underground Environments",
-        "u": "https://arxiv.org/abs/2205.13135",
+        "t": "In the Body’s Eye: The computational anatomy of interoceptive inference",
+        "u": "https://doi.org/10.1371/journal.pcbi.1010490",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：LAMP 2.0: A Robust Multi-Robot SLAM System for Operation in Challenging Large-Scale Underground Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：In the Body’s Eye: The computational anatomy of interoceptive inference。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 185
+        "cit": 183
       },
       {
-        "t": "TransVPR: Transformer-Based Place Recognition with Multi-Level Attention Aggregation",
-        "u": "https://arxiv.org/abs/2201.02001",
+        "t": "Multi-Agent Reinforcement Learning is a Sequence Modeling Problem",
+        "u": "https://arxiv.org/abs/2205.14953",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：TransVPR: Transformer-Based Place Recognition with Multi-Level Attention Aggregation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Multi-Agent Reinforcement Learning is a Sequence Modeling Problem。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 184
+        "cit": 180
+      },
+      {
+        "t": "Direct LiDAR-Inertial Odometry: Lightweight LIO with Continuous-Time Motion Correction",
+        "u": "https://arxiv.org/abs/2203.03749",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Direct LiDAR-Inertial Odometry: Lightweight LIO with Continuous-Time Motion Correction。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 178
+      },
+      {
+        "t": "LMDrive: Closed-Loop End-to-End Driving with Large Language Models",
+        "u": "https://arxiv.org/abs/2312.07488",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：LMDrive: Closed-Loop End-to-End Driving with Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 177
+      },
+      {
+        "t": "DALL-EVAL: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models",
+        "u": "https://arxiv.org/abs/2202.04053",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：DALL-EVAL: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 177
+      },
+      {
+        "t": "Align and Prompt: Video-and-Language Pre-training with Entity Prompts",
+        "u": "https://arxiv.org/abs/2112.09583",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Align and Prompt: Video-and-Language Pre-training with Entity Prompts。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/salesforce/ALPRO",
+        "cit": 177
+      },
+      {
+        "t": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models",
+        "u": "https://arxiv.org/abs/2307.04738",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、地面 VLN，主要研究问题可概括为：RoCo: Dialectic Multi-Robot Collaboration with Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 175
+      },
+      {
+        "t": "Motion planning around obstacles with convex optimization",
+        "u": "https://arxiv.org/abs/2205.04422",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：Motion planning around obstacles with convex optimization。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 175
+      },
+      {
+        "t": "LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action",
+        "u": "https://arxiv.org/abs/2207.04429",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 171
+      },
+      {
+        "t": "Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline",
+        "u": "https://arxiv.org/abs/2206.08129",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/OpenPerceptionX/TCP",
+        "cit": 170
+      },
+      {
+        "t": "OpenAGI: When LLM Meets Domain Experts",
+        "u": "https://arxiv.org/abs/2304.04370",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：OpenAGI: When LLM Meets Domain Experts。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/agiresearch/OpenAGI",
+        "cit": 162
+      },
+      {
+        "t": "Text2Tex: Text-driven Texture Synthesis via Diffusion Models",
+        "u": "https://arxiv.org/abs/2303.11396",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦主动感知与重建，主要研究问题可概括为：Text2Tex: Text-driven Texture Synthesis via Diffusion Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 162
+      },
+      {
+        "t": "Evolutionary Multi-Objective Reinforcement Learning Based Trajectory Control and Task Offloading in UAV-Assisted Mobile Edge Computing",
+        "u": "https://arxiv.org/abs/2202.12028",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Evolutionary Multi-Objective Reinforcement Learning Based Trajectory Control and Task Offloading in UAV-Assisted Mobile Edge Computing。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 161
+      },
+      {
+        "t": "NICER-SLAM: Neural Implicit Scene Encoding for RGB SLAM",
+        "u": "https://arxiv.org/abs/2302.03594",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：NICER-SLAM: Neural Implicit Scene Encoding for RGB SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 157
+      },
+      {
+        "t": "GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction",
+        "u": "https://arxiv.org/abs/2309.02436",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 154
+      },
+      {
+        "t": "SUES-200: A Multi-Height Multi-Scene Cross-View Image Benchmark Across Drone and Satellite",
+        "u": "https://arxiv.org/abs/2204.10704",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：SUES-200: A Multi-Height Multi-Scene Cross-View Image Benchmark Across Drone and Satellite。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 153
+      },
+      {
+        "t": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+        "u": "https://arxiv.org/abs/2312.03275",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦ObjectNav 目标搜索、真机与 Sim2Real，主要研究问题可概括为：VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 151
+      },
+      {
+        "t": "Remote Sensing and Geospatial Analysis in the Big Data Era: A Survey",
+        "u": "https://doi.org/10.3390/rs17030550",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Remote Sensing and Geospatial Analysis in the Big Data Era: A Survey。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 149
+      },
+      {
+        "t": "Orbeez-SLAM: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping",
+        "u": "https://arxiv.org/abs/2209.13274",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、真机与 Sim2Real，主要研究问题可概括为：Orbeez-SLAM: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/MarvinChung/Orbeez-SLAM",
+        "cit": 149
+      },
+      {
+        "t": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair",
+        "u": "https://arxiv.org/abs/2403.17134",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：RepairAgent: An Autonomous, LLM-Based Agent for Program Repair。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 147
+      },
+      {
+        "t": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+        "u": "https://arxiv.org/abs/2306.13394",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 145
       }
     ]
   }
