@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:47:54.714786+00:00",
+  "updated_at": "2026-10-16T14:32:44.831424+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18688,6 +18688,40 @@
       "added_at": "2026-10-16T08:47:51.714294+00:00"
     },
     {
+      "id": "2610.19443",
+      "arxiv_id": "2610.19443",
+      "title": "More Than Seeing: Vision as Scalable Anchors in Native Multimodal Pre-Training",
+      "authors": [
+        "Haoyuan Wu",
+        "Aoqi Wu",
+        "Jiani Hu",
+        "Bei Yu"
+      ],
+      "published": "2026-10-14",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.19443",
+      "pdf_url": "https://arxiv.org/pdf/2610.19443",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "状态估计与控制"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空间智能、状态估计与控制，主要研究问题可概括为：More Than Seeing: Vision as Scalable Anchors in Native Multimodal Pre-Training。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Native multimodal pre-training trains a single model from scratch on text and multimodal data, enabling it to understand both language and visual inputs.",
+      "why_it_matters": "与空间智能、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "localization",
+        "spatial reasoning"
+      ],
+      "added_at": "2026-10-16T14:32:41.830893+00:00"
+    },
+    {
       "id": "2610.18381",
       "arxiv_id": "2610.18381",
       "title": "Benchmarking Interaction-Oriented Aerial Mobility across Heterogeneous Environments",
@@ -19620,6 +19654,44 @@
         "exploration"
       ],
       "added_at": "2026-10-15T14:41:29.394389+00:00"
+    },
+    {
+      "id": "2610.19108",
+      "arxiv_id": "2610.19108",
+      "title": "Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models",
+      "authors": [
+        "Mahdieh Mallahnezhad",
+        "Masoud Jafaripour",
+        "Mohamadali Tofigh",
+        "Sheila Schoepp",
+        "Osmar R. Zai͏̈ane"
+      ],
+      "published": "2026-10-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.19108",
+      "pdf_url": "https://arxiv.org/pdf/2610.19108",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multimodal Large Language Models (MLLMs) have been widely applied in embodied agents and robotics for vision tasks.",
+      "why_it_matters": "与多模态大模型与智能体、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "mllm",
+        "multimodal large language model",
+        "spatial reasoning"
+      ],
+      "added_at": "2026-10-16T14:32:38.650331+00:00"
     },
     {
       "id": "2610.16522",
@@ -21570,135 +21642,23 @@
   ],
   "briefing": {
     "text": "",
-    "added": 16,
-    "at": "2026-10-16T08:47:54.714807+00:00",
+    "added": 2,
+    "at": "2026-10-16T14:32:44.831445+00:00",
     "new": [
       {
-        "t": "Safe and Fuel-Efficient Motion Planning for Lunar Propulsive Drones",
-        "u": "https://arxiv.org/abs/2610.22225",
+        "t": "Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models",
+        "u": "https://arxiv.org/abs/2610.19108",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Safe and Fuel-Efficient Motion Planning for Lunar Propulsive Drones。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Onboard Lightweight LLM Reasoning for Human-Aware Safe UAV Navigation",
-        "u": "https://arxiv.org/abs/2610.22092",
+        "t": "More Than Seeing: Vision as Scalable Anchors in Native Multimodal Pre-Training",
+        "u": "https://arxiv.org/abs/2610.19443",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Onboard Lightweight LLM Reasoning for Human-Aware Safe UAV Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
-        "u": "https://arxiv.org/abs/2610.22356",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SPEAR: Selective Preference Elicitation with Adaptive Rewards for VLM-Guided Robotic Manipulation",
-        "u": "https://arxiv.org/abs/2610.21621",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：SPEAR: Selective Preference Elicitation with Adaptive Rewards for VLM-Guided Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "X-Fly: Learning to Reach and Stop in Full-Chunk Aerial Vision-Language Navigation",
-        "u": "https://arxiv.org/abs/2610.21450",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：X-Fly: Learning to Reach and Stop in Full-Chunk Aerial Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Velox: Spatial Memory Makes World Models Efficient",
-        "u": "https://arxiv.org/abs/2610.22311",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：Velox: Spatial Memory Makes World Models Efficient。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "CBF-Based Control Allocation for Omnidirectional Tiltrotor Aerial Robots",
-        "u": "https://arxiv.org/abs/2610.22057",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：CBF-Based Control Allocation for Omnidirectional Tiltrotor Aerial Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory",
-        "u": "https://arxiv.org/abs/2610.21586",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Towards bio-inspired visual navigation: a neuromorphic navigation paradigm for MAVs",
-        "u": "https://arxiv.org/abs/2610.21978",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Towards bio-inspired visual navigation: a neuromorphic navigation paradigm for MAVs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Anvil: Scaling Embodied Spatial Intelligence through Knowledge Recirculation",
-        "u": "https://arxiv.org/abs/2610.21882",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Anvil: Scaling Embodied Spatial Intelligence through Knowledge Recirculation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Training-Free Target-Aware Refinement of 3D Gaussian Language Map",
-        "u": "https://arxiv.org/abs/2610.21619",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Training-Free Target-Aware Refinement of 3D Gaussian Language Map。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MuSTMM: Learning Sound-Triggered Mobile Manipulation across Multiple Scenes",
-        "u": "https://arxiv.org/abs/2610.21429",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：MuSTMM: Learning Sound-Triggered Mobile Manipulation across Multiple Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Comfortably Stuck: Evaluation Pitfalls in Bench2Drive's Closed-Loop Protocol",
-        "u": "https://arxiv.org/abs/2610.21741",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Comfortably Stuck: Evaluation Pitfalls in Bench2Drive's Closed-Loop Protocol。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
-        "u": "https://arxiv.org/abs/2610.22321",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：AVC-Reward: Event-Centric Audio-Video Consistency Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Learning to Think and Explore in 3D World",
-        "u": "https://arxiv.org/abs/2610.21783",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Learning to Think and Explore in 3D World。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MoCaP: Mobile Code-as-Policies for Zero-Shot Mobile Manipulation from Passive Human Videos",
-        "u": "https://arxiv.org/abs/2610.20998",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：MoCaP: Mobile Code-as-Policies for Zero-Shot Mobile Manipulation from Passive Human Videos。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、状态估计与控制，主要研究问题可概括为：More Than Seeing: Vision as Scalable Anchors in Native Multimodal Pre-Training。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
