@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T14:32:44.831424+00:00",
+  "updated_at": "2026-10-17T13:28:21.498001+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -17979,6 +17979,41 @@
       "added_at": "2026-10-16T08:47:48.620458+00:00"
     },
     {
+      "id": "2610.21327",
+      "arxiv_id": "2610.21327",
+      "title": "DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding",
+      "authors": [
+        "Zhuowen Liang",
+        "Xiaotian Lin",
+        "Yuyu Luo",
+        "Haixun Wang",
+        "Nan Tang"
+      ],
+      "published": "2026-10-15",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.21327",
+      "pdf_url": "https://arxiv.org/pdf/2610.21327",
+      "code_url": "https://github.com/HKUSTDial/DocPilot",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "状态估计与控制"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multimodal long-document question answering requires models to seek sparse evidence across pages and modalities, understand heterogeneous document content, and reason over the collected evidence.",
+      "why_it_matters": "与多模态大模型与智能体、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "localization",
+        "vlm"
+      ],
+      "added_at": "2026-10-17T13:28:18.497528+00:00"
+    },
+    {
       "id": "2610.19785",
       "arxiv_id": "2610.19785",
       "title": "FPV-CRASH: A Dataset for Offline Crash Moment Localization in Drone First-Person-View Videos",
@@ -21642,24 +21677,16 @@
   ],
   "briefing": {
     "text": "",
-    "added": 2,
-    "at": "2026-10-16T14:32:44.831445+00:00",
+    "added": 1,
+    "at": "2026-10-17T13:28:21.498025+00:00",
     "new": [
       {
-        "t": "Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models",
-        "u": "https://arxiv.org/abs/2610.19108",
+        "t": "DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding",
+        "u": "https://arxiv.org/abs/2610.21327",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "More Than Seeing: Vision as Scalable Anchors in Native Multimodal Pre-Training",
-        "u": "https://arxiv.org/abs/2610.19443",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、状态估计与控制，主要研究问题可概括为：More Than Seeing: Vision as Scalable Anchors in Native Multimodal Pre-Training。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
+        "s": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/HKUSTDial/DocPilot"
       }
     ]
   }
