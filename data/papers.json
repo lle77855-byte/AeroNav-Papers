@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T13:28:21.498001+00:00",
+  "updated_at": "2026-10-19T09:38:54.281055+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -17392,6 +17392,683 @@
       "added_at": "2026-09-18T08:54:45.554191+00:00"
     },
     {
+      "id": "2610.23293",
+      "arxiv_id": "2610.23293",
+      "title": "SkyAgent: Revisable Target Memory for Continuous Aerial Search",
+      "authors": [
+        "Kaibo Yang",
+        "Xingyu Wu",
+        "Enze Zhu",
+        "Yajie Chai",
+        "Xuyang Li",
+        "Jiahui Cui",
+        "Xiaoxuan Liu",
+        "Lei Wang",
+        "Zhan Chen"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23293",
+      "pdf_url": "https://arxiv.org/pdf/2610.23293",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "地面 VLN"
+      ],
+      "relevance_score": 9,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：SkyAgent: Revisable Target Memory for Continuous Aerial Search。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Continuous aerial search builds target hypotheses from sparse, viewpoint-dependent observations.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "deployment",
+        "uav",
+        "waypoint"
+      ],
+      "added_at": "2026-10-19T09:37:54.530175+00:00"
+    },
+    {
+      "id": "2610.22812",
+      "arxiv_id": "2610.22812",
+      "title": "PASS-VLN: Passability-Aware Local-Command Vision-and-Language Navigation",
+      "authors": [
+        "Cong Zou",
+        "Xiangsheng Shi",
+        "Xuanhui Wang",
+        "Fubin Wang",
+        "Guangjun Ge",
+        "Chao Wang",
+        "Yu Wang"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.22812",
+      "pdf_url": "https://arxiv.org/pdf/2610.22812",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "空间智能",
+        "空域 VLN",
+        "规划智能体"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、空域 VLN，主要研究问题可概括为：PASS-VLN: Passability-Aware Local-Command Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reliable vision-and-language navigation (VLN) requires not only understanding instructions but also determining whether and how a robot can physically execute them.",
+      "why_it_matters": "与空间智能、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "geometry",
+        "instruction",
+        "spatial memory",
+        "task planning"
+      ],
+      "added_at": "2026-10-19T09:37:57.640931+00:00"
+    },
+    {
+      "id": "2610.23598",
+      "arxiv_id": "2610.23598",
+      "title": "RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory",
+      "authors": [
+        "Dabin Sheng",
+        "Zhe Wu",
+        "Jinming Zhao",
+        "Junliang Xing",
+        "Yuanchun Shi"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23598",
+      "pdf_url": "https://arxiv.org/pdf/2610.23598",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "状态估计与控制",
+        "具身基准与评测"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Time-aware retrieval is crucial for long-horizon LLM agents to effectively leverage ever-growing long-term memory.",
+      "why_it_matters": "与多模态大模型与智能体、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "llm agent",
+        "localization"
+      ],
+      "added_at": "2026-10-19T09:38:00.758358+00:00"
+    },
+    {
+      "id": "2610.22895",
+      "arxiv_id": "2610.22895",
+      "title": "HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies",
+      "authors": [
+        "Youngrae Kim",
+        "Yejin Jang",
+        "Eunho Kim",
+        "Youjin Sung",
+        "Kun-Woo Song",
+        "Sangpil Kim",
+        "Sang Ho Yoon"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.22895",
+      "pdf_url": "https://arxiv.org/pdf/2610.22895",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Physical reasoning about humans in videos has largely focused on everyday interactions, where contact, pressure, pose, and motion support embodied perception and contact-aware applications.",
+      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "localization"
+      ],
+      "added_at": "2026-10-19T09:38:03.936132+00:00"
+    },
+    {
+      "id": "2610.23449",
+      "arxiv_id": "2610.23449",
+      "title": "GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways",
+      "authors": [
+        "Yitian Zheng",
+        "Zhaorun Chen",
+        "Haoyu Li",
+        "Bo Li"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23449",
+      "pdf_url": "https://arxiv.org/pdf/2610.23449",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：AI agents have increasingly interacted with external environments by invoking tools, with Model Context Protocol (MCP) emerging as a standard interface for connecting agents to heterogeneous tools and services.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "deployment",
+        "evaluation"
+      ],
+      "added_at": "2026-10-19T09:38:07.053660+00:00"
+    },
+    {
+      "id": "2610.23416",
+      "arxiv_id": "2610.23416",
+      "title": "GeoReason: Bridging Logical Reasoning and Spatial Fidelity in Remote Sensing Segmentation",
+      "authors": [
+        "Cheng Fan",
+        "Han Wu",
+        "Tingzhang Luo",
+        "Minjing Dong",
+        "Yehui Tang",
+        "Jianyuan Guo"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23416",
+      "pdf_url": "https://arxiv.org/pdf/2610.23416",
+      "code_url": "https://github.com/Fanc0126/GeoReason",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：GeoReason: Bridging Logical Reasoning and Spatial Fidelity in Remote Sensing Segmentation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multimodal Large Language Models (MLLMs) have significantly advanced instruction-driven perception through the \"Embedding-as-Mask\" paradigm.",
+      "why_it_matters": "与多模态大模型与智能体、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "localization",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-10-19T09:38:10.182687+00:00"
+    },
+    {
+      "id": "2610.23496",
+      "arxiv_id": "2610.23496",
+      "title": "FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization",
+      "authors": [
+        "Haorui Du",
+        "Lipu Zhou"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23496",
+      "pdf_url": "https://arxiv.org/pdf/2610.23496",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Monocular simultaneous localization and mapping (SLAM) remains challenging in dynamic environments.",
+      "why_it_matters": "与状态估计与控制、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "localization",
+        "slam"
+      ],
+      "added_at": "2026-10-19T09:38:13.334170+00:00"
+    },
+    {
+      "id": "2610.23479",
+      "arxiv_id": "2610.23479",
+      "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+      "authors": [
+        "Hongcheng Gao",
+        "Alex Zhou",
+        "Jay Zhu",
+        "Zelin Zheng",
+        "Shijia Ge",
+        "Xiping Li",
+        "Di Wu",
+        "Yazhe Wang",
+        "Jianshu Zeng",
+        "Xuan Shangguan",
+        "Yongli Wang",
+        "Yexing Wan",
+        "Lingyu He",
+        "Zhiqi Jia",
+        "Sihang Wu",
+        "Xiao He"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23479",
+      "pdf_url": "https://arxiv.org/pdf/2610.23479",
+      "code_url": "https://github.com/HexaFuture/HexaShell",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "leaderboard",
+        "vision language model",
+        "vlm"
+      ],
+      "added_at": "2026-10-19T09:38:16.698215+00:00"
+    },
+    {
+      "id": "2610.23537",
+      "arxiv_id": "2610.23537",
+      "title": "PanoBench: A Panoptic Occupancy Prediction Benchmark for Autonomous Driving",
+      "authors": [
+        "Yi Feng",
+        "Zizhan Guo",
+        "Junwu E",
+        "Yu Ma",
+        "Mengtan Zhang",
+        "Jin Wu",
+        "Wei Ye",
+        "Hanli Wang",
+        "Qijun Chen",
+        "Danwei Wang",
+        "Rui Fan"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23537",
+      "pdf_url": "https://arxiv.org/pdf/2610.23537",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "空间智能"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：PanoBench: A Panoptic Occupancy Prediction Benchmark for Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Panoptic occupancy unifies 3D geometry, semantics, and instance identities, but its development is limited by scarce instance-aware annotations.",
+      "why_it_matters": "与具身基准与评测、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "geometry"
+      ],
+      "added_at": "2026-10-19T09:38:19.807879+00:00"
+    },
+    {
+      "id": "2610.22905",
+      "arxiv_id": "2610.22905",
+      "title": "SenseSwarm: Swarm Exploration via Neural Structure Estimation with Shared World-Anticipation for Rapid Mapping",
+      "authors": [
+        "Haohua Que",
+        "Haojia Gao",
+        "Mingkai Liu",
+        "Hoiian Au",
+        "Qian Zhang",
+        "Jiayue Xie",
+        "Yule Cai",
+        "Bokui Chen",
+        "Xueqian Wang",
+        "Fei Qiao"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.22905",
+      "pdf_url": "https://arxiv.org/pdf/2610.22905",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "主动感知与重建",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：SenseSwarm: Swarm Exploration via Neural Structure Estimation with Shared World-Anticipation for Rapid Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：A robot swarm covers a building faster with more robots, but the map is only as complete as the space the robots have physically visited.",
+      "why_it_matters": "与主动感知与重建、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration"
+      ],
+      "added_at": "2026-10-19T09:38:29.206978+00:00"
+    },
+    {
+      "id": "2610.23203",
+      "arxiv_id": "2610.23203",
+      "title": "SimpleVLN: Towards Simple and Frontier Vision-Language Navigation",
+      "authors": [
+        "Lingyi Hong",
+        "Weiren Cai",
+        "Jiayu Chen",
+        "Xinyu Zhou",
+        "Bailin He",
+        "Yunfei Guo",
+        "Qiao Sun",
+        "Boyu Ma",
+        "Jianfei Yang",
+        "Wenqiang Zhang"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23203",
+      "pdf_url": "https://arxiv.org/pdf/2610.23203",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "地面 VLN"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、地面 VLN，主要研究问题可概括为：SimpleVLN: Towards Simple and Frontier Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-and-Language Navigation (VLN) requires embodied agents to ground language in visual observations and make long-horizon decisions.",
+      "why_it_matters": "与多模态大模型与智能体、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "mllm",
+        "multimodal large language model",
+        "r2r"
+      ],
+      "added_at": "2026-10-19T09:38:32.478087+00:00"
+    },
+    {
+      "id": "2610.23795",
+      "arxiv_id": "2610.23795",
+      "title": "Persistent Planar Memory for Video World Models",
+      "authors": [
+        "Yuze He",
+        "Bin Tan",
+        "Zelin Gao",
+        "Yujun Shen",
+        "Yong-Jin Liu",
+        "Nan Xue",
+        "Yinghao Xu"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23795",
+      "pdf_url": "https://arxiv.org/pdf/2610.23795",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "世界模型",
+        "空间智能"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：Persistent Planar Memory for Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Video world models that generate and explore environments at scale need a persistent 3D memory of what they have produced.",
+      "why_it_matters": "与世界模型、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "world model"
+      ],
+      "added_at": "2026-10-19T09:38:35.607968+00:00"
+    },
+    {
+      "id": "2610.23789",
+      "arxiv_id": "2610.23789",
+      "title": "The Collection of a Real-World, Large-Scale Dataset for Automated Skill Evaluation in Central Line Dressing Change",
+      "authors": [
+        "Ummey Tanin",
+        "Shannan K. Hamlin",
+        "Hsin-Mei Chen",
+        "Peizhu",
+        "Qian"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23789",
+      "pdf_url": "https://arxiv.org/pdf/2610.23789",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：The Collection of a Real-World, Large-Scale Dataset for Automated Skill Evaluation in Central Line Dressing Change。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Central line-associated bloodstream infections (CLABSIs) remain a major source of preventable morbidity and mortality in healthcare settings.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-10-19T09:38:38.727121+00:00"
+    },
+    {
+      "id": "2610.23845",
+      "arxiv_id": "2610.23845",
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "authors": [
+        "Shicheng Liu",
+        "Krista Opsahl-Ong",
+        "Andrew Drozdov",
+        "Julian Killingback",
+        "Arnav Singhvi",
+        "Ronak Pradeep",
+        "Michael Bendersky",
+        "James C. Dickerson",
+        "Monica S. Lam"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23845",
+      "pdf_url": "https://arxiv.org/pdf/2610.23845",
+      "code_url": "",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "llm agent"
+      ],
+      "added_at": "2026-10-19T09:38:41.896882+00:00"
+    },
+    {
+      "id": "2610.23709",
+      "arxiv_id": "2610.23709",
+      "title": "GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search",
+      "authors": [
+        "Hyunseo Kim",
+        "Suil Choe",
+        "Sukkyoung So",
+        "Daeyeon Yi"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23709",
+      "pdf_url": "https://arxiv.org/pdf/2610.23709",
+      "code_url": "",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "规划智能体"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、规划智能体，主要研究问题可概括为：GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Optimizing product listings for generative search requires language agents not only to rewrite effectively but also to continually self-improve by retaining successful strategies across diverse categories.",
+      "why_it_matters": "与多模态大模型与智能体、规划智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "language agent"
+      ],
+      "added_at": "2026-10-19T09:38:45.023507+00:00"
+    },
+    {
+      "id": "2610.23625",
+      "arxiv_id": "2610.23625",
+      "title": "PresenceBench: An Exploratory Evaluation of Large Language Model Adaptation to User State",
+      "authors": [
+        "Peña Arroyo Gallego",
+        "Mauro Ruiz Moreno",
+        "Alejandro Acien",
+        "Sergio Romero-Tapiador",
+        "Teresa Arroyo-Gallego"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23625",
+      "pdf_url": "https://arxiv.org/pdf/2610.23625",
+      "code_url": "",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "空域 VLN"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：PresenceBench: An Exploratory Evaluation of Large Language Model Adaptation to User State。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Presence-aware intelligence is the capacity of an AI system's intelligence layer to adapt appropriately to the functional state of the person it serves (here readiness, flow, and stability) while preserving task quality ",
+      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "instruction"
+      ],
+      "added_at": "2026-10-19T09:38:48.148608+00:00"
+    },
+    {
+      "id": "2610.23612",
+      "arxiv_id": "2610.23612",
+      "title": "SIT-Eval: Situation-Based Interactive Turn-by-Turn Evaluation of Conversational Agents",
+      "authors": [
+        "Ravil Mussabayev",
+        "Saveliy Zavertyaev",
+        "Dmitriy Parpulov",
+        "Andrey Savchenko"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.23612",
+      "pdf_url": "https://arxiv.org/pdf/2610.23612",
+      "code_url": "",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：SIT-Eval: Situation-Based Interactive Turn-by-Turn Evaluation of Conversational Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The rapid proliferation of conversational AI agents necessitates evaluation methods that assess performance across diverse dialogue scenarios, utilizing multiple situational criteria, as appropriate behavior depends on c",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-10-19T09:38:51.280479+00:00"
+    },
+    {
       "id": "2610.22225",
       "arxiv_id": "2610.22225",
       "title": "Safe and Fuel-Efficient Motion Planning for Lunar Propulsive Drones",
@@ -18012,6 +18689,97 @@
         "vlm"
       ],
       "added_at": "2026-10-17T13:28:18.497528+00:00"
+    },
+    {
+      "id": "2610.22736",
+      "arxiv_id": "2610.22736",
+      "title": "Spatial Memory by Agents, for Agents",
+      "authors": [
+        "Qianwei Wang",
+        "Ce Zhang",
+        "Zhanpeng Luo",
+        "Pengpeng Su",
+        "Shuo Yang",
+        "Hao Xu"
+      ],
+      "published": "2026-10-15",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.22736",
+      "pdf_url": "https://arxiv.org/pdf/2610.22736",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "空间智能",
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 4,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Spatial Memory by Agents, for Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Spatial memory enables robots to reuse past observations for localization, navigation, and question answering.",
+      "why_it_matters": "与空间智能、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "localization",
+        "spatial memory"
+      ],
+      "added_at": "2026-10-19T09:38:22.926376+00:00"
+    },
+    {
+      "id": "2610.22496",
+      "arxiv_id": "2610.22496",
+      "title": "Scaling Online Exploration for Robot Agents",
+      "authors": [
+        "Runhan Huang",
+        "Xiangcheng Zhang",
+        "Haoyu Chen",
+        "Yitong Li",
+        "Yen-Jen Wang",
+        "Bohan Lyu",
+        "Haotian Ye",
+        "Chuye Hong",
+        "Yixuan Wang",
+        "Chloe Su",
+        "Haoyu Xiong",
+        "Yangzhen Wu",
+        "Enze Xie",
+        "Travis Manderson",
+        "Stefano Ermon",
+        "Pieter Abbeel",
+        "Antonio Torralba",
+        "Dawn Song",
+        "Weirui Ye",
+        "Yilun Du"
+      ],
+      "published": "2026-10-15",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.22496",
+      "pdf_url": "https://arxiv.org/pdf/2610.22496",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "主动感知与重建",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦主动感知与重建、真机与 Sim2Real，主要研究问题可概括为：Scaling Online Exploration for Robot Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Robot learning has advanced by scaling demonstration datasets and model capacity; however, deploying a new robot embodiment or task typically necessitates a dedicated teleoperation corpus.",
+      "why_it_matters": "与主动感知与重建、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "active perception",
+        "exploration",
+        "real robot"
+      ],
+      "added_at": "2026-10-19T09:38:26.097995+00:00"
     },
     {
       "id": "2610.19785",
@@ -21677,16 +22445,160 @@
   ],
   "briefing": {
     "text": "",
-    "added": 1,
-    "at": "2026-10-17T13:28:21.498025+00:00",
+    "added": 19,
+    "at": "2026-10-19T09:38:54.281078+00:00",
     "new": [
       {
-        "t": "DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding",
-        "u": "https://arxiv.org/abs/2610.21327",
+        "t": "SkyAgent: Revisable Target Memory for Continuous Aerial Search",
+        "u": "https://arxiv.org/abs/2610.23293",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/HKUSTDial/DocPilot"
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：SkyAgent: Revisable Target Memory for Continuous Aerial Search。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "PASS-VLN: Passability-Aware Local-Command Vision-and-Language Navigation",
+        "u": "https://arxiv.org/abs/2610.22812",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空间智能、空域 VLN，主要研究问题可概括为：PASS-VLN: Passability-Aware Local-Command Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory",
+        "u": "https://arxiv.org/abs/2610.23598",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies",
+        "u": "https://arxiv.org/abs/2610.22895",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways",
+        "u": "https://arxiv.org/abs/2610.23449",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "GeoReason: Bridging Logical Reasoning and Spatial Fidelity in Remote Sensing Segmentation",
+        "u": "https://arxiv.org/abs/2610.23416",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：GeoReason: Bridging Logical Reasoning and Spatial Fidelity in Remote Sensing Segmentation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/Fanc0126/GeoReason"
+      },
+      {
+        "t": "FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization",
+        "u": "https://arxiv.org/abs/2610.23496",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+        "u": "https://arxiv.org/abs/2610.23479",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/HexaFuture/HexaShell"
+      },
+      {
+        "t": "PanoBench: A Panoptic Occupancy Prediction Benchmark for Autonomous Driving",
+        "u": "https://arxiv.org/abs/2610.23537",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：PanoBench: A Panoptic Occupancy Prediction Benchmark for Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Spatial Memory by Agents, for Agents",
+        "u": "https://arxiv.org/abs/2610.22736",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Spatial Memory by Agents, for Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Scaling Online Exploration for Robot Agents",
+        "u": "https://arxiv.org/abs/2610.22496",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦主动感知与重建、真机与 Sim2Real，主要研究问题可概括为：Scaling Online Exploration for Robot Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "SenseSwarm: Swarm Exploration via Neural Structure Estimation with Shared World-Anticipation for Rapid Mapping",
+        "u": "https://arxiv.org/abs/2610.22905",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：SenseSwarm: Swarm Exploration via Neural Structure Estimation with Shared World-Anticipation for Rapid Mapping。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "SimpleVLN: Towards Simple and Frontier Vision-Language Navigation",
+        "u": "https://arxiv.org/abs/2610.23203",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、地面 VLN，主要研究问题可概括为：SimpleVLN: Towards Simple and Frontier Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Persistent Planar Memory for Video World Models",
+        "u": "https://arxiv.org/abs/2610.23795",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：Persistent Planar Memory for Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "The Collection of a Real-World, Large-Scale Dataset for Automated Skill Evaluation in Central Line Dressing Change",
+        "u": "https://arxiv.org/abs/2610.23789",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：The Collection of a Real-World, Large-Scale Dataset for Automated Skill Evaluation in Central Line Dressing Change。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+        "u": "https://arxiv.org/abs/2610.23845",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search",
+        "u": "https://arxiv.org/abs/2610.23709",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、规划智能体，主要研究问题可概括为：GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "PresenceBench: An Exploratory Evaluation of Large Language Model Adaptation to User State",
+        "u": "https://arxiv.org/abs/2610.23625",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：PresenceBench: An Exploratory Evaluation of Large Language Model Adaptation to User State。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "SIT-Eval: Situation-Based Interactive Turn-by-Turn Evaluation of Conversational Agents",
+        "u": "https://arxiv.org/abs/2610.23612",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：SIT-Eval: Situation-Based Interactive Turn-by-Turn Evaluation of Conversational Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
       }
     ]
   }
