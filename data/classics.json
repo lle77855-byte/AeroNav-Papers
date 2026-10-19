@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T13:47:17.227851+00:00",
+  "updated_at": "2026-10-19T16:50:01.994863+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -476,7 +476,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 4464,
+      "citation_count": 4469,
       "url": "https://arxiv.org/abs/2309.16609",
       "pdf_url": "https://arxiv.org/pdf/2309.16609",
       "code_url": "",
@@ -961,7 +961,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 2099,
+      "citation_count": 2108,
       "url": "https://doi.org/10.18653/v1/2023.emnlp-main.20",
       "pdf_url": "https://aclanthology.org/2023.emnlp-main.20.pdf",
       "code_url": "",
@@ -1003,7 +1003,7 @@
       "published": "2025",
       "source": "OpenAlex",
       "venue": "ACM Transactions on Intelligent Systems and Technology",
-      "citation_count": 2064,
+      "citation_count": 2071,
       "url": "https://arxiv.org/abs/2307.06435",
       "pdf_url": "https://arxiv.org/pdf/2307.06435",
       "code_url": "",
@@ -1723,7 +1723,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "IEEE Robotics and Automation Letters",
-      "citation_count": 1191,
+      "citation_count": 1197,
       "url": "https://doi.org/10.1109/lra.2021.3064227",
       "pdf_url": "",
       "code_url": "",
@@ -4249,7 +4249,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 455,
+      "citation_count": 458,
       "url": "https://doi.org/10.15607/rss.2023.xix.066",
       "pdf_url": "https://doi.org/10.15607/rss.2023.xix.066",
       "code_url": "",
@@ -4303,6 +4303,42 @@
       "keywords": [
         "leaderboard",
         "trajectory planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2312.03275",
+      "arxiv_id": "2312.03275",
+      "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+      "authors": [
+        "Naoki Yokoyama",
+        "Sehoon Ha",
+        "Dhruv Batra",
+        "Jiuguang Wang",
+        "Bernadette Bucher"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "citation_count": 452,
+      "url": "https://arxiv.org/abs/2312.03275",
+      "pdf_url": "https://arxiv.org/pdf/2312.03275",
+      "code_url": "",
+      "topics": [
+        "ObjectNav 目标搜索",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦ObjectNav 目标搜索、真机与 Sim2Real，主要研究问题可概括为：VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Understanding how humans leverage semantic knowledge to navigate unfamiliar environments and decide where to explore next is pivotal for developing robots capable of human-like search behaviors.",
+      "why_it_matters": "与ObjectNav 目标搜索、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "object goal navigation",
+        "real world",
+        "semantic navigation"
       ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
@@ -4380,42 +4416,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
-    },
-    {
-      "id": "2312.03275",
-      "arxiv_id": "2312.03275",
-      "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
-      "authors": [
-        "Naoki Yokoyama",
-        "Sehoon Ha",
-        "Dhruv Batra",
-        "Jiuguang Wang",
-        "Bernadette Bucher"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
-      "citation_count": 451,
-      "url": "https://arxiv.org/abs/2312.03275",
-      "pdf_url": "https://arxiv.org/pdf/2312.03275",
-      "code_url": "",
-      "topics": [
-        "ObjectNav 目标搜索",
-        "真机与 Sim2Real"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（Proceedings - IEEE International Conference on Robotics and Automation/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦ObjectNav 目标搜索、真机与 Sim2Real，主要研究问题可概括为：VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Understanding how humans leverage semantic knowledge to navigate unfamiliar environments and decide where to explore next is pivotal for developing robots capable of human-like search behaviors.",
-      "why_it_matters": "与ObjectNav 目标搜索、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "deployment",
-        "object goal navigation",
-        "real world",
-        "semantic navigation"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "https://openalex.org/W4382135822",
@@ -4679,7 +4679,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "The International Journal of Robotics Research",
-      "citation_count": 422,
+      "citation_count": 423,
       "url": "https://doi.org/10.1177/02783649231224053",
       "pdf_url": "",
       "code_url": "",
@@ -4900,7 +4900,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "The International Journal of Robotics Research",
-      "citation_count": 409,
+      "citation_count": 413,
       "url": "https://arxiv.org/abs/2101.06894",
       "pdf_url": "https://arxiv.org/pdf/2101.06894",
       "code_url": "",
@@ -4923,6 +4923,44 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-26T14:03:39.635862+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4399399400",
+      "arxiv_id": "2401.16822",
+      "title": "EarthGPT: A Universal Multimodal Large Language Model for Multisensor Image Comprehension in Remote Sensing Domain",
+      "authors": [
+        "Wei Zhang",
+        "Miaoxin Cai",
+        "Tong Zhang",
+        "Yin Zhuang",
+        "Xuerui Mao"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "citation_count": 403,
+      "url": "https://doi.org/10.1109/tgrs.2024.3409624",
+      "pdf_url": "",
+      "code_url": "https://github.com/wivizhang/EarthGPT",
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Transactions on Geoscience and Remote Sensing），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "EarthGPT是遥感领域通用多模态大模型，以视觉增强感知与跨模态互理解机制，用百万级指令数据集MMRS-1M对光学、SAR、红外多传感器做多任务统一指令微调，覆盖分类、描述、VQA、定位与检测。",
+      "change_zh": "常见路线是通用自然图像MLLM直接迁移或单任务遥感专用模型；该文首次将光学、SAR、红外多传感器与多类遥感解译任务统一到单一MLLM的指令微调框架，并构建首个百万级遥感多模态指令数据集MMRS-1M，缓解遥感专业知识缺失。",
+      "why_it_matters": "对UAV主动目标搜索与aerial VLN有间接价值：俯视视角多传感器（光学/红外/SAR）图像统一理解与指令微调方法可充当无人机感知底座，MMRS-1M可支持航空视角预训练；但其任务为被动遥感解译，与导航决策无直接耦合，价值偏间接。",
+      "relevance_rating": 6,
+      "rigor_rating": 8,
+      "venue_verified": true,
+      "score": 23,
+      "keywords": [
+        "instruction",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-06T18:49:29.317136+00:00"
     },
     {
       "id": "2404.04834",
@@ -4951,44 +4989,6 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-10-14T14:54:47.083131+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4399399400",
-      "arxiv_id": "2401.16822",
-      "title": "EarthGPT: A Universal Multimodal Large Language Model for Multisensor Image Comprehension in Remote Sensing Domain",
-      "authors": [
-        "Wei Zhang",
-        "Miaoxin Cai",
-        "Tong Zhang",
-        "Yin Zhuang",
-        "Xuerui Mao"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
-      "citation_count": 400,
-      "url": "https://doi.org/10.1109/tgrs.2024.3409624",
-      "pdf_url": "",
-      "code_url": "https://github.com/wivizhang/EarthGPT",
-      "topics": [
-        "多模态大模型与智能体"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE Transactions on Geoscience and Remote Sensing），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "EarthGPT是遥感领域通用多模态大模型，以视觉增强感知与跨模态互理解机制，用百万级指令数据集MMRS-1M对光学、SAR、红外多传感器做多任务统一指令微调，覆盖分类、描述、VQA、定位与检测。",
-      "change_zh": "常见路线是通用自然图像MLLM直接迁移或单任务遥感专用模型；该文首次将光学、SAR、红外多传感器与多类遥感解译任务统一到单一MLLM的指令微调框架，并构建首个百万级遥感多模态指令数据集MMRS-1M，缓解遥感专业知识缺失。",
-      "why_it_matters": "对UAV主动目标搜索与aerial VLN有间接价值：俯视视角多传感器（光学/红外/SAR）图像统一理解与指令微调方法可充当无人机感知底座，MMRS-1M可支持航空视角预训练；但其任务为被动遥感解译，与导航决策无直接耦合，价值偏间接。",
-      "relevance_rating": 6,
-      "rigor_rating": 8,
-      "venue_verified": true,
-      "score": 23,
-      "keywords": [
-        "instruction",
-        "mllm",
-        "multimodal large language model"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-06T18:49:29.317136+00:00"
     },
     {
       "id": "2401.16822",
@@ -5174,7 +5174,7 @@
       "published": "2025",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 391,
+      "citation_count": 394,
       "url": "https://arxiv.org/abs/2503.03751",
       "pdf_url": "https://arxiv.org/pdf/2503.03751",
       "code_url": "",
@@ -5540,7 +5540,7 @@
       "published": "2022",
       "source": "OpenAlex",
       "venue": "IEEE Transactions on Robotics",
-      "citation_count": 349,
+      "citation_count": 350,
       "url": "https://doi.org/10.1109/tro.2021.3137751",
       "pdf_url": "https://ieeexplore.ieee.org/ielx7/8860/9851593/09686955.pdf",
       "code_url": "",
@@ -5563,6 +5563,50 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T06:48:10Z"
+    },
+    {
+      "id": "2402.15852",
+      "arxiv_id": "2402.15852",
+      "title": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
+      "authors": [
+        "Jiazhao Zhang",
+        "Kunyu Wang",
+        "Rongtao Xu",
+        "Gengze Zhou",
+        "Yicong Hong",
+        "Xiaomeng Fang",
+        "Qi Wu",
+        "Zhizheng Zhang",
+        "He Wang"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "预印本",
+      "citation_count": 346,
+      "url": "https://arxiv.org/abs/2402.15852",
+      "pdf_url": "https://arxiv.org/pdf/2402.15852",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "真机与 Sim2Real",
+        "空域 VLN"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-and-language navigation (VLN) stands as a key research problem of Embodied AI, aiming at enabling agents to navigate in unseen environments following linguistic instructions.",
+      "why_it_matters": "与多模态大模型与智能体、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction",
+        "instruction following",
+        "real world",
+        "sim to real",
+        "sim2real",
+        "vision language model",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "2101.06557",
@@ -5750,6 +5794,41 @@
       "added_at": "2026-09-08T06:11:06.415511+00:00"
     },
     {
+      "id": "2309.10062",
+      "arxiv_id": "2309.10062",
+      "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
+      "authors": [
+        "Shyam Sundar Kannan",
+        "Vishnunandan L. N. Venkatesh",
+        "Byung‐Cheol Min"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "citation_count": 332,
+      "url": "https://arxiv.org/abs/2309.10062",
+      "pdf_url": "https://arxiv.org/pdf/2309.10062",
+      "code_url": "",
+      "topics": [
+        "规划智能体",
+        "具身基准与评测",
+        "空域 VLN"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦规划智能体、具身基准与评测，主要研究问题可概括为：SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this work, we introduce SMART-LLM, an innovative framework designed for embodied multi-robot task planning.",
+      "why_it_matters": "与规划智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "task planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W3120564201",
       "arxiv_id": "",
       "title": "RDS-SLAM: Real-Time Dynamic SLAM Using Semantic Segmentation Methods",
@@ -5819,41 +5898,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T18:45:24.442900+00:00"
-    },
-    {
-      "id": "2309.10062",
-      "arxiv_id": "2309.10062",
-      "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
-      "authors": [
-        "Shyam Sundar Kannan",
-        "Vishnunandan L. N. Venkatesh",
-        "Byung‐Cheol Min"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "citation_count": 330,
-      "url": "https://arxiv.org/abs/2309.10062",
-      "pdf_url": "https://arxiv.org/pdf/2309.10062",
-      "code_url": "",
-      "topics": [
-        "规划智能体",
-        "具身基准与评测",
-        "空域 VLN"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦规划智能体、具身基准与评测，主要研究问题可概括为：SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：In this work, we introduce SMART-LLM, an innovative framework designed for embodied multi-robot task planning.",
-      "why_it_matters": "与规划智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "benchmark",
-        "evaluation",
-        "instruction",
-        "task planning"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "https://openalex.org/W3159537771",
@@ -6041,7 +6085,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
-      "citation_count": 324,
+      "citation_count": 326,
       "url": "https://arxiv.org/abs/2202.04053",
       "pdf_url": "https://arxiv.org/pdf/2202.04053",
       "code_url": "",
@@ -7793,7 +7837,7 @@
       "published": "2025",
       "source": "OpenAlex",
       "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "citation_count": 244,
+      "citation_count": 246,
       "url": "https://arxiv.org/abs/2406.11519",
       "pdf_url": "https://arxiv.org/pdf/2406.11519",
       "code_url": "",
@@ -8461,7 +8505,7 @@
       "published": "2025",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 225,
+      "citation_count": 228,
       "url": "https://doi.org/10.1109/icra55743.2025.11128671",
       "pdf_url": "",
       "code_url": "https://github.com/BAAI-DCAI/SpatialBot",
@@ -8685,7 +8729,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "IEEE Robotics and Automation Letters",
-      "citation_count": 215,
+      "citation_count": 217,
       "url": "https://doi.org/10.1109/lra.2023.3333742",
       "pdf_url": "",
       "code_url": "",
@@ -8719,7 +8763,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "IEEE Robotics and Automation Letters",
-      "citation_count": 215,
+      "citation_count": 217,
       "url": "https://arxiv.org/abs/2301.06230",
       "pdf_url": "https://arxiv.org/pdf/2301.06230",
       "code_url": "",
@@ -8855,6 +8899,49 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-11T16:13:35.471025+00:00"
+    },
+    {
+      "id": "2312.16170",
+      "arxiv_id": "2312.16170",
+      "title": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
+      "authors": [
+        "Tai Wang",
+        "Xiaohan Mao",
+        "Chenming Zhu",
+        "Runsen Xu",
+        "Ruiyuan Lyu",
+        "Peisen Li",
+        "Xiao Chen",
+        "Wenwei Zhang",
+        "Kai Chen",
+        "Tianfan Xue",
+        "Xihui Liu",
+        "Cewu Lu"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 209,
+      "url": "https://arxiv.org/abs/2312.16170",
+      "pdf_url": "https://arxiv.org/pdf/2312.16170",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In the realm of computer vision and robotics, embodied agents are expected to explore their environment and carry out human instructions.",
+      "why_it_matters": "与空域 VLN、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "benchmark",
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "https://openalex.org/W4206742276",
@@ -9604,6 +9691,47 @@
       "added_at": "2026-09-06T08:54:19.521116+00:00"
     },
     {
+      "id": "2403.07376",
+      "arxiv_id": "2403.07376",
+      "title": "NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning",
+      "authors": [
+        "Bingqian Lin",
+        "Yunshuang Nie",
+        "Ziming Wei",
+        "Jiaqi Chen",
+        "Shikui Ma",
+        "Jianhua Han",
+        "Hang Xu",
+        "Xiaojun Chang",
+        "Xiaodan Liang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "citation_count": 152,
+      "url": "https://arxiv.org/abs/2403.07376",
+      "pdf_url": "https://arxiv.org/pdf/2403.07376",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "世界模型"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Transactions on Pattern Analysis and Machine Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-and-Language Navigation (VLN), as a crucial research problem of Embodied AI, requires an embodied agent to navigate through complex 3D environments following natural language instructions.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "r2r",
+        "world model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
+    },
+    {
       "id": "https://openalex.org/W4408841099",
       "arxiv_id": "2403.07376",
       "title": "NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning",
@@ -9787,6 +9915,47 @@
       "change_zh": "摘要首句：Large Multimodal Models (LMMs) have shown promise in vision-language tasks but struggle with high-resolution input and detailed scene understanding.",
       "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
       "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
+    },
+    {
+      "id": "2504.21583",
+      "arxiv_id": "2504.21583",
+      "title": "Toward Realization of Low-Altitude Economy Networks: Core Architecture, Integrated Technologies, and Future Directions",
+      "authors": [
+        "Yixian Wang",
+        "Geng Sun",
+        "Zemin Sun",
+        "Jiacheng Wang",
+        "Jiahui Li",
+        "Changyuan Zhao",
+        "Jing Wu",
+        "Shuang Liang",
+        "Minghao Yin",
+        "Pengfei Wang",
+        "Dusit Tao Niyato",
+        "Sumei Sun"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Cognitive Communications and Networking",
+      "citation_count": 139,
+      "url": "https://arxiv.org/abs/2504.21583",
+      "pdf_url": "https://arxiv.org/pdf/2504.21583",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Toward Realization of Low-Altitude Economy Networks: Core Architecture, Integrated Technologies, and Future Directions。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The rise of the low-altitude economy (LAE) is propelling urban development and emerging industries by integrating advanced technologies to enhance efficiency, safety, and sustainability in low-altitude operations.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "uav"
+      ],
       "is_classic": true,
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
@@ -10092,7 +10261,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "Science Robotics",
-      "citation_count": 122,
+      "citation_count": 123,
       "url": "https://doi.org/10.1126/scirobotics.adi0591",
       "pdf_url": "",
       "code_url": "",
@@ -10113,6 +10282,40 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "2303.08778",
+      "arxiv_id": "2303.08778",
+      "title": "Fully neuromorphic vision and control for autonomous drone flight",
+      "authors": [
+        "Federico Paredes-Vallés",
+        "Jesse J. Hagenaars",
+        "Julien Dupeyroux",
+        "Stein Stroobants",
+        "Yingfu Xu",
+        "Guido de Croon"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Science Robotics",
+      "citation_count": 123,
+      "url": "https://arxiv.org/abs/2303.08778",
+      "pdf_url": "https://arxiv.org/pdf/2303.08778",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Fully neuromorphic vision and control for autonomous drone flight。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Biological sensing and processing is asynchronous and sparse, leading to low-latency and energy-efficient perception and action.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "drone"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "https://openalex.org/W4386920567",
@@ -10223,47 +10426,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
-    },
-    {
-      "id": "2504.21583",
-      "arxiv_id": "2504.21583",
-      "title": "Toward Realization of Low-Altitude Economy Networks: Core Architecture, Integrated Technologies, and Future Directions",
-      "authors": [
-        "Yixian Wang",
-        "Geng Sun",
-        "Zemin Sun",
-        "Jiacheng Wang",
-        "Jiahui Li",
-        "Changyuan Zhao",
-        "Jing Wu",
-        "Shuang Liang",
-        "Minghao Yin",
-        "Pengfei Wang",
-        "Dusit Tao Niyato",
-        "Sumei Sun"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Cognitive Communications and Networking",
-      "citation_count": 109,
-      "url": "https://arxiv.org/abs/2504.21583",
-      "pdf_url": "https://arxiv.org/pdf/2504.21583",
-      "code_url": "",
-      "topics": [
-        "UAV 目标搜索",
-        "空域 VLN"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Toward Realization of Low-Altitude Economy Networks: Core Architecture, Integrated Technologies, and Future Directions。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：The rise of the low-altitude economy (LAE) is propelling urban development and emerging industries by integrating advanced technologies to enhance efficiency, safety, and sustainability in low-altitude operations.",
-      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "aerial",
-        "uav"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "https://openalex.org/W4407948422",
@@ -10379,50 +10541,6 @@
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
-      "id": "2402.15852",
-      "arxiv_id": "2402.15852",
-      "title": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
-      "authors": [
-        "Jiazhao Zhang",
-        "Kunyu Wang",
-        "Rongtao Xu",
-        "Gengze Zhou",
-        "Yicong Hong",
-        "Xiaomeng Fang",
-        "Qi Wu",
-        "Zhizheng Zhang",
-        "He Wang"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "预印本",
-      "citation_count": 101,
-      "url": "https://arxiv.org/abs/2402.15852",
-      "pdf_url": "https://arxiv.org/pdf/2402.15852",
-      "code_url": "",
-      "topics": [
-        "多模态大模型与智能体",
-        "真机与 Sim2Real",
-        "空域 VLN"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Vision-and-language navigation (VLN) stands as a key research problem of Embodied AI, aiming at enabling agents to navigate in unseen environments following linguistic instructions.",
-      "why_it_matters": "与多模态大模型与智能体、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "instruction",
-        "instruction following",
-        "real world",
-        "sim to real",
-        "sim2real",
-        "vision language model",
-        "vlm"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
-    },
-    {
       "id": "https://openalex.org/W4390691205",
       "arxiv_id": "",
       "title": "Ad Astra: Simultaneous Tracking and Navigation With Megaconstellation LEO Satellites",
@@ -10491,40 +10609,6 @@
         "r2r",
         "search and rescue",
         "waypoint"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
-    },
-    {
-      "id": "2303.08778",
-      "arxiv_id": "2303.08778",
-      "title": "Fully neuromorphic vision and control for autonomous drone flight",
-      "authors": [
-        "Federico Paredes-Vallés",
-        "Jesse J. Hagenaars",
-        "Julien Dupeyroux",
-        "Stein Stroobants",
-        "Yingfu Xu",
-        "Guido de Croon"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "Science Robotics",
-      "citation_count": 99,
-      "url": "https://arxiv.org/abs/2303.08778",
-      "pdf_url": "https://arxiv.org/pdf/2303.08778",
-      "code_url": "",
-      "topics": [
-        "UAV 目标搜索",
-        "空域 VLN"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Fully neuromorphic vision and control for autonomous drone flight。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Biological sensing and processing is asynchronous and sparse, leading to low-latency and energy-efficient perception and action.",
-      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "drone"
       ],
       "is_classic": true,
       "added_at": "2026-10-18T13:47:17.227851+00:00"
@@ -10849,49 +10933,6 @@
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
-      "id": "2312.16170",
-      "arxiv_id": "2312.16170",
-      "title": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
-      "authors": [
-        "Tai Wang",
-        "Xiaohan Mao",
-        "Chenming Zhu",
-        "Runsen Xu",
-        "Ruiyuan Lyu",
-        "Peisen Li",
-        "Xiao Chen",
-        "Wenwei Zhang",
-        "Kai Chen",
-        "Tianfan Xue",
-        "Xihui Liu",
-        "Cewu Lu"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
-      "citation_count": 81,
-      "url": "https://arxiv.org/abs/2312.16170",
-      "pdf_url": "https://arxiv.org/pdf/2312.16170",
-      "code_url": "",
-      "topics": [
-        "空域 VLN",
-        "空间智能",
-        "具身基准与评测"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：In the realm of computer vision and robotics, embodied agents are expected to explore their environment and carry out human instructions.",
-      "why_it_matters": "与空域 VLN、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "3d scene",
-        "benchmark",
-        "instruction"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
-    },
-    {
       "id": "2107.07004",
       "arxiv_id": "2107.07004",
       "title": "LiDAR Light Scattering Augmentation (LISA): Physics-based Simulation of Adverse Weather Conditions for 3D Object Detection",
@@ -11043,47 +11084,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-08T10:03:38.564482+00:00"
-    },
-    {
-      "id": "2403.07376",
-      "arxiv_id": "2403.07376",
-      "title": "NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning",
-      "authors": [
-        "Bingqian Lin",
-        "Yunshuang Nie",
-        "Ziming Wei",
-        "Jiaqi Chen",
-        "Shikui Ma",
-        "Jianhua Han",
-        "Hang Xu",
-        "Xiaojun Chang",
-        "Xiaodan Liang"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "citation_count": 56,
-      "url": "https://arxiv.org/abs/2403.07376",
-      "pdf_url": "https://arxiv.org/pdf/2403.07376",
-      "code_url": "",
-      "topics": [
-        "空域 VLN",
-        "地面 VLN",
-        "世界模型"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE Transactions on Pattern Analysis and Machine Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Vision-and-Language Navigation (VLN), as a crucial research problem of Embodied AI, requires an embodied agent to navigate through complex 3D environments following natural language instructions.",
-      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "benchmark",
-        "instruction",
-        "r2r",
-        "world model"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "2502.01143",
@@ -13818,6 +13818,7 @@
       "excluded_at": "2026-10-09"
     }
   },
+  "last_citation_refresh": "2026-10-19T16:50:01.994863+00:00",
   "briefing": {
     "text": "",
     "added": 27,
