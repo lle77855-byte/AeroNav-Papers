@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T14:51:54.128224+00:00",
+  "updated_at": "2026-10-21T20:30:52.445610+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18640,6 +18640,117 @@
       "added_at": "2026-10-21T14:51:41.618374+00:00"
     },
     {
+      "id": "2610.25930",
+      "arxiv_id": "2610.25930",
+      "title": "TESS: LLM-guided Translation, Exploration, Simulation, and Search for Embodied Task Planning",
+      "authors": [
+        "Peiran Xu",
+        "Yixiang Yang",
+        "Jinghan Li",
+        "Fei Li",
+        "Cao Sheng",
+        "JiaZhong Yu",
+        "Yadong Mu"
+      ],
+      "published": "2026-10-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.25930",
+      "pdf_url": "https://arxiv.org/pdf/2610.25930",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "规划智能体",
+        "主动感知与重建",
+        "空域 VLN"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦规划智能体、主动感知与重建，主要研究问题可概括为：TESS: LLM-guided Translation, Exploration, Simulation, and Search for Embodied Task Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this work we focus on the problem of embodied task planning, which requires an agent to accomplish a complex task by separating it into atomic actions.",
+      "why_it_matters": "与规划智能体、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration",
+        "instruction",
+        "task planning"
+      ],
+      "added_at": "2026-10-21T20:30:33.448662+00:00"
+    },
+    {
+      "id": "2610.25959",
+      "arxiv_id": "2610.25959",
+      "title": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+      "authors": [
+        "X. Feng",
+        "J. J. Tang",
+        "Z. Lin",
+        "L. Chen",
+        "S. Shao",
+        "Q. Lu",
+        "K. X. Huang"
+      ],
+      "published": "2026-10-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.25959",
+      "pdf_url": "https://arxiv.org/pdf/2610.25959",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "世界模型",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、空域 VLN，主要研究问题可概括为：EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Building embodied agents that can perceive, reason, and act across diverse 3D worlds is a central research direction toward artificial general intelligence.",
+      "why_it_matters": "与世界模型、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "instruction",
+        "world model"
+      ],
+      "added_at": "2026-10-21T20:30:39.824524+00:00"
+    },
+    {
+      "id": "2610.25601",
+      "arxiv_id": "2610.25601",
+      "title": "Step-Aligned Script Generation with Verification and Recovery for Web Automation Testing",
+      "authors": [
+        "Hridya Dhulipala",
+        "Xiaokai Rong",
+        "Aashish Yadavally",
+        "Tien N. Nguyen"
+      ],
+      "published": "2026-10-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.25601",
+      "pdf_url": "https://arxiv.org/pdf/2610.25601",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Step-Aligned Script Generation with Verification and Recovery for Web Automation Testing。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Automated generation of end-to-end web tests remains costly: developers must identify stable selectors, encode multi-step workflows, attach assertions, and maintain scripts as interfaces evolve.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "localization",
+        "vlm"
+      ],
+      "added_at": "2026-10-21T20:30:42.944645+00:00"
+    },
+    {
       "id": "2610.25407",
       "arxiv_id": "2610.25407",
       "title": "AeroDASH: Asynchronous Vision-Language-Action Control for Continuous UAV Flight",
@@ -18755,6 +18866,42 @@
       "added_at": "2026-10-20T09:11:15.995760+00:00"
     },
     {
+      "id": "2610.25223",
+      "arxiv_id": "2610.25223",
+      "title": "Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control",
+      "authors": [
+        "Yulin Dai",
+        "Yuqian Fu",
+        "Tianwen Qian",
+        "Zhen Xing",
+        "Bojia Zi",
+        "Xiaoling Wang"
+      ],
+      "published": "2026-10-18",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.25223",
+      "pdf_url": "https://arxiv.org/pdf/2610.25223",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "空域 VLN"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Controllable video generation has recently achieved impressive visual quality, yet existing control paradigms remain poorly suited to embodied navigation.",
+      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction"
+      ],
+      "added_at": "2026-10-21T20:30:46.251557+00:00"
+    },
+    {
       "id": "2610.24512",
       "arxiv_id": "2610.24512",
       "title": "ContactBench 1.0: A Benchmark for Everyday Contact-Rich Robotic Manipulation",
@@ -18791,6 +18938,84 @@
         "geometry"
       ],
       "added_at": "2026-10-20T09:10:54.419750+00:00"
+    },
+    {
+      "id": "2610.24676",
+      "arxiv_id": "2610.24676",
+      "title": "From Views to Worlds: Active Exploration over 3D Worlds for Vision-Language Models",
+      "authors": [
+        "Qijian Tian",
+        "Jiayu Ying",
+        "Ke Fan",
+        "Lizhuang Ma",
+        "Xin Tan"
+      ],
+      "published": "2026-10-17",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.24676",
+      "pdf_url": "https://arxiv.org/pdf/2610.24676",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "主动感知与重建",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、主动感知与重建，主要研究问题可概括为：From Views to Worlds: Active Exploration over 3D Worlds for Vision-Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-language models (VLMs) have achieved remarkable progress in 2D visual understanding tasks, yet the passive view-centric perception paradigm limits their capacity for 3D spatial reasoning.",
+      "why_it_matters": "与空间智能、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration",
+        "geometry",
+        "spatial intelligence",
+        "spatial reasoning",
+        "vlm"
+      ],
+      "added_at": "2026-10-21T20:30:30.263665+00:00"
+    },
+    {
+      "id": "2610.24767",
+      "arxiv_id": "2610.24767",
+      "title": "DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments",
+      "authors": [
+        "Seongjun Jeong",
+        "Junghyun Kim",
+        "Gi-Cheon Kang",
+        "Byoung-Tak Zhang"
+      ],
+      "published": "2026-10-17",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.24767",
+      "pdf_url": "https://arxiv.org/pdf/2610.24767",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "空域 VLN",
+        "ObjectNav 目标搜索"
+      ],
+      "relevance_score": 5,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/ed3d03e36631fc24a2d908ce94218c1e79e840b0",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Embodied agents in human-centered environments require memory that integrates what they observe with what humans tell them over time.",
+      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "object navigation"
+      ],
+      "added_at": "2026-10-21T20:30:36.610431+00:00"
     },
     {
       "id": "2610.23293",
@@ -19468,6 +19693,42 @@
         "evaluation"
       ],
       "added_at": "2026-10-19T09:38:51.280479+00:00"
+    },
+    {
+      "id": "2610.24122",
+      "arxiv_id": "2610.24122",
+      "title": "HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation",
+      "authors": [
+        "Dongzhihan Wang",
+        "Yi Du",
+        "Chen Wang",
+        "Xiuxian Li",
+        "Liang Xu"
+      ],
+      "published": "2026-10-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.24122",
+      "pdf_url": "https://arxiv.org/pdf/2610.24122",
+      "code_url": "https://github.com/Anastasiawd/HAVANA",
+      "categories": [],
+      "topics": [
+        "空域 VLN",
+        "空间智能",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-Language Navigation (VLN) requires long-horizon instruction-consistent planning and short-horizon local planning in current geometry.",
+      "why_it_matters": "与空域 VLN、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "geometry",
+        "instruction"
+      ],
+      "added_at": "2026-10-21T20:30:49.445051+00:00"
     },
     {
       "id": "2610.22225",
@@ -23890,40 +24151,64 @@
   ],
   "briefing": {
     "text": "",
-    "added": 4,
-    "at": "2026-10-21T14:51:54.128246+00:00",
+    "added": 7,
+    "at": "2026-10-21T20:30:52.445633+00:00",
     "new": [
       {
-        "t": "Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics",
-        "u": "https://arxiv.org/abs/2610.27315",
+        "t": "From Views to Worlds: Active Exploration over 3D Worlds for Vision-Language Models",
+        "u": "https://arxiv.org/abs/2610.24676",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、主动感知与重建，主要研究问题可概括为：From Views to Worlds: Active Exploration over 3D Worlds for Vision-Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation",
-        "u": "https://arxiv.org/abs/2610.27677",
+        "t": "TESS: LLM-guided Translation, Exploration, Simulation, and Search for Embodied Task Planning",
+        "u": "https://arxiv.org/abs/2610.25930",
         "r": null,
         "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索，主要研究问题可概括为：CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦规划智能体、主动感知与重建，主要研究问题可概括为：TESS: LLM-guided Translation, Exploration, Simulation, and Search for Embodied Task Planning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Agentic discovery of interpretable car-following laws from multi-source trajectory data",
-        "u": "https://arxiv.org/abs/2610.27836",
+        "t": "DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments",
+        "u": "https://arxiv.org/abs/2610.24767",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Agentic discovery of interpretable car-following laws from multi-source trajectory data。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting",
-        "u": "https://arxiv.org/abs/2610.27696",
+        "t": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+        "u": "https://arxiv.org/abs/2610.25959",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能，主要研究问题可概括为：PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/gaojh0333/PanoGraphGS"
+        "s": "该工作聚焦世界模型、空域 VLN，主要研究问题可概括为：EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Step-Aligned Script Generation with Verification and Recovery for Web Automation Testing",
+        "u": "https://arxiv.org/abs/2610.25601",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Step-Aligned Script Generation with Verification and Recovery for Web Automation Testing。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control",
+        "u": "https://arxiv.org/abs/2610.25223",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：Map2Vid: Embodied Navigation Video Generation with Human-Friendly Motion Control。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation",
+        "u": "https://arxiv.org/abs/2610.24122",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/Anastasiawd/HAVANA"
       }
     ]
   }
