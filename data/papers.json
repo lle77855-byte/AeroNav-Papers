@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T09:19:18.650342+00:00",
+  "updated_at": "2026-10-21T14:51:54.128224+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -17753,6 +17753,118 @@
       "added_at": "2026-10-21T09:19:15.649702+00:00"
     },
     {
+      "id": "2610.27677",
+      "arxiv_id": "2610.27677",
+      "title": "CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation",
+      "authors": [
+        "Pengying Wu",
+        "Zhejia Wen",
+        "Kang Ding",
+        "Kangjie Zhou",
+        "Chunxuan Jiao",
+        "Wei Pan",
+        "Xiangli Nie",
+        "Chang Liu"
+      ],
+      "published": "2026-10-20",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27677",
+      "pdf_url": "https://arxiv.org/pdf/2610.27677",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "topics": [
+        "ObjectNav 目标搜索"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦ObjectNav 目标搜索，主要研究问题可概括为：CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In object goal navigation (ObjectNav), an embodied agent must find a target object (e.g., \"find a bed\") in a previously unseen environment, relying on spatial commonsense such as object co-occurrence.",
+      "why_it_matters": "与ObjectNav 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "object goal navigation",
+        "objectnav"
+      ],
+      "added_at": "2026-10-21T14:51:44.740814+00:00"
+    },
+    {
+      "id": "2610.27836",
+      "arxiv_id": "2610.27836",
+      "title": "Agentic discovery of interpretable car-following laws from multi-source trajectory data",
+      "authors": [
+        "Jiamei Xu",
+        "Jie Sun",
+        "Keshuang Tang",
+        "Jian Sun"
+      ],
+      "published": "2026-10-20",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27836",
+      "pdf_url": "https://arxiv.org/pdf/2610.27836",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Agentic discovery of interpretable car-following laws from multi-source trajectory data。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Car-following (CF) models is a fundamental component of microscopic traffic simulation and underpin the analysis of collective traffic dynamics, while its modeling becomes more challenging due to diverse human driving be",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "evaluation"
+      ],
+      "added_at": "2026-10-21T14:51:48.029335+00:00"
+    },
+    {
+      "id": "2610.27696",
+      "arxiv_id": "2610.27696",
+      "title": "PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting",
+      "authors": [
+        "Jinghan Gao",
+        "Siyu Wang",
+        "Dongyu Feng",
+        "Yiyuan Pan",
+        "Rong Xiong"
+      ],
+      "published": "2026-10-20",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27696",
+      "pdf_url": "https://arxiv.org/pdf/2610.27696",
+      "code_url": "https://github.com/gaojh0333/PanoGraphGS",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "topics": [
+        "空间智能"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能，主要研究问题可概括为：PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：3D scene graphs support language-guided navigation by organizing physical entities and their containment and spatial relations into hierarchical maps.",
+      "why_it_matters": "与空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "geometry"
+      ],
+      "added_at": "2026-10-21T14:51:51.127590+00:00"
+    },
+    {
       "id": "2610.26729",
       "arxiv_id": "2610.26729",
       "title": "PlanarCityLoc: Breaking Silhouette Ambiguity in LoD Aerial Localization via 3D Planes",
@@ -18489,6 +18601,43 @@
         "waypoint"
       ],
       "added_at": "2026-10-20T09:11:12.899981+00:00"
+    },
+    {
+      "id": "2610.27315",
+      "arxiv_id": "2610.27315",
+      "title": "Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics",
+      "authors": [
+        "Kaushik Venkatesh Krishnamurthy",
+        "Eric Sihite",
+        "Alireza Ramezani",
+        "Morteza Gharib"
+      ],
+      "published": "2026-10-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27315",
+      "pdf_url": "https://arxiv.org/pdf/2610.27315",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The integration of dynamic legged locomotion and aerial mobility offers versatility that is deterred by challenges in payload distribution, actuation, and the contrasting requirements of both domains.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "deployment"
+      ],
+      "added_at": "2026-10-21T14:51:41.618374+00:00"
     },
     {
       "id": "2610.25407",
@@ -23741,136 +23890,40 @@
   ],
   "briefing": {
     "text": "",
-    "added": 16,
-    "at": "2026-10-21T09:19:18.650366+00:00",
+    "added": 4,
+    "at": "2026-10-21T14:51:54.128246+00:00",
     "new": [
       {
-        "t": "MindView: Benchmarking Generative Multi-View Spatial Intelligence",
-        "u": "https://arxiv.org/abs/2610.28622",
+        "t": "Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics",
+        "u": "https://arxiv.org/abs/2610.27315",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：MindView: Benchmarking Generative Multi-View Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
-        "u": "https://arxiv.org/abs/2610.28416",
+        "t": "CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation",
+        "u": "https://arxiv.org/abs/2610.27677",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦ObjectNav 目标搜索，主要研究问题可概括为：CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "AEON: Unifying Video and 3D World Models",
-        "u": "https://arxiv.org/abs/2610.28631",
+        "t": "Agentic discovery of interpretable car-following laws from multi-source trajectory data",
+        "u": "https://arxiv.org/abs/2610.27836",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：AEON: Unifying Video and 3D World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Agentic discovery of interpretable car-following laws from multi-source trajectory data。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images",
-        "u": "https://arxiv.org/abs/2610.28585",
+        "t": "PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting",
+        "u": "https://arxiv.org/abs/2610.27696",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "EndoWorld-JEPA: Motion-Guided Global-Local Latent World Modeling for Endoscopic Video Representation Learning",
-        "u": "https://arxiv.org/abs/2610.27890",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：EndoWorld-JEPA: Motion-Guided Global-Local Latent World Modeling for Endoscopic Video Representation Learning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "EvaOmni: An Evidence-Grounded Benchmark for Audio-Visual Reasoning",
-        "u": "https://arxiv.org/abs/2610.28444",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：EvaOmni: An Evidence-Grounded Benchmark for Audio-Visual Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation",
-        "u": "https://arxiv.org/abs/2610.28476",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、多模态大模型与智能体，主要研究问题可概括为：CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Semantic Observability for Autonomous Systems Diagnostics",
-        "u": "https://arxiv.org/abs/2610.28611",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Semantic Observability for Autonomous Systems Diagnostics。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Benchmarking Arabic Dialects for Math Problems",
-        "u": "https://arxiv.org/abs/2610.28607",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Benchmarking Arabic Dialects for Math Problems。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "What Do RTL Repair Benchmarks Actually Measure?",
-        "u": "https://arxiv.org/abs/2610.28595",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：What Do RTL Repair Benchmarks Actually Measure?。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/Evaaaz/RTLRepairBench"
-      },
-      {
-        "t": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
-        "u": "https://arxiv.org/abs/2610.28578",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、多模态大模型与智能体，主要研究问题可概括为：Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration",
-        "u": "https://arxiv.org/abs/2610.28566",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、状态估计与控制，主要研究问题可概括为：MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots",
-        "u": "https://arxiv.org/abs/2610.28432",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
-        "u": "https://arxiv.org/abs/2610.28074",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
-        "u": "https://arxiv.org/abs/2610.28522",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Attractive Faces Skew Text-to-Image Reward Models and Leaderboards",
-        "u": "https://arxiv.org/abs/2610.28195",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Attractive Faces Skew Text-to-Image Reward Models and Leaderboards。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
+        "s": "该工作聚焦空间智能，主要研究问题可概括为：PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/gaojh0333/PanoGraphGS"
       }
     ]
   }
