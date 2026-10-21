@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T08:28:37.696683+00:00",
+  "updated_at": "2026-10-21T14:52:22.511853+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -10396,6 +10396,43 @@
       "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
+      "id": "2306.06070",
+      "arxiv_id": "2306.06070",
+      "title": "Mind2Web: Towards a Generalist Agent for the Web",
+      "authors": [
+        "Xiang Deng",
+        "Yu Gu",
+        "Boyuan Zheng",
+        "Shijie Chen",
+        "Sam Stevens",
+        "Boshi Wang",
+        "Huan Sun",
+        "Yu Su"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 129,
+      "url": "https://arxiv.org/abs/2306.06070",
+      "pdf_url": "https://arxiv.org/pdf/2306.06070",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、主动感知与重建，主要研究问题可概括为：Mind2Web: Towards a Generalist Agent for the Web。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce Mind2Web, the first dataset for developing and evaluating generalist agents for the web that can follow language instructions to complete complex tasks on any website.",
+      "why_it_matters": "与空域 VLN、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration",
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-21T14:52:22.511853+00:00"
+    },
+    {
       "id": "2403.02751",
       "arxiv_id": "2403.02751",
       "title": "Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps",
@@ -13818,254 +13855,19 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-21T08:28:37.696683+00:00",
   "briefing": {
     "text": "",
-    "added": 27,
-    "at": "2026-10-18T13:47:17.227851+00:00",
+    "added": 1,
+    "at": "2026-10-21T14:52:22.511853+00:00",
     "new": [
       {
-        "t": "A Survey on the Memory Mechanism of Large Language Model-based Agents",
-        "u": "https://arxiv.org/abs/2404.13501",
+        "t": "Mind2Web: Towards a Generalist Agent for the Web",
+        "u": "https://arxiv.org/abs/2306.06070",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：A Survey on the Memory Mechanism of Large Language Model-based Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/nuster1128/LLM_Agent_Memory_Survey",
-        "cit": 144
-      },
-      {
-        "t": "ULIP-2: Towards Scalable Multimodal Pre-Training for 3D Understanding",
-        "u": "https://arxiv.org/abs/2305.08275",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：ULIP-2: Towards Scalable Multimodal Pre-Training for 3D Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/salesforce/ULIP",
-        "cit": 143
-      },
-      {
-        "t": "Monkey: Image Resolution and Text Label are Important Things for Large Multi-Modal Models",
-        "u": "https://arxiv.org/abs/2311.06607",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Monkey: Image Resolution and Text Label are Important Things for Large Multi-Modal Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/Yuliang-Liu/Monkey",
-        "cit": 142
-      },
-      {
-        "t": "NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration",
-        "u": "https://arxiv.org/abs/2310.07896",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建，主要研究问题可概括为：NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、主动感知与重建，主要研究问题可概括为：Mind2Web: Towards a Generalist Agent for the Web。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 136
-      },
-      {
-        "t": "SGLang: Efficient Execution of Structured Language Model Programs",
-        "u": "https://arxiv.org/abs/2312.07104",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：SGLang: Efficient Execution of Structured Language Model Programs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/sgl-project/sglang",
-        "cit": 135
-      },
-      {
-        "t": "NExT-GPT: Any-to-Any Multimodal LLM",
-        "u": "https://arxiv.org/abs/2309.05519",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：NExT-GPT: Any-to-Any Multimodal LLM。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 132
-      },
-      {
-        "t": "Navigating to objects in the real world",
-        "u": "https://arxiv.org/abs/2212.00922",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Navigating to objects in the real world。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 125
-      },
-      {
-        "t": "MechGPT, a Language-Based Strategy for Mechanics and Materials Modeling That Connects Knowledge Across Scales, Disciplines, and Modalities",
-        "u": "https://arxiv.org/abs/2310.10445",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：MechGPT, a Language-Based Strategy for Mechanics and Materials Modeling That Connects Knowledge Across Scales, Disciplines, and Modalities。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 125
-      },
-      {
-        "t": "Toward Realization of Low-Altitude Economy Networks: Core Architecture, Integrated Technologies, and Future Directions",
-        "u": "https://arxiv.org/abs/2504.21583",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Toward Realization of Low-Altitude Economy Networks: Core Architecture, Integrated Technologies, and Future Directions。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 109
-      },
-      {
-        "t": "Principles and Guidelines for Evaluating Social Robot Navigation Algorithms",
-        "u": "https://doi.org/10.1145/3700599",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Principles and Guidelines for Evaluating Social Robot Navigation Algorithms。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 102
-      },
-      {
-        "t": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
-        "u": "https://arxiv.org/abs/2402.15852",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 101
-      },
-      {
-        "t": "ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments",
-        "u": "https://arxiv.org/abs/2304.03047",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦地面 VLN、UAV 目标搜索，主要研究问题可概括为：ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 100
-      },
-      {
-        "t": "Fully neuromorphic vision and control for autonomous drone flight",
-        "u": "https://arxiv.org/abs/2303.08778",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Fully neuromorphic vision and control for autonomous drone flight。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 99
-      },
-      {
-        "t": "Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation",
-        "u": "https://arxiv.org/abs/2403.04436",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 97
-      },
-      {
-        "t": "Multimodal locomotion ultra-thin soft robots for exploration of narrow spaces",
-        "u": "https://doi.org/10.1038/s41467-024-50598-1",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、UAV 目标搜索，主要研究问题可概括为：Multimodal locomotion ultra-thin soft robots for exploration of narrow spaces。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 84
-      },
-      {
-        "t": "Large-Scale 3D Reconstruction from Multi-View Imagery: A Comprehensive Review",
-        "u": "https://doi.org/10.3390/rs16050773",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Large-Scale 3D Reconstruction from Multi-View Imagery: A Comprehensive Review。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 82
-      },
-      {
-        "t": "Research on Unmanned Aerial Vehicle Path Planning",
-        "u": "https://doi.org/10.3390/drones8020051",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Research on Unmanned Aerial Vehicle Path Planning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 81
-      },
-      {
-        "t": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
-        "u": "https://arxiv.org/abs/2312.16170",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 81
-      },
-      {
-        "t": "LiDAR Light Scattering Augmentation (LISA): Physics-based Simulation of Adverse Weather Conditions for 3D Object Detection",
-        "u": "https://arxiv.org/abs/2107.07004",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：LiDAR Light Scattering Augmentation (LISA): Physics-based Simulation of Adverse Weather Conditions for 3D Object Detection。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 72
-      },
-      {
-        "t": "NavRL: Learning Safe Flight in Dynamic Environments",
-        "u": "https://arxiv.org/abs/2409.15634",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：NavRL: Learning Safe Flight in Dynamic Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 71
-      },
-      {
-        "t": "NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning",
-        "u": "https://arxiv.org/abs/2403.07376",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 56
-      },
-      {
-        "t": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
-        "u": "https://arxiv.org/abs/2502.01143",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 56
-      },
-      {
-        "t": "SpatialBot: Precise Spatial Understanding with Vision Language Models",
-        "u": "https://arxiv.org/abs/2406.13642",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：SpatialBot: Precise Spatial Understanding with Vision Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/BAAI-DCAI/SpatialBot",
-        "cit": 53
-      },
-      {
-        "t": "Research Status and Development Trends of Artificial Intelligence in Smart Agriculture",
-        "u": "https://doi.org/10.3390/agriculture15212247",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Research Status and Development Trends of Artificial Intelligence in Smart Agriculture。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 44
-      },
-      {
-        "t": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks",
-        "u": "https://doi.org/10.15607/rss.2025.xxi.013",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索，主要研究问题可概括为：Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 43
-      },
-      {
-        "t": "Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps",
-        "u": "https://arxiv.org/abs/2403.02751",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 42
-      },
-      {
-        "t": "A Survey on Vision--Language--Action Models for Embodied AI",
-        "u": "https://arxiv.org/abs/2405.14093",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：A Survey on Vision--Language--Action Models for Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/yueen-ma/Awesome-VLA",
-        "cit": 42
+        "cit": 129
       }
     ]
   }
