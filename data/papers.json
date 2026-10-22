@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T09:12:43.738475+00:00",
+  "updated_at": "2026-10-22T14:53:13.487299+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18726,6 +18726,86 @@
       "added_at": "2026-10-22T09:12:40.737948+00:00"
     },
     {
+      "id": "2610.27865",
+      "arxiv_id": "2610.27865",
+      "title": "Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum",
+      "authors": [
+        "Da Huang",
+        "Jichao Wang",
+        "Junhui Wu",
+        "Tong Ran",
+        "Linting Guo",
+        "Siying Zhang",
+        "Chuang Men",
+        "Sukai Wang",
+        "Yue Zhou",
+        "Maoqing Yao",
+        "Mo Wu"
+      ],
+      "published": "2026-10-20",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27865",
+      "pdf_url": "https://arxiv.org/pdf/2610.27865",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "空域 VLN",
+        "地面 VLN"
+      ],
+      "relevance_score": 6,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recent studies have explored the potential of multimodal large language models for robot control, yet the models' embodied capabilities remain insufficiently characterized across models, tasks, and execution settings.",
+      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "instruction",
+        "instruction following",
+        "multimodal large language model",
+        "spatial reasoning"
+      ],
+      "added_at": "2026-10-22T14:52:54.447981+00:00"
+    },
+    {
+      "id": "2610.27690",
+      "arxiv_id": "2610.27690",
+      "title": "NeoWorld-3: From Pixels to Code-Defined Physical Worlds",
+      "authors": [
+        "Eachen Soong",
+        "Zijian Niu",
+        "Haoran Xu",
+        "Yihong Dong",
+        "Yunbo Wang",
+        "Xiaokang Yang"
+      ],
+      "published": "2026-10-20",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27690",
+      "pdf_url": "https://arxiv.org/pdf/2610.27690",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "规划智能体"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、规划智能体，主要研究问题可概括为：NeoWorld-3: From Pixels to Code-Defined Physical Worlds。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Simulation-ready world reconstruction demands physical interactivity beyond visual realism, which existing black-box 3D generation fails to deliver.",
+      "why_it_matters": "与具身基准与评测、规划智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "language agent"
+      ],
+      "added_at": "2026-10-22T14:53:00.896616+00:00"
+    },
+    {
       "id": "2610.26729",
       "arxiv_id": "2610.26729",
       "title": "PlanarCityLoc: Breaking Silhouette Ambiguity in LoD Aerial Localization via 3D Planes",
@@ -19612,6 +19692,129 @@
       "added_at": "2026-10-21T20:30:42.944645+00:00"
     },
     {
+      "id": "2610.27234",
+      "arxiv_id": "2610.27234",
+      "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+      "authors": [
+        "Zhiwei Liu",
+        "Zhujun Lan",
+        "Jielin Qiu",
+        "Zixiang Chen",
+        "Liangwei Yang",
+        "Ming Zhu",
+        "Akshara Prabhakar",
+        "Wenting Zhao",
+        "John Emmons",
+        "Jason Wu",
+        "Shafiq Joty",
+        "Junnan Li"
+      ],
+      "published": "2026-10-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27234",
+      "pdf_url": "https://arxiv.org/pdf/2610.27234",
+      "code_url": "https://github.com/SalesforceAIResearch/egi-bench",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：EGI-BENCH: An Enterprise General Intelligence Benchmark Suite。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Enterprise adoption of LLMs in agentic workflows is gated by evaluations that span a wide arc of abilities: CRM operations, heterogeneous-document retrieval, personal data understanding, multi-turn planning, tool use, fu",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "evaluation",
+        "llm agent"
+      ],
+      "added_at": "2026-10-22T14:52:57.645796+00:00"
+    },
+    {
+      "id": "2610.27387",
+      "arxiv_id": "2610.27387",
+      "title": "Training Controllable World Models via Action Influence Maximization",
+      "authors": [
+        "Samuel M. Bateman",
+        "Tenny Yin",
+        "Chongyi Zheng",
+        "Lei Huang",
+        "Brian Wang",
+        "Benjamin Eysenbach",
+        "Jaime F. Fisac",
+        "Dhruv B. Shah"
+      ],
+      "published": "2026-10-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27387",
+      "pdf_url": "https://arxiv.org/pdf/2610.27387",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "世界模型",
+        "主动感知与重建"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、主动感知与重建，主要研究问题可概括为：Training Controllable World Models via Action Influence Maximization。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Action-conditioned video generative models trained on successful, goal-directed demonstrations tend to ignore the commanded action, rendering a plausible expert-like future regardless of what is asked of them.",
+      "why_it_matters": "与世界模型、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration",
+        "world model"
+      ],
+      "added_at": "2026-10-22T14:53:04.042478+00:00"
+    },
+    {
+      "id": "2610.27045",
+      "arxiv_id": "2610.27045",
+      "title": "Physical AI: Concepts, Techniques, and Challenges",
+      "authors": [
+        "Weinan Zhang",
+        "Chunhua Shen",
+        "Tianfan Xue",
+        "Bin Zhao",
+        "Bingqi Jiang",
+        "Zihan Guo",
+        "Zicai Cui",
+        "Yang Li",
+        "Ming Zhou",
+        "Xinyuan Chen",
+        "Lihe Ding",
+        "Xiao Chen"
+      ],
+      "published": "2026-10-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.27045",
+      "pdf_url": "https://arxiv.org/pdf/2610.27045",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "世界模型",
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Physical AI: Concepts, Techniques, and Challenges。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In recent years, physical artificial intelligence (physical AI) has experienced rapid development, capturing significant attention in academia and industry.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-10-22T14:53:07.190069+00:00"
+    },
+    {
       "id": "2610.25407",
       "arxiv_id": "2610.25407",
       "title": "AeroDASH: Asynchronous Vision-Language-Action Control for Continuous UAV Flight",
@@ -19761,6 +19964,47 @@
         "instruction"
       ],
       "added_at": "2026-10-21T20:30:46.251557+00:00"
+    },
+    {
+      "id": "2610.26941",
+      "arxiv_id": "2610.26941",
+      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "authors": [
+        "Lei Ren",
+        "Haiteng Wang",
+        "Shixiang Li",
+        "Jing Zhang",
+        "Yuqing Wang",
+        "Jingwei Guo",
+        "Yunfei Zhu",
+        "Yuanjun Laili",
+        "Yang Tang",
+        "Lihui Wang"
+      ],
+      "published": "2026-10-18",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.26941",
+      "pdf_url": "https://arxiv.org/pdf/2610.26941",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/50adfff30ffc79c47a9c5d9fe782cacc4ee94e21",
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing.",
+      "why_it_matters": "与多模态大模型与智能体、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "deployment"
+      ],
+      "added_at": "2026-10-22T14:53:10.486758+00:00"
     },
     {
       "id": "2610.24512",
@@ -25012,191 +25256,55 @@
   ],
   "briefing": {
     "text": "",
-    "added": 23,
-    "at": "2026-10-22T09:12:43.738498+00:00",
+    "added": 6,
+    "at": "2026-10-22T14:53:13.487326+00:00",
     "new": [
       {
-        "t": "AirPlayground: Benchmarking Aerial Navigation across Diverse Reconstructed Environments",
-        "u": "https://arxiv.org/abs/2610.29699",
+        "t": "Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum",
+        "u": "https://arxiv.org/abs/2610.27865",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：AirPlayground: Benchmarking Aerial Navigation across Diverse Reconstructed Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "VoxProg: 3D Spatial Reasoning through Voxel Programming",
-        "u": "https://arxiv.org/abs/2610.30127",
+        "t": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+        "u": "https://arxiv.org/abs/2610.27234",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：VoxProg: 3D Spatial Reasoning through Voxel Programming。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：EGI-BENCH: An Enterprise General Intelligence Benchmark Suite。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/SalesforceAIResearch/egi-bench"
+      },
+      {
+        "t": "NeoWorld-3: From Pixels to Code-Defined Physical Worlds",
+        "u": "https://arxiv.org/abs/2610.27690",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、规划智能体，主要研究问题可概括为：NeoWorld-3: From Pixels to Code-Defined Physical Worlds。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models",
-        "u": "https://arxiv.org/abs/2610.29866",
+        "t": "Training Controllable World Models via Action Influence Maximization",
+        "u": "https://arxiv.org/abs/2610.27387",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、主动感知与重建，主要研究问题可概括为：Training Controllable World Models via Action Influence Maximization。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-        "u": "https://arxiv.org/abs/2610.30113",
+        "t": "Physical AI: Concepts, Techniques, and Challenges",
+        "u": "https://arxiv.org/abs/2610.27045",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Physical AI: Concepts, Techniques, and Challenges。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "GGraph: A GPU-Accelerated Library for Graph-Based Robot Deployment and Learning",
-        "u": "https://arxiv.org/abs/2610.28953",
+        "t": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+        "u": "https://arxiv.org/abs/2610.26941",
         "r": null,
         "g": null,
-        "s": "该工作聚焦真机与 Sim2Real、空间智能，主要研究问题可概括为：GGraph: A GPU-Accelerated Library for Graph-Based Robot Deployment and Learning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Reading the Room: Scale-ambiguous Semantic Registration of Sparse VSLAM Maps to Floor Plans in Partially Built Environments",
-        "u": "https://arxiv.org/abs/2610.29647",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Reading the Room: Scale-ambiguous Semantic Registration of Sparse VSLAM Maps to Floor Plans in Partially Built Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots",
-        "u": "https://arxiv.org/abs/2610.29438",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
-        "u": "https://arxiv.org/abs/2610.30043",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ALPS: Visual State Encoders for World Models",
-        "u": "https://arxiv.org/abs/2610.30120",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空域 VLN，主要研究问题可概括为：ALPS: Visual State Encoders for World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-        "u": "https://arxiv.org/abs/2610.29560",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、主动感知与重建，主要研究问题可概括为：From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Early versus Late RGB-Infrared Fusion for Counter-UAV Detection: A Comparative Study",
-        "u": "https://arxiv.org/abs/2610.29828",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Early versus Late RGB-Infrared Fusion for Counter-UAV Detection: A Comparative Study。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
-        "u": "https://arxiv.org/abs/2610.30105",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：Asymmetric On-Policy Distillation Learns In-Context Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
-        "u": "https://arxiv.org/abs/2610.30097",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦真机与 Sim2Real、主动感知与重建，主要研究问题可概括为：AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
-        "u": "https://arxiv.org/abs/2610.30051",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Object- and Task-Aware Active Perception for Safe Navigation of Mobile Manipulators in Semi-Static Environments",
-        "u": "https://arxiv.org/abs/2610.29964",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、状态估计与控制，主要研究问题可概括为：Object- and Task-Aware Active Perception for Safe Navigation of Mobile Manipulators in Semi-Static Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "CausGround: Causal Interaction Grounding for Adaptive Embodied Planning",
-        "u": "https://arxiv.org/abs/2610.29702",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：CausGround: Causal Interaction Grounding for Adaptive Embodied Planning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation",
-        "u": "https://arxiv.org/abs/2610.29377",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、真机与 Sim2Real，主要研究问题可概括为：Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "NavBind: Diagnosing Instruction-Action Binding at Route Forks in Navigation VLAs",
-        "u": "https://arxiv.org/abs/2610.29203",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：NavBind: Diagnosing Instruction-Action Binding at Route Forks in Navigation VLAs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ViBMR: A Large-Scale Multi-Sequence Brain MRI Dataset and Comprehensive Evaluation for Vietnamese Radiology Report Generation",
-        "u": "https://arxiv.org/abs/2610.29905",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：ViBMR: A Large-Scale Multi-Sequence Brain MRI Dataset and Comprehensive Evaluation for Vietnamese Radiology Report Generation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models",
-        "u": "https://arxiv.org/abs/2610.29895",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Compositionality with Primitives: A Unified View from Euclidean to Hyperbolic Vision-Language Models",
-        "u": "https://arxiv.org/abs/2610.29811",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：Compositionality with Primitives: A Unified View from Euclidean to Hyperbolic Vision-Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/nis-research/Compositionality-with-Primitives"
-      },
-      {
-        "t": "APED-CXR: Adaptive Privileged Evidence Distillation for Chest X-Ray Grounding with Image-Only Inference",
-        "u": "https://arxiv.org/abs/2610.29740",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：APED-CXR: Adaptive Privileged Evidence Distillation for Chest X-Ray Grounding with Image-Only Inference。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SLoSa: Small, Low-Power, and Safe Foundation Models for Robotic Task Planning",
-        "u": "https://arxiv.org/abs/2610.28955",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦规划智能体、真机与 Sim2Real，主要研究问题可概括为：SLoSa: Small, Low-Power, and Safe Foundation Models for Robotic Task Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
