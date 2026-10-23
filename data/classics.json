@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T14:52:22.511853+00:00",
+  "updated_at": "2026-10-23T08:26:54.910219+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -1640,6 +1640,46 @@
       "added_at": "2026-09-08T10:03:38.564482+00:00"
     },
     {
+      "id": "https://openalex.org/W4401023556",
+      "arxiv_id": "2402.01680",
+      "title": "Large Language Model Based Multi-agents: A Survey of Progress and Challenges",
+      "authors": [
+        "Taicheng Guo",
+        "Xiuying Chen",
+        "Yaqi Wang",
+        "Ruidi Chang",
+        "Shichao Pei",
+        "Nitesh V. Chawla",
+        "Olaf Wiest",
+        "Xiangliang Zhang"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "预印本",
+      "citation_count": 1288,
+      "url": "https://doi.org/10.24963/ijcai.2024/890",
+      "pdf_url": "https://www.ijcai.org/proceedings/2024/0890.pdf",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "本文综述基于大语言模型的多智能体系统进展，梳理其应用领域与仿真设定、智能体画像构建与通信机制、能力培养方法，并总结常用数据集与基准，附开源仓库持续跟踪研究动态。",
+      "change_zh": "作为综述，本文并非方法创新，而是系统性梳理从单智能体到多智能体演进的研究图景，从领域设定、画像与通信、技能成长三个维度建立分析框架，并汇总数据集与基准，为该方向提供统一参照。",
+      "why_it_matters": "多智能体协同是LLM智能体线的核心议题；该综述为多无人机协同目标搜索的任务分配与通信机制提供概念框架与基准索引，其画像与通信方法可迁移至UAV集群搜救及ObjectNav分层规划等多智能体协调研究。",
+      "relevance_rating": 7,
+      "rigor_rating": 6,
+      "venue_verified": false,
+      "score": 21,
+      "keywords": [
+        "agent planning",
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-18T14:06:56.932809+00:00"
+    },
+    {
       "id": "2108.10869",
       "arxiv_id": "2108.10869",
       "title": "DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras",
@@ -1671,46 +1711,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-04T19:37:49Z"
-    },
-    {
-      "id": "https://openalex.org/W4401023556",
-      "arxiv_id": "2402.01680",
-      "title": "Large Language Model Based Multi-agents: A Survey of Progress and Challenges",
-      "authors": [
-        "Taicheng Guo",
-        "Xiuying Chen",
-        "Yaqi Wang",
-        "Ruidi Chang",
-        "Shichao Pei",
-        "Nitesh V. Chawla",
-        "Olaf Wiest",
-        "Xiangliang Zhang"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "预印本",
-      "citation_count": 1276,
-      "url": "https://doi.org/10.24963/ijcai.2024/890",
-      "pdf_url": "https://www.ijcai.org/proceedings/2024/0890.pdf",
-      "code_url": "",
-      "topics": [
-        "多模态大模型与智能体"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "本文综述基于大语言模型的多智能体系统进展，梳理其应用领域与仿真设定、智能体画像构建与通信机制、能力培养方法，并总结常用数据集与基准，附开源仓库持续跟踪研究动态。",
-      "change_zh": "作为综述，本文并非方法创新，而是系统性梳理从单智能体到多智能体演进的研究图景，从领域设定、画像与通信、技能成长三个维度建立分析框架，并汇总数据集与基准，为该方向提供统一参照。",
-      "why_it_matters": "多智能体协同是LLM智能体线的核心议题；该综述为多无人机协同目标搜索的任务分配与通信机制提供概念框架与基准索引，其画像与通信方法可迁移至UAV集群搜救及ObjectNav分层规划等多智能体协调研究。",
-      "relevance_rating": 7,
-      "rigor_rating": 6,
-      "venue_verified": false,
-      "score": 21,
-      "keywords": [
-        "agent planning",
-        "benchmark"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-18T14:06:56.932809+00:00"
     },
     {
       "id": "https://openalex.org/W4389520747",
@@ -1799,7 +1799,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
-      "citation_count": 1174,
+      "citation_count": 1187,
       "url": "https://doi.org/10.1609/aaai.v38i17.29936",
       "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29936/31635",
       "code_url": "",
@@ -1838,7 +1838,7 @@
       "published": "2022",
       "source": "OpenAlex",
       "venue": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-      "citation_count": 1153,
+      "citation_count": 1154,
       "url": "https://doi.org/10.1109/cvpr52688.2022.01245",
       "pdf_url": "",
       "code_url": "",
@@ -1916,7 +1916,7 @@
       "published": "2022",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 1119,
+      "citation_count": 1123,
       "url": "https://arxiv.org/abs/2202.03052",
       "pdf_url": "https://arxiv.org/pdf/2202.03052",
       "code_url": "https://github.com/OFA-Sys/OFA",
@@ -2884,7 +2884,7 @@
       "published": "2022",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 770,
+      "citation_count": 773,
       "url": "https://arxiv.org/abs/2204.00598",
       "pdf_url": "https://arxiv.org/pdf/2204.00598",
       "code_url": "",
@@ -2959,7 +2959,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 760,
+      "citation_count": 761,
       "url": "https://doi.org/10.1109/cvpr52733.2024.02018",
       "pdf_url": "",
       "code_url": "",
@@ -3309,7 +3309,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 619,
+      "citation_count": 621,
       "url": "https://doi.org/10.1109/icra48506.2021.9561996",
       "pdf_url": "",
       "code_url": "",
@@ -3345,7 +3345,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
-      "citation_count": 619,
+      "citation_count": 621,
       "url": "https://arxiv.org/abs/2104.10831",
       "pdf_url": "https://arxiv.org/pdf/2104.10831",
       "code_url": "",
@@ -3521,6 +3521,48 @@
       "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
+      "id": "2404.15506",
+      "arxiv_id": "2404.15506",
+      "title": "Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-Shot Metric Depth and Surface Normal Estimation",
+      "authors": [
+        "Mu Hu",
+        "Wei Yin",
+        "Chi Zhang",
+        "Zhipeng Cai",
+        "Xiaoxiao Long",
+        "Hao Chen",
+        "Kaixuan Wang",
+        "Gang Yu",
+        "Chunhua Shen",
+        "Shaojie Shen"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "citation_count": 596,
+      "url": "https://arxiv.org/abs/2404.15506",
+      "pdf_url": "https://arxiv.org/pdf/2404.15506",
+      "code_url": "",
+      "topics": [
+        "空间智能"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Transactions on Pattern Analysis and Machine Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "提出单目几何基础模型Metric3D v2，用规范相机空间变换统一数千种相机模型以解决度量歧义，并以深度-法线联合优化提升零样本法线估计，在多个基准排名第一，还可缓解单目SLAM尺度漂移。",
+      "change_zh": "常见单目深度方法靠仿射不变深度换取零样本泛化却丢失真实尺度；本文以规范相机空间变换模块统一大规模多相机数据训练，使度量深度本身可零样本泛化，并让度量深度数据反哺法线学习，将两类任务统一进一个几何基础模型。",
+      "why_it_matters": "带真实尺度的单目几何感知是UAV主动目标搜索与ObjectNav的几何底座：低成本单相机即可获得度量3D结构与目标距离，改善机载建图、高度与尺度估计，并缓解单目SLAM尺度漂移实现度量级稠密建图，直接支撑范围线内的空间智能与状态估计落地。",
+      "relevance_rating": 8,
+      "rigor_rating": 8,
+      "venue_verified": true,
+      "score": 26,
+      "keywords": [
+        "benchmark",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-05T04:46:08Z"
+    },
+    {
       "id": "https://openalex.org/W4402776460",
       "arxiv_id": "2311.15826",
       "title": "GeoChat:Grounded Large Vision-Language Model for Remote Sensing",
@@ -3597,48 +3639,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-14T14:54:47.083131+00:00"
-    },
-    {
-      "id": "2404.15506",
-      "arxiv_id": "2404.15506",
-      "title": "Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-Shot Metric Depth and Surface Normal Estimation",
-      "authors": [
-        "Mu Hu",
-        "Wei Yin",
-        "Chi Zhang",
-        "Zhipeng Cai",
-        "Xiaoxiao Long",
-        "Hao Chen",
-        "Kaixuan Wang",
-        "Gang Yu",
-        "Chunhua Shen",
-        "Shaojie Shen"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "citation_count": 593,
-      "url": "https://arxiv.org/abs/2404.15506",
-      "pdf_url": "https://arxiv.org/pdf/2404.15506",
-      "code_url": "",
-      "topics": [
-        "空间智能"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE Transactions on Pattern Analysis and Machine Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "提出单目几何基础模型Metric3D v2，用规范相机空间变换统一数千种相机模型以解决度量歧义，并以深度-法线联合优化提升零样本法线估计，在多个基准排名第一，还可缓解单目SLAM尺度漂移。",
-      "change_zh": "常见单目深度方法靠仿射不变深度换取零样本泛化却丢失真实尺度；本文以规范相机空间变换模块统一大规模多相机数据训练，使度量深度本身可零样本泛化，并让度量深度数据反哺法线学习，将两类任务统一进一个几何基础模型。",
-      "why_it_matters": "带真实尺度的单目几何感知是UAV主动目标搜索与ObjectNav的几何底座：低成本单相机即可获得度量3D结构与目标距离，改善机载建图、高度与尺度估计，并缓解单目SLAM尺度漂移实现度量级稠密建图，直接支撑范围线内的空间智能与状态估计落地。",
-      "relevance_rating": 8,
-      "rigor_rating": 8,
-      "venue_verified": true,
-      "score": 26,
-      "keywords": [
-        "benchmark",
-        "slam"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-05T04:46:08Z"
     },
     {
       "id": "https://openalex.org/W4402698358",
@@ -3875,7 +3875,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 542,
+      "citation_count": 545,
       "url": "https://doi.org/10.1109/cvpr52733.2024.01357",
       "pdf_url": "",
       "code_url": "https://github.com/RenShuhuai-Andy/TimeChat",
@@ -5563,7 +5563,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "neural information processing systems",
-      "citation_count": 377,
+      "citation_count": 378,
       "url": "https://arxiv.org/abs/2304.04370",
       "pdf_url": "https://arxiv.org/pdf/2304.04370",
       "code_url": "https://github.com/agiresearch/OpenAGI",
@@ -5660,6 +5660,44 @@
       "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
+      "id": "https://openalex.org/W4393160204",
+      "arxiv_id": "2308.06394",
+      "title": "Detecting and Preventing Hallucinations in Large Vision Language Models",
+      "authors": [
+        "Anisha Gunjal",
+        "Jihan Yin",
+        "Erhan Bas"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "citation_count": 362,
+      "url": "https://doi.org/10.1609/aaai.v38i16.29771",
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29771/31328",
+      "code_url": "https://github.com/hendryx-scale/mhal-detect",
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Proceedings of the AAAI Conference on Artificial Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "本文构建首个多模态幻觉检测数据集M-HalDetect（16k细粒度标注），用细粒度偏好优化FDPO与奖励模型拒绝采样分别降低InstructBLIP幻觉41%和55%，且可泛化到LLaVA等模型。",
+      "change_zh": "以往工作只关注物体级幻觉并偏重事后度量；本文将幻觉标注细化到实体描述与关系不忠实层面，构造可训练的细粒度数据集，并用细粒度DPO和多模态奖励模型把'检测'推进为'预防'。",
+      "why_it_matters": "视觉语言模型是VLN与ObjectNav指令理解和目标识别的底座，幻觉会直接导致错误目标与错误动作；本文的细粒度幻觉抑制与可泛化奖励模型可提升无人机目标搜索与目标导航中场景描述的可信度。",
+      "relevance_rating": 7,
+      "rigor_rating": 8,
+      "venue_verified": true,
+      "score": 25,
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "vision language model",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-08T05:39:39.759268+00:00"
+    },
+    {
       "id": "2403.17846",
       "arxiv_id": "2403.17846",
       "title": "Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation",
@@ -5694,44 +5732,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-30T09:35:17.794817+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4393160204",
-      "arxiv_id": "2308.06394",
-      "title": "Detecting and Preventing Hallucinations in Large Vision Language Models",
-      "authors": [
-        "Anisha Gunjal",
-        "Jihan Yin",
-        "Erhan Bas"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
-      "citation_count": 360,
-      "url": "https://doi.org/10.1609/aaai.v38i16.29771",
-      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29771/31328",
-      "code_url": "https://github.com/hendryx-scale/mhal-detect",
-      "topics": [
-        "多模态大模型与智能体"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（Proceedings of the AAAI Conference on Artificial Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "本文构建首个多模态幻觉检测数据集M-HalDetect（16k细粒度标注），用细粒度偏好优化FDPO与奖励模型拒绝采样分别降低InstructBLIP幻觉41%和55%，且可泛化到LLaVA等模型。",
-      "change_zh": "以往工作只关注物体级幻觉并偏重事后度量；本文将幻觉标注细化到实体描述与关系不忠实层面，构造可训练的细粒度数据集，并用细粒度DPO和多模态奖励模型把'检测'推进为'预防'。",
-      "why_it_matters": "视觉语言模型是VLN与ObjectNav指令理解和目标识别的底座，幻觉会直接导致错误目标与错误动作；本文的细粒度幻觉抑制与可泛化奖励模型可提升无人机目标搜索与目标导航中场景描述的可信度。",
-      "relevance_rating": 7,
-      "rigor_rating": 8,
-      "venue_verified": true,
-      "score": 25,
-      "keywords": [
-        "benchmark",
-        "evaluation",
-        "instruction",
-        "vision language model",
-        "vlm"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-08T05:39:39.759268+00:00"
     },
     {
       "id": "https://openalex.org/W4226481925",
@@ -6652,7 +6652,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 310,
+      "citation_count": 311,
       "url": "https://doi.org/10.1109/icra48506.2021.9560769",
       "pdf_url": "",
       "code_url": "",
@@ -6703,6 +6703,45 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-10-14T14:54:47.083131+00:00"
+    },
+    {
+      "id": "2502.01143",
+      "arxiv_id": "2502.01143",
+      "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
+      "authors": [
+        "Tairan He",
+        "Jiawei Gao",
+        "Wenli Xiao",
+        "Yuanhang Zhang",
+        "Zi Wang",
+        "Jiashun Wang",
+        "Zhengyi Luo",
+        "Guanqi He",
+        "Nikhil Sobanbabu",
+        "Chaoyi Pan",
+        "Zeji Yi",
+        "Guannan Qu"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "预印本",
+      "citation_count": 309,
+      "url": "https://arxiv.org/abs/2502.01143",
+      "pdf_url": "https://arxiv.org/pdf/2502.01143",
+      "code_url": "",
+      "topics": [
+        "真机与 Sim2Real"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Humanoid robots hold the potential for unparalleled versatility in performing human-like, whole-body skills.",
+      "why_it_matters": "与真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "real world"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "https://openalex.org/W4282830511",
@@ -6809,45 +6848,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-14T14:54:47.083131+00:00"
-    },
-    {
-      "id": "2502.01143",
-      "arxiv_id": "2502.01143",
-      "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
-      "authors": [
-        "Tairan He",
-        "Jiawei Gao",
-        "Wenli Xiao",
-        "Yuanhang Zhang",
-        "Zi Wang",
-        "Jiashun Wang",
-        "Zhengyi Luo",
-        "Guanqi He",
-        "Nikhil Sobanbabu",
-        "Chaoyi Pan",
-        "Zeji Yi",
-        "Guannan Qu"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "预印本",
-      "citation_count": 304,
-      "url": "https://arxiv.org/abs/2502.01143",
-      "pdf_url": "https://arxiv.org/pdf/2502.01143",
-      "code_url": "",
-      "topics": [
-        "真机与 Sim2Real"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Humanoid robots hold the potential for unparalleled versatility in performing human-like, whole-body skills.",
-      "why_it_matters": "与真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "real world"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "https://openalex.org/W4394627367",
@@ -7455,7 +7455,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "IEEE Transactions on Robotics",
-      "citation_count": 281,
+      "citation_count": 282,
       "url": "https://doi.org/10.1109/tro.2023.3236945",
       "pdf_url": "",
       "code_url": "",
@@ -8744,6 +8744,47 @@
       "added_at": "2026-09-04T19:37:49Z"
     },
     {
+      "id": "https://openalex.org/W4413926275",
+      "arxiv_id": "2406.13642",
+      "title": "SpatialBot: Precise Spatial Understanding with Vision Language Models",
+      "authors": [
+        "Wenxiao Cai",
+        "Iaroslav Ponomarenko",
+        "Jianhao Yuan",
+        "Xiaoqi Li",
+        "Wankou Yang",
+        "Hao Dong",
+        "Bo Zhao"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "预印本",
+      "citation_count": 231,
+      "url": "https://doi.org/10.1109/icra55743.2025.11128671",
+      "pdf_url": "",
+      "code_url": "https://github.com/BAAI-DCAI/SpatialBot",
+      "topics": [
+        "空间智能"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "提出融合RGB与深度图像的视觉语言模型SpatialBot，构建多层级深度问答数据集SpatialQA/E与评测基准SpatialBench，在空间理解、通用VLM基准及具身任务上均取得显著提升，模型代码数据全部开源。",
+      "change_zh": "相比仅用RGB做2D图文理解的常见VLM路线，该工作显式引入深度图作为输入模态，用从粗到细的多层级深度问答数据训练模型获得精确空间感知，并配套系统性空间理解基准；摘要未披露具体训练与方法细节。",
+      "why_it_matters": "空间与深度理解是UAV主动目标搜索和ObjectNav的基础能力，此类模型可直接增强导航智能体的目标距离判断、3D场景理解与空间推理，其数据集与基准也为具身导航方向的空间能力训练和评测提供了公开工具。",
+      "relevance_rating": 9,
+      "rigor_rating": 8,
+      "venue_verified": false,
+      "score": 27,
+      "keywords": [
+        "benchmark",
+        "spatial understanding",
+        "vision language model",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-16T08:29:40.746326+00:00"
+    },
+    {
       "id": "https://openalex.org/W3159400523",
       "arxiv_id": "2104.14938",
       "title": "Super Odometry: IMU-centric LiDAR-Visual-Inertial Estimator for Challenging Environments",
@@ -8816,47 +8857,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-14T14:54:47.083131+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4413926275",
-      "arxiv_id": "2406.13642",
-      "title": "SpatialBot: Precise Spatial Understanding with Vision Language Models",
-      "authors": [
-        "Wenxiao Cai",
-        "Iaroslav Ponomarenko",
-        "Jianhao Yuan",
-        "Xiaoqi Li",
-        "Wankou Yang",
-        "Hao Dong",
-        "Bo Zhao"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "预印本",
-      "citation_count": 229,
-      "url": "https://doi.org/10.1109/icra55743.2025.11128671",
-      "pdf_url": "",
-      "code_url": "https://github.com/BAAI-DCAI/SpatialBot",
-      "topics": [
-        "空间智能"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "提出融合RGB与深度图像的视觉语言模型SpatialBot，构建多层级深度问答数据集SpatialQA/E与评测基准SpatialBench，在空间理解、通用VLM基准及具身任务上均取得显著提升，模型代码数据全部开源。",
-      "change_zh": "相比仅用RGB做2D图文理解的常见VLM路线，该工作显式引入深度图作为输入模态，用从粗到细的多层级深度问答数据训练模型获得精确空间感知，并配套系统性空间理解基准；摘要未披露具体训练与方法细节。",
-      "why_it_matters": "空间与深度理解是UAV主动目标搜索和ObjectNav的基础能力，此类模型可直接增强导航智能体的目标距离判断、3D场景理解与空间推理，其数据集与基准也为具身导航方向的空间能力训练和评测提供了公开工具。",
-      "relevance_rating": 9,
-      "rigor_rating": 8,
-      "venue_verified": false,
-      "score": 27,
-      "keywords": [
-        "benchmark",
-        "spatial understanding",
-        "vision language model",
-        "vlm"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-16T08:29:40.746326+00:00"
     },
     {
       "id": "2406.13642",
@@ -9351,7 +9351,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
-      "citation_count": 210,
+      "citation_count": 211,
       "url": "https://doi.org/10.1109/cvpr52733.2024.01868",
       "pdf_url": "",
       "code_url": "",
@@ -9920,6 +9920,38 @@
       "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
+      "id": "https://openalex.org/W4213209987",
+      "arxiv_id": "",
+      "title": "Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback",
+      "authors": [
+        "Duanfeng Chu",
+        "Haoran Li",
+        "Chenyang Zhao",
+        "Tuqiang Zhou"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "citation_count": 170,
+      "url": "https://doi.org/10.1109/tits.2022.3150365",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The simplified vehicle model often results in inaccuracy with respect to the conventional model predictive control (MPC) as it causes steady error in tracking control, which has negative implications for vehicle cornerin",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "model predictive control",
+        "trajectory planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-11T16:13:35.471025+00:00"
+    },
+    {
       "id": "2201.04114",
       "arxiv_id": "2201.04114",
       "title": "DM-VIO: Delayed Marginalization Visual-Inertial Odometry",
@@ -9952,38 +9984,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T18:45:24.442900+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4213209987",
-      "arxiv_id": "",
-      "title": "Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback",
-      "authors": [
-        "Duanfeng Chu",
-        "Haoran Li",
-        "Chenyang Zhao",
-        "Tuqiang Zhou"
-      ],
-      "published": "2022",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Intelligent Transportation Systems",
-      "citation_count": 169,
-      "url": "https://doi.org/10.1109/tits.2022.3150365",
-      "pdf_url": "",
-      "code_url": "",
-      "topics": [
-        "状态估计与控制"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：Trajectory Tracking of Autonomous Vehicle Based on Model Predictive Control With PID Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：The simplified vehicle model often results in inaccuracy with respect to the conventional model predictive control (MPC) as it causes steady error in tracking control, which has negative implications for vehicle cornerin",
-      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "model predictive control",
-        "trajectory planning"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-11T16:13:35.471025+00:00"
     },
     {
       "id": "https://openalex.org/W4387166575",
@@ -11329,7 +11329,7 @@
       "published": "2026",
       "source": "Semantic Scholar",
       "venue": "arXiv.org",
-      "citation_count": 47,
+      "citation_count": 50,
       "url": "https://arxiv.org/abs/2601.14352",
       "pdf_url": "https://arxiv.org/pdf/2601.14352",
       "code_url": "",
@@ -11350,6 +11350,37 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T02:36:58Z"
+    },
+    {
+      "id": "https://openalex.org/W4415625372",
+      "arxiv_id": "",
+      "title": "Research Status and Development Trends of Artificial Intelligence in Smart Agriculture",
+      "authors": [
+        "Chuang Ge",
+        "Guangjian Zhang",
+        "Yijie Wang",
+        "Dandan Shao",
+        "Xiangjin Song",
+        "Zhaowei Wang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Agriculture",
+      "citation_count": 46,
+      "url": "https://doi.org/10.3390/agriculture15212247",
+      "pdf_url": "https://www.mdpi.com/2077-0472/15/21/2247/pdf?version=1761661820",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Research Status and Development Trends of Artificial Intelligence in Smart Agriculture。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Artificial Intelligence (AI) is a key technological enabler for the transition of agricultural production and management from experience-driven to data-driven, continuously advancing modern agriculture toward smart agric",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "2509.18905",
@@ -11397,37 +11428,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T02:36:58Z"
-    },
-    {
-      "id": "https://openalex.org/W4415625372",
-      "arxiv_id": "",
-      "title": "Research Status and Development Trends of Artificial Intelligence in Smart Agriculture",
-      "authors": [
-        "Chuang Ge",
-        "Guangjian Zhang",
-        "Yijie Wang",
-        "Dandan Shao",
-        "Xiangjin Song",
-        "Zhaowei Wang"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "Agriculture",
-      "citation_count": 44,
-      "url": "https://doi.org/10.3390/agriculture15212247",
-      "pdf_url": "https://www.mdpi.com/2077-0472/15/21/2247/pdf?version=1761661820",
-      "code_url": "",
-      "topics": [
-        "具身导航"
-      ],
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Research Status and Development Trends of Artificial Intelligence in Smart Agriculture。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Artificial Intelligence (AI) is a key technological enabler for the transition of agricultural production and management from experience-driven to data-driven, continuously advancing modern agriculture toward smart agric",
-      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "https://openalex.org/W4414050622",
@@ -13855,6 +13855,7 @@
       "excluded_at": "2026-10-09"
     }
   },
+  "last_citation_refresh": "2026-10-23T08:26:54.910219+00:00",
   "briefing": {
     "text": "",
     "added": 1,
