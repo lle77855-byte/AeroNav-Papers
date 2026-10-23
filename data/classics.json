@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:26:54.910219+00:00",
+  "updated_at": "2026-10-23T14:41:04.202605+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -10577,6 +10577,34 @@
       "added_at": "2026-09-06T08:54:19.521116+00:00"
     },
     {
+      "id": "https://openalex.org/W4319761756",
+      "arxiv_id": "",
+      "title": "Smart packaging—An overview of concepts and applications in various food industries",
+      "authors": [
+        "Mithulesh Thirupathi Vasuki",
+        "Vijayasri Kadirvel",
+        "Gururaj Pejavara Narayana"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Food Bioengineering",
+      "citation_count": 124,
+      "url": "https://doi.org/10.1002/fbe2.12038",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/fbe2.12038",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Smart packaging—An overview of concepts and applications in various food industries。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Abstract Contamination of food may occur at any stage in the process from “farm to fork”.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-23T14:41:04.202605+00:00"
+    },
+    {
       "id": "https://openalex.org/W4396917670",
       "arxiv_id": "2303.08778",
       "title": "Fully neuromorphic vision and control for autonomous drone flight",
@@ -10646,6 +10674,42 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-18T13:47:17.227851+00:00"
+    },
+    {
+      "id": "2307.12981",
+      "arxiv_id": "2307.12981",
+      "title": "3D-LLM: Injecting the 3D World into Large Language Models",
+      "authors": [
+        "Yining Hong",
+        "Haoyu Zhen",
+        "Peihao Chen",
+        "Shuhong Zheng",
+        "Yilun Du",
+        "Zhenfang Chen",
+        "Chuang Gan"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 122,
+      "url": "https://arxiv.org/abs/2307.12981",
+      "pdf_url": "https://arxiv.org/pdf/2307.12981",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：3D-LLM: Injecting the 3D World into Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models (LLMs) and Vision-Language Models (VLMs) have been proven to excel at multiple tasks, such as commonsense reasoning.",
+      "why_it_matters": "与多模态大模型与智能体、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-23T14:41:04.202605+00:00"
     },
     {
       "id": "https://openalex.org/W4386920567",
@@ -13855,20 +13919,28 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-23T08:26:54.910219+00:00",
   "briefing": {
     "text": "",
-    "added": 1,
-    "at": "2026-10-21T14:52:22.511853+00:00",
+    "added": 2,
+    "at": "2026-10-23T14:41:04.202605+00:00",
     "new": [
       {
-        "t": "Mind2Web: Towards a Generalist Agent for the Web",
-        "u": "https://arxiv.org/abs/2306.06070",
+        "t": "Smart packaging—An overview of concepts and applications in various food industries",
+        "u": "https://doi.org/10.1002/fbe2.12038",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、主动感知与重建，主要研究问题可概括为：Mind2Web: Towards a Generalist Agent for the Web。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Smart packaging—An overview of concepts and applications in various food industries。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 129
+        "cit": 124
+      },
+      {
+        "t": "3D-LLM: Injecting the 3D World into Large Language Models",
+        "u": "https://arxiv.org/abs/2307.12981",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：3D-LLM: Injecting the 3D World into Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 122
       }
     ]
   }
