@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T13:51:03.330523+00:00",
+  "updated_at": "2026-10-25T14:07:15.923674+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -11528,6 +11528,45 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-18T13:47:17.227851+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4412093083",
+      "arxiv_id": "",
+      "title": "Vision-Based Navigation and Perception for Autonomous Robots: Sensors, SLAM, Control Strategies, and Cross-Domain Applications—A Review",
+      "authors": [
+        "Eder A. Rodríguez-Martínez",
+        "Wendy Flores‐Fuentes",
+        "Farouk Achakir",
+        "Oleg Sergiyenko",
+        "Fabian Natanael Murrieta-Rico"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Eng—Advances in Engineering",
+      "citation_count": 41,
+      "url": "https://doi.org/10.3390/eng6070153",
+      "pdf_url": "https://www.mdpi.com/2673-4117/6/7/153/pdf?version=1751878427",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制",
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Vision-Based Navigation and Perception for Autonomous Robots: Sensors, SLAM, Control Strategies, and Cross-Domain Applications—A Review。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Camera-centric perception has matured into a cornerstone of modern autonomy, from self-driving cars and factory cobots to underwater and planetary exploration.",
+      "why_it_matters": "与状态估计与控制、UAV 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "deployment",
+        "drone",
+        "exploration",
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-25T14:07:15.923674+00:00"
     }
   ],
   "excluded": {
@@ -13919,29 +13958,19 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-24T13:51:03.330523+00:00",
   "briefing": {
     "text": "",
-    "added": 2,
-    "at": "2026-10-23T14:41:04.202605+00:00",
+    "added": 1,
+    "at": "2026-10-25T14:07:15.923674+00:00",
     "new": [
       {
-        "t": "Smart packaging—An overview of concepts and applications in various food industries",
-        "u": "https://doi.org/10.1002/fbe2.12038",
+        "t": "Vision-Based Navigation and Perception for Autonomous Robots: Sensors, SLAM, Control Strategies, and Cross-Domain Applications—A Review",
+        "u": "https://doi.org/10.3390/eng6070153",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Smart packaging—An overview of concepts and applications in various food industries。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Vision-Based Navigation and Perception for Autonomous Robots: Sensors, SLAM, Control Strategies, and Cross-Domain Applications—A Review。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 124
-      },
-      {
-        "t": "3D-LLM: Injecting the 3D World into Large Language Models",
-        "u": "https://arxiv.org/abs/2307.12981",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：3D-LLM: Injecting the 3D World into Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 122
+        "cit": 41
       }
     ]
   }
