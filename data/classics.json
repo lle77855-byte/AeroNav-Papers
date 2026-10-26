@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T14:07:15.923674+00:00",
+  "updated_at": "2026-10-26T16:30:19.567550+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -476,7 +476,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 4489,
+      "citation_count": 4498,
       "url": "https://arxiv.org/abs/2309.16609",
       "pdf_url": "https://arxiv.org/pdf/2309.16609",
       "code_url": "",
@@ -824,47 +824,6 @@
       "added_at": "2026-09-08T05:39:39.759268+00:00"
     },
     {
-      "id": "2309.07864",
-      "arxiv_id": "2309.07864",
-      "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
-      "authors": [
-        "Zhiheng Xi",
-        "Wen-Xiang Chen",
-        "Xin Guo",
-        "Wei He",
-        "Yiwen Ding",
-        "Boyang Hong",
-        "Ming Zhang",
-        "Junzhe Wang",
-        "Senjie Jin",
-        "Enyu Zhou",
-        "Rui Zheng",
-        "Xiaoran Fan"
-      ],
-      "published": "2023",
-      "source": "OpenAlex",
-      "venue": "arXiv (Cornell University)",
-      "citation_count": 2160,
-      "url": "https://arxiv.org/abs/2309.07864",
-      "pdf_url": "https://arxiv.org/pdf/2309.07864",
-      "code_url": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
-      "topics": [
-        "多模态大模型与智能体"
-      ],
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "该综述系统梳理基于大语言模型的智能体研究：追溯智能体概念源流，论证LLM为何适合作智能体基座，提出\"大脑-感知-行动\"三部件通用框架，覆盖单智能体、多智能体与人机协作应用，并探讨智能体社会的行为与开放问题。",
-      "change_zh": "相比以往聚焦单任务算法与训练策略的智能体研究，本文以LLM为通用基座，用大脑-感知-行动框架统一刻画智能体设计，并将视野从个体能力扩展到多智能体协同、人机协作乃至智能体社会的涌现现象，塑造了该领域的通用话语体系。",
-      "why_it_matters": "为UAV目标搜索与ObjectNav等具身任务提供以LLM为基座的智能体设计范式：大脑-感知-行动框架可指导无人机任务规划与多机协同，其对记忆、推理与工具使用的梳理为语言驱动的目标导航智能体提供路线图。",
-      "relevance_rating": 8,
-      "rigor_rating": 6,
-      "venue_verified": false,
-      "score": 23,
-      "keywords": [],
-      "is_classic": true,
-      "added_at": "2026-09-03T19:57:56Z"
-    },
-    {
       "id": "https://openalex.org/W4383097638",
       "arxiv_id": "2209.07753",
       "title": "Code as Policies: Language Model Programs for Embodied Control",
@@ -881,7 +840,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 2157,
+      "citation_count": 2169,
       "url": "https://doi.org/10.1109/icra48891.2023.10160591",
       "pdf_url": "",
       "code_url": "",
@@ -923,7 +882,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
-      "citation_count": 2157,
+      "citation_count": 2169,
       "url": "https://arxiv.org/abs/2209.07753",
       "pdf_url": "https://arxiv.org/pdf/2209.07753",
       "code_url": "",
@@ -945,6 +904,47 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2309.07864",
+      "arxiv_id": "2309.07864",
+      "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "authors": [
+        "Zhiheng Xi",
+        "Wen-Xiang Chen",
+        "Xin Guo",
+        "Wei He",
+        "Yiwen Ding",
+        "Boyang Hong",
+        "Ming Zhang",
+        "Junzhe Wang",
+        "Senjie Jin",
+        "Enyu Zhou",
+        "Rui Zheng",
+        "Xiaoran Fan"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 2160,
+      "url": "https://arxiv.org/abs/2309.07864",
+      "pdf_url": "https://arxiv.org/pdf/2309.07864",
+      "code_url": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该综述系统梳理基于大语言模型的智能体研究：追溯智能体概念源流，论证LLM为何适合作智能体基座，提出\"大脑-感知-行动\"三部件通用框架，覆盖单智能体、多智能体与人机协作应用，并探讨智能体社会的行为与开放问题。",
+      "change_zh": "相比以往聚焦单任务算法与训练策略的智能体研究，本文以LLM为通用基座，用大脑-感知-行动框架统一刻画智能体设计，并将视野从个体能力扩展到多智能体协同、人机协作乃至智能体社会的涌现现象，塑造了该领域的通用话语体系。",
+      "why_it_matters": "为UAV目标搜索与ObjectNav等具身任务提供以LLM为基座的智能体设计范式：大脑-感知-行动框架可指导无人机任务规划与多机协同，其对记忆、推理与工具使用的梳理为语言驱动的目标导航智能体提供路线图。",
+      "relevance_rating": 8,
+      "rigor_rating": 6,
+      "venue_verified": false,
+      "score": 23,
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-09-03T19:57:56Z"
     },
     {
       "id": "https://openalex.org/W4389523832",
@@ -2548,7 +2548,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 910,
+      "citation_count": 913,
       "url": "https://doi.org/10.18653/v1/2023.emnlp-main.494",
       "pdf_url": "https://aclanthology.org/2023.emnlp-main.494.pdf",
       "code_url": "",
@@ -2729,7 +2729,7 @@
       "published": "2022",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 827,
+      "citation_count": 828,
       "url": "https://arxiv.org/abs/2207.04429",
       "pdf_url": "https://arxiv.org/pdf/2207.04429",
       "code_url": "",
@@ -3346,7 +3346,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 621,
+      "citation_count": 622,
       "url": "https://doi.org/10.1109/icra48506.2021.9561996",
       "pdf_url": "",
       "code_url": "",
@@ -3382,7 +3382,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
-      "citation_count": 621,
+      "citation_count": 622,
       "url": "https://arxiv.org/abs/2104.10831",
       "pdf_url": "https://arxiv.org/pdf/2104.10831",
       "code_url": "",
@@ -3937,6 +3937,36 @@
       "added_at": "2026-09-11T07:58:43.618358+00:00"
     },
     {
+      "id": "2403.17134",
+      "arxiv_id": "2403.17134",
+      "title": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair",
+      "authors": [
+        "Islem Bouzenia",
+        "Prémkumar Dévanbu",
+        "Michael Pradel"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "IEEE/ACM International Conference on Software Engineering (ICSE)",
+      "citation_count": 529,
+      "url": "https://arxiv.org/abs/2403.17134",
+      "pdf_url": "https://arxiv.org/pdf/2403.17134",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：RepairAgent: An Autonomous, LLM-Based Agent for Program Repair。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "2110.05113",
       "arxiv_id": "2110.05113",
       "title": "Learning high-speed flight in the wild",
@@ -4001,36 +4031,6 @@
       "change_zh": "摘要首句：Most existing Vision-and-Language (V&L) models rely on pre-trained visual encoders, using a relatively small set of manually-annotated data (as compared to web-crawled data), to perceive the visual world.",
       "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
       "keywords": [],
-      "is_classic": true,
-      "added_at": "2026-10-16T14:33:52.712573+00:00"
-    },
-    {
-      "id": "2403.17134",
-      "arxiv_id": "2403.17134",
-      "title": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair",
-      "authors": [
-        "Islem Bouzenia",
-        "Prémkumar Dévanbu",
-        "Michael Pradel"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "IEEE/ACM International Conference on Software Engineering (ICSE)",
-      "citation_count": 525,
-      "url": "https://arxiv.org/abs/2403.17134",
-      "pdf_url": "https://arxiv.org/pdf/2403.17134",
-      "code_url": "",
-      "topics": [
-        "具身基准与评测"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：RepairAgent: An Autonomous, LLM-Based Agent for Program Repair。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience.",
-      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "evaluation"
-      ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
@@ -4383,7 +4383,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 484,
+      "citation_count": 485,
       "url": "https://doi.org/10.18653/v1/2024.findings-acl.738",
       "pdf_url": "https://aclanthology.org/2024.findings-acl.738.pdf",
       "code_url": "",
@@ -4473,6 +4473,41 @@
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
+      "id": "2206.08129",
+      "arxiv_id": "2206.08129",
+      "title": "Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline",
+      "authors": [
+        "Penghao Wu",
+        "Xiaosong Jia",
+        "Li Chen",
+        "Junchi Yan",
+        "Hongyang Li",
+        "Yu Qiao"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 461,
+      "url": "https://arxiv.org/abs/2206.08129",
+      "pdf_url": "https://arxiv.org/pdf/2206.08129",
+      "code_url": "https://github.com/OpenPerceptionX/TCP",
+      "topics": [
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Current end-to-end autonomous driving methods either run a controller based on a planned trajectory or perform control prediction directly, which have spanned two separately studied lines of research.",
+      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "leaderboard",
+        "trajectory planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
       "id": "https://openalex.org/W4385431115",
       "arxiv_id": "2302.07241",
       "title": "ConceptFusion: Open-set multimodal 3D mapping",
@@ -4515,41 +4550,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T06:35:42Z"
-    },
-    {
-      "id": "2206.08129",
-      "arxiv_id": "2206.08129",
-      "title": "Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline",
-      "authors": [
-        "Penghao Wu",
-        "Xiaosong Jia",
-        "Li Chen",
-        "Junchi Yan",
-        "Hongyang Li",
-        "Yu Qiao"
-      ],
-      "published": "2022",
-      "source": "OpenAlex",
-      "venue": "neural information processing systems",
-      "citation_count": 460,
-      "url": "https://arxiv.org/abs/2206.08129",
-      "pdf_url": "https://arxiv.org/pdf/2206.08129",
-      "code_url": "https://github.com/OpenPerceptionX/TCP",
-      "topics": [
-        "具身基准与评测",
-        "状态估计与控制"
-      ],
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Current end-to-end autonomous driving methods either run a controller based on a planned trajectory or perform control prediction directly, which have spanned two separately studied lines of research.",
-      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "leaderboard",
-        "trajectory planning"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-16T14:33:52.712573+00:00"
     },
     {
       "id": "2312.03275",
@@ -5963,6 +5963,43 @@
       "added_at": "2026-09-14T16:32:42.105386+00:00"
     },
     {
+      "id": "https://openalex.org/W4405787555",
+      "arxiv_id": "2309.10062",
+      "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
+      "authors": [
+        "Shyam Sundar Kannan",
+        "Vishnunandan L. N. Venkatesh",
+        "Byung‐Cheol Min"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "预印本",
+      "citation_count": 339,
+      "url": "https://doi.org/10.1109/iros58592.2024.10802322",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "规划智能体"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "SMART-LLM提出基于大语言模型的多机器人任务规划框架，用少样本程序化提示串联任务分解、联盟组建与任务分配三阶段，将高层指令转为多机器人计划，并构建四类指令基准，在仿真与真机场景验证。",
+      "change_zh": "相比单机器人LLM规划或需微调的常见路线，该工作以训练无关的少样本程序化提示把任务分解、联盟组建与任务分配整合成多机器人协同规划流程，并配套专用验证基准；但各模块的具体创新细节摘要未详述。",
+      "why_it_matters": "属于规划智能体技术线的核心工作：训练无关的LLM多阶段规划为多机器人agentic planning提供了可复用框架与基准；其任务分解与联盟分配思想可启发多无人机搜救侦察的高层任务编排，但与ObjectNav无直接关联。",
+      "relevance_rating": 8,
+      "rigor_rating": 7,
+      "venue_verified": false,
+      "score": 23,
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "task planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-05T18:45:24.442900+00:00"
+    },
+    {
       "id": "2010.07820",
       "arxiv_id": "2010.07820",
       "title": "DynaSLAM II: Tightly-Coupled Multi-Object Tracking and SLAM",
@@ -6031,43 +6068,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4405787555",
-      "arxiv_id": "2309.10062",
-      "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
-      "authors": [
-        "Shyam Sundar Kannan",
-        "Vishnunandan L. N. Venkatesh",
-        "Byung‐Cheol Min"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "预印本",
-      "citation_count": 335,
-      "url": "https://doi.org/10.1109/iros58592.2024.10802322",
-      "pdf_url": "",
-      "code_url": "",
-      "topics": [
-        "规划智能体"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "SMART-LLM提出基于大语言模型的多机器人任务规划框架，用少样本程序化提示串联任务分解、联盟组建与任务分配三阶段，将高层指令转为多机器人计划，并构建四类指令基准，在仿真与真机场景验证。",
-      "change_zh": "相比单机器人LLM规划或需微调的常见路线，该工作以训练无关的少样本程序化提示把任务分解、联盟组建与任务分配整合成多机器人协同规划流程，并配套专用验证基准；但各模块的具体创新细节摘要未详述。",
-      "why_it_matters": "属于规划智能体技术线的核心工作：训练无关的LLM多阶段规划为多机器人agentic planning提供了可复用框架与基准；其任务分解与联盟分配思想可启发多无人机搜救侦察的高层任务编排，但与ObjectNav无直接关联。",
-      "relevance_rating": 8,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 23,
-      "keywords": [
-        "benchmark",
-        "evaluation",
-        "instruction",
-        "task planning"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
       "id": "https://openalex.org/W4402716381",
@@ -9277,7 +9277,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "ACM Transactions on Human-Robot Interaction",
-      "citation_count": 217,
+      "citation_count": 218,
       "url": "https://doi.org/10.1145/3700599",
       "pdf_url": "",
       "code_url": "",
@@ -10797,7 +10797,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "Drones",
-      "citation_count": 116,
+      "citation_count": 117,
       "url": "https://doi.org/10.3390/drones8050193",
       "pdf_url": "",
       "code_url": "",
@@ -13958,6 +13958,7 @@
       "excluded_at": "2026-10-09"
     }
   },
+  "last_citation_refresh": "2026-10-26T16:30:19.567550+00:00",
   "briefing": {
     "text": "",
     "added": 1,
