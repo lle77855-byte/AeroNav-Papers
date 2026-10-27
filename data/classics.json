@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T16:30:19.567550+00:00",
+  "updated_at": "2026-10-27T15:44:27.553861+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -11567,6 +11567,34 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-25T14:07:15.923674+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4412185104",
+      "arxiv_id": "",
+      "title": "The algorithmic self: how AI is reshaping human identity, introspection, and agency",
+      "authors": [
+        "Jewel Joseph"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Frontiers in Psychology",
+      "citation_count": 41,
+      "url": "https://doi.org/10.3389/fpsyg.2025.1645795",
+      "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645795/pdf",
+      "code_url": "",
+      "topics": [
+        "主动感知与重建"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦主动感知与重建，主要研究问题可概括为：The algorithmic self: how AI is reshaping human identity, introspection, and agency。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Artificial Intelligence (AI) is no longer a mysterious technological presence hiding behind screens; it is intertwined with the most intimate dimensions of who we are.",
+      "why_it_matters": "与主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-27T15:44:27.553861+00:00"
     }
   ],
   "excluded": {
@@ -13958,18 +13986,17 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-26T16:30:19.567550+00:00",
   "briefing": {
     "text": "",
     "added": 1,
-    "at": "2026-10-25T14:07:15.923674+00:00",
+    "at": "2026-10-27T15:44:27.553861+00:00",
     "new": [
       {
-        "t": "Vision-Based Navigation and Perception for Autonomous Robots: Sensors, SLAM, Control Strategies, and Cross-Domain Applications—A Review",
-        "u": "https://doi.org/10.3390/eng6070153",
+        "t": "The algorithmic self: how AI is reshaping human identity, introspection, and agency",
+        "u": "https://doi.org/10.3389/fpsyg.2025.1645795",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Vision-Based Navigation and Perception for Autonomous Robots: Sensors, SLAM, Control Strategies, and Cross-Domain Applications—A Review。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦主动感知与重建，主要研究问题可概括为：The algorithmic self: how AI is reshaping human identity, introspection, and agency。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
         "cit": 41
       }
