@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T16:27:35.432111+00:00",
+  "updated_at": "2026-10-29T16:36:10.159373+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -17484,6 +17484,38 @@
       "added_at": "2026-10-28T12:18:16.399087+00:00"
     },
     {
+      "id": "2610.37283",
+      "arxiv_id": "2610.37283",
+      "title": "BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications",
+      "authors": [
+        "Islem Bouzenia",
+        "Michael Pradel"
+      ],
+      "published": "2026-10-27",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.37283",
+      "pdf_url": "https://arxiv.org/pdf/2610.37283",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Software-engineering research relies on benchmarks that evaluate new techniques on a set of problem instances.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "llm agent"
+      ],
+      "added_at": "2026-10-29T16:36:04.091636+00:00"
+    },
+    {
       "id": "2610.35342",
       "arxiv_id": "2610.35342",
       "title": "VisGeo-PipeTrack: A Visual Geometric Servo Control Framework with MPC-RCAPID Control for UAV-Based Dynamic Pipes Tracking",
@@ -18448,6 +18480,48 @@
         "spatial understanding"
       ],
       "added_at": "2026-10-28T16:27:22.981121+00:00"
+    },
+    {
+      "id": "2610.36013",
+      "arxiv_id": "2610.36013",
+      "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+      "authors": [
+        "Xiaomi Embodied Intelligence Team",
+        "Yuechen Luo",
+        "Chong He",
+        "Fang Li",
+        "Shaoqing Xu",
+        "Jingkai Wang",
+        "Menglun Su",
+        "Jiaxin Liu",
+        "Shengyin Jiang",
+        "Zhiyi Lai",
+        "Long Chen",
+        "Longlong Wang"
+      ],
+      "published": "2026-10-26",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.36013",
+      "pdf_url": "https://arxiv.org/pdf/2610.36013",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "地面 VLN"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、地面 VLN，主要研究问题可概括为：OmniBrain-0: A Unified Agentic Model for Embodied Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：General-purpose embodied intelligence requires robots to coordinate diverse skills over long horizons, track task progress, and recover from failures.",
+      "why_it_matters": "与多模态大模型与智能体、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "multimodal agent",
+        "r2r"
+      ],
+      "added_at": "2026-10-29T16:36:07.158770+00:00"
     },
     {
       "id": "2610.34054",
@@ -28436,63 +28510,23 @@
   ],
   "briefing": {
     "text": "",
-    "added": 7,
-    "at": "2026-10-28T16:27:35.432131+00:00",
+    "added": 2,
+    "at": "2026-10-29T16:36:10.159396+00:00",
     "new": [
       {
-        "t": "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
-        "u": "https://arxiv.org/abs/2610.34149",
+        "t": "BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications",
+        "u": "https://arxiv.org/abs/2610.37283",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data",
-        "u": "https://arxiv.org/abs/2610.35075",
+        "t": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+        "u": "https://arxiv.org/abs/2610.36013",
         "r": null,
         "g": null,
-        "s": "该工作聚焦真机与 Sim2Real、空间智能，主要研究问题可概括为：Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation",
-        "u": "https://arxiv.org/abs/2610.34028",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
-        "u": "https://arxiv.org/abs/2610.35562",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ScheNav: Schematic-Guided Object Goal Navigation",
-        "u": "https://arxiv.org/abs/2610.34286",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、主动感知与重建，主要研究问题可概括为：ScheNav: Schematic-Guided Object Goal Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AlphaIdeaBench: Benchmarking Automated Research Idea Generation under Feasibility Constraints with Peer Review Alignment",
-        "u": "https://arxiv.org/abs/2610.33644",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：AlphaIdeaBench: Benchmarking Automated Research Idea Generation under Feasibility Constraints with Peer Review Alignment。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ReSight: Task-Driven Self-Improving Memory for Embodied Agents",
-        "u": "https://arxiv.org/abs/2610.33487",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：ReSight: Task-Driven Self-Improving Memory for Embodied Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、地面 VLN，主要研究问题可概括为：OmniBrain-0: A Unified Agentic Model for Embodied Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
