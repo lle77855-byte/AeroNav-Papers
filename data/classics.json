@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T09:53:22.942902+00:00",
+  "updated_at": "2026-10-30T16:33:36.519239+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -10915,6 +10915,37 @@
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
+      "id": "https://openalex.org/W4315489355",
+      "arxiv_id": "",
+      "title": "The strategic applications of natural polymer nanocomposites in food packaging and agriculture: Chances, challenges, and consumers’ perception",
+      "authors": [
+        "Magdalena Wypij",
+        "Joanna Trzcińska-Wencel",
+        "Patrycja Golińska",
+        "Graciela Dolores Ávila-Quezada",
+        "Avinash P. Ingle",
+        "Mahendra Rai"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Frontiers in Chemistry",
+      "citation_count": 125,
+      "url": "https://doi.org/10.3389/fchem.2022.1106230",
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fchem.2022.1106230/pdf",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：The strategic applications of natural polymer nanocomposites in food packaging and agriculture: Chances, challenges, and consumers’ perception。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Natural polymer-based nanocomposites have received significant attention in both scientific and industrial research in recent years.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-10-30T16:33:36.519239+00:00"
+    },
+    {
       "id": "https://openalex.org/W4360584287",
       "arxiv_id": "",
       "title": "Distributed Stochastic Algorithm Based on Enhanced Genetic Algorithm for Path Planning of Multi-UAV Cooperative Area Search",
@@ -11599,6 +11630,41 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4404905824",
+      "arxiv_id": "",
+      "title": "In-depth review of AI-enabled unmanned aerial vehicles: trends, vision, and challenges",
+      "authors": [
+        "Osim Kumar Pal",
+        "Md Sakib Hossain Shovon",
+        "M. F. Mridha",
+        "Jungpil Shin"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Discover Artificial Intelligence",
+      "citation_count": 80,
+      "url": "https://doi.org/10.1007/s44163-024-00209-1",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44163-024-00209-1.pdf",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "主动感知与重建"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：In-depth review of AI-enabled unmanned aerial vehicles: trends, vision, and challenges。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In recent times, AI and UAV have progressed significantly in several applications.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "exploration",
+        "uav"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-30T16:33:36.519239+00:00"
     },
     {
       "id": "s2:22cb569525194d67e964f61fa102506429cf85f4",
@@ -14368,110 +14434,28 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-10-30T09:53:22.942902+00:00",
   "briefing": {
     "text": "",
-    "added": 11,
-    "at": "2026-10-29T16:36:39.516171+00:00",
+    "added": 2,
+    "at": "2026-10-30T16:33:36.519239+00:00",
     "new": [
       {
-        "t": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
-        "u": "https://arxiv.org/abs/2204.01691",
+        "t": "The strategic applications of natural polymer nanocomposites in food packaging and agriculture: Chances, challenges, and consumers’ perception",
+        "u": "https://doi.org/10.3389/fchem.2022.1106230",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN，主要研究问题可概括为：Do As I Can, Not As I Say: Grounding Language in Robotic Affordances。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：The strategic applications of natural polymer nanocomposites in food packaging and agriculture: Chances, challenges, and consumers’ perception。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 624
+        "cit": 125
       },
       {
-        "t": "ReAct: Synergizing Reasoning and Acting in Language Models",
-        "u": "https://arxiv.org/abs/2210.03629",
+        "t": "In-depth review of AI-enabled unmanned aerial vehicles: trends, vision, and challenges",
+        "u": "https://doi.org/10.1007/s44163-024-00209-1",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：ReAct: Synergizing Reasoning and Acting in Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：In-depth review of AI-enabled unmanned aerial vehicles: trends, vision, and challenges。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 607
-      },
-      {
-        "t": "Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy",
-        "u": "https://arxiv.org/abs/2110.02642",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 417
-      },
-      {
-        "t": "A Multimodal Biomedical Foundation Model Trained from Fifteen Million Image–Text Pairs",
-        "u": "https://doi.org/10.1056/aioa2400640",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：A Multimodal Biomedical Foundation Model Trained from Fifteen Million Image–Text Pairs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 282
-      },
-      {
-        "t": "Crossing the Reality Gap: A Survey on Sim-to-Real Transferability of Robot Controllers in Reinforcement Learning",
-        "u": "https://doi.org/10.1109/access.2021.3126658",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：Crossing the Reality Gap: A Survey on Sim-to-Real Transferability of Robot Controllers in Reinforcement Learning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 200
-      },
-      {
-        "t": "Ultracompact meta-imagers for arbitrary all-optical convolution",
-        "u": "https://doi.org/10.1038/s41377-022-00752-5",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Ultracompact meta-imagers for arbitrary all-optical convolution。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 160
-      },
-      {
-        "t": "LSTM and GRU type recurrent neural networks in model predictive control: A Review",
-        "u": "https://doi.org/10.1016/j.neucom.2025.129712",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：LSTM and GRU type recurrent neural networks in model predictive control: A Review。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 127
-      },
-      {
-        "t": "Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation",
-        "u": "https://doi.org/10.15607/rss.2024.xx.077",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能，主要研究问题可概括为：Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 123
-      },
-      {
-        "t": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
-        "u": "https://doi.org/10.15607/rss.2024.xx.079",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 103
-      },
-      {
-        "t": "Magma: A Foundation Model for Multimodal AI Agents",
-        "u": "https://arxiv.org/abs/2502.13130",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：Magma: A Foundation Model for Multimodal AI Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 53
-      },
-      {
-        "t": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
-        "u": "https://doi.org/10.3389/fpsyg.2025.1679324",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 52
+        "cit": 80
       }
     ]
   }
