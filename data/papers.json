@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T10:45:29.381857+00:00",
+  "updated_at": "2026-10-31T15:37:03.002874+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -17771,6 +17771,206 @@
       "added_at": "2026-10-30T10:45:03.805533+00:00"
     },
     {
+      "id": "2610.38405",
+      "arxiv_id": "2610.38405",
+      "title": "SpaceAct: Benchmarking 3D Spatial and Temporal Reasoning via Closed-Loop Action and Active Perception",
+      "authors": [
+        "Chenglong Shi",
+        "Zekai Yuan",
+        "Yue Song",
+        "Jon Pu",
+        "Will Wu"
+      ],
+      "published": "2026-10-28",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.38405",
+      "pdf_url": "https://arxiv.org/pdf/2610.38405",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "主动感知与重建",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 9,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：SpaceAct: Benchmarking 3D Spatial and Temporal Reasoning via Closed-Loop Action and Active Perception。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：To solve problems in 3D space rather than merely describe images, multimodal large language models (MLLMs) need 3D spatiotemporal reasoning: reconstructing 3D geometry from occluded 2D views, anticipating physical dynami",
+      "why_it_matters": "与具身基准与评测、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "active perception",
+        "benchmark",
+        "evaluation",
+        "exploration",
+        "geometry",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-10-31T15:36:47.389250+00:00"
+    },
+    {
+      "id": "2610.38744",
+      "arxiv_id": "2610.38744",
+      "title": "AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs",
+      "authors": [
+        "Haotian Zhai",
+        "Tianming Sha",
+        "Junnan Li"
+      ],
+      "published": "2026-10-28",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.38744",
+      "pdf_url": "https://arxiv.org/pdf/2610.38744",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 7,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/06b4386f4f66a919635f532037acbf7ade09af8a",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Embodied instruction following in interactive environments requires agents to interpret natural language commands and complete long-horizon tasks.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "instruction following",
+        "task planning"
+      ],
+      "added_at": "2026-10-31T15:36:50.540833+00:00"
+    },
+    {
+      "id": "2610.38318",
+      "arxiv_id": "2610.38318",
+      "title": "What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language Navigation",
+      "authors": [
+        "Yuhang Peng",
+        "Zhikai Wang",
+        "Ziyi Wang",
+        "Jiaru Zhong",
+        "Xiaoji Zheng",
+        "Jingzhi Huang",
+        "Yi Wang",
+        "Jiangtao Gong"
+      ],
+      "published": "2026-10-28",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.38318",
+      "pdf_url": "https://arxiv.org/pdf/2610.38318",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "地面 VLN",
+        "空域 VLN",
+        "空间智能"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦地面 VLN、空域 VLN，主要研究问题可概括为：What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Zero-shot vision-and-language navigation (VLN) requires an agent to use past observations without navigation-specific training.",
+      "why_it_matters": "与地面 VLN、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "geometry",
+        "instruction",
+        "instruction following",
+        "r2r",
+        "waypoint"
+      ],
+      "added_at": "2026-10-31T15:36:53.745761+00:00"
+    },
+    {
+      "id": "2610.38266",
+      "arxiv_id": "2610.38266",
+      "title": "Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation",
+      "authors": [
+        "Xiaofeng Han",
+        "Kaize Luo",
+        "Zenghuang Fu",
+        "Zichong Zhu",
+        "Zhe Feng",
+        "Changwei Wang",
+        "Rongtao Xu",
+        "Weiliang Meng",
+        "Xiaopeng Zhang"
+      ],
+      "published": "2026-10-28",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.38266",
+      "pdf_url": "https://arxiv.org/pdf/2610.38266",
+      "code_url": "https://github.com/nkd-lkz/physical-ai-rsi-survey",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "世界模型",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks.",
+      "why_it_matters": "与具身基准与评测、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-10-31T15:36:56.884735+00:00"
+    },
+    {
+      "id": "2610.38234",
+      "arxiv_id": "2610.38234",
+      "title": "SimRetract: Zero-Shot Sim-to-Real Robotic Assistance for Retractor Take-Over in Open Surgery",
+      "authors": [
+        "Xucheng Wang",
+        "Zhizhou Yang",
+        "Sung Eun Kim",
+        "Romain Hardy",
+        "Michael P. Sampson",
+        "Aakash Reddy",
+        "Ankit Pal",
+        "张小嫚 ZHANG Xiaoman",
+        "Luyang Luo",
+        "Pranav Rajpurkar"
+      ],
+      "published": "2026-10-28",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2610.38234",
+      "pdf_url": "https://arxiv.org/pdf/2610.38234",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "真机与 Sim2Real",
+        "空间智能"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real、空间智能，主要研究问题可概括为：SimRetract: Zero-Shot Sim-to-Real Robotic Assistance for Retractor Take-Over in Open Surgery。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We demonstrate the first zero-shot sim-to-real transfer for a surgeon-robot collaboration task in open surgery: retractor take-over.",
+      "why_it_matters": "与真机与 Sim2Real、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "real robot"
+      ],
+      "added_at": "2026-10-31T15:37:00.002255+00:00"
+    },
+    {
       "id": "2610.37111",
       "arxiv_id": "2610.37111",
       "title": "RAVEN: A Unified Active SLAM System for Rapid Autonomous Visual Exploration with Aerial Robots under Localization Uncertainty",
@@ -29386,175 +29586,47 @@
   ],
   "briefing": {
     "text": "",
-    "added": 21,
-    "at": "2026-10-30T10:45:29.381880+00:00",
+    "added": 5,
+    "at": "2026-10-31T15:37:03.002896+00:00",
     "new": [
       {
-        "t": "Information-Driven Collaborative Autonomy for Heterogeneous UAV/UGV Teams",
-        "u": "https://arxiv.org/abs/2610.39379",
+        "t": "SpaceAct: Benchmarking 3D Spatial and Temporal Reasoning via Closed-Loop Action and Active Perception",
+        "u": "https://arxiv.org/abs/2610.38405",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Information-Driven Collaborative Autonomy for Heterogeneous UAV/UGV Teams。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：SpaceAct: Benchmarking 3D Spatial and Temporal Reasoning via Closed-Loop Action and Active Perception。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "A Unified Benchmark for Aerial-Enhanced Autonomous Driving: The KITScenes Aerial Dataset",
-        "u": "https://arxiv.org/abs/2610.40455",
+        "t": "AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs",
+        "u": "https://arxiv.org/abs/2610.38744",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：A Unified Benchmark for Aerial-Enhanced Autonomous Driving: The KITScenes Aerial Dataset。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
-        "u": "https://arxiv.org/abs/2610.39287",
+        "t": "What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language Navigation",
+        "u": "https://arxiv.org/abs/2610.38318",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/Ideal-ljl/AeroBrain"
-      },
-      {
-        "t": "Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory",
-        "u": "https://arxiv.org/abs/2610.39446",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、地面 VLN，主要研究问题可概括为：Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦地面 VLN、空域 VLN，主要研究问题可概括为：What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Optimal Path Planning with Localization constraints",
-        "u": "https://arxiv.org/abs/2610.40429",
+        "t": "Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation",
+        "u": "https://arxiv.org/abs/2610.38266",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Optimal Path Planning with Localization constraints。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
+        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/nkd-lkz/physical-ai-rsi-survey"
       },
       {
-        "t": "CAPTURER: A Dexterous Aerial Manipulator for Dynamic and Precise Grasping across Diverse Environments",
-        "u": "https://arxiv.org/abs/2610.39119",
+        "t": "SimRetract: Zero-Shot Sim-to-Real Robotic Assistance for Retractor Take-Over in Open Surgery",
+        "u": "https://arxiv.org/abs/2610.38234",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：CAPTURER: A Dexterous Aerial Manipulator for Dynamic and Precise Grasping across Diverse Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
-        "u": "https://arxiv.org/abs/2610.40578",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、主动感知与重建，主要研究问题可概括为：VeriCUA: Verification as Agentic Exploration for Computer-Using Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search",
-        "u": "https://arxiv.org/abs/2610.39438",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MATCH: Execution-Aware Hierarchical Reinforcement Learning for Vision-and-Language Navigation in Continuous Environment",
-        "u": "https://arxiv.org/abs/2610.38248",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦地面 VLN、空域 VLN，主要研究问题可概括为：MATCH: Execution-Aware Hierarchical Reinforcement Learning for Vision-and-Language Navigation in Continuous Environment。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance",
-        "u": "https://arxiv.org/abs/2610.39547",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation",
-        "u": "https://arxiv.org/abs/2610.40495",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "From Intent to Improvement: Agentic Dataset Search for Better Model Training",
-        "u": "https://arxiv.org/abs/2610.39608",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：From Intent to Improvement: Agentic Dataset Search for Better Model Training。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/nju-websoft/AgenticDS"
-      },
-      {
-        "t": "RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning",
-        "u": "https://arxiv.org/abs/2610.40207",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation",
-        "u": "https://arxiv.org/abs/2610.38657",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、世界模型，主要研究问题可概括为：Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Decision-Level Error Attribution and Depth-Aware Safety Evaluation of Monocular RGB Human Tracking for Autonomous Robot Navigation",
-        "u": "https://arxiv.org/abs/2610.40199",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Decision-Level Error Attribution and Depth-Aware Safety Evaluation of Monocular RGB Human Tracking for Autonomous Robot Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence",
-        "u": "https://arxiv.org/abs/2610.40026",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization",
-        "u": "https://arxiv.org/abs/2610.40640",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
-        "u": "https://arxiv.org/abs/2610.40401",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空域 VLN，主要研究问题可概括为：Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs",
-        "u": "https://arxiv.org/abs/2610.40551",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "PathCowork: Learning from real-world pathology practice to build AI copilots",
-        "u": "https://arxiv.org/abs/2610.39441",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：PathCowork: Learning from real-world pathology practice to build AI copilots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "EARS-Info: Information-Aware Event-Driven Reallocation for Multi-Robot Exploration",
-        "u": "https://arxiv.org/abs/2610.38040",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：EARS-Info: Information-Aware Event-Driven Reallocation for Multi-Robot Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦真机与 Sim2Real、空间智能，主要研究问题可概括为：SimRetract: Zero-Shot Sim-to-Real Robotic Assistance for Retractor Take-Over in Open Surgery。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
