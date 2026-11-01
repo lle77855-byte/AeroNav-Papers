@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T16:33:36.519239+00:00",
+  "updated_at": "2026-11-01T16:35:57.619991+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -871,7 +871,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 2596,
+      "citation_count": 2604,
       "url": "https://arxiv.org/abs/2308.12966",
       "pdf_url": "https://arxiv.org/pdf/2308.12966",
       "code_url": "https://github.com/QwenLM/Qwen-VL",
@@ -1426,7 +1426,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "neural information processing systems",
-      "citation_count": 1762,
+      "citation_count": 1773,
       "url": "https://arxiv.org/abs/2312.07104",
       "pdf_url": "https://arxiv.org/pdf/2312.07104",
       "code_url": "https://github.com/sgl-project/sglang",
@@ -2039,6 +2039,42 @@
       "added_at": "2026-09-02T04:03:14Z"
     },
     {
+      "id": "2112.12130",
+      "arxiv_id": "2112.12130",
+      "title": "NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
+      "authors": [
+        "Zihan Zhu",
+        "Songyou Peng",
+        "Viktor Larsson",
+        "Weiwei Xu",
+        "Hujun Bao",
+        "Zhaopeng Cui",
+        "Martin R. Oswald",
+        "Marc Pollefeys"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 1167,
+      "url": "https://arxiv.org/abs/2112.12130",
+      "pdf_url": "https://arxiv.org/pdf/2112.12130",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：NICE-SLAM: Neural Implicit Scalable Encoding for SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Neural implicit representations have recently shown encouraging results in various domains, including promising progress in simultaneous localization and mapping (SLAM).",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W4312878643",
       "arxiv_id": "2112.12130",
       "title": "NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
@@ -2079,37 +2115,40 @@
       "added_at": "2026-09-02T04:03:14Z"
     },
     {
-      "id": "2112.12130",
-      "arxiv_id": "2112.12130",
-      "title": "NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
+      "id": "2308.00692",
+      "arxiv_id": "2308.00692",
+      "title": "LISA: Reasoning Segmentation via Large Language Model",
       "authors": [
-        "Zihan Zhu",
-        "Songyou Peng",
-        "Viktor Larsson",
-        "Weiwei Xu",
-        "Hujun Bao",
-        "Zhaopeng Cui",
-        "Martin R. Oswald",
-        "Marc Pollefeys"
+        "Xin Lai",
+        "Zhuotao Tian",
+        "Yukang Chen",
+        "Yanwei Li",
+        "Yuhui Yuan",
+        "Shu Liu",
+        "Jiaya Jia"
       ],
-      "published": "2022",
+      "published": "2024",
       "source": "OpenAlex",
       "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
-      "citation_count": 1166,
-      "url": "https://arxiv.org/abs/2112.12130",
-      "pdf_url": "https://arxiv.org/pdf/2112.12130",
+      "citation_count": 1117,
+      "url": "https://arxiv.org/abs/2308.00692",
+      "pdf_url": "https://arxiv.org/pdf/2308.00692",
       "code_url": "",
       "topics": [
-        "状态估计与控制"
+        "具身基准与评测",
+        "空域 VLN",
+        "多模态大模型与智能体"
       ],
       "evidence": "强",
       "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：NICE-SLAM: Neural Implicit Scalable Encoding for SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Neural implicit representations have recently shown encouraging results in various domains, including promising progress in simultaneous localization and mapping (SLAM).",
-      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：LISA: Reasoning Segmentation via Large Language Model。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Although perception systems have made remarkable ad-vancements in recent years, they still rely on explicit human instruction or pre-defined categories to identify the target objects before executing visual recognition t",
+      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
       "keywords": [
-        "localization",
-        "slam"
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "multimodal large language model"
       ],
       "is_classic": true,
       "added_at": "2026-10-13T17:22:26.183366+00:00"
@@ -2154,45 +2193,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T06:28:08Z"
-    },
-    {
-      "id": "2308.00692",
-      "arxiv_id": "2308.00692",
-      "title": "LISA: Reasoning Segmentation via Large Language Model",
-      "authors": [
-        "Xin Lai",
-        "Zhuotao Tian",
-        "Yukang Chen",
-        "Yanwei Li",
-        "Yuhui Yuan",
-        "Shu Liu",
-        "Jiaya Jia"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
-      "citation_count": 1113,
-      "url": "https://arxiv.org/abs/2308.00692",
-      "pdf_url": "https://arxiv.org/pdf/2308.00692",
-      "code_url": "",
-      "topics": [
-        "具身基准与评测",
-        "空域 VLN",
-        "多模态大模型与智能体"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：LISA: Reasoning Segmentation via Large Language Model。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Although perception systems have made remarkable ad-vancements in recent years, they still rely on explicit human instruction or pre-defined categories to identify the target objects before executing visual recognition t",
-      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "benchmark",
-        "evaluation",
-        "instruction",
-        "multimodal large language model"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "2209.06794",
@@ -2951,7 +2951,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
-      "citation_count": 821,
+      "citation_count": 823,
       "url": "https://arxiv.org/abs/2011.02523",
       "pdf_url": "https://arxiv.org/pdf/2011.02523",
       "code_url": "",
@@ -3340,7 +3340,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "Vicinagearth.",
-      "citation_count": 735,
+      "citation_count": 742,
       "url": "https://doi.org/10.1007/s44336-024-00009-2",
       "pdf_url": "",
       "code_url": "",
@@ -3485,7 +3485,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 624,
+      "citation_count": 625,
       "url": "https://doi.org/10.1109/icra48506.2021.9561996",
       "pdf_url": "",
       "code_url": "",
@@ -3521,7 +3521,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
-      "citation_count": 624,
+      "citation_count": 625,
       "url": "https://arxiv.org/abs/2104.10831",
       "pdf_url": "https://arxiv.org/pdf/2104.10831",
       "code_url": "",
@@ -4781,7 +4781,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
-      "citation_count": 457,
+      "citation_count": 458,
       "url": "https://arxiv.org/abs/2312.07488",
       "pdf_url": "https://arxiv.org/pdf/2312.07488",
       "code_url": "",
@@ -4856,7 +4856,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "IEEE International Conference on Big Data (BigData)",
-      "citation_count": 441,
+      "citation_count": 442,
       "url": "https://arxiv.org/abs/2311.13165",
       "pdf_url": "https://arxiv.org/pdf/2311.13165",
       "code_url": "",
@@ -7142,42 +7142,6 @@
       "added_at": "2026-10-14T14:54:47.083131+00:00"
     },
     {
-      "id": "https://openalex.org/W3185165122",
-      "arxiv_id": "2108.04537",
-      "title": "Time-optimal planning for quadrotor waypoint flight",
-      "authors": [
-        "Philipp Foehn",
-        "Ángel Romero",
-        "Davide Scaramuzza"
-      ],
-      "published": "2021",
-      "source": "OpenAlex",
-      "venue": "Science Robotics",
-      "citation_count": 299,
-      "url": "https://doi.org/10.1126/scirobotics.abh1221",
-      "pdf_url": "https://www.zora.uzh.ch/id/eprint/207837/1/ScienceRobotics21_Foehn.pdf",
-      "code_url": "",
-      "topics": [
-        "状态估计与控制"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "针对四旋翼穿越多航点的时间最优轨迹规划难题，提出以沿轨迹进度的表述实现时间分配与轨迹本身的联合优化，充分发挥旋翼推力极限，并在大型动捕真机竞速实验中超越人类专业飞手。",
-      "change_zh": "常见路线要么用平滑多项式轨迹、无法用尽执行器潜力，要么数值优化但需先验给定各航点时刻分配，导致结果并非真正时间最优；本文将轨迹进度编入优化问题，使时间分配与轨迹联合求解，从根源上消除先验时间分配这一瓶颈。",
-      "why_it_matters": "对状态估计与控制技术线（运动/轨迹规划与飞行控制）是标杆性高影响力工作；其极速航点穿越能力可直接支撑UAV搜救、侦察与巡检中的快速巡航和目标接近，提升全自主无人机的机动上限与任务时效性。",
-      "relevance_rating": 8,
-      "rigor_rating": 9,
-      "venue_verified": false,
-      "score": 25,
-      "keywords": [
-        "drone",
-        "search and rescue",
-        "waypoint"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-03T19:57:56Z"
-    },
-    {
       "id": "https://openalex.org/W4388692454",
       "arxiv_id": "2205.04422",
       "title": "Motion planning around obstacles with convex optimization",
@@ -7190,7 +7154,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "Science Robotics",
-      "citation_count": 299,
+      "citation_count": 301,
       "url": "https://doi.org/10.1126/scirobotics.adf7843",
       "pdf_url": "",
       "code_url": "",
@@ -7225,7 +7189,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "Science Robotics",
-      "citation_count": 299,
+      "citation_count": 301,
       "url": "https://arxiv.org/abs/2205.04422",
       "pdf_url": "https://arxiv.org/pdf/2205.04422",
       "code_url": "",
@@ -7242,6 +7206,42 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "https://openalex.org/W3185165122",
+      "arxiv_id": "2108.04537",
+      "title": "Time-optimal planning for quadrotor waypoint flight",
+      "authors": [
+        "Philipp Foehn",
+        "Ángel Romero",
+        "Davide Scaramuzza"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "Science Robotics",
+      "citation_count": 300,
+      "url": "https://doi.org/10.1126/scirobotics.abh1221",
+      "pdf_url": "https://www.zora.uzh.ch/id/eprint/207837/1/ScienceRobotics21_Foehn.pdf",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "针对四旋翼穿越多航点的时间最优轨迹规划难题，提出以沿轨迹进度的表述实现时间分配与轨迹本身的联合优化，充分发挥旋翼推力极限，并在大型动捕真机竞速实验中超越人类专业飞手。",
+      "change_zh": "常见路线要么用平滑多项式轨迹、无法用尽执行器潜力，要么数值优化但需先验给定各航点时刻分配，导致结果并非真正时间最优；本文将轨迹进度编入优化问题，使时间分配与轨迹联合求解，从根源上消除先验时间分配这一瓶颈。",
+      "why_it_matters": "对状态估计与控制技术线（运动/轨迹规划与飞行控制）是标杆性高影响力工作；其极速航点穿越能力可直接支撑UAV搜救、侦察与巡检中的快速巡航和目标接近，提升全自主无人机的机动上限与任务时效性。",
+      "relevance_rating": 8,
+      "rigor_rating": 9,
+      "venue_verified": false,
+      "score": 25,
+      "keywords": [
+        "drone",
+        "search and rescue",
+        "waypoint"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-03T19:57:56Z"
     },
     {
       "id": "2303.11396",
@@ -7620,6 +7620,43 @@
       "added_at": "2026-09-02T06:48:10Z"
     },
     {
+      "id": "https://openalex.org/W4319302559",
+      "arxiv_id": "2209.08533",
+      "title": "RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System",
+      "authors": [
+        "Boyu Zhou",
+        "Hao Xu",
+        "Shaojie Shen"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Robotics",
+      "citation_count": 288,
+      "url": "https://doi.org/10.1109/tro.2023.3236945",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "主动感知与重建"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "提出分散式多无人机快速协同探索方法RACER：以在线栅格分解上的成对交互分配区域，用带容量约束的车辆路径问题均衡负载，分层规划器生成最小时间轨迹，首次在真机实现完全分散的多机探索。",
+      "change_zh": "相比常见的集中式分配或前沿点聚类探索，本文用在线栅格分解上的成对交互，仅靠异步有限通信即可去中心化地分配互不重叠区域，并以车辆路径问题均衡各机负载，首次真机验证完全分散的多机协同探索。",
+      "why_it_matters": "多机协同探索是UAV搜救侦察等主动目标搜索与快速建图的基础能力，其去中心化分配与最小时间轨迹规划可直接服务多机搜索任务；真机分散协同与开源实现对主动感知和真机Sim2Real线也具参考价值。",
+      "relevance_rating": 9,
+      "rigor_rating": 9,
+      "venue_verified": false,
+      "score": 27,
+      "keywords": [
+        "aerial",
+        "exploration",
+        "real world",
+        "uav"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-04T19:37:49Z"
+    },
+    {
       "id": "2209.08533",
       "arxiv_id": "2209.08533",
       "title": "RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System",
@@ -7653,43 +7690,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-14T14:54:47.083131+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4319302559",
-      "arxiv_id": "2209.08533",
-      "title": "RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System",
-      "authors": [
-        "Boyu Zhou",
-        "Hao Xu",
-        "Shaojie Shen"
-      ],
-      "published": "2023",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Robotics",
-      "citation_count": 286,
-      "url": "https://doi.org/10.1109/tro.2023.3236945",
-      "pdf_url": "",
-      "code_url": "",
-      "topics": [
-        "主动感知与重建"
-      ],
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "提出分散式多无人机快速协同探索方法RACER：以在线栅格分解上的成对交互分配区域，用带容量约束的车辆路径问题均衡负载，分层规划器生成最小时间轨迹，首次在真机实现完全分散的多机探索。",
-      "change_zh": "相比常见的集中式分配或前沿点聚类探索，本文用在线栅格分解上的成对交互，仅靠异步有限通信即可去中心化地分配互不重叠区域，并以车辆路径问题均衡各机负载，首次真机验证完全分散的多机协同探索。",
-      "why_it_matters": "多机协同探索是UAV搜救侦察等主动目标搜索与快速建图的基础能力，其去中心化分配与最小时间轨迹规划可直接服务多机搜索任务；真机分散协同与开源实现对主动感知和真机Sim2Real线也具参考价值。",
-      "relevance_rating": 9,
-      "rigor_rating": 9,
-      "venue_verified": false,
-      "score": 27,
-      "keywords": [
-        "aerial",
-        "exploration",
-        "real world",
-        "uav"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-04T19:37:49Z"
     },
     {
       "id": "https://openalex.org/W3181051035",
@@ -7912,6 +7912,47 @@
       "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
+      "id": "2404.00282",
+      "arxiv_id": "2404.00282",
+      "title": "Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods",
+      "authors": [
+        "Yuji Cao",
+        "Huan Zhao",
+        "Yuheng Cheng",
+        "Ting Shu",
+        "Yue Chen",
+        "Guolong Liu",
+        "Gaoqi Liang",
+        "Junhua Zhao",
+        "Jinyue Yan",
+        "Yun Li"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "citation_count": 276,
+      "url": "https://arxiv.org/abs/2404.00282",
+      "pdf_url": "https://arxiv.org/pdf/2404.00282",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "本综述系统梳理大语言模型增强强化学习的研究，基于智能体-环境交互范式提出信息处理器、奖励设计者、决策者与生成器四类角色的分类框架，并分析各角色缓解的RL挑战与未来方向。",
+      "change_zh": "作为综述，它不提出新方法或新实验，而是把散乱的LLM+RL工作统一到智能体-环境交互范式下的四类角色结构化框架，澄清研究范围、各角色所缓解的RL瓶颈及未来方向，为该交叉领域提供了系统地图。",
+      "why_it_matters": "对收录范围有背景参考价值：奖励设计者与决策者角色可直接启发UAV目标搜索与ObjectNav的稀疏奖励构造和LLM任务规划，其关于样本效率与多任务学习的讨论也有助于具身导航策略的训练设计。",
+      "relevance_rating": 6,
+      "rigor_rating": 5,
+      "venue_verified": false,
+      "score": 17,
+      "keywords": [
+        "task planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-08T05:39:39.759268+00:00"
+    },
+    {
       "id": "https://openalex.org/W3168086592",
       "arxiv_id": "2103.05056",
       "title": "LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM",
@@ -8018,47 +8059,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-03T19:57:56Z"
-    },
-    {
-      "id": "2404.00282",
-      "arxiv_id": "2404.00282",
-      "title": "Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods",
-      "authors": [
-        "Yuji Cao",
-        "Huan Zhao",
-        "Yuheng Cheng",
-        "Ting Shu",
-        "Yue Chen",
-        "Guolong Liu",
-        "Gaoqi Liang",
-        "Junhua Zhao",
-        "Jinyue Yan",
-        "Yun Li"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
-      "citation_count": 273,
-      "url": "https://arxiv.org/abs/2404.00282",
-      "pdf_url": "https://arxiv.org/pdf/2404.00282",
-      "code_url": "",
-      "topics": [
-        "多模态大模型与智能体"
-      ],
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "本综述系统梳理大语言模型增强强化学习的研究，基于智能体-环境交互范式提出信息处理器、奖励设计者、决策者与生成器四类角色的分类框架，并分析各角色缓解的RL挑战与未来方向。",
-      "change_zh": "作为综述，它不提出新方法或新实验，而是把散乱的LLM+RL工作统一到智能体-环境交互范式下的四类角色结构化框架，澄清研究范围、各角色所缓解的RL瓶颈及未来方向，为该交叉领域提供了系统地图。",
-      "why_it_matters": "对收录范围有背景参考价值：奖励设计者与决策者角色可直接启发UAV目标搜索与ObjectNav的稀疏奖励构造和LLM任务规划，其关于样本效率与多任务学习的讨论也有助于具身导航策略的训练设计。",
-      "relevance_rating": 6,
-      "rigor_rating": 5,
-      "venue_verified": false,
-      "score": 17,
-      "keywords": [
-        "task planning"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-08T05:39:39.759268+00:00"
     },
     {
       "id": "https://openalex.org/W4312265650",
@@ -9697,6 +9697,46 @@
       "added_at": "2026-09-26T14:03:39.635862+00:00"
     },
     {
+      "id": "https://openalex.org/W4322576645",
+      "arxiv_id": "2204.10704",
+      "title": "SUES-200: A Multi-Height Multi-Scene Cross-View Image Benchmark Across Drone and Satellite",
+      "authors": [
+        "Runzhe Zhu",
+        "Ling Yin",
+        "Mingze Yang",
+        "Fei Wu",
+        "Yuncheng Yang",
+        "Wenbo Hu"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "citation_count": 201,
+      "url": "https://doi.org/10.1109/tcsvt.2023.3249204",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "提出首个多高度多场景跨视角数据集SUES-200，含无人机在四个高度采集的24120张图像及对应卫星视图，配套统一评测流程，系统分析九种架构并提出鲁棒基线，面向无人机定位与导航。",
+      "change_zh": "既有跨视角数据集多为单一高度且场景类型单一，难以检验模型对复杂场景的适应性；本文首次把无人机四个飞行高度的成像差异纳入基准，覆盖多场景，并提供统一评测与九种架构分析及鲁棒基线。",
+      "why_it_matters": "跨视角匹配是GPS拒止环境下无人机借卫星图像定位的重要途径，该基准为无人机自主的定位环节提供多高度多场景评测支撑；与UAV主动目标搜索、ObjectNav等导航决策主线关联间接，价值主要在定位感知层。",
+      "relevance_rating": 6,
+      "rigor_rating": 6,
+      "venue_verified": false,
+      "score": 18,
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "drone",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-05T18:45:24.442900+00:00"
+    },
+    {
       "id": "2204.10704",
       "arxiv_id": "2204.10704",
       "title": "SUES-200: A Multi-Height Multi-Scene Cross-View Image Benchmark Across Drone and Satellite",
@@ -9733,46 +9773,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4322576645",
-      "arxiv_id": "2204.10704",
-      "title": "SUES-200: A Multi-Height Multi-Scene Cross-View Image Benchmark Across Drone and Satellite",
-      "authors": [
-        "Runzhe Zhu",
-        "Ling Yin",
-        "Mingze Yang",
-        "Fei Wu",
-        "Yuncheng Yang",
-        "Wenbo Hu"
-      ],
-      "published": "2023",
-      "source": "OpenAlex",
-      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
-      "citation_count": 199,
-      "url": "https://doi.org/10.1109/tcsvt.2023.3249204",
-      "pdf_url": "",
-      "code_url": "",
-      "topics": [
-        "状态估计与控制"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "提出首个多高度多场景跨视角数据集SUES-200，含无人机在四个高度采集的24120张图像及对应卫星视图，配套统一评测流程，系统分析九种架构并提出鲁棒基线，面向无人机定位与导航。",
-      "change_zh": "既有跨视角数据集多为单一高度且场景类型单一，难以检验模型对复杂场景的适应性；本文首次把无人机四个飞行高度的成像差异纳入基准，覆盖多场景，并提供统一评测与九种架构分析及鲁棒基线。",
-      "why_it_matters": "跨视角匹配是GPS拒止环境下无人机借卫星图像定位的重要途径，该基准为无人机自主的定位环节提供多高度多场景评测支撑；与UAV主动目标搜索、ObjectNav等导航决策主线关联间接，价值主要在定位感知层。",
-      "relevance_rating": 6,
-      "rigor_rating": 6,
-      "venue_verified": false,
-      "score": 18,
-      "keywords": [
-        "aerial",
-        "benchmark",
-        "drone",
-        "evaluation"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
       "id": "https://openalex.org/W4285506552",
@@ -10317,7 +10317,7 @@
       "published": "2025",
       "source": "OpenAlex",
       "venue": "Remote Sensing",
-      "citation_count": 162,
+      "citation_count": 164,
       "url": "https://doi.org/10.3390/rs17030550",
       "pdf_url": "https://www.mdpi.com/2072-4292/17/3/550/pdf?version=1738830087",
       "code_url": "",
@@ -14434,6 +14434,7 @@
       "excluded_at": "2026-10-09"
     }
   },
+  "last_citation_refresh": "2026-11-01T16:35:57.619991+00:00",
   "briefing": {
     "text": "",
     "added": 2,
