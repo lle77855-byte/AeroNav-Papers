@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T16:35:57.619991+00:00",
+  "updated_at": "2026-11-02T19:59:07.467831+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -10695,6 +10695,41 @@
       "added_at": "2026-10-29T16:36:39.516171+00:00"
     },
     {
+      "id": "https://openalex.org/W4386200967",
+      "arxiv_id": "",
+      "title": "Personality Traits in Large Language Models",
+      "authors": [
+        "Gregory Serapio‐García",
+        "Mustafa Safdari",
+        "Clément Crepy",
+        "Luning Sun",
+        "Stephen Fitz",
+        "Marwa Abdulhai",
+        "Aleksandra Faust",
+        "Maja J. Matarić"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Research Square",
+      "citation_count": 137,
+      "url": "https://doi.org/10.21203/rs.3.rs-3296728/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-3296728/latest.pdf",
+      "code_url": "",
+      "topics": [
+        "空域 VLN"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空域 VLN，主要研究问题可概括为：Personality Traits in Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Abstract The advent of large language models (LLMs) has revolutionized natural language processing, enabling the generation of coherent and contextually relevant text.",
+      "why_it_matters": "与空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-02T19:59:07.467831+00:00"
+    },
+    {
       "id": "https://openalex.org/W4385151905",
       "arxiv_id": "",
       "title": "An Adaptive Conversion Speed Q-Learning Algorithm for Search and Rescue UAV Path Planning in Unknown Environments",
@@ -11156,6 +11191,40 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4408998341",
+      "arxiv_id": "",
+      "title": "A Comprehensive Review on Autonomous Navigation",
+      "authors": [
+        "Saeid Nahavandi",
+        "Roohallah Alizadehsani",
+        "Darius Nahavandi",
+        "Shady M. Korany Mohamed",
+        "Navid Mohajer",
+        "Mohammad Rokonuzzaman",
+        "Ibrahim Hossain"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "ACM Computing Surveys",
+      "citation_count": 116,
+      "url": "https://doi.org/10.1145/3727642",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：A Comprehensive Review on Autonomous Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The field of autonomous mobile robots has undergone dramatic advancements over the past decades.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-02T19:59:07.467831+00:00"
     },
     {
       "id": "2409.15634",
@@ -11665,6 +11734,67 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-30T16:33:36.519239+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4399310716",
+      "arxiv_id": "",
+      "title": "On Transforming Reinforcement Learning With Transformers: The Development Trajectory",
+      "authors": [
+        "Shengchao Hu",
+        "Li Shen",
+        "Ya Zhang",
+        "Yixin Chen",
+        "Dacheng Tao"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "citation_count": 80,
+      "url": "https://doi.org/10.1109/tpami.2024.3408271",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Transactions on Pattern Analysis and Machine Intelligence），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：On Transforming Reinforcement Learning With Transformers: The Development Trajectory。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Transformers, originally devised for natural language processing (NLP), have also produced significant successes in computer vision (CV).",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-02T19:59:07.467831+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4396910085",
+      "arxiv_id": "",
+      "title": "Dynamic Adaptive Dynamic Window Approach",
+      "authors": [
+        "Matej Dobrevski",
+        "Danijel Skočaj"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Transactions on Robotics",
+      "citation_count": 80,
+      "url": "https://doi.org/10.1109/tro.2024.3400932",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Dynamic Adaptive Dynamic Window Approach。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Robust local navigation is a critical capability for any mobile robot operating in a real-world, unstructured environment, especially when there are humans or other moving obstacles in the workspace.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-02T19:59:07.467831+00:00"
     },
     {
       "id": "s2:22cb569525194d67e964f61fa102506429cf85f4",
@@ -14434,27 +14564,44 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-11-01T16:35:57.619991+00:00",
   "briefing": {
     "text": "",
-    "added": 2,
-    "at": "2026-10-30T16:33:36.519239+00:00",
+    "added": 4,
+    "at": "2026-11-02T19:59:07.467831+00:00",
     "new": [
       {
-        "t": "The strategic applications of natural polymer nanocomposites in food packaging and agriculture: Chances, challenges, and consumers’ perception",
-        "u": "https://doi.org/10.3389/fchem.2022.1106230",
+        "t": "Personality Traits in Large Language Models",
+        "u": "https://doi.org/10.21203/rs.3.rs-3296728/v1",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：The strategic applications of natural polymer nanocomposites in food packaging and agriculture: Chances, challenges, and consumers’ perception。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN，主要研究问题可概括为：Personality Traits in Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 125
+        "cit": 137
       },
       {
-        "t": "In-depth review of AI-enabled unmanned aerial vehicles: trends, vision, and challenges",
-        "u": "https://doi.org/10.1007/s44163-024-00209-1",
+        "t": "A Comprehensive Review on Autonomous Navigation",
+        "u": "https://doi.org/10.1145/3727642",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：In-depth review of AI-enabled unmanned aerial vehicles: trends, vision, and challenges。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：A Comprehensive Review on Autonomous Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 116
+      },
+      {
+        "t": "On Transforming Reinforcement Learning With Transformers: The Development Trajectory",
+        "u": "https://doi.org/10.1109/tpami.2024.3408271",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：On Transforming Reinforcement Learning With Transformers: The Development Trajectory。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 80
+      },
+      {
+        "t": "Dynamic Adaptive Dynamic Window Approach",
+        "u": "https://doi.org/10.1109/tro.2024.3400932",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Dynamic Adaptive Dynamic Window Approach。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
         "cit": 80
       }
