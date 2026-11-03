@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T19:59:07.467831+00:00",
+  "updated_at": "2026-11-03T17:34:05.268032+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -153,7 +153,7 @@
       "published": "2025",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 9781,
+      "citation_count": 9881,
       "url": "https://arxiv.org/abs/2505.09388",
       "pdf_url": "https://arxiv.org/pdf/2505.09388",
       "code_url": "",
@@ -2605,6 +2605,38 @@
       "added_at": "2026-10-14T14:54:47.083131+00:00"
     },
     {
+      "id": "2104.06405",
+      "arxiv_id": "2104.06405",
+      "title": "BARF: Bundle-Adjusting Neural Radiance Fields",
+      "authors": [
+        "Chen-Hsuan Lin",
+        "Wei-Chiu Ma",
+        "Antonio B. Torralba",
+        "Simon Lucey"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 938,
+      "url": "https://arxiv.org/abs/2104.06405",
+      "pdf_url": "https://arxiv.org/pdf/2104.06405",
+      "code_url": "",
+      "topics": [
+        "状态估计与控制"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：BARF: Bundle-Adjusting Neural Radiance Fields。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Neural Radiance Fields (NeRF) [31] have recently gained a surge of interest within the computer vision community for its power to synthesize photorealistic novel views of real-world scenes.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
       "id": "https://openalex.org/W3204752575",
       "arxiv_id": "2104.06405",
       "title": "BARF: Bundle-Adjusting Neural Radiance Fields",
@@ -2639,38 +2671,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-26T14:03:39.635862+00:00"
-    },
-    {
-      "id": "2104.06405",
-      "arxiv_id": "2104.06405",
-      "title": "BARF: Bundle-Adjusting Neural Radiance Fields",
-      "authors": [
-        "Chen-Hsuan Lin",
-        "Wei-Chiu Ma",
-        "Antonio B. Torralba",
-        "Simon Lucey"
-      ],
-      "published": "2021",
-      "source": "OpenAlex",
-      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
-      "citation_count": 933,
-      "url": "https://arxiv.org/abs/2104.06405",
-      "pdf_url": "https://arxiv.org/pdf/2104.06405",
-      "code_url": "",
-      "topics": [
-        "状态估计与控制"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：BARF: Bundle-Adjusting Neural Radiance Fields。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Neural Radiance Fields (NeRF) [31] have recently gained a surge of interest within the computer vision community for its power to synthesize photorealistic novel views of real-world scenes.",
-      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "localization",
-        "slam"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
       "id": "https://openalex.org/W4389520756",
@@ -4546,6 +4546,45 @@
       "added_at": "2026-09-04T19:37:49Z"
     },
     {
+      "id": "https://openalex.org/W4401417061",
+      "arxiv_id": "2312.03275",
+      "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+      "authors": [
+        "Naoki Yokoyama",
+        "Sehoon Ha",
+        "Dhruv Batra",
+        "Jiuguang Wang",
+        "Bernadette Bucher"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "预印本",
+      "citation_count": 471,
+      "url": "https://doi.org/10.1109/icra57147.2024.10610712",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "ObjectNav 目标搜索"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "VLFM是零样本目标导航方法：用深度观测构建占用图识别边界，结合预训练视觉语言模型对RGB生成语言对齐的价值图，据此选择最有望发现目标物体的边界探索，在Gibson、HM3D、MP3D的ObjectNav任务上取得SOTA SPL，并部署于Spot真机。",
+      "change_zh": "相比端到端强化学习或需训练语义模块的常见路线，VLFM完全免训练零样本：不学导航策略，而是用预训练VLM的图文相似度为边界点打分生成价值地图，将几何边界探索与语义价值决策统一在同一框架，使同一方法可直接从仿真跨到真机。",
+      "why_it_matters": "对ObjectNav线确立了零样本范式并验证VLM语义价值可驱动目标搜索；其'边界探索+语言价值图'框架可迁移到UAV主动目标搜索，用语义线索引导飞行探索方向；真机Spot办公室部署也为零样本导航方法的sim2real落地提供了可复现范例。",
+      "relevance_rating": 10,
+      "rigor_rating": 8,
+      "venue_verified": false,
+      "score": 28,
+      "keywords": [
+        "deployment",
+        "object goal navigation",
+        "real world",
+        "semantic navigation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-09-06T08:54:19.521116+00:00"
+    },
+    {
       "id": "https://openalex.org/W4401417422",
       "arxiv_id": "2310.07896",
       "title": "NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration",
@@ -4610,45 +4649,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-18T13:47:17.227851+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4401417061",
-      "arxiv_id": "2312.03275",
-      "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
-      "authors": [
-        "Naoki Yokoyama",
-        "Sehoon Ha",
-        "Dhruv Batra",
-        "Jiuguang Wang",
-        "Bernadette Bucher"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "预印本",
-      "citation_count": 467,
-      "url": "https://doi.org/10.1109/icra57147.2024.10610712",
-      "pdf_url": "",
-      "code_url": "",
-      "topics": [
-        "ObjectNav 目标搜索"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "VLFM是零样本目标导航方法：用深度观测构建占用图识别边界，结合预训练视觉语言模型对RGB生成语言对齐的价值图，据此选择最有望发现目标物体的边界探索，在Gibson、HM3D、MP3D的ObjectNav任务上取得SOTA SPL，并部署于Spot真机。",
-      "change_zh": "相比端到端强化学习或需训练语义模块的常见路线，VLFM完全免训练零样本：不学导航策略，而是用预训练VLM的图文相似度为边界点打分生成价值地图，将几何边界探索与语义价值决策统一在同一框架，使同一方法可直接从仿真跨到真机。",
-      "why_it_matters": "对ObjectNav线确立了零样本范式并验证VLM语义价值可驱动目标搜索；其'边界探索+语言价值图'框架可迁移到UAV主动目标搜索，用语义线索引导飞行探索方向；真机Spot办公室部署也为零样本导航方法的sim2real落地提供了可复现范例。",
-      "relevance_rating": 10,
-      "rigor_rating": 8,
-      "venue_verified": false,
-      "score": 28,
-      "keywords": [
-        "deployment",
-        "object goal navigation",
-        "real world",
-        "semantic navigation"
-      ],
-      "is_classic": true,
-      "added_at": "2026-09-06T08:54:19.521116+00:00"
     },
     {
       "id": "2312.03275",
@@ -7850,7 +7850,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "Advanced Intelligent Systems",
-      "citation_count": 279,
+      "citation_count": 280,
       "url": "https://doi.org/10.1002/aisy.202200459",
       "pdf_url": "",
       "code_url": "",
@@ -12025,6 +12025,34 @@
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
+      "id": "https://openalex.org/W4412185104",
+      "arxiv_id": "",
+      "title": "The algorithmic self: how AI is reshaping human identity, introspection, and agency",
+      "authors": [
+        "Jewel Joseph"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Frontiers in Psychology",
+      "citation_count": 46,
+      "url": "https://doi.org/10.3389/fpsyg.2025.1645795",
+      "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645795/pdf",
+      "code_url": "",
+      "topics": [
+        "主动感知与重建"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦主动感知与重建，主要研究问题可概括为：The algorithmic self: how AI is reshaping human identity, introspection, and agency。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Artificial Intelligence (AI) is no longer a mysterious technological presence hiding behind screens; it is intertwined with the most intimate dimensions of who we are.",
+      "why_it_matters": "与主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-27T15:44:27.553861+00:00"
+    },
+    {
       "id": "2509.18905",
       "arxiv_id": "2509.18905",
       "title": "How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective",
@@ -12106,34 +12134,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-18T13:47:17.227851+00:00"
-    },
-    {
-      "id": "https://openalex.org/W4412185104",
-      "arxiv_id": "",
-      "title": "The algorithmic self: how AI is reshaping human identity, introspection, and agency",
-      "authors": [
-        "Jewel Joseph"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "Frontiers in Psychology",
-      "citation_count": 43,
-      "url": "https://doi.org/10.3389/fpsyg.2025.1645795",
-      "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1645795/pdf",
-      "code_url": "",
-      "topics": [
-        "主动感知与重建"
-      ],
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "该工作聚焦主动感知与重建，主要研究问题可概括为：The algorithmic self: how AI is reshaping human identity, introspection, and agency。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：Artificial Intelligence (AI) is no longer a mysterious technological presence hiding behind screens; it is intertwined with the most intimate dimensions of who we are.",
-      "why_it_matters": "与主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "exploration"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-27T15:44:27.553861+00:00"
     },
     {
       "id": "https://openalex.org/W4412093083",
@@ -14564,6 +14564,7 @@
       "excluded_at": "2026-10-09"
     }
   },
+  "last_citation_refresh": "2026-11-03T17:34:05.268032+00:00",
   "briefing": {
     "text": "",
     "added": 4,
