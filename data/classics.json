@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T17:34:05.268032+00:00",
+  "updated_at": "2026-11-04T10:45:50.519836+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -10879,6 +10879,39 @@
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
+      "id": "https://openalex.org/W4401042604",
+      "arxiv_id": "",
+      "title": "PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits",
+      "authors": [
+        "Hang Jiang",
+        "Xiajie Zhang",
+        "Xubo Cao",
+        "Cynthia Breazeal",
+        "Deb Kumar Roy",
+        "Jad Kabbara"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Findings of the Association for Computational Linguistics: NAACL",
+      "citation_count": 127,
+      "url": "https://doi.org/10.18653/v1/2024.findings-naacl.229",
+      "pdf_url": "https://aclanthology.org/2024.findings-naacl.229.pdf",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Despite the many use cases for large language models (LLMs) in creating personalized chatbots, there has been limited research on evaluating the extent to which the behaviors of personalized LLMs accurately and consisten",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-04T10:45:50.519836+00:00"
+    },
+    {
       "id": "https://openalex.org/W4396917670",
       "arxiv_id": "2303.08778",
       "title": "Fully neuromorphic vision and control for autonomous drone flight",
@@ -14564,47 +14597,19 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-11-03T17:34:05.268032+00:00",
   "briefing": {
     "text": "",
-    "added": 4,
-    "at": "2026-11-02T19:59:07.467831+00:00",
+    "added": 1,
+    "at": "2026-11-04T10:45:50.519836+00:00",
     "new": [
       {
-        "t": "Personality Traits in Large Language Models",
-        "u": "https://doi.org/10.21203/rs.3.rs-3296728/v1",
+        "t": "PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits",
+        "u": "https://doi.org/10.18653/v1/2024.findings-naacl.229",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN，主要研究问题可概括为：Personality Traits in Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 137
-      },
-      {
-        "t": "A Comprehensive Review on Autonomous Navigation",
-        "u": "https://doi.org/10.1145/3727642",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：A Comprehensive Review on Autonomous Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 116
-      },
-      {
-        "t": "On Transforming Reinforcement Learning With Transformers: The Development Trajectory",
-        "u": "https://doi.org/10.1109/tpami.2024.3408271",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：On Transforming Reinforcement Learning With Transformers: The Development Trajectory。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 80
-      },
-      {
-        "t": "Dynamic Adaptive Dynamic Window Approach",
-        "u": "https://doi.org/10.1109/tro.2024.3400932",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Dynamic Adaptive Dynamic Window Approach。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 80
+        "cit": 127
       }
     ]
   }
