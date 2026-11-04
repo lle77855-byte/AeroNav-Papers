@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:40:25.357561+00:00",
+  "updated_at": "2026-11-04T11:53:26.267560+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -1557,48 +1557,6 @@
         "aerial",
         "instruction",
         "spatial reasoning",
-        "uav",
-        "waypoint"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
-    },
-    {
-      "id": "2608.04825",
-      "arxiv_id": "2608.04825",
-      "title": "Deliberate Before You Fly: Vision-Guided Spatial Deliberation for UAV See-and-Reach Navigation",
-      "authors": [
-        "Fanfu Xue",
-        "En Yu",
-        "Bohang Liu",
-        "Hongjun Wang",
-        "Yang Yang",
-        "Xindi Wang",
-        "Jiande Sun"
-      ],
-      "published": "2026-08-05",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.04825",
-      "pdf_url": "https://arxiv.org/pdf/2608.04825",
-      "code_url": "",
-      "categories": [
-        "cs.RO"
-      ],
-      "topics": [
-        "UAV 目标搜索"
-      ],
-      "relevance_score": 7,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "针对无人机语言目标接近与停靠任务，DBFly在航点生成前引入显式空间深思，用方向锚定、空间诊断与机动决策链指导航点，辅以隐式飞行走廊与终端收敛停止策略，较SOTA提升25.07个百分点。",
-      "change_zh": "常见方法把视觉语言表征直接映射为动作，DBFly改为先做显式空间决策链（方向锚定、空间诊断、机动决策），以机动意图引导航点，并将目标方向先验转为隐式飞行走廊作几何参考，再用接近度与短程运动收敛的停止策略提升可靠性。",
-      "why_it_matters": "直接服务UAV目标发现与接近：显式空间深思与隐式走廊缓解语义-控制失配，终端收敛停止策略解决接近后可靠停靠的关键痛点；其先推理空间决策再生成航点的范式与停靠准则，对ObjectNav的目标接近与终止判断也有借鉴价值。",
-      "relevance_rating": 10,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 27,
-      "keywords": [
-        "aerial",
         "uav",
         "waypoint"
       ],
@@ -16754,6 +16712,455 @@
       "added_at": "2026-09-18T08:54:45.554191+00:00"
     },
     {
+      "id": "2611.05197",
+      "arxiv_id": "2611.05197",
+      "title": "Robust Reconstruction of Power Lines from Incomplete Mobile and Aerial LiDAR Data",
+      "authors": [
+        "Mohamed Gaha",
+        "Damos Ayobo Abongo",
+        "Philippe Massicotte",
+        "Eya Ben Kacem",
+        "Wael Jaafar",
+        "Rami Langar",
+        "Christian Buteau"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.05197",
+      "pdf_url": "https://arxiv.org/pdf/2611.05197",
+      "code_url": "https://github.com/varen-project",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Robust Reconstruction of Power Lines from Incomplete Mobile and Aerial LiDAR Data。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Accurate vegetation-encroachment assessment and risk mitigation require electric utilities to accurately locate and characterize distribution-network assets, including poles and power lines, and distinguish among medium-",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "evaluation",
+        "geometry"
+      ],
+      "added_at": "2026-11-04T11:52:43.537039+00:00"
+    },
+    {
+      "id": "2611.04980",
+      "arxiv_id": "2611.04980",
+      "title": "ProAlign: Progressive Positional and Prototype-Guided Alignment for Aerial-Ground Person Re-Identification",
+      "authors": [
+        "Qiao Li",
+        "Jing Chen",
+        "Cong Wu",
+        "Kun He",
+        "Ruiying Du",
+        "Lei Tan"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04980",
+      "pdf_url": "https://arxiv.org/pdf/2611.04980",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：ProAlign: Progressive Positional and Prototype-Guided Alignment for Aerial-Ground Person Re-Identification。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Aerial-Ground Person Re-Identification (AG-ReID) aims to match pedestrian images captured by unmanned aerial vehicles (UAVs) and ground-based surveillance cameras.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "uav"
+      ],
+      "added_at": "2026-11-04T11:52:46.602629+00:00"
+    },
+    {
+      "id": "2611.04392",
+      "arxiv_id": "2611.04392",
+      "title": "Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware",
+      "authors": [
+        "Yeonseok Lee"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04392",
+      "pdf_url": "https://arxiv.org/pdf/2611.04392",
+      "code_url": "https://github.com/ylee-sling/Aero-VPA",
+      "categories": [
+        "cs.LO",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-Language-Action (VLA) models generalize across tasks, but their autoregressive decoders need sequential forward passes in proportion to the action horizon, each bounded below on embedded aerial platforms by stream",
+      "why_it_matters": "与具身基准与评测、UAV 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "deployment",
+        "evaluation"
+      ],
+      "added_at": "2026-11-04T11:52:49.653482+00:00"
+    },
+    {
+      "id": "2611.05361",
+      "arxiv_id": "2611.05361",
+      "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+      "authors": [
+        "Zhipeng Zhong",
+        "Matthew Coombes",
+        "Cunjia Liu"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.05361",
+      "pdf_url": "https://arxiv.org/pdf/2611.05361",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "空间智能",
+        "状态估计与控制"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys.",
+      "why_it_matters": "与具身基准与评测、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "geometry",
+        "localization"
+      ],
+      "added_at": "2026-11-04T11:52:52.701832+00:00"
+    },
+    {
+      "id": "2611.04974",
+      "arxiv_id": "2611.04974",
+      "title": "LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation",
+      "authors": [
+        "Hong Je-Gal",
+        "Jinwoo Kim",
+        "Chanbin Yi",
+        "Hyun-Suk Lee"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04974",
+      "pdf_url": "https://arxiv.org/pdf/2611.04974",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We investigate the automated generation of executable robot reinforcement learning (RL) policies from natural-language task descriptions.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "deployment"
+      ],
+      "added_at": "2026-11-04T11:52:55.750200+00:00"
+    },
+    {
+      "id": "2611.05072",
+      "arxiv_id": "2611.05072",
+      "title": "Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving",
+      "authors": [
+        "Junzhe Wang",
+        "Jinqing Zhang",
+        "Qingjie Liu"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.05072",
+      "pdf_url": "https://arxiv.org/pdf/2611.05072",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Although existing candidate trajectory evaluators have substantially improved end-to-end planning accuracy, their underlying mechanism remains suboptimal.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-04T11:52:58.799822+00:00"
+    },
+    {
+      "id": "2611.05080",
+      "arxiv_id": "2611.05080",
+      "title": "CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation",
+      "authors": [
+        "Po-Yi Wu",
+        "Djengo Cyun-Jyun Fang",
+        "Dian Cheng",
+        "Tsung-Wei Ke"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.05080",
+      "pdf_url": "https://arxiv.org/pdf/2611.05080",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reinforcement learning (RL) is promising for adapting robot policies to unstructured real-world environments.",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment"
+      ],
+      "added_at": "2026-11-04T11:53:01.855636+00:00"
+    },
+    {
+      "id": "2611.04255",
+      "arxiv_id": "2611.04255",
+      "title": "ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms",
+      "authors": [
+        "Han Zhang",
+        "Sicheng Lu",
+        "Aleks Santari",
+        "Jeffrey K. Jopling",
+        "Masaru Ishii",
+        "Mathias Unberath"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04255",
+      "pdf_url": "https://arxiv.org/pdf/2611.04255",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "主动感知与重建"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、主动感知与重建，主要研究问题可概括为：ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Operating rooms (ORs) increasingly contain ambient sensing infrastructure to enable AI-based optimization of workflows and utilization.",
+      "why_it_matters": "与多模态大模型与智能体、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "exploration"
+      ],
+      "added_at": "2026-11-04T11:53:04.911897+00:00"
+    },
+    {
+      "id": "2611.05181",
+      "arxiv_id": "2611.05181",
+      "title": "What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis",
+      "authors": [
+        "Christian Pipal",
+        "Eva-Maria Vogel",
+        "Morgan Wack"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.05181",
+      "pdf_url": "https://arxiv.org/pdf/2611.05181",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multimodal large language models (MLLMs) allow social scientists to analyze video at scale, but researchers must decide which parts of a video to provide as input.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-04T11:53:07.975522+00:00"
+    },
+    {
+      "id": "2611.05172",
+      "arxiv_id": "2611.05172",
+      "title": "PadLoc: Training-Free Floor-Plan Localization by Sparse Geometric Matching",
+      "authors": [
+        "Marian Bookhahn",
+        "Frank Neumann"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.05172",
+      "pdf_url": "https://arxiv.org/pdf/2611.05172",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "topics": [
+        "状态估计与控制"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制，主要研究问题可概括为：PadLoc: Training-Free Floor-Plan Localization by Sparse Geometric Matching。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We propose PadLoc, a training-free localization back-end that places a moving sensor within a known floor plan.",
+      "why_it_matters": "与状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "localization",
+        "odometry"
+      ],
+      "added_at": "2026-11-04T11:53:11.022484+00:00"
+    },
+    {
+      "id": "2611.04960",
+      "arxiv_id": "2611.04960",
+      "title": "An Agentic Framework for Quality-Aware and Scenario-Adaptive Image Compression",
+      "authors": [
+        "Zhenghao Chen",
+        "Lebin Zhou",
+        "Zicong Chen",
+        "Naifu Xue",
+        "Jiahao Li",
+        "Bin Li",
+        "Dong Xu",
+        "Yan Lu"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04960",
+      "pdf_url": "https://arxiv.org/pdf/2611.04960",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：An Agentic Framework for Quality-Aware and Scenario-Adaptive Image Compression。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Despite decades of progress, image codecs remain difficult to adapt to diverse real-world compression scenarios for two main reasons.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "evaluation"
+      ],
+      "added_at": "2026-11-04T11:53:14.088597+00:00"
+    },
+    {
+      "id": "2611.04470",
+      "arxiv_id": "2611.04470",
+      "title": "Using GeoAI and machine learning tools for consistent high-resolution land cover mapping based on time-series NAIP imagery",
+      "authors": [
+        "Jie Liu",
+        "Xusheng Tang",
+        "Chao Wang",
+        "Zhengxiao Yan",
+        "Yuchen Dai",
+        "Qi Zhang",
+        "Conghe Song"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04470",
+      "pdf_url": "https://arxiv.org/pdf/2611.04470",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Using GeoAI and machine learning tools for consistent high-resolution land cover mapping based on time-series NAIP imagery。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：High-resolution land-cover maps support ecological monitoring, but consistent historical time series remain scarce because aerial imagery varies across years and sensors.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "evaluation"
+      ],
+      "added_at": "2026-11-04T11:53:17.159501+00:00"
+    },
+    {
       "id": "2611.03106",
       "arxiv_id": "2611.03106",
       "title": "A Tightly Coupled Magnetic-Inertial SLAM System for Field Robots",
@@ -17367,6 +17774,80 @@
         "leaderboard"
       ],
       "added_at": "2026-11-03T11:40:22.356907+00:00"
+    },
+    {
+      "id": "2611.03850",
+      "arxiv_id": "2611.03850",
+      "title": "RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation",
+      "authors": [
+        "Deng-Ke Wu",
+        "Yifan Jin",
+        "Yida Yang",
+        "Lei Qian",
+        "Zhaoye Zhou",
+        "Hongru Zhang",
+        "Kai Ye",
+        "Shuyuan Hu",
+        "Yiran Mao",
+        "Zewei Ye",
+        "Bo Zhao"
+      ],
+      "published": "2026-11-02",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.03850",
+      "pdf_url": "https://arxiv.org/pdf/2611.03850",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Simulation benchmarks are the standard way to compare robot policies, but each benchmark brings its own evaluator, observation layout, and action convention, and evaluation is slow: 500 RoboTwin Easy episodes with one si",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-11-04T11:53:20.209893+00:00"
+    },
+    {
+      "id": "2611.04016",
+      "arxiv_id": "2611.04016",
+      "title": "Physical Experience Builds Continual Spatial World Models",
+      "authors": [
+        "Yuhang Sun"
+      ],
+      "published": "2026-11-02",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04016",
+      "pdf_url": "https://arxiv.org/pdf/2611.04016",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "世界模型",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：Physical Experience Builds Continual Spatial World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：World models are increasingly used to support prediction and planning in embodied agents, but the knowledge is usually established before deployment and then carried into later encounters.",
+      "why_it_matters": "与世界模型、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "world model"
+      ],
+      "added_at": "2026-11-04T11:53:23.266951+00:00"
     },
     {
       "id": "2611.01844",
@@ -30883,167 +31364,119 @@
   ],
   "briefing": {
     "text": "",
-    "added": 20,
-    "at": "2026-11-03T11:40:25.357588+00:00",
+    "added": 14,
+    "at": "2026-11-04T11:53:26.267586+00:00",
     "new": [
       {
-        "t": "A Tightly Coupled Magnetic-Inertial SLAM System for Field Robots",
-        "u": "https://arxiv.org/abs/2611.03106",
+        "t": "Robust Reconstruction of Power Lines from Incomplete Mobile and Aerial LiDAR Data",
+        "u": "https://arxiv.org/abs/2611.05197",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：A Tightly Coupled Magnetic-Inertial SLAM System for Field Robots。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Robust Reconstruction of Power Lines from Incomplete Mobile and Aerial LiDAR Data。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/varen-project"
+      },
+      {
+        "t": "ProAlign: Progressive Positional and Prototype-Guided Alignment for Aerial-Ground Person Re-Identification",
+        "u": "https://arxiv.org/abs/2611.04980",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：ProAlign: Progressive Positional and Prototype-Guided Alignment for Aerial-Ground Person Re-Identification。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "GeoGuesser Bench: Benchmarking Vision-Language Agents on Interactive Geolocation",
-        "u": "https://arxiv.org/abs/2611.02698",
+        "t": "Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware",
+        "u": "https://arxiv.org/abs/2611.04392",
         "r": null,
         "g": null,
-        "s": "该工作聚焦规划智能体、具身基准与评测，主要研究问题可概括为：GeoGuesser Bench: Benchmarking Vision-Language Agents on Interactive Geolocation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/ylee-sling/Aero-VPA"
+      },
+      {
+        "t": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+        "u": "https://arxiv.org/abs/2611.05361",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Robust Safety Assurance for Robotic Swarms Using Decentralized Collision Verification",
-        "u": "https://arxiv.org/abs/2611.01081",
+        "t": "LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation",
+        "u": "https://arxiv.org/abs/2611.04974",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Robust Safety Assurance for Robotic Swarms Using Decentralized Collision Verification。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation",
-        "u": "https://arxiv.org/abs/2611.00513",
+        "t": "Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving",
+        "u": "https://arxiv.org/abs/2611.05072",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、多模态大模型与智能体，主要研究问题可概括为：WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining",
-        "u": "https://arxiv.org/abs/2611.01844",
+        "t": "CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation",
+        "u": "https://arxiv.org/abs/2611.05080",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、UAV 目标搜索，主要研究问题可概括为：OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation",
-        "u": "https://arxiv.org/abs/2611.03584",
+        "t": "ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms",
+        "u": "https://arxiv.org/abs/2611.04255",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、主动感知与重建，主要研究问题可概括为：ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Interactive 3D Cutaway Visualization for Subsurface Target Localization in Robot-Assisted Surgery",
-        "u": "https://arxiv.org/abs/2611.02537",
+        "t": "What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis",
+        "u": "https://arxiv.org/abs/2611.05181",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Interactive 3D Cutaway Visualization for Subsurface Target Localization in Robot-Assisted Surgery。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "DiabAgent: Toward Agentic Physiological Control",
-        "u": "https://arxiv.org/abs/2611.03601",
+        "t": "PadLoc: Training-Free Floor-Plan Localization by Sparse Geometric Matching",
+        "u": "https://arxiv.org/abs/2611.05172",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：DiabAgent: Toward Agentic Physiological Control。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：PadLoc: Training-Free Floor-Plan Localization by Sparse Geometric Matching。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "An Agentic Framework for Automated Power System Studies and Grid Connection Assessment",
-        "u": "https://arxiv.org/abs/2611.03534",
+        "t": "An Agentic Framework for Quality-Aware and Scenario-Adaptive Image Compression",
+        "u": "https://arxiv.org/abs/2611.04960",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：An Agentic Framework for Automated Power System Studies and Grid Connection Assessment。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：An Agentic Framework for Quality-Aware and Scenario-Adaptive Image Compression。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "ArabGeoText: Tool-Augmented Vision-Language Models for Arabic Geospatial Text Spotting",
-        "u": "https://arxiv.org/abs/2611.03339",
+        "t": "Using GeoAI and machine learning tools for consistent high-resolution land cover mapping based on time-series NAIP imagery",
+        "u": "https://arxiv.org/abs/2611.04470",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：ArabGeoText: Tool-Augmented Vision-Language Models for Arabic Geospatial Text Spotting。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/yakoubbazi/ArabGeoText"
-      },
-      {
-        "t": "SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts",
-        "u": "https://arxiv.org/abs/2611.01600",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Using GeoAI and machine learning tools for consistent high-resolution land cover mapping based on time-series NAIP imagery。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Closing the Dynamics Gap through Self-Directed Robotic Interaction",
-        "u": "https://arxiv.org/abs/2611.02691",
+        "t": "RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation",
+        "u": "https://arxiv.org/abs/2611.03850",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Closing the Dynamics Gap through Self-Directed Robotic Interaction。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "SNAP: Semantic Navigation Among Pedestrians",
-        "u": "https://arxiv.org/abs/2611.03498",
+        "t": "Physical Experience Builds Continual Spatial World Models",
+        "u": "https://arxiv.org/abs/2611.04016",
         "r": null,
         "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、状态估计与控制，主要研究问题可概括为：SNAP: Semantic Navigation Among Pedestrians。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction",
-        "u": "https://arxiv.org/abs/2611.02871",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、真机与 Sim2Real，主要研究问题可概括为：ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
-        "u": "https://arxiv.org/abs/2611.03646",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Harder Than the Task: From Technical to Organizational Difficulty in AI Benchmarking",
-        "u": "https://arxiv.org/abs/2611.03494",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Harder Than the Task: From Technical to Organizational Difficulty in AI Benchmarking。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
-        "u": "https://arxiv.org/abs/2611.02807",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Toward Uncertainty-Aware, Physics-Grounded Human World Models",
-        "u": "https://arxiv.org/abs/2611.03428",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Toward Uncertainty-Aware, Physics-Grounded Human World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DeliverBench: Benchmarking AI Agents on Delivering Realistic Multi-Stage Professional Projects",
-        "u": "https://arxiv.org/abs/2611.03412",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：DeliverBench: Benchmarking AI Agents on Delivering Realistic Multi-Stage Professional Projects。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "NitiBench+: A Temporal Thai Legal Question Answering Benchmark Across 17 Domains",
-        "u": "https://arxiv.org/abs/2611.03576",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：NitiBench+: A Temporal Thai Legal Question Answering Benchmark Across 17 Domains。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：Physical Experience Builds Continual Spatial World Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
