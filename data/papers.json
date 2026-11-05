@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T11:55:06.076575+00:00",
+  "updated_at": "2026-11-05T17:51:37.006741+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -17877,6 +17877,49 @@
       "added_at": "2026-11-05T11:55:03.075795+00:00"
     },
     {
+      "id": "2611.04196",
+      "arxiv_id": "2611.04196",
+      "title": "DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
+      "authors": [
+        "Yuxuan Wang",
+        "Dadi Guo",
+        "Weijie Guo",
+        "Zikai Xu",
+        "Chen Lu",
+        "莊逸哲",
+        "Peng Huang",
+        "Yuejin Xie",
+        "G. Lin",
+        "Xuangan Xiao",
+        "Shipei Qu",
+        "Dongrui Liu"
+      ],
+      "published": "2026-11-03",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.04196",
+      "pdf_url": "https://arxiv.org/pdf/2611.04196",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Frontier LLM agents can turn known vulnerabilities into working exploits, but are costly and often access-restricted due to their potential for malicious use.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration",
+        "llm agent"
+      ],
+      "added_at": "2026-11-05T17:51:34.005978+00:00"
+    },
+    {
       "id": "2611.03106",
       "arxiv_id": "2611.03106",
       "title": "A Tightly Coupled Magnetic-Inertial SLAM System for Field Robots",
@@ -18635,6 +18678,44 @@
         "llm agent"
       ],
       "added_at": "2026-11-04T17:45:51.612316+00:00"
+    },
+    {
+      "id": "2611.03937",
+      "arxiv_id": "2611.03937",
+      "title": "FlowBench: Counterfactual Imagination Training for Spatial Intelligence",
+      "authors": [
+        "Yifan Liu",
+        "Baihan Zhang",
+        "Khai Loong Aw",
+        "Klemen Kotar",
+        "Daniel L. K. Yamins"
+      ],
+      "published": "2026-11-02",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.03937",
+      "pdf_url": "https://arxiv.org/pdf/2611.03937",
+      "code_url": "https://github.com/liuyifan22/FlowBench",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "世界模型",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：FlowBench: Counterfactual Imagination Training for Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Humans imagine scene changes under hypothetical motions, an ability central to spatial reasoning and robotic planning.",
+      "why_it_matters": "与空间智能、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "spatial intelligence",
+        "spatial reasoning",
+        "vlm",
+        "world model"
+      ],
+      "added_at": "2026-11-05T17:51:30.843186+00:00"
     },
     {
       "id": "2611.01844",
@@ -32264,151 +32345,23 @@
   ],
   "briefing": {
     "text": "",
-    "added": 18,
-    "at": "2026-11-05T11:55:06.076595+00:00",
+    "added": 2,
+    "at": "2026-11-05T17:51:37.006765+00:00",
     "new": [
       {
-        "t": "Benchmarking Fine-Grained Visual Reasoning for Remote Sensing in Urban Management",
-        "u": "https://arxiv.org/abs/2611.06770",
+        "t": "FlowBench: Counterfactual Imagination Training for Spatial Intelligence",
+        "u": "https://arxiv.org/abs/2611.03937",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：Benchmarking Fine-Grained Visual Reasoning for Remote Sensing in Urban Management。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
+        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：FlowBench: Counterfactual Imagination Training for Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/liuyifan22/FlowBench"
       },
       {
-        "t": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
-        "u": "https://arxiv.org/abs/2611.06768",
+        "t": "DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
+        "u": "https://arxiv.org/abs/2611.04196",
         "r": null,
         "g": null,
-        "s": "该工作聚焦真机与 Sim2Real、具身基准与评测，主要研究问题可概括为：PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception",
-        "u": "https://arxiv.org/abs/2611.06635",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "When to Ask for Help: Uncertainty-Triggered Aerial Refinement for Off-Road Navigation",
-        "u": "https://arxiv.org/abs/2611.06702",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：When to Ask for Help: Uncertainty-Triggered Aerial Refinement for Off-Road Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents",
-        "u": "https://arxiv.org/abs/2611.06254",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "WayPOP: A Panoramic Open-Set Panoptic Tracking Benchmark",
-        "u": "https://arxiv.org/abs/2611.05801",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：WayPOP: A Panoramic Open-Set Panoptic Tracking Benchmark。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-        "u": "https://arxiv.org/abs/2611.06911",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models",
-        "u": "https://arxiv.org/abs/2611.06653",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
-        "u": "https://arxiv.org/abs/2611.06844",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/YingyingYan1/DGP"
-      },
-      {
-        "t": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
-        "u": "https://arxiv.org/abs/2611.06868",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：On Turn-Level Best-of-N Sampling for Scaling LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks",
-        "u": "https://arxiv.org/abs/2611.06687",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Beyond Infraction Scores: Failure-Boundary Profiles for Closed-Loop Evaluation of Driving and Robot Navigation Agents",
-        "u": "https://arxiv.org/abs/2611.06453",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Beyond Infraction Scores: Failure-Boundary Profiles for Closed-Loop Evaluation of Driving and Robot Navigation Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models",
-        "u": "https://arxiv.org/abs/2611.05847",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Motion-guided Contrastive Regularization For Latent World Models",
-        "u": "https://arxiv.org/abs/2611.06901",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Motion-guided Contrastive Regularization For Latent World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds",
-        "u": "https://arxiv.org/abs/2611.06061",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、世界模型，主要研究问题可概括为：TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents",
-        "u": "https://arxiv.org/abs/2611.06674",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning",
-        "u": "https://arxiv.org/abs/2611.06913",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、真机与 Sim2Real，主要研究问题可概括为：cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "OUCH: Objective, Uniform, Controlled Haptic Stimulation for Automated Neurological Assessment",
-        "u": "https://arxiv.org/abs/2611.05741",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：OUCH: Objective, Uniform, Controlled Haptic Stimulation for Automated Neurological Assessment。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
