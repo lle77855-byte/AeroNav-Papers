@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T17:51:37.006741+00:00",
+  "updated_at": "2026-11-06T11:51:19.385186+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -14646,47 +14646,6 @@
       "added_at": "2026-09-01T13:35:05Z"
     },
     {
-      "id": "2608.06885",
-      "arxiv_id": "2608.06885",
-      "title": "Rigid-Covert GNSS Spoofing of UAV Swarms: A Structural Blind Spot, Its Detection Limit, and Absolute-Anchor Defenses",
-      "authors": [
-        "Minseok Park",
-        "Joon Soo Yoo"
-      ],
-      "published": "2026-08-07",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.06885",
-      "pdf_url": "https://arxiv.org/pdf/2608.06885",
-      "code_url": "",
-      "categories": [
-        "cs.CR",
-        "cs.RO"
-      ],
-      "topics": [
-        "状态估计与控制"
-      ],
-      "relevance_score": 8,
-      "citation_count": 0,
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/ef670b5791fe12d2c65e067b449a4ee8176330fe",
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "指出无人机集群以相对几何交叉验证GNSS存在结构盲区：整体缓慢刚性平移不改变机间距离，对任何纯相对检测不可观测；推导锚点残差检测下界，并提出拜占庭鲁棒的绝对位置恢复管线，全部在仿真中验证。",
-      "change_zh": "相比常见仅靠机间几何交叉校验或单机惯性监控的路线，本文以规范自由度论证证明整体刚性平移对纯相对检测器根本不可观测，量化绝对锚点下的检测漂移下界，并把防御从仅能告警推进到恢复全群绝对位置。",
-      "why_it_matters": "绝对定位完整性是户外无人机自主飞行与搜救任务的前提；其锚定重建与拜占庭鲁棒拟合属多机鲁棒状态估计，可增强空域自主的抗欺骗定位能力，但对UAV主动目标搜索与ObjectNav的决策感知层无直接关联，属定位安全层面的边缘支撑。",
-      "relevance_rating": 6,
-      "rigor_rating": 8,
-      "venue_verified": false,
-      "score": 20,
-      "keywords": [
-        "drone",
-        "evaluation",
-        "geometry",
-        "uav"
-      ],
-      "added_at": "2026-09-02T03:44:09Z"
-    },
-    {
       "id": "2610.12458",
       "arxiv_id": "2610.12458",
       "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
@@ -16710,6 +16669,445 @@
         "world model"
       ],
       "added_at": "2026-09-18T08:54:45.554191+00:00"
+    },
+    {
+      "id": "2611.07687",
+      "arxiv_id": "2611.07687",
+      "title": "Not Losing Your Way: Mitigating Visual-Inertial Odometry Drift through On-Demand Visual Feature Creation",
+      "authors": [
+        "Simone D'Angelo",
+        "Gianmarco Corrado",
+        "Federico Esposito",
+        "Vincenzo Scognamiglio",
+        "Fabio Ruggiero"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07687",
+      "pdf_url": "https://arxiv.org/pdf/2611.07687",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "relevance_score": 8,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Not Losing Your Way: Mitigating Visual-Inertial Odometry Drift through On-Demand Visual Feature Creation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Visual-inertial odometry (VIO) can degrade during aerial inspection in repetitive or poorly textured environments.",
+      "why_it_matters": "与状态估计与控制、UAV 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "evaluation",
+        "localization",
+        "odometry",
+        "uav"
+      ],
+      "added_at": "2026-11-06T11:50:45.255555+00:00"
+    },
+    {
+      "id": "2611.07630",
+      "arxiv_id": "2611.07630",
+      "title": "Real-Time Event-Based LED Tracking and Pose Estimation with PWM-Encoded Markers",
+      "authors": [
+        "Junkai Niu",
+        "Sheng Zhong",
+        "Delei Kong",
+        "Xin Wang",
+        "Kaizhen Sun",
+        "Yusen Zhang",
+        "Mingzhen Gan",
+        "Yi Zhou"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07630",
+      "pdf_url": "https://arxiv.org/pdf/2611.07630",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Real-Time Event-Based LED Tracking and Pose Estimation with PWM-Encoded Markers。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Event cameras are neuromorphic vision sensors with pixels that independently and asynchronously respond to brightness changes at microsecond resolution, supporting state estimation under rapid motion, motion blur, and hi",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "drone",
+        "evaluation",
+        "state estimation"
+      ],
+      "added_at": "2026-11-06T11:50:48.355536+00:00"
+    },
+    {
+      "id": "2611.07850",
+      "arxiv_id": "2611.07850",
+      "title": "Learning Robotic World Models with Semantic and Visual Feedback",
+      "authors": [
+        "Hao Wu",
+        "Yuqi Li",
+        "Yizhou Zhao",
+        "Kun Wang",
+        "Xiao Luo",
+        "Yu Cheng",
+        "Bo An",
+        "Yingli Tian",
+        "Laszlo A. Jeni",
+        "Ming-Hsuan Yang"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07850",
+      "pdf_url": "https://arxiv.org/pdf/2611.07850",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topics": [
+        "世界模型",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、空域 VLN，主要研究问题可概括为：Learning Robotic World Models with Semantic and Visual Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Robot world models predict action-conditioned future visual states to support robotic planning and decision making.",
+      "why_it_matters": "与世界模型、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "instruction",
+        "world model"
+      ],
+      "added_at": "2026-11-06T11:50:51.474951+00:00"
+    },
+    {
+      "id": "2611.08100",
+      "arxiv_id": "2611.08100",
+      "title": "An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers",
+      "authors": [
+        "Iaroslav Kolomiets",
+        "Iaroslav Sheipak",
+        "Mikhail Reppo",
+        "Vsevolod Egorov",
+        "Viktor Chertopolokhov",
+        "Isaac Chairez"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.08100",
+      "pdf_url": "https://arxiv.org/pdf/2611.08100",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-based rover autonomy requires integrating perception, localization, planning and platform-specific control under limited sensing and computing resources.",
+      "why_it_matters": "与状态估计与控制、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "localization",
+        "slam",
+        "state estimation"
+      ],
+      "added_at": "2026-11-06T11:50:54.596870+00:00"
+    },
+    {
+      "id": "2611.07417",
+      "arxiv_id": "2611.07417",
+      "title": "MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments",
+      "authors": [
+        "Kenneth Llontop",
+        "Cherie Ho",
+        "Dylan Zhou",
+        "Anuva Banwasi",
+        "Priya Sundaresan",
+        "Carlota Parés-Morlans",
+        "Jeannette Bohg"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07417",
+      "pdf_url": "https://arxiv.org/pdf/2611.07417",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topics": [
+        "空域 VLN",
+        "多模态大模型与智能体",
+        "规划智能体"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Real-world environments are messy, with paths often blocked by everyday objects like chairs and toys, requiring robots to perform interactive navigation by manipulating obstacles to clear a path.",
+      "why_it_matters": "与空域 VLN、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "instruction",
+        "task planning",
+        "vlm"
+      ],
+      "added_at": "2026-11-06T11:50:57.795375+00:00"
+    },
+    {
+      "id": "2611.08361",
+      "arxiv_id": "2611.08361",
+      "title": "Radio-to-Pose Information for Gauge-Drift Correction in Cooperative Localization",
+      "authors": [
+        "Aditya Iyer",
+        "Andy Ye",
+        "Akshay Narayan",
+        "Nora Ayanian"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.08361",
+      "pdf_url": "https://arxiv.org/pdf/2611.08361",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.MA"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "空间智能"
+      ],
+      "relevance_score": 4,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Radio-to-Pose Information for Gauge-Drift Correction in Cooperative Localization。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Cooperative localization uses odometry and inter-robot measurements to estimate the motion of a robot team.",
+      "why_it_matters": "与状态估计与控制、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "localization",
+        "odometry"
+      ],
+      "added_at": "2026-11-06T11:51:00.872768+00:00"
+    },
+    {
+      "id": "2611.08139",
+      "arxiv_id": "2611.08139",
+      "title": "H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration",
+      "authors": [
+        "Elif A. Özaslan",
+        "Tolga Özaslan"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.08139",
+      "pdf_url": "https://arxiv.org/pdf/2611.08139",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "主动感知与重建",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Frontier-based exploration systems repeatedly evaluate geodesic travel costs between robot poses and candidate viewpoints, and tour-based planners consume the full pairwise distance matrix built from them.",
+      "why_it_matters": "与主动感知与重建、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration"
+      ],
+      "added_at": "2026-11-06T11:51:04.023425+00:00"
+    },
+    {
+      "id": "2611.07293",
+      "arxiv_id": "2611.07293",
+      "title": "An Ordering Optimization for Fruit-Vegetable in High-Density Environment based on Genetic Algorithm",
+      "authors": [
+        "Jaehwi Seol",
+        "Jeonghyeon Pak",
+        "Hyoung Il Son"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07293",
+      "pdf_url": "https://arxiv.org/pdf/2611.07293",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "topics": [
+        "地面 VLN",
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦地面 VLN、具身基准与评测，主要研究问题可概括为：An Ordering Optimization for Fruit-Vegetable in High-Density Environment based on Genetic Algorithm。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：This paper presents a robotic harvesting method that combines RGB-D fruit localization, GA-based harvest ordering, and waypoint-based robot motion in dense and unstructured crop environments.",
+      "why_it_matters": "与地面 VLN、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "localization",
+        "waypoint"
+      ],
+      "added_at": "2026-11-06T11:51:07.115689+00:00"
+    },
+    {
+      "id": "2611.07730",
+      "arxiv_id": "2611.07730",
+      "title": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
+      "authors": [
+        "Seong-Eun Hong",
+        "JuYeong Hwang",
+        "Jinhyun Kim",
+        "Hanyoung Jang",
+        "HyeongYeop Kang"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07730",
+      "pdf_url": "https://arxiv.org/pdf/2611.07730",
+      "code_url": "",
+      "categories": [
+        "cs.GR",
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Selecting a next motion in a populated scene is not just a matter of avoiding what is currently in the way: an action can be locally feasible yet drift onto the road instead of the crosswalk, cut into a stream of crossin",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-06T11:51:10.211335+00:00"
+    },
+    {
+      "id": "2611.07516",
+      "arxiv_id": "2611.07516",
+      "title": "Training-Independent Validation of a Learning-Based Controller for Stunt Maneuvers",
+      "authors": [
+        "Kiruthiga Chandra Shekar",
+        "Aliasghar Arab",
+        "Jingang Yi"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07516",
+      "pdf_url": "https://arxiv.org/pdf/2611.07516",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "topics": [
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：Training-Independent Validation of a Learning-Based Controller for Stunt Maneuvers。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Learned controllers for vehicle maneuvers are usually validated under the conditions and objective used to train them, where they appear highly reliable, yet the parameters that change on real roads are often not those t",
+      "why_it_matters": "与真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "real world",
+        "sim2real"
+      ],
+      "added_at": "2026-11-06T11:51:13.302170+00:00"
+    },
+    {
+      "id": "2611.07461",
+      "arxiv_id": "2611.07461",
+      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+      "authors": [
+        "Haibo Jin",
+        "Peng Kuang",
+        "Xiaopeng Yuan",
+        "Lucheng Fu",
+        "Jerry Wang",
+        "Xucheng Yu",
+        "Yaoning Yu",
+        "Dehao Wu",
+        "Runguo Li",
+        "Colin Su",
+        "Jingxuan Sun",
+        "Xuyang Liu",
+        "Haojing Luo",
+        "Haohan Wang"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.07461",
+      "pdf_url": "https://arxiv.org/pdf/2611.07461",
+      "code_url": "",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "topics": [
+        "真机与 Sim2Real",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real、具身基准与评测，主要研究问题可概括为：The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：How can an agent handle a real-world task end to end?",
+      "why_it_matters": "与真机与 Sim2Real、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "real world"
+      ],
+      "added_at": "2026-11-06T11:51:16.384455+00:00"
     },
     {
       "id": "2611.06770",
@@ -32345,23 +32743,95 @@
   ],
   "briefing": {
     "text": "",
-    "added": 2,
-    "at": "2026-11-05T17:51:37.006765+00:00",
+    "added": 11,
+    "at": "2026-11-06T11:51:19.385210+00:00",
     "new": [
       {
-        "t": "FlowBench: Counterfactual Imagination Training for Spatial Intelligence",
-        "u": "https://arxiv.org/abs/2611.03937",
+        "t": "Not Losing Your Way: Mitigating Visual-Inertial Odometry Drift through On-Demand Visual Feature Creation",
+        "u": "https://arxiv.org/abs/2611.07687",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：FlowBench: Counterfactual Imagination Training for Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/liuyifan22/FlowBench"
+        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Not Losing Your Way: Mitigating Visual-Inertial Odometry Drift through On-Demand Visual Feature Creation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
       },
       {
-        "t": "DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
-        "u": "https://arxiv.org/abs/2611.04196",
+        "t": "Real-Time Event-Based LED Tracking and Pose Estimation with PWM-Encoded Markers",
+        "u": "https://arxiv.org/abs/2611.07630",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Real-Time Event-Based LED Tracking and Pose Estimation with PWM-Encoded Markers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Learning Robotic World Models with Semantic and Visual Feedback",
+        "u": "https://arxiv.org/abs/2611.07850",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、空域 VLN，主要研究问题可概括为：Learning Robotic World Models with Semantic and Visual Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers",
+        "u": "https://arxiv.org/abs/2611.08100",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments",
+        "u": "https://arxiv.org/abs/2611.07417",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Radio-to-Pose Information for Gauge-Drift Correction in Cooperative Localization",
+        "u": "https://arxiv.org/abs/2611.08361",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Radio-to-Pose Information for Gauge-Drift Correction in Cooperative Localization。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration",
+        "u": "https://arxiv.org/abs/2611.08139",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "An Ordering Optimization for Fruit-Vegetable in High-Density Environment based on Genetic Algorithm",
+        "u": "https://arxiv.org/abs/2611.07293",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦地面 VLN、具身基准与评测，主要研究问题可概括为：An Ordering Optimization for Fruit-Vegetable in High-Density Environment based on Genetic Algorithm。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
+        "u": "https://arxiv.org/abs/2611.07730",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Training-Independent Validation of a Learning-Based Controller for Stunt Maneuvers",
+        "u": "https://arxiv.org/abs/2611.07516",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：Training-Independent Validation of a Learning-Based Controller for Stunt Maneuvers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+        "u": "https://arxiv.org/abs/2611.07461",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦真机与 Sim2Real、具身基准与评测，主要研究问题可概括为：The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
