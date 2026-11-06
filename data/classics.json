@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T10:42:56.846912+00:00",
+  "updated_at": "2026-11-06T17:15:27.619283+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -274,7 +274,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "预印本",
-      "citation_count": 6368,
+      "citation_count": 6386,
       "url": "https://doi.org/10.1145/3586183.3606763",
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3586183.3606763",
       "code_url": "",
@@ -792,7 +792,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 3012,
+      "citation_count": 3027,
       "url": "https://arxiv.org/abs/2412.15115",
       "pdf_url": "https://arxiv.org/pdf/2412.15115",
       "code_url": "",
@@ -1422,7 +1422,7 @@
       "published": "2022",
       "source": "OpenAlex",
       "venue": "IEEE Transactions on Robotics",
-      "citation_count": 1820,
+      "citation_count": 1821,
       "url": "https://arxiv.org/abs/2107.06829",
       "pdf_url": "https://arxiv.org/pdf/2107.06829",
       "code_url": "",
@@ -1659,7 +1659,7 @@
       "published": "2024",
       "source": "OpenAlex",
       "venue": "arXiv (Cornell University)",
-      "citation_count": 1541,
+      "citation_count": 1544,
       "url": "https://arxiv.org/abs/2407.10671",
       "pdf_url": "https://arxiv.org/pdf/2407.10671",
       "code_url": "",
@@ -1878,7 +1878,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
-      "citation_count": 1355,
+      "citation_count": 1359,
       "url": "https://arxiv.org/abs/2211.06687",
       "pdf_url": "https://arxiv.org/pdf/2211.06687",
       "code_url": "",
@@ -1976,6 +1976,47 @@
       "added_at": "2026-09-03T19:57:56Z"
     },
     {
+      "id": "2409.12191",
+      "arxiv_id": "2409.12191",
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "authors": [
+        "Peng Wang",
+        "Shuai Bai",
+        "Sinan Tan",
+        "Shijie Wang",
+        "Zhihao Fan",
+        "Jinze Bai",
+        "Keqin Chen",
+        "Xuejing Liu",
+        "Jialin Wang",
+        "Ge Wen-bin",
+        "Yang Fan",
+        "Kai Dang"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 1327,
+      "url": "https://arxiv.org/abs/2409.12191",
+      "pdf_url": "https://arxiv.org/pdf/2409.12191",
+      "code_url": "https://github.com/QwenLM/Qwen2-VL",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present the Qwen2-VL Series, an advanced upgrade of the previous Qwen-VL models that redefines the conventional predetermined-resolution approach in visual processing.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-06T10:42:56.846912+00:00"
+    },
+    {
       "id": "2304.14178",
       "arxiv_id": "2304.14178",
       "title": "mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality",
@@ -2051,47 +2092,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-04T19:37:49Z"
-    },
-    {
-      "id": "2409.12191",
-      "arxiv_id": "2409.12191",
-      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
-      "authors": [
-        "Peng Wang",
-        "Shuai Bai",
-        "Sinan Tan",
-        "Shijie Wang",
-        "Zhihao Fan",
-        "Jinze Bai",
-        "Keqin Chen",
-        "Xuejing Liu",
-        "Jialin Wang",
-        "Ge Wen-bin",
-        "Yang Fan",
-        "Kai Dang"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "arXiv (Cornell University)",
-      "citation_count": 1302,
-      "url": "https://arxiv.org/abs/2409.12191",
-      "pdf_url": "https://arxiv.org/pdf/2409.12191",
-      "code_url": "https://github.com/QwenLM/Qwen2-VL",
-      "topics": [
-        "多模态大模型与智能体",
-        "具身基准与评测"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：We present the Qwen2-VL Series, an advanced upgrade of the previous Qwen-VL models that redefines the conventional predetermined-resolution approach in visual processing.",
-      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "benchmark",
-        "vlm"
-      ],
-      "is_classic": true,
-      "added_at": "2026-11-06T10:42:56.846912+00:00"
     },
     {
       "id": "https://openalex.org/W4393160747",
@@ -2289,7 +2289,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "IEEE Robotics and Automation Letters",
-      "citation_count": 1159,
+      "citation_count": 1161,
       "url": "https://arxiv.org/abs/2010.08196",
       "pdf_url": "https://arxiv.org/pdf/2010.08196",
       "code_url": "",
@@ -3233,6 +3233,48 @@
       "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
+      "id": "2511.21631",
+      "arxiv_id": "2511.21631",
+      "title": "Qwen3-VL Technical Report",
+      "authors": [
+        "Bai, Shuai",
+        "Yuxuan Cai",
+        "Ruizhe Chen",
+        "Keqin Chen",
+        "Xionghui Chen",
+        "Zesen Cheng",
+        "Deng, Lianghao",
+        "Wei Ding",
+        "Chang Gao",
+        "Chunjiang Ge",
+        "Wenbin Ge",
+        "Zhifang Guo"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 779,
+      "url": "https://arxiv.org/abs/2511.21631",
+      "pdf_url": "https://arxiv.org/pdf/2511.21631",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Qwen3-VL Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce Qwen3-VL, the most capable vision-language model in the Qwen series to date, achieving superior performance across a broad range of multimodal benchmarks.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-06T10:42:56.846912+00:00"
+    },
+    {
       "id": "2204.00598",
       "arxiv_id": "2204.00598",
       "title": "Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language",
@@ -3554,48 +3596,6 @@
       "added_at": "2026-09-02T06:28:08Z"
     },
     {
-      "id": "2511.21631",
-      "arxiv_id": "2511.21631",
-      "title": "Qwen3-VL Technical Report",
-      "authors": [
-        "Bai, Shuai",
-        "Yuxuan Cai",
-        "Ruizhe Chen",
-        "Keqin Chen",
-        "Xionghui Chen",
-        "Zesen Cheng",
-        "Deng, Lianghao",
-        "Wei Ding",
-        "Chang Gao",
-        "Chunjiang Ge",
-        "Wenbin Ge",
-        "Zhifang Guo"
-      ],
-      "published": "2025",
-      "source": "OpenAlex",
-      "venue": "arXiv (Cornell University)",
-      "citation_count": 744,
-      "url": "https://arxiv.org/abs/2511.21631",
-      "pdf_url": "https://arxiv.org/pdf/2511.21631",
-      "code_url": "",
-      "topics": [
-        "具身基准与评测",
-        "多模态大模型与智能体"
-      ],
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Qwen3-VL Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：We introduce Qwen3-VL, the most capable vision-language model in the Qwen series to date, achieving superior performance across a broad range of multimodal benchmarks.",
-      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "agentic",
-        "benchmark",
-        "evaluation"
-      ],
-      "is_classic": true,
-      "added_at": "2026-11-06T10:42:56.846912+00:00"
-    },
-    {
       "id": "2212.08051",
       "arxiv_id": "2212.08051",
       "title": "Objaverse: A Universe of Annotated 3D Objects",
@@ -3614,7 +3614,7 @@
       "published": "2023",
       "source": "OpenAlex",
       "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
-      "citation_count": 742,
+      "citation_count": 744,
       "url": "https://arxiv.org/abs/2212.08051",
       "pdf_url": "https://arxiv.org/pdf/2212.08051",
       "code_url": "",
@@ -10350,7 +10350,7 @@
       "published": "2021",
       "source": "OpenAlex",
       "venue": "IEEE Transactions on Intelligent Transportation Systems",
-      "citation_count": 228,
+      "citation_count": 229,
       "url": "https://arxiv.org/abs/2010.03118",
       "pdf_url": "https://arxiv.org/pdf/2010.03118",
       "code_url": "",
@@ -10623,6 +10623,49 @@
       "added_at": "2026-10-14T14:54:47.083131+00:00"
     },
     {
+      "id": "2312.16170",
+      "arxiv_id": "2312.16170",
+      "title": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
+      "authors": [
+        "Tai Wang",
+        "Xiaohan Mao",
+        "Chenming Zhu",
+        "Runsen Xu",
+        "Ruiyuan Lyu",
+        "Peisen Li",
+        "Xiao Chen",
+        "Wenwei Zhang",
+        "Kai Chen",
+        "Tianfan Xue",
+        "Xihui Liu",
+        "Cewu Lu"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 217,
+      "url": "https://arxiv.org/abs/2312.16170",
+      "pdf_url": "https://arxiv.org/pdf/2312.16170",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In the realm of computer vision and robotics, embodied agents are expected to explore their environment and carry out human instructions.",
+      "why_it_matters": "与空域 VLN、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "benchmark",
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-10-18T13:47:17.227851+00:00"
+    },
+    {
       "id": "https://openalex.org/W4402733575",
       "arxiv_id": "2312.16170",
       "title": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
@@ -10664,49 +10707,6 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-11T16:13:35.471025+00:00"
-    },
-    {
-      "id": "2312.16170",
-      "arxiv_id": "2312.16170",
-      "title": "EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI",
-      "authors": [
-        "Tai Wang",
-        "Xiaohan Mao",
-        "Chenming Zhu",
-        "Runsen Xu",
-        "Ruiyuan Lyu",
-        "Peisen Li",
-        "Xiao Chen",
-        "Wenwei Zhang",
-        "Kai Chen",
-        "Tianfan Xue",
-        "Xihui Liu",
-        "Cewu Lu"
-      ],
-      "published": "2024",
-      "source": "OpenAlex",
-      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
-      "citation_count": 216,
-      "url": "https://arxiv.org/abs/2312.16170",
-      "pdf_url": "https://arxiv.org/pdf/2312.16170",
-      "code_url": "",
-      "topics": [
-        "空域 VLN",
-        "空间智能",
-        "具身基准与评测"
-      ],
-      "evidence": "强",
-      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
-      "summary_zh": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI。当前自动研判未启用，建议结合英文摘要阅读。",
-      "change_zh": "摘要首句：In the realm of computer vision and robotics, embodied agents are expected to explore their environment and carry out human instructions.",
-      "why_it_matters": "与空域 VLN、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
-      "keywords": [
-        "3d scene",
-        "benchmark",
-        "instruction"
-      ],
-      "is_classic": true,
-      "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
       "id": "2107.07243",
@@ -15684,6 +15684,7 @@
       "excluded_at": "2026-10-09"
     }
   },
+  "last_citation_refresh": "2026-11-06T17:15:27.619283+00:00",
   "briefing": {
     "text": "",
     "added": 30,
