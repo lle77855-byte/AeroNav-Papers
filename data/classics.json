@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T17:15:27.619283+00:00",
+  "updated_at": "2026-11-07T16:07:09.015160+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -1895,6 +1895,49 @@
       "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
+      "id": "2503.20215",
+      "arxiv_id": "2503.20215",
+      "title": "Qwen2.5-Omni Technical Report",
+      "authors": [
+        "Jin Hong Xu",
+        "Zihan Guo",
+        "He, Jinzheng",
+        "Hu, Hangrui",
+        "Tingchao He",
+        "Shuai Bai",
+        "Keqin Chen",
+        "Jialin Wang",
+        "Fan, Yang",
+        "Kai Dang",
+        "Bin Zhang",
+        "Xiong Wang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 1340,
+      "url": "https://arxiv.org/abs/2503.20215",
+      "pdf_url": "https://arxiv.org/pdf/2503.20215",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Qwen2.5-Omni Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this report, we present Qwen2.5-Omni, an end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "instruction following"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
       "id": "https://openalex.org/W4401023556",
       "arxiv_id": "2402.01680",
       "title": "Large Language Model Based Multi-agents: A Survey of Progress and Challenges",
@@ -2203,6 +2246,41 @@
       "added_at": "2026-09-02T04:03:14Z"
     },
     {
+      "id": "2504.19413",
+      "arxiv_id": "2504.19413",
+      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "authors": [
+        "Prateek Chhikara",
+        "Dev Khant",
+        "Saket Aryan",
+        "Taranjeet Singh",
+        "Yadav, Deshraj"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 1182,
+      "url": "https://arxiv.org/abs/2504.19413",
+      "pdf_url": "https://arxiv.org/pdf/2504.19413",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large Language Models (LLMs) have demonstrated remarkable prowess in generating contextually coherent responses, yet their fixed context windows pose fundamental challenges for maintaining consistency over prolonged mult",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
       "id": "2112.12130",
       "arxiv_id": "2112.12130",
       "title": "NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
@@ -2386,6 +2464,83 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-02T06:28:08Z"
+    },
+    {
+      "id": "2310.02255",
+      "arxiv_id": "2310.02255",
+      "title": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts",
+      "authors": [
+        "Pan Lu",
+        "Hritik Bansal",
+        "Tony Xia",
+        "Jiacheng Liu",
+        "Chunyuan Li",
+        "Hannaneh Hajishirzi",
+        "Hao Cheng",
+        "Kai-Wei Chang",
+        "Michel Galley",
+        "Jianfeng Gao"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 1098,
+      "url": "https://arxiv.org/abs/2310.02255",
+      "pdf_url": "https://arxiv.org/pdf/2310.02255",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit impressive problem-solving skills in many tasks and domains, but their ability in mathematical reasoning in visual contexts has not been systematica",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2506.09985",
+      "arxiv_id": "2506.09985",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "authors": [
+        "Assran, Mido",
+        "Adrien Bardes",
+        "Fan, David",
+        "Quentin Garrido",
+        "Russell Howes",
+        "Mojtaba",
+        "Komeili",
+        "Matthew J. Muckley",
+        "Ammar Rizvi",
+        "Roberts, Claire",
+        "Koustuv Sinha",
+        "Artem Zholus"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 1072,
+      "url": "https://arxiv.org/abs/2506.09985",
+      "pdf_url": "https://arxiv.org/pdf/2506.09985",
+      "code_url": "",
+      "topics": [
+        "世界模型"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型，主要研究问题可概括为：V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：A major challenge for modern AI is to learn to understand the world and learn to act largely by observation.",
+      "why_it_matters": "与世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "world model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
     },
     {
       "id": "https://openalex.org/W3203597819",
@@ -2648,6 +2803,40 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2502.12110",
+      "arxiv_id": "2502.12110",
+      "title": "A-Mem: Agentic Memory for LLM Agents",
+      "authors": [
+        "Wujiang Xu",
+        "Zujie Liang",
+        "Kai Mei",
+        "Hang Gao",
+        "Juntao Tan",
+        "Yongfeng Zhang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 980,
+      "url": "https://arxiv.org/abs/2502.12110",
+      "pdf_url": "https://arxiv.org/pdf/2502.12110",
+      "code_url": "https://github.com/WujiangXu/A-mem",
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：A-Mem: Agentic Memory for LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：While large language model (LLM) agents can effectively use external tools for complex real-world tasks, they require memory systems to leverage historical experiences.",
+      "why_it_matters": "与多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "llm agent"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
     },
     {
       "id": "2103.12352",
@@ -3049,6 +3238,44 @@
       "added_at": "2026-10-18T13:47:17.227851+00:00"
     },
     {
+      "id": "2307.16125",
+      "arxiv_id": "2307.16125",
+      "title": "SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension",
+      "authors": [
+        "Bohao Li",
+        "Wang, Rui",
+        "Guangzhi Wang",
+        "Yuying Ge",
+        "Yixiao Ge",
+        "Ying Shan"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 882,
+      "url": "https://arxiv.org/abs/2307.16125",
+      "pdf_url": "https://arxiv.org/pdf/2307.16125",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Based on powerful Large Language Models (LLMs), recent generative Multimodal Large Language Models (MLLMs) have gained prominence as a pivotal research area, exhibiting remarkable capability for both comprehension and ge",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "leaderboard",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
       "id": "2207.04429",
       "arxiv_id": "2207.04429",
       "title": "LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action",
@@ -3080,6 +3307,121 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4411449940",
+      "arxiv_id": "",
+      "title": "Demystifying LLM-Based Software Engineering Agents",
+      "authors": [
+        "Chunqiu Steven Xia",
+        "Yinlin Deng",
+        "Soren Dunn",
+        "Lingming Zhang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Proceedings of the ACM on software engineering.",
+      "citation_count": 841,
+      "url": "https://doi.org/10.1145/3715754",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3715754",
+      "code_url": "https://github.com/OpenAutoCoder/Agentless",
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "状态估计与控制"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Demystifying LLM-Based Software Engineering Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recent advancements in large language models (LLMs) have significantly advanced the automation of software development tasks, including code synthesis, program repair, and test generation.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "llm agent",
+        "localization"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2407.16741",
+      "arxiv_id": "2407.16741",
+      "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Tran, Hoang H.",
+        "Fuqiang Li"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 837,
+      "url": "https://arxiv.org/abs/2407.16741",
+      "pdf_url": "https://arxiv.org/pdf/2407.16741",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：OpenHands: An Open Platform for AI Software Developers as Generalist Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Software is one of the most powerful tools that we humans have at our disposal; it allows a skilled programmer to interact with the world in complex and profound ways.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2406.07476",
+      "arxiv_id": "2406.07476",
+      "title": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+      "authors": [
+        "Zesen Cheng",
+        "Sicong Leng",
+        "Hang Zhang",
+        "Yifei Xin",
+        "Li, Xin",
+        "Guanzheng Chen",
+        "Yongxin Zhu",
+        "Wenqi Zhang",
+        "Ziyang Luo",
+        "Deli Zhao",
+        "Lidong Bing"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 832,
+      "url": "https://arxiv.org/abs/2406.07476",
+      "pdf_url": "https://arxiv.org/pdf/2406.07476",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this paper, we present the VideoLLaMA 2, a set of Video Large Language Models (Video-LLMs) designed to enhance spatial-temporal modeling and audio understanding in video and audio-oriented tasks.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
     },
     {
       "id": "2302.14045",
@@ -3231,6 +3573,114 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2504.13837",
+      "arxiv_id": "2504.13837",
+      "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+      "authors": [
+        "Zhiqi Chen",
+        "Rui Lu",
+        "Andrew Zhao",
+        "Zhaokai Wang",
+        "Yang Yue",
+        "Shiji Song",
+        "Gao Huang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 802,
+      "url": "https://arxiv.org/abs/2504.13837",
+      "pdf_url": "https://arxiv.org/pdf/2504.13837",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reinforcement Learning with Verifiable Rewards (RLVR) has recently demonstrated notable success in enhancing the reasoning performance of large language models (LLMs), particularly on mathematics and programming tasks.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2401.05566",
+      "arxiv_id": "2401.05566",
+      "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+      "authors": [
+        "Evan Hubinger",
+        "Carson Denison",
+        "Jesse Mu",
+        "Lambert, Mike",
+        "Meg Tong",
+        "Monte MacDiarmid",
+        "Tamera Lanham",
+        "Ziegler, Daniel M.",
+        "Tim Maxwell",
+        "Newton Cheng",
+        "Adam S. Jermyn",
+        "Amanda Askell"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 786,
+      "url": "https://arxiv.org/abs/2401.05566",
+      "pdf_url": "https://arxiv.org/pdf/2401.05566",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2406.06525",
+      "arxiv_id": "2406.06525",
+      "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation",
+      "authors": [
+        "Peize Sun",
+        "Yi Jiang",
+        "Shoufa Chen",
+        "Shilong Zhang",
+        "Bingyue Peng",
+        "Ping Luo",
+        "Zehuan Yuan"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 780,
+      "url": "https://arxiv.org/abs/2406.06525",
+      "pdf_url": "https://arxiv.org/pdf/2406.06525",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce LlamaGen, a new family of image generation models that apply original ``next-token prediction'' paradigm of large language models to visual generation domain.",
+      "why_it_matters": "与具身基准与评测、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
     },
     {
       "id": "2511.21631",
@@ -3633,6 +4083,121 @@
       "added_at": "2026-11-06T10:42:56.846912+00:00"
     },
     {
+      "id": "2412.10302",
+      "arxiv_id": "2412.10302",
+      "title": "DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding",
+      "authors": [
+        "Zhiyu Wu",
+        "Chen, Xiaokang",
+        "Zizheng Pan",
+        "Xingchao Liu",
+        "Wen Liu",
+        "Damai Dai",
+        "Huazuo Gao",
+        "Yiyang Ma",
+        "Chengyue Wu",
+        "Bingxuan Wang",
+        "Zhenda Xie",
+        "Yu Wu"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 744,
+      "url": "https://arxiv.org/abs/2412.10302",
+      "pdf_url": "https://arxiv.org/pdf/2412.10302",
+      "code_url": "https://github.com/deepseek-ai/DeepSeek-VL2",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present DeepSeek-VL2, an advanced series of large Mixture-of-Experts (MoE) Vision-Language Models that significantly improves upon its predecessor, DeepSeek-VL, through two key major upgrades.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2607.02770",
+      "arxiv_id": "2607.02770",
+      "title": "Gemma 4 Technical Report",
+      "authors": [
+        "Gemma Team",
+        "Sherif El Abd",
+        "Vaibhav Aggarwal",
+        "Robin Algayres",
+        "Alek Andreev",
+        "Olivier Bachem",
+        "Ian Ballantyne",
+        "Cormac Brick",
+        "Victor Cărbune",
+        "Michelle Casbon",
+        "Mayank Chaturvedi",
+        "Aditya Chawla"
+      ],
+      "published": "2026",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 743,
+      "url": "https://arxiv.org/abs/2607.02770",
+      "pdf_url": "https://arxiv.org/pdf/2607.02770",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Gemma 4 Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce Gemma 4, a new generation of open-weight, natively multimodal language models in the Gemma model family.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2205.06175",
+      "arxiv_id": "2205.06175",
+      "title": "A Generalist Agent",
+      "authors": [
+        "Scott Reed",
+        "Konrad Żołna",
+        "Emilio Parisotto",
+        "Sergio Gómez Colmenarejo",
+        "Novikov, Alexander",
+        "Gabriel Barth-Maron",
+        "Mai Giménez",
+        "Yury Sulsky",
+        "Kay, Jackie",
+        "Jost Tobias Springenberg",
+        "Tom Eccles",
+        "Jake Bruce"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 740,
+      "url": "https://arxiv.org/abs/2205.06175",
+      "pdf_url": "https://arxiv.org/pdf/2205.06175",
+      "code_url": "",
+      "topics": [
+        "真机与 Sim2Real"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：A Generalist Agent。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Inspired by progress in large-scale language modeling, we apply a similar approach towards building a single generalist agent beyond the realm of text outputs.",
+      "why_it_matters": "与真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "real robot"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
       "id": "https://openalex.org/W4383108296",
       "arxiv_id": "2210.05714",
       "title": "Visual Language Maps for Robot Navigation",
@@ -3705,6 +4270,207 @@
       "added_at": "2026-10-13T17:22:26.183366+00:00"
     },
     {
+      "id": "2503.06749",
+      "arxiv_id": "2503.06749",
+      "title": "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models",
+      "authors": [
+        "Wenxuan Huang",
+        "Bohan Jia",
+        "Zijie Zhai",
+        "Shaosheng Cao",
+        "Zheyu Ye",
+        "Fei Zhao",
+        "Zhe Xu",
+        "Tang, Xu",
+        "Yao Hu",
+        "Shaohui Lin"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 711,
+      "url": "https://arxiv.org/abs/2503.06749",
+      "pdf_url": "https://arxiv.org/pdf/2503.06749",
+      "code_url": "https://github.com/Osilly/Vision-R1",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：DeepSeek-R1-Zero has successfully demonstrated the emergence of reasoning capabilities in LLMs purely through Reinforcement Learning (RL).",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2506.01844",
+      "arxiv_id": "2506.01844",
+      "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+      "authors": [
+        "Mustafa Shukor",
+        "Dana Aubakirova",
+        "Capuano, Francesco",
+        "Kooijmans, Pepijn",
+        "Palma, Steven",
+        "Adil Zouitine",
+        "Michel Aractingi",
+        "Caroline Pascal",
+        "Russi, Martino",
+        "Andrés Marafioti",
+        "Simon Alibert",
+        "Matthieu Cord"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 688,
+      "url": "https://arxiv.org/abs/2506.01844",
+      "pdf_url": "https://arxiv.org/pdf/2506.01844",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-language models (VLMs) pretrained on large-scale multimodal datasets encode rich visual and linguistic knowledge, making them a strong foundation for robotics.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2411.10109",
+      "arxiv_id": "2411.10109",
+      "title": "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals",
+      "authors": [
+        "Joon-Sung Park",
+        "Zou, Carolyn Q.",
+        "Jonne Kamphorst",
+        "Egan, Niles",
+        "Aaron Shaw",
+        "Benjamin Mako Hill",
+        "Carrie Jun Cai",
+        "Meredith Ringel Morris",
+        "Percy Liang",
+        "Robb Willer",
+        "Michael S. Bernstein"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 688,
+      "url": "https://arxiv.org/abs/2411.10109",
+      "pdf_url": "https://arxiv.org/pdf/2411.10109",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Machine learning can predict human behavior well when substantial structured data are available for well-defined outcomes.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "llm agent"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2508.06471",
+      "arxiv_id": "2508.06471",
+      "title": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+      "authors": [
+        "Team",
+        "Aohan Zeng",
+        "Lv, Xin",
+        "Qinkai Zheng",
+        "Zhenyu Hou",
+        "Chen, Bin",
+        "Chengxing Xie",
+        "Cunxiang Wang",
+        "Yin, Da",
+        "Zeng, Hao",
+        "Jiajie Zhang",
+        "Kedong Wang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 669,
+      "url": "https://arxiv.org/abs/2508.06471",
+      "pdf_url": "https://arxiv.org/pdf/2508.06471",
+      "code_url": "https://github.com/zai-org/GLM-4.5",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present GLM-4.5, an open-source Mixture-of-Experts (MoE) large language model with 355B total parameters and 32B activated parameters, featuring a hybrid reasoning method that supports both thinking and direct respons",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2503.01743",
+      "arxiv_id": "2503.01743",
+      "title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+      "authors": [
+        "Microsoft",
+        ":",
+        "Abdelrahman Abouelenin",
+        "Atabak Ashfaq",
+        "Adam Atkinson",
+        "Hany Hassan Awadalla",
+        "Nguyễn Bách",
+        "Jianmin Bao",
+        "Alon Benhaim",
+        "Martin Cai",
+        "Vishrav Chaudhary",
+        "Congcong Chen"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 666,
+      "url": "https://arxiv.org/abs/2503.01743",
+      "pdf_url": "https://arxiv.org/pdf/2503.01743",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce Phi-4-Mini and Phi-4-Multimodal, compact yet highly capable language and multimodal models.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "leaderboard"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
       "id": "2307.14334",
       "arxiv_id": "2307.14334",
       "title": "Towards Generalist Biomedical AI",
@@ -3743,6 +4509,116 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2307.05973",
+      "arxiv_id": "2307.05973",
+      "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+      "authors": [
+        "Wenlong Huang",
+        "Chen Wang",
+        "Ruohan Zhang",
+        "Yunzhu Li",
+        "Jiajun Wu",
+        "Li Fei-Fei"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 646,
+      "url": "https://arxiv.org/abs/2307.05973",
+      "pdf_url": "https://arxiv.org/pdf/2307.05973",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "多模态大模型与智能体"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models (LLMs) are shown to possess a wealth of actionable knowledge that can be extracted for robot manipulation in the form of reasoning and planning.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction",
+        "vlm",
+        "waypoint"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2408.12528",
+      "arxiv_id": "2408.12528",
+      "title": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
+      "authors": [
+        "Jinheng Xie",
+        "Weijia Mao",
+        "Zechen Bai",
+        "David Junhao Zhang",
+        "Weihao Wang",
+        "Kevin Qinghong Lin",
+        "Gu, Yuchao",
+        "Zhijie Chen",
+        "Zhenheng Yang",
+        "Mike Zheng Shou"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 641,
+      "url": "https://arxiv.org/abs/2408.12528",
+      "pdf_url": "https://arxiv.org/pdf/2408.12528",
+      "code_url": "https://github.com/showlab/Show-o",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Show-o: One Single Transformer to Unify Multimodal Understanding and Generation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present a unified transformer, i.e., Show-o, that unifies multimodal understanding and generation.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2504.08066",
+      "arxiv_id": "2504.08066",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "authors": [
+        "Yutaro Yamada",
+        "Robert Tjarko Lange",
+        "Cong Lu",
+        "Shengran Hu",
+        "Chris J. J. Lu",
+        "Jakob Foerster",
+        "Jeff Clune",
+        "David Ha"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 629,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "pdf_url": "https://arxiv.org/pdf/2504.08066",
+      "code_url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：AI is increasingly playing a pivotal role in transforming how scientific discoveries are made.",
+      "why_it_matters": "与多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
     },
     {
       "id": "https://openalex.org/W4402727018",
@@ -4089,6 +4965,104 @@
       "added_at": "2026-09-05T04:46:08Z"
     },
     {
+      "id": "2205.09991",
+      "arxiv_id": "2205.09991",
+      "title": "Planning with Diffusion for Flexible Behavior Synthesis",
+      "authors": [
+        "Janner, Michael",
+        "Yilun Du",
+        "Joshua B. Tenenbaum",
+        "Sergey Levine"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 606,
+      "url": "https://arxiv.org/abs/2205.09991",
+      "pdf_url": "https://arxiv.org/pdf/2205.09991",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Planning with Diffusion for Flexible Behavior Synthesis。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Model-based reinforcement learning methods often use learning only for the purpose of estimating an approximate dynamics model, offloading the rest of the decision-making work to classical trajectory optimizers.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2412.20404",
+      "arxiv_id": "2412.20404",
+      "title": "Open-Sora: Democratizing Efficient Video Production for All",
+      "authors": [
+        "Zheng, Zangwei",
+        "Xiangyu Peng",
+        "Tianji Yang",
+        "Shen, Chenhui",
+        "Li, Shenggui",
+        "Hongxin Liu",
+        "Zhou, Yukun",
+        "Li, Tianyi",
+        "You, Yang"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 599,
+      "url": "https://arxiv.org/abs/2412.20404",
+      "pdf_url": "https://arxiv.org/pdf/2412.20404",
+      "code_url": "https://github.com/hpcaitech/Open-Sora",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Open-Sora: Democratizing Efficient Video Production for All。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision and language are the two foundational senses for humans, and they build up our cognitive ability and intelligence.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2303.11381",
+      "arxiv_id": "2303.11381",
+      "title": "MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action",
+      "authors": [
+        "Zhengyuan Yang",
+        "Linjie Li",
+        "Jianfeng Wang",
+        "Kevin Lin",
+        "Ehsan Azarnasab",
+        "Ahmed, Faisal",
+        "Zicheng Liu",
+        "Ce Liu",
+        "Michael Zeng",
+        "Lijuan Wang"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 597,
+      "url": "https://arxiv.org/abs/2303.11381",
+      "pdf_url": "https://arxiv.org/pdf/2303.11381",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We propose MM-REACT, a system paradigm that integrates ChatGPT with a pool of vision experts to achieve multimodal reasoning and action.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
       "id": "https://openalex.org/W4399557965",
       "arxiv_id": "2304.07590",
       "title": "Self-Collaboration Code Generation via ChatGPT",
@@ -4159,6 +5133,45 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-14T14:54:47.083131+00:00"
+    },
+    {
+      "id": "2501.13106",
+      "arxiv_id": "2501.13106",
+      "title": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+      "authors": [
+        "Boqiang Zhang",
+        "Li, Kehan",
+        "Zesen Cheng",
+        "Zhiqiang Hu",
+        "Yuqian Yuan",
+        "Guanzheng Chen",
+        "Sicong Leng",
+        "Yuming Jiang",
+        "Hang Zhang",
+        "Xin Li",
+        "Jin, Peng",
+        "Wenqi Zhang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 587,
+      "url": "https://arxiv.org/abs/2501.13106",
+      "pdf_url": "https://arxiv.org/pdf/2501.13106",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this paper, we propose VideoLLaMA3, a more advanced multimodal foundation model for image and video understanding.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
     },
     {
       "id": "https://openalex.org/W4402698358",
@@ -4280,6 +5293,117 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-13T17:22:26.183366+00:00"
+    },
+    {
+      "id": "2501.17161",
+      "arxiv_id": "2501.17161",
+      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+      "authors": [
+        "Chu, Tianzhe",
+        "Yuexiang Zhai",
+        "Jihan Yang",
+        "Shengbang Tong",
+        "Saining Xie",
+        "Dale Schuurmans",
+        "Quoc Viet Le",
+        "Sergey Levine",
+        "Yi Ma"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 584,
+      "url": "https://arxiv.org/abs/2501.17161",
+      "pdf_url": "https://arxiv.org/pdf/2501.17161",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Supervised fine-tuning (SFT) and reinforcement learning (RL) are widely used post-training techniques for foundation models.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2402.02716",
+      "arxiv_id": "2402.02716",
+      "title": "Understanding the planning of LLM agents: A survey",
+      "authors": [
+        "Xu Huang",
+        "Weiwen Liu",
+        "Xiaolong Chen",
+        "Xingmei Wang",
+        "Wang, Hao",
+        "Defu Lian",
+        "Yasheng Wang",
+        "Ruiming Tang",
+        "Enhong Chen"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 581,
+      "url": "https://arxiv.org/abs/2402.02716",
+      "pdf_url": "https://arxiv.org/pdf/2402.02716",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "规划智能体"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、规划智能体，主要研究问题可概括为：Understanding the planning of LLM agents: A survey。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：As Large Language Models (LLMs) have shown significant intelligence, the progress to leverage LLMs as planning modules of autonomous agents has attracted more attention.",
+      "why_it_matters": "与多模态大模型与智能体、规划智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agent planning",
+        "llm agent"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
+    },
+    {
+      "id": "2503.20020",
+      "arxiv_id": "2503.20020",
+      "title": "Gemini Robotics: Bringing AI into the Physical World",
+      "authors": [
+        "Gemini Robotics Team",
+        "Saminda W. Abeyruwan",
+        "Joshua Ainslie",
+        "Jean-Baptiste Alayrac",
+        "Montserrat Gonzalez Arenas",
+        "Travis Armstrong",
+        "Ashwin Balakrishna",
+        "Robert Baruch",
+        "Maria Bauzá",
+        "Michiel Blokzijl-Zanker",
+        "Steven Bohez",
+        "Konstantinos Bousmalis"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv (Cornell University)",
+      "citation_count": 565,
+      "url": "https://arxiv.org/abs/2503.20020",
+      "pdf_url": "https://arxiv.org/pdf/2503.20020",
+      "code_url": "",
+      "topics": [
+        "空域 VLN"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空域 VLN，主要研究问题可概括为：Gemini Robotics: Bringing AI into the Physical World。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recent advancements in large multimodal models have led to the emergence of remarkable generalist capabilities in digital domains, yet their translation to physical agents such as robots remains a significant challenge.",
+      "why_it_matters": "与空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-07T16:07:09.015160+00:00"
     },
     {
       "id": "https://openalex.org/W4402727272",
@@ -15684,281 +16808,280 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-11-06T17:15:27.619283+00:00",
   "briefing": {
     "text": "",
     "added": 30,
-    "at": "2026-11-06T10:42:56.846912+00:00",
+    "at": "2026-11-07T16:07:09.015160+00:00",
     "new": [
       {
-        "t": "Qwen2.5 Technical Report",
-        "u": "https://arxiv.org/abs/2412.15115",
+        "t": "Qwen2.5-Omni Technical Report",
+        "u": "https://arxiv.org/abs/2503.20215",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Qwen2.5 Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Qwen2.5-Omni Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 3012
+        "cit": 1340
       },
       {
-        "t": "FAST-LIO2: Fast Direct LiDAR-Inertial Odometry",
-        "u": "https://arxiv.org/abs/2107.06829",
+        "t": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+        "u": "https://arxiv.org/abs/2504.19413",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：FAST-LIO2: Fast Direct LiDAR-Inertial Odometry。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 1820
+        "cit": 1182
       },
       {
-        "t": "Qwen2 Technical Report",
-        "u": "https://arxiv.org/abs/2407.10671",
+        "t": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts",
+        "u": "https://arxiv.org/abs/2310.02255",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：Qwen2 Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 1541
+        "cit": 1098
       },
       {
-        "t": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
-        "u": "https://arxiv.org/abs/2409.12191",
+        "t": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "u": "https://arxiv.org/abs/2506.09985",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/QwenLM/Qwen2-VL",
-        "cit": 1302
+        "s": "该工作聚焦世界模型，主要研究问题可概括为：V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 1072
       },
       {
-        "t": "FAST-LIO: A Fast, Robust LiDAR-Inertial Odometry Package by Tightly-Coupled Iterated Kalman Filter",
-        "u": "https://arxiv.org/abs/2010.08196",
+        "t": "A-Mem: Agentic Memory for LLM Agents",
+        "u": "https://arxiv.org/abs/2502.12110",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：FAST-LIO: A Fast, Robust LiDAR-Inertial Odometry Package by Tightly-Coupled Iterated Kalman Filter。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 1159
+        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：A-Mem: Agentic Memory for LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/WujiangXu/A-mem",
+        "cit": 980
       },
       {
-        "t": "Qwen3-VL Technical Report",
-        "u": "https://arxiv.org/abs/2511.21631",
+        "t": "SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension",
+        "u": "https://arxiv.org/abs/2307.16125",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Qwen3-VL Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
+        "cit": 882
+      },
+      {
+        "t": "Demystifying LLM-Based Software Engineering Agents",
+        "u": "https://doi.org/10.1145/3715754",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Demystifying LLM-Based Software Engineering Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/OpenAutoCoder/Agentless",
+        "cit": 841
+      },
+      {
+        "t": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+        "u": "https://arxiv.org/abs/2407.16741",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：OpenHands: An Open Platform for AI Software Developers as Generalist Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 837
+      },
+      {
+        "t": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+        "u": "https://arxiv.org/abs/2406.07476",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 832
+      },
+      {
+        "t": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+        "u": "https://arxiv.org/abs/2504.13837",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 802
+      },
+      {
+        "t": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+        "u": "https://arxiv.org/abs/2401.05566",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 786
+      },
+      {
+        "t": "Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation",
+        "u": "https://arxiv.org/abs/2406.06525",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "",
+        "cit": 780
+      },
+      {
+        "t": "DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding",
+        "u": "https://arxiv.org/abs/2412.10302",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/deepseek-ai/DeepSeek-VL2",
         "cit": 744
       },
       {
-        "t": "Objaverse: A Universe of Annotated 3D Objects",
-        "u": "https://arxiv.org/abs/2212.08051",
+        "t": "Gemma 4 Technical Report",
+        "u": "https://arxiv.org/abs/2607.02770",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Objaverse: A Universe of Annotated 3D Objects。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Gemma 4 Technical Report。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 742
+        "cit": 743
       },
       {
-        "t": "BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs",
-        "u": "https://arxiv.org/abs/2303.00915",
+        "t": "A Generalist Agent",
+        "u": "https://arxiv.org/abs/2205.06175",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：A Generalist Agent。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 428
+        "cit": 740
       },
       {
-        "t": "AgentBench: Evaluating LLMs as Agents",
-        "u": "https://arxiv.org/abs/2308.03688",
+        "t": "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models",
+        "u": "https://arxiv.org/abs/2503.06749",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：AgentBench: Evaluating LLMs as Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/THUDM/AgentBench",
-        "cit": 417
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/Osilly/Vision-R1",
+        "cit": 711
       },
       {
-        "t": "Learning high-speed flight in the wild",
-        "u": "https://doi.org/10.1126/scirobotics.abg5810",
+        "t": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+        "u": "https://arxiv.org/abs/2506.01844",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Learning high-speed flight in the wild。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 407
+        "cit": 688
       },
       {
-        "t": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
-        "u": "https://arxiv.org/abs/2408.03314",
+        "t": "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals",
+        "u": "https://arxiv.org/abs/2411.10109",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 401
+        "cit": 688
       },
       {
-        "t": "ChatDev: Communicative Agents for Software Development",
-        "u": "https://arxiv.org/abs/2307.07924",
+        "t": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+        "u": "https://arxiv.org/abs/2508.06471",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：ChatDev: Communicative Agents for Software Development。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/OpenBMB/ChatDev",
-        "cit": 396
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "cit": 669
       },
       {
-        "t": "Ignore Previous Prompt: Attack Techniques For Language Models",
-        "u": "https://arxiv.org/abs/2211.09527",
+        "t": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+        "u": "https://arxiv.org/abs/2503.01743",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Ignore Previous Prompt: Attack Techniques For Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/agencyenterprise/PromptInject",
-        "cit": 383
-      },
-      {
-        "t": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
-        "u": "https://arxiv.org/abs/2412.05271",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 358
+        "cit": 666
       },
       {
-        "t": "MemGPT: Towards LLMs as Operating Systems",
-        "u": "https://arxiv.org/abs/2310.08560",
+        "t": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+        "u": "https://arxiv.org/abs/2307.05973",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：MemGPT: Towards LLMs as Operating Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 358
+        "cit": 646
       },
       {
-        "t": "Multimodal datasets: misogyny, pornography, and malignant stereotypes",
-        "u": "https://arxiv.org/abs/2110.01963",
+        "t": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
+        "u": "https://arxiv.org/abs/2408.12528",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Multimodal datasets: misogyny, pornography, and malignant stereotypes。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Show-o: One Single Transformer to Unify Multimodal Understanding and Generation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/showlab/Show-o",
+        "cit": 641
+      },
+      {
+        "t": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+        "u": "https://arxiv.org/abs/2504.08066",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/SakanaAI/AI-Scientist-v2",
+        "cit": 629
+      },
+      {
+        "t": "Planning with Diffusion for Flexible Behavior Synthesis",
+        "u": "https://arxiv.org/abs/2205.09991",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Planning with Diffusion for Flexible Behavior Synthesis。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 345
+        "cit": 606
       },
       {
-        "t": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
-        "u": "https://arxiv.org/abs/2504.10479",
+        "t": "Open-Sora: Democratizing Efficient Video Production for All",
+        "u": "https://arxiv.org/abs/2412.20404",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Open-Sora: Democratizing Efficient Video Production for All。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/hpcaitech/Open-Sora",
+        "cit": 599
+      },
+      {
+        "t": "MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action",
+        "u": "https://arxiv.org/abs/2303.11381",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 343
+        "cit": 597
       },
       {
-        "t": "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
-        "u": "https://arxiv.org/abs/2512.02556",
+        "t": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+        "u": "https://arxiv.org/abs/2501.13106",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 341
+        "cit": 587
       },
       {
-        "t": "Multi-Agent Trajectory Prediction With Heterogeneous Edge-Enhanced Graph Attention Network",
-        "u": "https://arxiv.org/abs/2106.07161",
+        "t": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+        "u": "https://arxiv.org/abs/2501.17161",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Multi-Agent Trajectory Prediction With Heterogeneous Edge-Enhanced Graph Attention Network。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 338
+        "cit": 584
       },
       {
-        "t": "A Survey on Deep Learning for Human Mobility",
-        "u": "https://arxiv.org/abs/2012.02825",
+        "t": "Understanding the planning of LLM agents: A survey",
+        "u": "https://arxiv.org/abs/2402.02716",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：A Survey on Deep Learning for Human Mobility。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、规划智能体，主要研究问题可概括为：Understanding the planning of LLM agents: A survey。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 325
+        "cit": 581
       },
       {
-        "t": "Multimodal Chain-of-Thought Reasoning in Language Models",
-        "u": "https://arxiv.org/abs/2302.00923",
+        "t": "Gemini Robotics: Bringing AI into the Physical World",
+        "u": "https://arxiv.org/abs/2503.20020",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Multimodal Chain-of-Thought Reasoning in Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/amazon-science/mm-cot",
-        "cit": 324
-      },
-      {
-        "t": "Large Language Models for Cyber Security: A Systematic Literature Review",
-        "u": "https://arxiv.org/abs/2405.04760",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Large Language Models for Cyber Security: A Systematic Literature Review。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN，主要研究问题可概括为：Gemini Robotics: Bringing AI into the Physical World。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 323
-      },
-      {
-        "t": "MiniCPM-V: A GPT-4V Level MLLM on Your Phone",
-        "u": "https://arxiv.org/abs/2408.01800",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：MiniCPM-V: A GPT-4V Level MLLM on Your Phone。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 321
-      },
-      {
-        "t": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
-        "u": "https://arxiv.org/abs/2308.07201",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/chanchimin/ChatEval",
-        "cit": 321
-      },
-      {
-        "t": "VLN↻BERT: A Recurrent Vision-and-Language BERT for Navigation",
-        "u": "https://arxiv.org/abs/2011.13922",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦地面 VLN，主要研究问题可概括为：VLN↻BERT: A Recurrent Vision-and-Language BERT for Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 313
-      },
-      {
-        "t": "Chatlaw: A Multi-Agent Legal Assistant based on a Role-Aligned Mixture-of-Experts Architecture",
-        "u": "https://doi.org/10.1016/j.fmre.2026.03.026",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Chatlaw: A Multi-Agent Legal Assistant based on a Role-Aligned Mixture-of-Experts Architecture。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 309
-      },
-      {
-        "t": "Convex Optimization for Trajectory Generation: A Tutorial on Generating Dynamically Feasible Trajectories Reliably and Efficiently",
-        "u": "https://arxiv.org/abs/2106.09125",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Convex Optimization for Trajectory Generation: A Tutorial on Generating Dynamically Feasible Trajectories Reliably and Efficiently。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 308
-      },
-      {
-        "t": "A psychometric framework for evaluating and shaping personality traits in large language models",
-        "u": "https://doi.org/10.1038/s42256-025-01115-6",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN，主要研究问题可概括为：A psychometric framework for evaluating and shaping personality traits in large language models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 297
-      },
-      {
-        "t": "MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities",
-        "u": "https://arxiv.org/abs/2308.02490",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 290
-      },
-      {
-        "t": "Shikra: Unleashing Multimodal LLM's Referential Dialogue Magic",
-        "u": "https://arxiv.org/abs/2306.15195",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：Shikra: Unleashing Multimodal LLM's Referential Dialogue Magic。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/shikras/shikra",
-        "cit": 290
+        "cit": 565
       }
     ]
   }
