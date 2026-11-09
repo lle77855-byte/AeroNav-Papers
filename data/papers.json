@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T11:51:19.385186+00:00",
+  "updated_at": "2026-11-09T12:35:06.529564+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16671,6 +16671,571 @@
       "added_at": "2026-09-18T08:54:45.554191+00:00"
     },
     {
+      "id": "2611.09740",
+      "arxiv_id": "2611.09740",
+      "title": "Zero-Shot Benchmarking of Unified Multimodal Models for Shallow-Water UAV Image Distortion Assessment and Restoration",
+      "authors": [
+        "Dario Scilla",
+        "Omar A. Lopez",
+        "Mattia Rosso",
+        "Kasper Johansen",
+        "Matthew F. McCabe"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09740",
+      "pdf_url": "https://arxiv.org/pdf/2611.09740",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "空域 VLN",
+        "UAV 目标搜索",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 9,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Zero-Shot Benchmarking of Unified Multimodal Models for Shallow-Water UAV Image Distortion Assessment and Restoration。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Shallow-water UAV imagery provides centimeter-scale observations of benthic environments, but water-induced distortions complicate interpretation.",
+      "why_it_matters": "与空域 VLN、UAV 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "mllm",
+        "multimodal large language model",
+        "uav"
+      ],
+      "added_at": "2026-11-09T12:34:20.210660+00:00"
+    },
+    {
+      "id": "2611.09792",
+      "arxiv_id": "2611.09792",
+      "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+      "authors": [
+        "Ayush Sawarni",
+        "Wenqian Xing",
+        "Tijana Zrnic",
+        "Ramesh Johari",
+        "Vasilis Syrgkanis"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09792",
+      "pdf_url": "https://arxiv.org/pdf/2611.09792",
+      "code_url": "",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "econ.EM",
+        "stat.ME"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Knowing When to Intervene: Causal Evaluation of AI Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Current evaluations of agentic AI systems primarily rely on benchmarks.",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "deployment",
+        "evaluation",
+        "leaderboard",
+        "real world"
+      ],
+      "added_at": "2026-11-09T12:34:23.278272+00:00"
+    },
+    {
+      "id": "2611.09721",
+      "arxiv_id": "2611.09721",
+      "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+      "authors": [
+        "David H. Yang",
+        "Blake Bullwinkel",
+        "Amanda Minnich",
+        "Mohammad Mohammadi Amiri",
+        "Giorgio Severi"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09721",
+      "pdf_url": "https://arxiv.org/pdf/2611.09721",
+      "code_url": "",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "空域 VLN"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：LLM agents benefit from using memory systems to improve performance on long-horizon, multi-session tasks.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "llm agent"
+      ],
+      "added_at": "2026-11-09T12:34:26.389700+00:00"
+    },
+    {
+      "id": "2611.09561",
+      "arxiv_id": "2611.09561",
+      "title": "Lightweight Path-Aware Frontier Re-ranking for LiDAR-Based UAV Exploration",
+      "authors": [
+        "Duc Manh Do",
+        "Thanh Nguyen Canh",
+        "Ngoc Minh Do",
+        "Mai Thanh Thai",
+        "Xiem HoangVan"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09561",
+      "pdf_url": "https://arxiv.org/pdf/2611.09561",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "主动感知与重建"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Lightweight Path-Aware Frontier Re-ranking for LiDAR-Based UAV Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Autonomous 3D exploration with UAVs requires efficient target selection under limited flight time and onboard computation.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration",
+        "uav"
+      ],
+      "added_at": "2026-11-09T12:34:29.498936+00:00"
+    },
+    {
+      "id": "2611.09769",
+      "arxiv_id": "2611.09769",
+      "title": "AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos",
+      "authors": [
+        "Zhongyi Zhang",
+        "Jingyu Xiao",
+        "Shuqing Li",
+        "Michael R. Lyu"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09769",
+      "pdf_url": "https://arxiv.org/pdf/2611.09769",
+      "code_url": "",
+      "categories": [
+        "cs.SE",
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Animation is pervasive on the Web, the CSS animation property alone appears on over three-quarters of webpages.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-09T12:34:32.593703+00:00"
+    },
+    {
+      "id": "2611.09272",
+      "arxiv_id": "2611.09272",
+      "title": "Task-Driven Closed-Loop Design Optimization of Passively Morphing Quadrotors for Contact-Mediated Narrow Gap Traversal",
+      "authors": [
+        "Etor Arza",
+        "Luca Girardi",
+        "Gabriel Maquignaz",
+        "Javier Paez",
+        "Stefan Leutenegger",
+        "Stefano Mintchev",
+        "Kostas Alexis"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09272",
+      "pdf_url": "https://arxiv.org/pdf/2611.09272",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "空间智能"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Task-Driven Closed-Loop Design Optimization of Passively Morphing Quadrotors for Contact-Mediated Narrow Gap Traversal。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Aerial robots operating in cluttered environments may encounter openings narrower than their nominal width.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "drone",
+        "geometry"
+      ],
+      "added_at": "2026-11-09T12:34:35.702185+00:00"
+    },
+    {
+      "id": "2611.09892",
+      "arxiv_id": "2611.09892",
+      "title": "On Agentic Manipulation Policies",
+      "authors": [
+        "Chen Chen",
+        "Omid Bagherieh",
+        "Naveen Nikamanth Appiah Balaji",
+        "Jesse T. Gonzalez",
+        "Negin Heravi",
+        "Fahad Islam",
+        "Xueting Li",
+        "Jean-Baptiste Regli",
+        "Kejia Ren",
+        "Petr Švec",
+        "David J. Yoon",
+        "Matthias Müller",
+        "Vladlen Koltun"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09892",
+      "pdf_url": "https://arxiv.org/pdf/2611.09892",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：On Agentic Manipulation Policies。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recent work on robot manipulation has focused on specialist policies trained on demonstrations.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "deployment"
+      ],
+      "added_at": "2026-11-09T12:34:38.764153+00:00"
+    },
+    {
+      "id": "2611.09770",
+      "arxiv_id": "2611.09770",
+      "title": "ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models",
+      "authors": [
+        "Lingyun Song",
+        "Ziyao Chen",
+        "Kang Pan",
+        "Xiaolin Han",
+        "Yifei Zhang",
+        "Xiaoqi Wang",
+        "Yudai Pan",
+        "Xuequn Shang"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09770",
+      "pdf_url": "https://arxiv.org/pdf/2611.09770",
+      "code_url": "https://github.com/sunlitsong/ROSE",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multimodal Large Language Models (MLLMs) require continuous factual updates to stay current, yet lifelong knowledge editing remains a daunting challenge.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-09T12:34:41.832039+00:00"
+    },
+    {
+      "id": "2611.08914",
+      "arxiv_id": "2611.08914",
+      "title": "HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety",
+      "authors": [
+        "Ramy ElMallah",
+        "Marc Bishara",
+        "Hyegang Kim",
+        "Yuxi Zhang",
+        "Chongyu Zhu",
+        "Chi-Guhn Lee"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.08914",
+      "pdf_url": "https://arxiv.org/pdf/2611.08914",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recent progress in embodied robotics is bringing robots closer to deployment in homes, as vision-language models (VLMs) are demonstrating significant advances in reasoning, making VLM-driven robots promising home assista",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "vlm"
+      ],
+      "added_at": "2026-11-09T12:34:44.935709+00:00"
+    },
+    {
+      "id": "2611.09511",
+      "arxiv_id": "2611.09511",
+      "title": "V-STORM: A Structure-Aware Grounded Chain of Thought Dataset for Faithful and Fine-Grained Spatio-Temporal Video Reasoning",
+      "authors": [
+        "Dian Jiao",
+        "Yuqian Yuan",
+        "Jiaqi Zhu",
+        "Mingjian Gao",
+        "Siwen Tan",
+        "Yunqi Cao",
+        "Jinhui Li",
+        "Sijing Li",
+        "Zhenxuan Fan",
+        "Haoyang Wang",
+        "Wenqiao Zhang",
+        "Siliang Tang"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09511",
+      "pdf_url": "https://arxiv.org/pdf/2611.09511",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "状态估计与控制"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：V-STORM: A Structure-Aware Grounded Chain of Thought Dataset for Faithful and Fine-Grained Spatio-Temporal Video Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：While MLLMs can often identify what happens in a video, they still struggle with fine-grained spatio-temporal reasoning, which requires precise grounding when and where the supporting evidence appears and composing such ",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "localization",
+        "mllm"
+      ],
+      "added_at": "2026-11-09T12:34:48.111837+00:00"
+    },
+    {
+      "id": "2611.09794",
+      "arxiv_id": "2611.09794",
+      "title": "Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation",
+      "authors": [
+        "Yina Jian",
+        "Mingkun Xu"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09794",
+      "pdf_url": "https://arxiv.org/pdf/2611.09794",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：When should a robot look at the cup, and when at the portafilter?",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-11-09T12:34:54.275322+00:00"
+    },
+    {
+      "id": "2611.08920",
+      "arxiv_id": "2611.08920",
+      "title": "HOC2R: Hand-Object Contact Trajectories for Human-to-Robot Motion Transfer",
+      "authors": [
+        "Hongkun Yu",
+        "Francisco M. López",
+        "Francisco Cruz"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.08920",
+      "pdf_url": "https://arxiv.org/pdf/2611.08920",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：HOC2R: Hand-Object Contact Trajectories for Human-to-Robot Motion Transfer。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Human videos contain abundant object-manipulation demonstrations, but they do not directly provide motion cues that a robot can follow.",
+      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "localization"
+      ],
+      "added_at": "2026-11-09T12:34:57.373066+00:00"
+    },
+    {
+      "id": "2611.09714",
+      "arxiv_id": "2611.09714",
+      "title": "Beyond Segmentation: Enriching ImageCAS with Coronary Ostia Landmarks, Rooted Centerline Graphs, and Open-Weight Localization Models",
+      "authors": [
+        "Matteo Leccardi",
+        "Andrea Moglia",
+        "Marco Morandini",
+        "Michele Brembilla",
+        "Alessandro Nicosia",
+        "Andrea Penserini",
+        "Christian Brandini",
+        "Ender Konukoglu",
+        "Marco Marcon",
+        "Luca Mainardi",
+        "Pietro Cerveri"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09714",
+      "pdf_url": "https://arxiv.org/pdf/2611.09714",
+      "code_url": "",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Beyond Segmentation: Enriching ImageCAS with Coronary Ostia Landmarks, Rooted Centerline Graphs, and Open-Weight Localization Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Coronary ostia and centerlines are key reference points for automated analysis of coronary computed tomography angiography (CCTA), from surgical planning to intraoperative vessel tracking.",
+      "why_it_matters": "与状态估计与控制、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "localization"
+      ],
+      "added_at": "2026-11-09T12:35:00.433856+00:00"
+    },
+    {
+      "id": "2611.09092",
+      "arxiv_id": "2611.09092",
+      "title": "AdaAlloc: Adaptive Visual Token Allocation for Long-Video Question Answering",
+      "authors": [
+        "Joungbin An",
+        "Kristen Grauman"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.09092",
+      "pdf_url": "https://arxiv.org/pdf/2611.09092",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AdaAlloc: Adaptive Visual Token Allocation for Long-Video Question Answering。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Long-video question answering forces multimodal large language models to reason under strict visual-token budgets, creating a tradeoff between broad temporal coverage and fine-grained spatial detail.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-09T12:35:03.528841+00:00"
+    },
+    {
       "id": "2611.07687",
       "arxiv_id": "2611.07687",
       "title": "Not Losing Your Way: Mitigating Visual-Inertial Odometry Drift through On-Demand Visual Feature Creation",
@@ -17108,6 +17673,42 @@
         "real world"
       ],
       "added_at": "2026-11-06T11:51:16.384455+00:00"
+    },
+    {
+      "id": "2611.08768",
+      "arxiv_id": "2611.08768",
+      "title": "Conflux: Preventing Privilege Escalation with Principal Contexts and System-Level Evaluation",
+      "authors": [
+        "Raya Buckley",
+        "Christian Schroeder de Witt"
+      ],
+      "published": "2026-11-05",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.08768",
+      "pdf_url": "https://arxiv.org/pdf/2611.08768",
+      "code_url": "",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Conflux: Preventing Privilege Escalation with Principal Contexts and System-Level Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：LLM agents combine information from multiple principals while acting externally.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "evaluation",
+        "llm agent"
+      ],
+      "added_at": "2026-11-09T12:34:51.170884+00:00"
     },
     {
       "id": "2611.06770",
@@ -32743,95 +33344,127 @@
   ],
   "briefing": {
     "text": "",
-    "added": 11,
-    "at": "2026-11-06T11:51:19.385210+00:00",
+    "added": 15,
+    "at": "2026-11-09T12:35:06.529586+00:00",
     "new": [
       {
-        "t": "Not Losing Your Way: Mitigating Visual-Inertial Odometry Drift through On-Demand Visual Feature Creation",
-        "u": "https://arxiv.org/abs/2611.07687",
+        "t": "Zero-Shot Benchmarking of Unified Multimodal Models for Shallow-Water UAV Image Distortion Assessment and Restoration",
+        "u": "https://arxiv.org/abs/2611.09740",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Not Losing Your Way: Mitigating Visual-Inertial Odometry Drift through On-Demand Visual Feature Creation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Zero-Shot Benchmarking of Unified Multimodal Models for Shallow-Water UAV Image Distortion Assessment and Restoration。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Real-Time Event-Based LED Tracking and Pose Estimation with PWM-Encoded Markers",
-        "u": "https://arxiv.org/abs/2611.07630",
+        "t": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+        "u": "https://arxiv.org/abs/2611.09792",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Real-Time Event-Based LED Tracking and Pose Estimation with PWM-Encoded Markers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Knowing When to Intervene: Causal Evaluation of AI Agents。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Learning Robotic World Models with Semantic and Visual Feedback",
-        "u": "https://arxiv.org/abs/2611.07850",
+        "t": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+        "u": "https://arxiv.org/abs/2611.09721",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、空域 VLN，主要研究问题可概括为：Learning Robotic World Models with Semantic and Visual Feedback。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers",
-        "u": "https://arxiv.org/abs/2611.08100",
+        "t": "Lightweight Path-Aware Frontier Re-ranking for LiDAR-Based UAV Exploration",
+        "u": "https://arxiv.org/abs/2611.09561",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Lightweight Path-Aware Frontier Re-ranking for LiDAR-Based UAV Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments",
-        "u": "https://arxiv.org/abs/2611.07417",
+        "t": "AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos",
+        "u": "https://arxiv.org/abs/2611.09769",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Radio-to-Pose Information for Gauge-Drift Correction in Cooperative Localization",
-        "u": "https://arxiv.org/abs/2611.08361",
+        "t": "Task-Driven Closed-Loop Design Optimization of Passively Morphing Quadrotors for Contact-Mediated Narrow Gap Traversal",
+        "u": "https://arxiv.org/abs/2611.09272",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Radio-to-Pose Information for Gauge-Drift Correction in Cooperative Localization。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Task-Driven Closed-Loop Design Optimization of Passively Morphing Quadrotors for Contact-Mediated Narrow Gap Traversal。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration",
-        "u": "https://arxiv.org/abs/2611.08139",
+        "t": "On Agentic Manipulation Policies",
+        "u": "https://arxiv.org/abs/2611.09892",
         "r": null,
         "g": null,
-        "s": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：On Agentic Manipulation Policies。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "An Ordering Optimization for Fruit-Vegetable in High-Density Environment based on Genetic Algorithm",
-        "u": "https://arxiv.org/abs/2611.07293",
+        "t": "ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models",
+        "u": "https://arxiv.org/abs/2611.09770",
         "r": null,
         "g": null,
-        "s": "该工作聚焦地面 VLN、具身基准与评测，主要研究问题可概括为：An Ordering Optimization for Fruit-Vegetable in High-Density Environment based on Genetic Algorithm。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/sunlitsong/ROSE"
+      },
+      {
+        "t": "HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety",
+        "u": "https://arxiv.org/abs/2611.08914",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
-        "u": "https://arxiv.org/abs/2611.07730",
+        "t": "V-STORM: A Structure-Aware Grounded Chain of Thought Dataset for Faithful and Fine-Grained Spatio-Temporal Video Reasoning",
+        "u": "https://arxiv.org/abs/2611.09511",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：V-STORM: A Structure-Aware Grounded Chain of Thought Dataset for Faithful and Fine-Grained Spatio-Temporal Video Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Training-Independent Validation of a Learning-Based Controller for Stunt Maneuvers",
-        "u": "https://arxiv.org/abs/2611.07516",
+        "t": "Conflux: Preventing Privilege Escalation with Principal Contexts and System-Level Evaluation",
+        "u": "https://arxiv.org/abs/2611.08768",
         "r": null,
         "g": null,
-        "s": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：Training-Independent Validation of a Learning-Based Controller for Stunt Maneuvers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Conflux: Preventing Privilege Escalation with Principal Contexts and System-Level Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-        "u": "https://arxiv.org/abs/2611.07461",
+        "t": "Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation",
+        "u": "https://arxiv.org/abs/2611.09794",
         "r": null,
         "g": null,
-        "s": "该工作聚焦真机与 Sim2Real、具身基准与评测，主要研究问题可概括为：The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "HOC2R: Hand-Object Contact Trajectories for Human-to-Robot Motion Transfer",
+        "u": "https://arxiv.org/abs/2611.08920",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：HOC2R: Hand-Object Contact Trajectories for Human-to-Robot Motion Transfer。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Beyond Segmentation: Enriching ImageCAS with Coronary Ostia Landmarks, Rooted Centerline Graphs, and Open-Weight Localization Models",
+        "u": "https://arxiv.org/abs/2611.09714",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Beyond Segmentation: Enriching ImageCAS with Coronary Ostia Landmarks, Rooted Centerline Graphs, and Open-Weight Localization Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "AdaAlloc: Adaptive Visual Token Allocation for Long-Video Question Answering",
+        "u": "https://arxiv.org/abs/2611.09092",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AdaAlloc: Adaptive Visual Token Allocation for Long-Video Question Answering。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
