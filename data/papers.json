@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:10:36.405763+00:00",
+  "updated_at": "2026-11-11T11:43:21.104474+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16671,6 +16671,354 @@
       "added_at": "2026-09-18T08:54:45.554191+00:00"
     },
     {
+      "id": "2611.13528",
+      "arxiv_id": "2611.13528",
+      "title": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
+      "authors": [
+        "Yuchen Yang",
+        "Ming Ding",
+        "Xinyu Wu",
+        "Hesheng Wang"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13528",
+      "pdf_url": "https://arxiv.org/pdf/2611.13528",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "空间智能",
+        "世界模型"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Photorealistic and metrically consistent world representations are a primary requirement for LiDAR--inertial--visual SLAM systems that serve robots over continuous operation.",
+      "why_it_matters": "与状态估计与控制、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "localization",
+        "slam",
+        "world model"
+      ],
+      "added_at": "2026-11-11T11:42:40.015625+00:00"
+    },
+    {
+      "id": "2611.13903",
+      "arxiv_id": "2611.13903",
+      "title": "Persistent Metric-Semantic Maritime Scene Memory from Open-Vocabulary 3D Scene Graphs",
+      "authors": [
+        "Kim Alexander Christensen",
+        "Dina Zimmermann",
+        "Martin Steinert",
+        "Eleni Kelasidi"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13903",
+      "pdf_url": "https://arxiv.org/pdf/2611.13903",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "topics": [
+        "空间智能",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Persistent Metric-Semantic Maritime Scene Memory from Open-Vocabulary 3D Scene Graphs。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Three-dimensional scene graphs (3DSGs) can provide robots with persistent metric-semantic representations for spatial reasoning, but the existing methods have primarily been developed for indoor and terrestrial environme",
+      "why_it_matters": "与空间智能、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "geometry",
+        "spatial reasoning",
+        "vlm"
+      ],
+      "added_at": "2026-11-11T11:42:46.376592+00:00"
+    },
+    {
+      "id": "2611.14420",
+      "arxiv_id": "2611.14420",
+      "title": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+      "authors": [
+        "Runjia Li",
+        "Minghao Chen",
+        "Junyu Xie",
+        "Philip Torr",
+        "Andrea Vedaldi",
+        "Tomas Jakab"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.14420",
+      "pdf_url": "https://arxiv.org/pdf/2611.14420",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测",
+        "空间智能"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：OnlyAct: Extracting Action Representations from Foundation Models for World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Video world models promise general-purpose interactive simulators, but their training is limited by action supervision: action labels are scarce, fragmented across incompatible specifications, and do not scale with the u",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "geometry",
+        "world model"
+      ],
+      "added_at": "2026-11-11T11:42:49.567016+00:00"
+    },
+    {
+      "id": "2611.13863",
+      "arxiv_id": "2611.13863",
+      "title": "Learn-To-Propagate: Distributionally Robust Motion Planning for Nonlinear Uncertain Systems",
+      "authors": [
+        "Eduardo Figueiredo",
+        "Adrien Banse",
+        "Qi Heng Ho",
+        "Raphael Jungers",
+        "Morteza Lahijanian",
+        "Luca Laurenti"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13863",
+      "pdf_url": "https://arxiv.org/pdf/2611.13863",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Learn-To-Propagate: Distributionally Robust Motion Planning for Nonlinear Uncertain Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Motion planning for stochastic systems aims to find a sequence of control inputs that drives a system to a goal set while avoiding unsafe states with high probability.",
+      "why_it_matters": "与具身基准与评测、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "motion planning"
+      ],
+      "added_at": "2026-11-11T11:42:52.714662+00:00"
+    },
+    {
+      "id": "2611.14207",
+      "arxiv_id": "2611.14207",
+      "title": "DailyWildfireCAN: A Dataset and Benchmark for Next-Day Wildfire Spread Prediction in Canada",
+      "authors": [
+        "Mahacine Ettahri",
+        "Hager Radi Abdelwahed",
+        "Toluwaleke Olutayo",
+        "Daniel Aloise",
+        "Gaétan Marceau Caron"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.14207",
+      "pdf_url": "https://arxiv.org/pdf/2611.14207",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "空间智能"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：DailyWildfireCAN: A Dataset and Benchmark for Next-Day Wildfire Spread Prediction in Canada。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Wildfires represent a critical ecological and socio-economic challenge in Canada, where vast boreal forests and a warming climate have amplified the frequency and severity of extreme fire seasons.",
+      "why_it_matters": "与具身基准与评测、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "geometry"
+      ],
+      "added_at": "2026-11-11T11:42:55.925780+00:00"
+    },
+    {
+      "id": "2611.14286",
+      "arxiv_id": "2611.14286",
+      "title": "ForeseeDrive: Future-Token Conditioning for Anticipatory Generative Driving",
+      "authors": [
+        "Shaokai Wu",
+        "Xunchu Zhou",
+        "Pinzhi Wang",
+        "Bo Dong",
+        "Yuting Hu",
+        "Yanbiao Ji",
+        "Qiuchang Li",
+        "Xiao Cui",
+        "Qi Kong",
+        "Hongtao Lu",
+        "Yue Ding"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.14286",
+      "pdf_url": "https://arxiv.org/pdf/2611.14286",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topics": [
+        "空间智能",
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：ForeseeDrive: Future-Token Conditioning for Anticipatory Generative Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Generative driving planners can represent diverse ego futures, but a downstream scorer can choose only among sampled candidates; it cannot recover an absent maneuver.",
+      "why_it_matters": "与空间智能、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "geometry"
+      ],
+      "added_at": "2026-11-11T11:43:05.440092+00:00"
+    },
+    {
+      "id": "2611.14326",
+      "arxiv_id": "2611.14326",
+      "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
+      "authors": [
+        "Runxuan Tang",
+        "Haoyu Gao",
+        "Yuyan Ding",
+        "Junyi Yao",
+        "Zihao Zheng",
+        "Zecheng Sheng",
+        "Liwei Hou"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.14326",
+      "pdf_url": "https://arxiv.org/pdf/2611.14326",
+      "code_url": "",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：LLM agents increasingly operate in long-horizon, verifier-rich environments, but current self-improvement mechanisms often write episode-derived lessons directly into memory, making local success an unreliable signal for",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "llm agent"
+      ],
+      "added_at": "2026-11-11T11:43:08.553555+00:00"
+    },
+    {
+      "id": "2611.13654",
+      "arxiv_id": "2611.13654",
+      "title": "EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues",
+      "authors": [
+        "Xin Zhao",
+        "Pengzhan Zhou",
+        "Ziyi Li",
+        "Riheng Jia",
+        "Zhida Qin",
+        "Yu Liu"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13654",
+      "pdf_url": "https://arxiv.org/pdf/2611.13654",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "空间智能",
+        "状态估计与控制"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、状态估计与控制，主要研究问题可概括为：EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The complex interactive dependencies between human behavior and 3D scenes make accurately predicting human intent a major challenge for human motion prediction (HMP).",
+      "why_it_matters": "与空间智能、状态估计与控制直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "motion planning"
+      ],
+      "added_at": "2026-11-11T11:43:11.731879+00:00"
+    },
+    {
+      "id": "2611.14118",
+      "arxiv_id": "2611.14118",
+      "title": "TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant",
+      "authors": [
+        "Rongpei Hong",
+        "Jian Lang",
+        "Ting Zhong",
+        "Fan Zhou"
+      ],
+      "published": "2026-11-10",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.14118",
+      "pdf_url": "https://arxiv.org/pdf/2611.14118",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Personalizing Multimodal Large Language Models (MLLMs) as intelligent assistants has recently emerged as an active research topic, where an MLLM is expected to go beyond generic, one-size-fits-all replies, and instead ge",
+      "why_it_matters": "与多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-11T11:43:14.935149+00:00"
+    },
+    {
       "id": "2611.12175",
       "arxiv_id": "2611.12175",
       "title": "GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation",
@@ -17486,6 +17834,158 @@
         "geometry"
       ],
       "added_at": "2026-11-10T12:10:27.113480+00:00"
+    },
+    {
+      "id": "2611.13229",
+      "arxiv_id": "2611.13229",
+      "title": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing",
+      "authors": [
+        "Nikita Sarawgi",
+        "Omey M. Manyar",
+        "Satyandra K. Gupta"
+      ],
+      "published": "2026-11-09",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13229",
+      "pdf_url": "https://arxiv.org/pdf/2611.13229",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "世界模型",
+        "主动感知与重建",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、主动感知与重建，主要研究问题可概括为：Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Efficient robotic 3D reconstruction requires selecting views that contribute new surface measurements with few physical captures.",
+      "why_it_matters": "与世界模型、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "next best view",
+        "predictive model",
+        "world model"
+      ],
+      "added_at": "2026-11-11T11:42:43.201871+00:00"
+    },
+    {
+      "id": "2611.13344",
+      "arxiv_id": "2611.13344",
+      "title": "PneuGen: Task-Driven Agentic Co-Design of Soft Pneumatic Robots",
+      "authors": [
+        "Shaohong Zhong",
+        "Marco Pontin",
+        "Perla Maiolino"
+      ],
+      "published": "2026-11-09",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13344",
+      "pdf_url": "https://arxiv.org/pdf/2611.13344",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：PneuGen: Task-Driven Agentic Co-Design of Soft Pneumatic Robots。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Task-driven design of soft robots requires the consideration of factors such as geometry, morphology, material properties, and actuation, resulting in a large and complex design space that is challenging to explore.",
+      "why_it_matters": "与多模态大模型与智能体、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "evaluation",
+        "geometry"
+      ],
+      "added_at": "2026-11-11T11:42:59.112503+00:00"
+    },
+    {
+      "id": "2611.13348",
+      "arxiv_id": "2611.13348",
+      "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+      "authors": [
+        "Yikun Zhang",
+        "Minghao Guo",
+        "Guangxue Xu",
+        "Peter Yichen Chen",
+        "Wojciech Matusik",
+        "Wengong Jin",
+        "Jingjing Chai",
+        "Kaiyi Jiang"
+      ],
+      "published": "2026-11-09",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13348",
+      "pdf_url": "https://arxiv.org/pdf/2611.13348",
+      "code_url": "",
+      "categories": [
+        "q-bio.BM",
+        "cs.AI"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：ProTEUS: A mutation-resolved world model for closed-loop protein evolution。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "exploration",
+        "world model"
+      ],
+      "added_at": "2026-11-11T11:43:02.323676+00:00"
+    },
+    {
+      "id": "2611.13192",
+      "arxiv_id": "2611.13192",
+      "title": "Multimodal Road Closure Mapping via Cross-Modal Graph Attention",
+      "authors": [
+        "Izzeddin Teeti",
+        "Vaibhav Kango",
+        "Nidhi Sridhar",
+        "Mohamed Moustafa"
+      ],
+      "published": "2026-11-09",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13192",
+      "pdf_url": "https://arxiv.org/pdf/2611.13192",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Multimodal Road Closure Mapping via Cross-Modal Graph Attention。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Accurate and timely identification of road closures is critical for large-scale navigation and logistics systems, yet remains challenging due to the need to jointly reason over visual evidence, spatial context, and road ",
+      "why_it_matters": "与空间智能、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "spatial reasoning",
+        "spatial understanding"
+      ],
+      "added_at": "2026-11-11T11:43:18.103704+00:00"
     },
     {
       "id": "2611.11489",
@@ -34422,215 +34922,111 @@
   ],
   "briefing": {
     "text": "",
-    "added": 26,
-    "at": "2026-11-10T12:10:36.405789+00:00",
+    "added": 13,
+    "at": "2026-11-11T11:43:21.104497+00:00",
     "new": [
       {
-        "t": "GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation",
-        "u": "https://arxiv.org/abs/2611.12175",
+        "t": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
+        "u": "https://arxiv.org/abs/2611.13528",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/Notfound-JH/GEOMIND-benchmark.git"
-      },
-      {
-        "t": "Beyond Memory Limits: A Hierarchical Spatio-Temporal Map Representation for Large-Scale 3D Autonomous Exploration",
-        "u": "https://arxiv.org/abs/2611.11489",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦主动感知与重建、状态估计与控制，主要研究问题可概括为：Beyond Memory Limits: A Hierarchical Spatio-Temporal Map Representation for Large-Scale 3D Autonomous Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Maximizing Detection Probability in UAV Search Missions using Random-Key Optimizers",
-        "u": "https://arxiv.org/abs/2611.12317",
+        "t": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing",
+        "u": "https://arxiv.org/abs/2611.13229",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Maximizing Detection Probability in UAV Search Missions using Random-Key Optimizers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、主动感知与重建，主要研究问题可概括为：Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos",
-        "u": "https://arxiv.org/abs/2611.12087",
+        "t": "Persistent Metric-Semantic Maritime Scene Memory from Open-Vocabulary 3D Scene Graphs",
+        "u": "https://arxiv.org/abs/2611.13903",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Persistent Metric-Semantic Maritime Scene Memory from Open-Vocabulary 3D Scene Graphs。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "EmbodiedIntentBench: Benchmarking Intent-Driven Runtime Adaptation for Mobile Robotic Missions",
-        "u": "https://arxiv.org/abs/2611.10498",
+        "t": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+        "u": "https://arxiv.org/abs/2611.14420",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：EmbodiedIntentBench: Benchmarking Intent-Driven Runtime Adaptation for Mobile Robotic Missions。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：OnlyAct: Extracting Action Representations from Foundation Models for World Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Online Geometric Consistency Assessment of LiDAR Measurements via Recursive Bayesian Comparison",
-        "u": "https://arxiv.org/abs/2611.10566",
+        "t": "Learn-To-Propagate: Distributionally Robust Motion Planning for Nonlinear Uncertain Systems",
+        "u": "https://arxiv.org/abs/2611.13863",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：Online Geometric Consistency Assessment of LiDAR Measurements via Recursive Bayesian Comparison。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Learn-To-Propagate: Distributionally Robust Motion Planning for Nonlinear Uncertain Systems。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
-        "u": "https://arxiv.org/abs/2611.12557",
+        "t": "DailyWildfireCAN: A Dataset and Benchmark for Next-Day Wildfire Spread Prediction in Canada",
+        "u": "https://arxiv.org/abs/2611.14207",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：WanderBench: Can World Models Explore Dynamic Worlds from Video?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：DailyWildfireCAN: A Dataset and Benchmark for Next-Day Wildfire Spread Prediction in Canada。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "AMSchem: Automated Schematic Visualization of AMS Circuits via Verifiable Agentic Generation",
-        "u": "https://arxiv.org/abs/2611.12333",
+        "t": "PneuGen: Task-Driven Agentic Co-Design of Soft Pneumatic Robots",
+        "u": "https://arxiv.org/abs/2611.13344",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AMSchem: Automated Schematic Visualization of AMS Circuits via Verifiable Agentic Generation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：PneuGen: Task-Driven Agentic Co-Design of Soft Pneumatic Robots。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens",
-        "u": "https://arxiv.org/abs/2611.11887",
+        "t": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+        "u": "https://arxiv.org/abs/2611.13348",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：ProTEUS: A mutation-resolved world model for closed-loop protein evolution。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking",
-        "u": "https://arxiv.org/abs/2611.11697",
+        "t": "ForeseeDrive: Future-Token Conditioning for Anticipatory Generative Driving",
+        "u": "https://arxiv.org/abs/2611.14286",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：ForeseeDrive: Future-Token Conditioning for Anticipatory Generative Driving。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Embodied First Exam",
-        "u": "https://arxiv.org/abs/2611.12177",
+        "t": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
+        "u": "https://arxiv.org/abs/2611.14326",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Embodied First Exam。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Budget-aware Correspondence-driven View Selection for Real-time 3D Perception of Mobile Robots",
-        "u": "https://arxiv.org/abs/2611.11809",
+        "t": "EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues",
+        "u": "https://arxiv.org/abs/2611.13654",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Budget-aware Correspondence-driven View Selection for Real-time 3D Perception of Mobile Robots。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、状态估计与控制，主要研究问题可概括为：EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data",
-        "u": "https://arxiv.org/abs/2611.12136",
+        "t": "TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant",
+        "u": "https://arxiv.org/abs/2611.14118",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "CSG-Nav: Confidence-Aware Semantic-Geometric Fusion for Robust Exploration and Accurate Zero-Shot Object-Goal Navigation",
-        "u": "https://arxiv.org/abs/2611.11978",
+        "t": "Multimodal Road Closure Mapping via Cross-Modal Graph Attention",
+        "u": "https://arxiv.org/abs/2611.13192",
         "r": null,
         "g": null,
-        "s": "该工作聚焦主动感知与重建、真机与 Sim2Real，主要研究问题可概括为：CSG-Nav: Confidence-Aware Semantic-Geometric Fusion for Robust Exploration and Accurate Zero-Shot Object-Goal Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
-        "u": "https://arxiv.org/abs/2611.12799",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
-        "u": "https://arxiv.org/abs/2611.12324",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Library of Hands: Fix the Hands, Not the World Model",
-        "u": "https://arxiv.org/abs/2611.12678",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：Library of Hands: Fix the Hands, Not the World Model。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SAM-VTP: Video Memory and Measured Geometry for Continuous Traversability Segmentation",
-        "u": "https://arxiv.org/abs/2611.12099",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、真机与 Sim2Real，主要研究问题可概括为：SAM-VTP: Video Memory and Measured Geometry for Continuous Traversability Segmentation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing",
-        "u": "https://arxiv.org/abs/2611.12038",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "When Does Sliced Inference Pay Off? Resolution, Tiling and Dense Fusion for Small Object Detection",
-        "u": "https://arxiv.org/abs/2611.12657",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：When Does Sliced Inference Pay Off? Resolution, Tiling and Dense Fusion for Small Object Detection。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/beckerio/scahi"
-      },
-      {
-        "t": "GHiML: VLM-Guided Hierarchical Multi-Label Learning with Applications to Benthic Imagery",
-        "u": "https://arxiv.org/abs/2611.12564",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：GHiML: VLM-Guided Hierarchical Multi-Label Learning with Applications to Benthic Imagery。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-        "u": "https://arxiv.org/abs/2611.12872",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander",
-        "u": "https://arxiv.org/abs/2611.12824",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、主动感知与重建，主要研究问题可概括为：DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "A forensic evaluation framework for egocentric foundation models: an EFM3D case study for crime scene reconstruction",
-        "u": "https://arxiv.org/abs/2611.12259",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：A forensic evaluation framework for egocentric foundation models: an EFM3D case study for crime scene reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "PA-SaR: Perception-Aware Learning, Control, and Coordination for Multi-Robot Search and Rescue",
-        "u": "https://arxiv.org/abs/2611.11648",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、主动感知与重建，主要研究问题可概括为：PA-SaR: Perception-Aware Learning, Control, and Coordination for Multi-Robot Search and Rescue。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset",
-        "u": "https://arxiv.org/abs/2611.11085",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Multimodal Road Closure Mapping via Cross-Modal Graph Attention。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
