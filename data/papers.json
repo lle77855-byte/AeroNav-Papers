@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T01:14:36.713103+00:00",
+  "updated_at": "2026-11-12T17:58:39.548947+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18237,6 +18237,44 @@
       "added_at": "2026-11-11T17:43:04.018735+00:00"
     },
     {
+      "id": "2611.13000",
+      "arxiv_id": "2611.13000",
+      "title": "PhysMoE: Fast Spatial Grounding with Single-Token Coordinate Representation in Modality-Decoupled VLMs",
+      "authors": [
+        "Ruimeng Liu",
+        "Denan Liang",
+        "Ruofei Bai",
+        "Fumin Zhang",
+        "Kuan Xu",
+        "Shenghai Yuan",
+        "Lihua Xie"
+      ],
+      "published": "2026-11-08",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.13000",
+      "pdf_url": "https://arxiv.org/pdf/2611.13000",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：PhysMoE: Fast Spatial Grounding with Single-Token Coordinate Representation in Modality-Decoupled VLMs。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Embodied Vision-Language Models (VLMs) are backbones for robotic planning and manipulation.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "localization",
+        "vlm"
+      ],
+      "added_at": "2026-11-12T17:58:36.548272+00:00"
+    },
+    {
       "id": "2611.10498",
       "arxiv_id": "2611.10498",
       "title": "EmbodiedIntentBench: Benchmarking Intent-Driven Runtime Adaptation for Mobile Robotic Missions",
@@ -19111,6 +19149,40 @@
         "multimodal large language model"
       ],
       "added_at": "2026-11-09T12:35:03.528841+00:00"
+    },
+    {
+      "id": "2611.12949",
+      "arxiv_id": "2611.12949",
+      "title": "Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions",
+      "authors": [
+        "Alvaro J. Gaona",
+        "Lucas Gómez-Velayos",
+        "Peter Pasuy-Quevedo"
+      ],
+      "published": "2026-11-06",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.12949",
+      "pdf_url": "https://arxiv.org/pdf/2611.12949",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "状态估计与控制",
+        "空间智能"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Maze navigation requires localization from sparse, repetitive geometry, planning through narrow corridors, and control that stays safe when the estimate or the map is wrong.",
+      "why_it_matters": "与状态估计与控制、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "localization",
+        "model predictive control",
+        "slam"
+      ],
+      "added_at": "2026-11-12T17:58:33.372889+00:00"
     },
     {
       "id": "2611.07687",
@@ -35221,79 +35293,23 @@
   ],
   "briefing": {
     "text": "",
-    "added": 9,
-    "at": "2026-11-11T17:43:16.398834+00:00",
+    "added": 2,
+    "at": "2026-11-12T17:58:39.548970+00:00",
     "new": [
       {
-        "t": "Reaching Is Not Finding: Map-Anchored Visual Prompting for the Last Mile of Aerial Vision-Language Navigation",
-        "u": "https://arxiv.org/abs/2611.11510",
+        "t": "Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions",
+        "u": "https://arxiv.org/abs/2611.12949",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Reaching Is Not Finding: Map-Anchored Visual Prompting for the Last Mile of Aerial Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "From Radio Measurements to Sensing Services: A 3GPP Perspective on Multi-UAV Tracking with Networked ISAC",
-        "u": "https://arxiv.org/abs/2611.10355",
+        "t": "PhysMoE: Fast Spatial Grounding with Single-Token Coordinate Representation in Modality-Decoupled VLMs",
+        "u": "https://arxiv.org/abs/2611.13000",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：From Radio Measurements to Sensing Services: A 3GPP Perspective on Multi-UAV Tracking with Networked ISAC。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MaRiO: Multi-agent Collaborative Reasoning via Shared Observations in MLLMs",
-        "u": "https://arxiv.org/abs/2611.10344",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：MaRiO: Multi-agent Collaborative Reasoning via Shared Observations in MLLMs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Tiresias: Towards Language-Conditioned World Models",
-        "u": "https://arxiv.org/abs/2611.10392",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Tiresias: Towards Language-Conditioned World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation",
-        "u": "https://arxiv.org/abs/2611.11605",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/WANGSHUAIzzzz/ScanDreamer"
-      },
-      {
-        "t": "Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents",
-        "u": "https://arxiv.org/abs/2611.11509",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "HSGNav: Hypothesis Scene Graphs for Multi-Scale Lifelong Navigation under Object Relocation",
-        "u": "https://arxiv.org/abs/2611.10547",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：HSGNav: Hypothesis Scene Graphs for Multi-Scale Lifelong Navigation under Object Relocation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "CPNav: Calibrated Vision-Language Navigation for Object-Goal Search in Unseen Environments",
-        "u": "https://arxiv.org/abs/2611.10366",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：CPNav: Calibrated Vision-Language Navigation for Object-Goal Search in Unseen Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/practice-lab-ucla/CPnav"
-      },
-      {
-        "t": "SituRecBench: Evaluating Frontier Models as Situated Recommendation Assistants in 3D Environments",
-        "u": "https://arxiv.org/abs/2611.10349",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：SituRecBench: Evaluating Frontier Models as Situated Recommendation Assistants in 3D Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：PhysMoE: Fast Spatial Grounding with Single-Token Coordinate Representation in Modality-Decoupled VLMs。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
