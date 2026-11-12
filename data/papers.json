@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T17:43:16.398812+00:00",
+  "updated_at": "2026-11-12T01:14:36.713103+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -1518,49 +1518,6 @@
         "spatial memory"
       ],
       "added_at": "2026-09-09T09:35:20.481912+00:00"
-    },
-    {
-      "id": "2608.12835",
-      "arxiv_id": "2608.12835",
-      "title": "AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN",
-      "authors": [
-        "Yutong Liu",
-        "Xiaojie Li",
-        "Mingzhu Xu",
-        "Jianlong Wu"
-      ],
-      "published": "2026-08-13",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.12835",
-      "pdf_url": "https://arxiv.org/pdf/2608.12835",
-      "code_url": "",
-      "categories": [
-        "cs.RO"
-      ],
-      "topics": [
-        "空域 VLN"
-      ],
-      "relevance_score": 9,
-      "citation_count": 0,
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/c747a194f1ff6b71c207340dc188f2a71dcd45d6",
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "AirForesight面向无人机视觉语言导航，从多视角观测学习结构化当前地图表征，经结构化因果注意力推演未来地图，以跨空间规划一致性损失约束，聚合当前与未来表征预测下一3D航点。",
-      "change_zh": "相比常见的视觉语言输入直接映射到动作的端到端路线，该方法显式构建当前地图并向未来想象，用未来轨迹预测反过来监督当前地图学习，再以地图空间轨迹与专家动作方向的跨空间一致性损失，让空间想象真正服务于导航决策。",
-      "why_it_matters": "直接命中空域VLN核心问题；其当前-未来地图想象与规划一致性思路可迁移至UAV主动目标搜索中的前瞻航点选择与探索规划，也为ObjectNav的前瞻地图构建与运动意图编码提供参考，是空间智能服务导航决策的代表工作。",
-      "relevance_rating": 10,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 27,
-      "keywords": [
-        "aerial",
-        "instruction",
-        "spatial reasoning",
-        "uav",
-        "waypoint"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
     },
     {
       "id": "2610.12368",
