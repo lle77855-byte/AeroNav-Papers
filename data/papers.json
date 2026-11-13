@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:54:15.573885+00:00",
+  "updated_at": "2026-11-13T17:30:41.284708+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16934,6 +16934,52 @@
         "geometry"
       ],
       "added_at": "2026-11-13T11:54:03.327451+00:00"
+    },
+    {
+      "id": "2606.19383",
+      "arxiv_id": "2606.19383",
+      "title": "3D Scene Graphs: Open Challenges and Future Directions",
+      "authors": [
+        "Dennis Rotondi",
+        "Francesco Argenziano",
+        "Sebastian Koch",
+        "Nathan Hughes",
+        "Martin Büchner",
+        "Johanna Wald",
+        "Lukas Rosenberger Schmid",
+        "Daniele Nardi",
+        "Abhinav Valada",
+        "Liam Paull",
+        "Federico Tombari",
+        "Luca Carlone"
+      ],
+      "published": "2026-11-12",
+      "source": "arXiv",
+      "venue": "arXiv.org",
+      "url": "https://arxiv.org/abs/2606.19383",
+      "pdf_url": "https://arxiv.org/pdf/2606.19383",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "规划智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 5,
+      "citation_count": 12,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/5a8ae06549f112663ad3ed75d0a100cf5662cdd9",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、规划智能体，主要研究问题可概括为：3D Scene Graphs: Open Challenges and Future Directions。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：3D scene graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment.",
+      "why_it_matters": "与空间智能、规划智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "deployment",
+        "evaluation",
+        "task planning"
+      ],
+      "added_at": "2026-11-13T17:30:38.284000+00:00"
     },
     {
       "id": "2611.15277",
@@ -35945,159 +35991,15 @@
   ],
   "briefing": {
     "text": "",
-    "added": 19,
-    "at": "2026-11-13T11:54:15.573922+00:00",
+    "added": 1,
+    "at": "2026-11-13T17:30:41.284729+00:00",
     "new": [
       {
-        "t": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
-        "u": "https://arxiv.org/abs/2611.17330",
+        "t": "3D Scene Graphs: Open Challenges and Future Directions",
+        "u": "https://arxiv.org/abs/2606.19383",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
-        "u": "https://arxiv.org/abs/2611.17190",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "UAV-Flow++: A Unified Suite for Benchmarking and Learning Language-Guided UAV Flight",
-        "u": "https://arxiv.org/abs/2611.17163",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：UAV-Flow++: A Unified Suite for Benchmarking and Learning Language-Guided UAV Flight。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DroneDiffusion: Uncertainty-Guided Diffusion Path Planner for UAV Navigation",
-        "u": "https://arxiv.org/abs/2611.15277",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：DroneDiffusion: Uncertainty-Guided Diffusion Path Planner for UAV Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Terrain-Aware Thompson Sampling for Multi-Drone Search and Rescue",
-        "u": "https://arxiv.org/abs/2611.14685",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Terrain-Aware Thompson Sampling for Multi-Drone Search and Rescue。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "RGB-D SLAM on the Edge: Benchmarking and Profiling RTAB-Map and ORB-SLAM3 on the Raspberry Pi 5",
-        "u": "https://arxiv.org/abs/2611.16472",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：RGB-D SLAM on the Edge: Benchmarking and Profiling RTAB-Map and ORB-SLAM3 on the Raspberry Pi 5。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Spatial Foundry: A Multimodal Dataset for Spatial Intelligence",
-        "u": "https://arxiv.org/abs/2611.17318",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：Spatial Foundry: A Multimodal Dataset for Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SALT: State-Aligned Low-Rank Transfer for Single-Temporal Cross-Dataset Structural Localization in Remote Sensing",
-        "u": "https://arxiv.org/abs/2611.17077",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：SALT: State-Aligned Low-Rank Transfer for Single-Temporal Cross-Dataset Structural Localization in Remote Sensing。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/gthpapadopoulos/SALT"
-      },
-      {
-        "t": "Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction",
-        "u": "https://arxiv.org/abs/2611.15651",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving",
-        "u": "https://arxiv.org/abs/2611.16579",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning",
-        "u": "https://arxiv.org/abs/2611.16424",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes",
-        "u": "https://arxiv.org/abs/2611.15937",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、空域 VLN，主要研究问题可概括为：MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Decide Before You Move: Diffusion-Generated Search Reference for Zero-Shot Open-Vocabulary Object Navigation in Semi-Static Environments",
-        "u": "https://arxiv.org/abs/2611.15093",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、具身基准与评测，主要研究问题可概括为：Decide Before You Move: Diffusion-Generated Search Reference for Zero-Shot Open-Vocabulary Object Navigation in Semi-Static Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Genie Sim Benchmark: Real-to-Sim Fidelity and Evaluation",
-        "u": "https://arxiv.org/abs/2611.15020",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Genie Sim Benchmark: Real-to-Sim Fidelity and Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
-        "u": "https://arxiv.org/abs/2611.17015",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "EG360: Efficient and Generalizable $360^\\circ$ Depth Estimation via Adaptive Panorama-Perspective Distillation and Spherical Cross-Level Feature Fusion",
-        "u": "https://arxiv.org/abs/2611.16793",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：EG360: Efficient and Generalizable $360^\\circ$ Depth Estimation via Adaptive Panorama-Perspective Distillation and Spherical Cross-Level Feature Fusion。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "What World Model Does Active Object Search Need? A Study under Imperfect Detection",
-        "u": "https://arxiv.org/abs/2611.15689",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、UAV 目标搜索，主要研究问题可概括为：What World Model Does Active Object Search Need? A Study under Imperfect Detection。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/gokyeongryeol/BAMOS"
-      },
-      {
-        "t": "Autonomous Trail Racing with a Bicycle Robot",
-        "u": "https://arxiv.org/abs/2611.15280",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Autonomous Trail Racing with a Bicycle Robot。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ADAPT: Agentic Diff-Aware Patch Testing for Pull Requests",
-        "u": "https://arxiv.org/abs/2611.16114",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ADAPT: Agentic Diff-Aware Patch Testing for Pull Requests。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、规划智能体，主要研究问题可概括为：3D Scene Graphs: Open Challenges and Future Directions。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
