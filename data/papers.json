@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T00:08:21.053978+00:00",
+  "updated_at": "2026-11-14T16:22:53.743209+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16940,6 +16940,43 @@
       "added_at": "2026-11-13T17:30:38.284000+00:00"
     },
     {
+      "id": "2611.16590",
+      "arxiv_id": "2611.16590",
+      "title": "AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents",
+      "authors": [
+        "You Wu",
+        "Guhong Zhang",
+        "Hongwei Li",
+        "Xinyue Hong",
+        "Yuan Jia"
+      ],
+      "published": "2026-11-12",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.16590",
+      "pdf_url": "https://arxiv.org/pdf/2611.16590",
+      "code_url": "https://github.com/flyingView/AstroMemBench-v1",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "空域 VLN",
+        "主动感知与重建"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Long-term spacecraft autonomy requires embodied agents to use operational history under communication delays, time-critical operations, environmental uncertainty, complex physical interactions, power and computational co",
+      "why_it_matters": "与具身基准与评测、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "exploration",
+        "instruction"
+      ],
+      "added_at": "2026-11-14T16:22:50.742559+00:00"
+    },
+    {
       "id": "2611.15277",
       "arxiv_id": "2611.15277",
       "title": "DroneDiffusion: Uncertainty-Guided Diffusion Path Planner for UAV Navigation",
@@ -17246,6 +17283,54 @@
         "evaluation"
       ],
       "added_at": "2026-11-13T11:54:12.573126+00:00"
+    },
+    {
+      "id": "2611.14953",
+      "arxiv_id": "2611.14953",
+      "title": "RSLiveBench-UAV: A Continually Evolving Vision-Language Benchmark for Aerial Spatial Intelligence",
+      "authors": [
+        "Yue Zhou",
+        "Jiawei Liu",
+        "Jue Chen",
+        "Ziyang Gong",
+        "Haojia Wei",
+        "Jingxiang Li",
+        "Xue Jiang",
+        "Zhihang Zhong",
+        "Pai Peng",
+        "Xue Yang",
+        "Yansheng Li",
+        "Jonathan Li"
+      ],
+      "published": "2026-11-11",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.14953",
+      "pdf_url": "https://arxiv.org/pdf/2611.14953",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "空间智能"
+      ],
+      "relevance_score": 14,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/053d1589c94cde1bb846565b06ab0d094af338ff",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：RSLiveBench-UAV: A Continually Evolving Vision-Language Benchmark for Aerial Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Aerial spatial intelligence (ASI) requires models to understand objects and spatial relationships across changing viewpoints and scales.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "evaluation",
+        "geometry",
+        "spatial intelligence",
+        "uav"
+      ],
+      "added_at": "2026-11-14T16:22:47.651366+00:00"
     },
     {
       "id": "2611.13528",
@@ -35949,16 +36034,24 @@
   ],
   "briefing": {
     "text": "",
-    "added": 1,
-    "at": "2026-11-13T17:30:41.284729+00:00",
+    "added": 2,
+    "at": "2026-11-14T16:22:53.743229+00:00",
     "new": [
       {
-        "t": "3D Scene Graphs: Open Challenges and Future Directions",
-        "u": "https://arxiv.org/abs/2606.19383",
+        "t": "RSLiveBench-UAV: A Continually Evolving Vision-Language Benchmark for Aerial Spatial Intelligence",
+        "u": "https://arxiv.org/abs/2611.14953",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、规划智能体，主要研究问题可概括为：3D Scene Graphs: Open Challenges and Future Directions。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：RSLiveBench-UAV: A Continually Evolving Vision-Language Benchmark for Aerial Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
+      },
+      {
+        "t": "AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents",
+        "u": "https://arxiv.org/abs/2611.16590",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/flyingView/AstroMemBench-v1"
       }
     ]
   }
