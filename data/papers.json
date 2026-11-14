@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:30:41.284708+00:00",
+  "updated_at": "2026-11-14T00:08:21.053978+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -8191,48 +8191,6 @@
         "vlm"
       ],
       "added_at": "2026-09-02T03:44:09Z"
-    },
-    {
-      "id": "2608.15175",
-      "arxiv_id": "2608.15175",
-      "title": "LAPF: LLM-Agent-Based Path Finder Using the UAVScenes Dataset",
-      "authors": [
-        "Yousef Emami",
-        "Mohammadhossein Homaei",
-        "Hao Zhou",
-        "Miguel Gutiérrez Gaitán",
-        "Atefeh Hajijamali Arani",
-        "Rui Zhang"
-      ],
-      "published": "2026-08-15",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.15175",
-      "pdf_url": "https://arxiv.org/pdf/2608.15175",
-      "code_url": "",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "topics": [
-        "规划智能体"
-      ],
-      "relevance_score": 7,
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "提出面向城镇尺度室外无人机自主导航的LLM智能体路径规划框架LAPF，将感知、记忆、规划与行动整合为闭环认知架构，借助经验记忆与CoT推理为每个检测危险生成有界修正动作并动态修正航点。",
-      "change_zh": "相比依赖预定义模型的优化与ML/RL路线及功能有限的LLM辅助导航，LAPF把记忆、规划与工具交互纳入闭环智能体架构，复用先前导航经验，用CoT推理把每个检测危险约束为有界、度量中性的修正动作，据环境反馈在线修正航点。",
-      "why_it_matters": "为UAV主动目标搜索与接近提供免任务特定训练的LLM智能体规划思路，其经验记忆与危险-动作耦合机制可迁移到搜救侦察的航点决策；闭环认知架构与有界修正动作设计对ObjectNav等地面目标导航亦有借鉴价值。",
-      "relevance_rating": 8,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 23,
-      "keywords": [
-        "aerial",
-        "uav",
-        "waypoint"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
     },
     {
       "id": "2610.10388",
