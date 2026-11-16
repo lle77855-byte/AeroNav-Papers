@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:22:53.743209+00:00",
+  "updated_at": "2026-11-16T12:28:50.250639+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -13383,46 +13383,6 @@
       "added_at": "2026-09-02T03:44:09Z"
     },
     {
-      "id": "2608.16640",
-      "arxiv_id": "2608.16640",
-      "title": "DPNet: Efficient Dead-End Prediction and Avoidance for Vision-Based UAV Navigation",
-      "authors": [
-        "Ruibin Zhang",
-        "Lun Pan",
-        "Zelong Xia",
-        "Jialiang Hou",
-        "Fei Gao"
-      ],
-      "published": "2026-08-17",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.16640",
-      "pdf_url": "https://arxiv.org/pdf/2608.16640",
-      "code_url": "",
-      "categories": [
-        "cs.RO"
-      ],
-      "topics": [
-        "UAV 目标搜索"
-      ],
-      "relevance_score": 7,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "DPNet用轻量网络从RGB-D输入预测视场内死胡同的相对距离与方位，据此在线剪枝预设紧凑轨迹库实现主动避让，支持机载50Hz重规划，仿真与真机实验均验证有效性。",
-      "change_zh": "不同于依赖稠密建图或陷入死胡同后再反应式脱困的常见路线，该工作直接从当前RGB-D视野预测潜在死胡同的方位与距离，用预测结果在线剪枝紧凑轨迹库，实现预测式主动避让，且无需真机标注与微调即可跨场景迁移。",
-      "why_it_matters": "死胡同是复杂环境中机载视觉导航失败的重要诱因，轻量预测加50Hz机载重规划让算力受限的无人机能提前绕开死胡同，对搜救侦察等主动目标搜索的成功率与飞行效率有直接帮助，零微调跨场景迁移也降低真机部署成本。",
-      "relevance_rating": 7,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 21,
-      "keywords": [
-        "aerial",
-        "benchmark",
-        "uav"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
-    },
-    {
       "id": "2610.11308",
       "arxiv_id": "2610.11308",
       "title": "Distributed Relative Localization for Homogeneous Multi-Robot Systems through UWB Ranging and Limited Communications",
@@ -16495,6 +16455,473 @@
       "added_at": "2026-09-18T08:54:45.554191+00:00"
     },
     {
+      "id": "2611.17730",
+      "arxiv_id": "2611.17730",
+      "title": "ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth",
+      "authors": [
+        "Shunyang Huang",
+        "Shuo Wang",
+        "Wenyuan Xie",
+        "Mingyu Lin",
+        "Yue Ding",
+        "Hongtao Lu"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17730",
+      "pdf_url": "https://arxiv.org/pdf/2611.17730",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "ObjectNav 目标搜索",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦ObjectNav 目标搜索、空间智能，主要研究问题可概括为：ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Depth and 3D foundation models can predict geometry from RGB images, allowing zero-shot object navigation without a depth sensor.",
+      "why_it_matters": "与ObjectNav 目标搜索、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration",
+        "geometry",
+        "object navigation",
+        "real robot"
+      ],
+      "added_at": "2026-11-16T12:28:12.433060+00:00"
+    },
+    {
+      "id": "2611.17931",
+      "arxiv_id": "2611.17931",
+      "title": "MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration",
+      "authors": [
+        "Bing Wang",
+        "Mingyang Wang",
+        "Yuanhang Mi",
+        "Yue Xu",
+        "Kaibo Su",
+        "Li'ang Xiao",
+        "Chunguo Wu",
+        "Changchun Li",
+        "Ximing Li",
+        "Kun-Feng Qiu",
+        "Bo Yang"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17931",
+      "pdf_url": "https://arxiv.org/pdf/2611.17931",
+      "code_url": "",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In mineral exploration, verifying geological hypotheses relies on designing a variety of geochemical experiments.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration",
+        "llm agent"
+      ],
+      "added_at": "2026-11-16T12:28:15.551171+00:00"
+    },
+    {
+      "id": "2611.18372",
+      "arxiv_id": "2611.18372",
+      "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+      "authors": [
+        "Suvarna Kadam",
+        "Soran Parsa"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18372",
+      "pdf_url": "https://arxiv.org/pdf/2611.18372",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.ET",
+        "cs.LG"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-language-action (VLA) models adapt web-pretrained vision-language models to output robot actions, so that web knowledge carries over to physical control.",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "evaluation"
+      ],
+      "added_at": "2026-11-16T12:28:18.870719+00:00"
+    },
+    {
+      "id": "2611.17775",
+      "arxiv_id": "2611.17775",
+      "title": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
+      "authors": [
+        "Yu Zhou",
+        "Changsong Lei",
+        "Yixiang Wei",
+        "Kairui Wen",
+        "Huankun Sheng",
+        "Ming Li",
+        "Yeying Fan",
+        "Yu-Hui Wen",
+        "Yong-Jin Liu"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17775",
+      "pdf_url": "https://arxiv.org/pdf/2611.17775",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：World models that support planning, control, and interpretable reasoning require latent representations that genuinely encode action.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-16T12:28:21.984382+00:00"
+    },
+    {
+      "id": "2611.18359",
+      "arxiv_id": "2611.18359",
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "authors": [
+        "Grid Robotics",
+        ":",
+        "Qingfeng Lan",
+        "Duo Li",
+        "Siyao Li",
+        "Yiheng Lyu",
+        "Shijian Lu",
+        "Zhenghao Qi",
+        "Shizun Wang",
+        "Xinchao Wang",
+        "Ming Yang",
+        "Zhiqin Yang",
+        "Zuhao Yang",
+        "Tao Yu"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18359",
+      "pdf_url": "https://arxiv.org/pdf/2611.18359",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Envisioning Agentic Robotics: A New Era of Robotic Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-11-16T12:28:25.112864+00:00"
+    },
+    {
+      "id": "2611.18501",
+      "arxiv_id": "2611.18501",
+      "title": "In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles",
+      "authors": [
+        "Nenyi Kweku Nkensen Dadson",
+        "Jean Paul Gonzalez",
+        "Daniel P. Arabie",
+        "Ryan J. Cedel",
+        "Dorin Boldor",
+        "Corina Barbalata"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18501",
+      "pdf_url": "https://arxiv.org/pdf/2611.18501",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "世界模型",
+        "地面 VLN",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、地面 VLN，主要研究问题可概括为：In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Harmful Algal Blooms (HABs) pose significant environmental, economic, and public-health challenges in coastal and inland water bodies, creating a need for scalable methods to collect spatially distributed water-quality d",
+      "why_it_matters": "与世界模型、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "predictive model",
+        "waypoint"
+      ],
+      "added_at": "2026-11-16T12:28:28.415973+00:00"
+    },
+    {
+      "id": "2611.18130",
+      "arxiv_id": "2611.18130",
+      "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+      "authors": [
+        "Issa Sugiura",
+        "Taro Makino",
+        "Takashi Ishida"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18130",
+      "pdf_url": "https://arxiv.org/pdf/2611.18130",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their capabilities across financial systems with different regulations and practices.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-11-16T12:28:31.534888+00:00"
+    },
+    {
+      "id": "2611.17966",
+      "arxiv_id": "2611.17966",
+      "title": "From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays",
+      "authors": [
+        "Weiru Zhang",
+        "Yuzhong Hong",
+        "Junwei Bao",
+        "Lemao Liu",
+        "Dejing Dou"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17966",
+      "pdf_url": "https://arxiv.org/pdf/2611.17966",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Chinese Grammatical Error Correction (CGEC) is typically formulated as a text-to-text problem.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-11-16T12:28:34.655893+00:00"
+    },
+    {
+      "id": "2611.18110",
+      "arxiv_id": "2611.18110",
+      "title": "PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots",
+      "authors": [
+        "Yael Fassbind",
+        "Valentin N. Hartmann",
+        "Huang Su",
+        "Yijiang Huang",
+        "Stelian Coros"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18110",
+      "pdf_url": "https://arxiv.org/pdf/2611.18110",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "主动感知与重建"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制、主动感知与重建，主要研究问题可概括为：PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reaching a goal state in a complex environment often requires a robot to overcome challenging terrain and obstacles.",
+      "why_it_matters": "与状态估计与控制、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration",
+        "motion planning"
+      ],
+      "added_at": "2026-11-16T12:28:37.896740+00:00"
+    },
+    {
+      "id": "2611.18458",
+      "arxiv_id": "2611.18458",
+      "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+      "authors": [
+        "Yifan Jin",
+        "Tao Liu"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18458",
+      "pdf_url": "https://arxiv.org/pdf/2611.18458",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-16T12:28:41.020612+00:00"
+    },
+    {
+      "id": "2611.17910",
+      "arxiv_id": "2611.17910",
+      "title": "Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners",
+      "authors": [
+        "Stephen Obadinma",
+        "Xiaodan Zhu"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17910",
+      "pdf_url": "https://arxiv.org/pdf/2611.17910",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "规划智能体",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦规划智能体、多模态大模型与智能体，主要研究问题可概括为：Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：As large language models (LLMs) are increasingly deployed as autonomous agents, their abilities in navigating automated planning tasks have become essential.",
+      "why_it_matters": "与规划智能体、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "llm agent",
+        "llm planner"
+      ],
+      "added_at": "2026-11-16T12:28:44.133118+00:00"
+    },
+    {
+      "id": "2611.18078",
+      "arxiv_id": "2611.18078",
+      "title": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes",
+      "authors": [
+        "Ruiqi Shu",
+        "Xufeng Zhan",
+        "Yuanzhi Liang",
+        "Haibin Huang",
+        "Chi Zhang",
+        "Xuelong Li"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18078",
+      "pdf_url": "https://arxiv.org/pdf/2611.18078",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：TelePhysica: Agentic Reconstruction of Physically Interactive Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Direct image-to-video diffusion models entangle pixel synthesis with implicit latent motion, precluding persistent 3D mechanical equilibrium, mid-rollout intervention, and counterfactual force control.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark"
+      ],
+      "added_at": "2026-11-16T12:28:47.249690+00:00"
+    },
+    {
       "id": "2611.17330",
       "arxiv_id": "2611.17330",
       "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
@@ -16975,6 +17402,58 @@
         "instruction"
       ],
       "added_at": "2026-11-14T16:22:50.742559+00:00"
+    },
+    {
+      "id": "2611.17598",
+      "arxiv_id": "2611.17598",
+      "title": "X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot",
+      "authors": [
+        "Jiaxin Huang",
+        "Chengxing Lin",
+        "Xiaoyu Luo",
+        "Sirui Chen",
+        "Jingyu Guo",
+        "Aolin Li",
+        "Kairui Chen",
+        "Rui Zhen",
+        "Cheng Wen",
+        "Kerui Gu",
+        "Shunyao Wang",
+        "Zhihui Peng",
+        "Shaoli Huang"
+      ],
+      "published": "2026-11-12",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17598",
+      "pdf_url": "https://arxiv.org/pdf/2611.17598",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "topics": [
+        "真机与 Sim2Real",
+        "空域 VLN",
+        "地面 VLN"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real、空域 VLN，主要研究问题可概括为：X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Long-horizon navigation from indoors to outdoors remains an open problem for humanoid robots: one instruction covers rooms, doors and roads, and the camera moves with the gait.",
+      "why_it_matters": "与真机与 Sim2Real、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "deployment",
+        "instruction",
+        "odometry",
+        "r2r",
+        "real robot"
+      ],
+      "added_at": "2026-11-16T12:28:09.098638+00:00"
     },
     {
       "id": "2611.15277",
@@ -36034,24 +36513,112 @@
   ],
   "briefing": {
     "text": "",
-    "added": 2,
-    "at": "2026-11-14T16:22:53.743229+00:00",
+    "added": 13,
+    "at": "2026-11-16T12:28:50.250663+00:00",
     "new": [
       {
-        "t": "RSLiveBench-UAV: A Continually Evolving Vision-Language Benchmark for Aerial Spatial Intelligence",
-        "u": "https://arxiv.org/abs/2611.14953",
+        "t": "X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot",
+        "u": "https://arxiv.org/abs/2611.17598",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：RSLiveBench-UAV: A Continually Evolving Vision-Language Benchmark for Aerial Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦真机与 Sim2Real、空域 VLN，主要研究问题可概括为：X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents",
-        "u": "https://arxiv.org/abs/2611.16590",
+        "t": "ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth",
+        "u": "https://arxiv.org/abs/2611.17730",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/flyingView/AstroMemBench-v1"
+        "s": "该工作聚焦ObjectNav 目标搜索、空间智能，主要研究问题可概括为：ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration",
+        "u": "https://arxiv.org/abs/2611.17931",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+        "u": "https://arxiv.org/abs/2611.18372",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
+        "u": "https://arxiv.org/abs/2611.17775",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+        "u": "https://arxiv.org/abs/2611.18359",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Envisioning Agentic Robotics: A New Era of Robotic Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles",
+        "u": "https://arxiv.org/abs/2611.18501",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、地面 VLN，主要研究问题可概括为：In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+        "u": "https://arxiv.org/abs/2611.18130",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays",
+        "u": "https://arxiv.org/abs/2611.17966",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots",
+        "u": "https://arxiv.org/abs/2611.18110",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦状态估计与控制、主动感知与重建，主要研究问题可概括为：PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+        "u": "https://arxiv.org/abs/2611.18458",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners",
+        "u": "https://arxiv.org/abs/2611.17910",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦规划智能体、多模态大模型与智能体，主要研究问题可概括为：Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes",
+        "u": "https://arxiv.org/abs/2611.18078",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：TelePhysica: Agentic Reconstruction of Physically Interactive Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
       }
     ]
   }
