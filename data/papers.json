@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T12:49:41.604167+00:00",
+  "updated_at": "2026-11-17T18:57:37.063412+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18201,6 +18201,39 @@
         "trajectory planning"
       ],
       "added_at": "2026-11-17T02:12:29.128113+00:00"
+    },
+    {
+      "id": "2611.17880",
+      "arxiv_id": "2611.17880",
+      "title": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+      "authors": [
+        "Mike He",
+        "Ankush Desai",
+        "Sharad Malik",
+        "Aarti Gupta"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17880",
+      "pdf_url": "https://arxiv.org/pdf/2611.17880",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：LLM agents that execute multi-step tool calls must satisfy two objectives simultaneously: completing the user's task (utility) and conforming to domain policies and correctness constraints (safety).",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "llm agent"
+      ],
+      "added_at": "2026-11-17T18:57:34.062675+00:00"
     },
     {
       "id": "2611.17330",
@@ -37836,215 +37869,15 @@
   ],
   "briefing": {
     "text": "",
-    "added": 26,
-    "at": "2026-11-17T12:49:41.604186+00:00",
+    "added": 1,
+    "at": "2026-11-17T18:57:37.063434+00:00",
     "new": [
       {
-        "t": "Drone Navigation for Fast, Safe Emergency Response",
-        "u": "https://arxiv.org/abs/2611.19818",
+        "t": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+        "u": "https://arxiv.org/abs/2611.17880",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Drone Navigation for Fast, Safe Emergency Response。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots",
-        "u": "https://arxiv.org/abs/2611.19616",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "GOOSELoc: A Multimodal Benchmark for Ground-to-Aerial Localization in Unstructured Off-Road Terrain",
-        "u": "https://arxiv.org/abs/2611.16162",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：GOOSELoc: A Multimodal Benchmark for Ground-to-Aerial Localization in Unstructured Off-Road Terrain。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "JEPTERA: A Platform Agnostic JEPA-Assisted Model Predictive Planner for Urban UAV Navigation",
-        "u": "https://arxiv.org/abs/2611.20593",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：JEPTERA: A Platform Agnostic JEPA-Assisted Model Predictive Planner for Urban UAV Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Aerial Person Detection under Edge Constraints: Held-Out Evaluation and Edge-Ground Verification",
-        "u": "https://arxiv.org/abs/2611.20127",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Aerial Person Detection under Edge Constraints: Held-Out Evaluation and Edge-Ground Verification。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
-        "u": "https://arxiv.org/abs/2611.21485",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Real-Time Air Pollution Monitoring and Tracking via Adaptive Density-Driven Multi-UAV Coordination",
-        "u": "https://arxiv.org/abs/2611.19703",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Real-Time Air Pollution Monitoring and Tracking via Adaptive Density-Driven Multi-UAV Coordination。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "UNITE: Consolidating Embodied VLM Specialists via Shared-Anchor One-Bit Factorization",
-        "u": "https://arxiv.org/abs/2611.20767",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：UNITE: Consolidating Embodied VLM Specialists via Shared-Anchor One-Bit Factorization。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Learning and Verifying Progress: Closed-Loop Agentic Planning with Progress-Enhanced Execution for Long-Horizon Vision-Language Navigation",
-        "u": "https://arxiv.org/abs/2611.20676",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：Learning and Verifying Progress: Closed-Loop Agentic Planning with Progress-Enhanced Execution for Long-Horizon Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Oriented Semi-DETR for Semi-Supervised Aerial Object Detection",
-        "u": "https://arxiv.org/abs/2611.21223",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Oriented Semi-DETR for Semi-Supervised Aerial Object Detection。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving",
-        "u": "https://arxiv.org/abs/2611.20107",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Vision-Language Grounded Semantic Navigation for Autonomous Mobile Robots",
-        "u": "https://arxiv.org/abs/2611.20558",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、主动感知与重建，主要研究问题可概括为：Vision-Language Grounded Semantic Navigation for Autonomous Mobile Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
-        "u": "https://arxiv.org/abs/2611.21412",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Turing Agent: Agentic Formal Verification for Mathematical Research",
-        "u": "https://arxiv.org/abs/2611.21299",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Turing Agent: Agentic Formal Verification for Mathematical Research。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AgenticJevNav: Agentic Object Search and Navigation via Event-Driven Verification",
-        "u": "https://arxiv.org/abs/2611.19912",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：AgenticJevNav: Agentic Object Search and Navigation via Event-Driven Verification。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "FlowRow: Learning Navigation Behaviors in Agricultural Environments with Long-Horizon Goal-Conditioned Flow Matching Policies",
-        "u": "https://arxiv.org/abs/2611.21035",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：FlowRow: Learning Navigation Behaviors in Agricultural Environments with Long-Horizon Goal-Conditioned Flow Matching Policies。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-        "u": "https://arxiv.org/abs/2611.21479",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：LynnReal-Hand: Unlocking World Interaction with Hand Control。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
-        "u": "https://arxiv.org/abs/2611.21579",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "A Generative AI-Driven Architecture for Whole-Home Intelligent Services: Edge Models, Memory Management, and Household Applications",
-        "u": "https://arxiv.org/abs/2611.21232",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：A Generative AI-Driven Architecture for Whole-Home Intelligent Services: Edge Models, Memory Management, and Household Applications。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Deploying a Control-Logic LLM Assistant in Air-Gapped Power Plants: Lessons in Source Authority and Bounded Retrieval",
-        "u": "https://arxiv.org/abs/2611.20398",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Deploying a Control-Logic LLM Assistant in Air-Gapped Power Plants: Lessons in Source Authority and Bounded Retrieval。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning",
-        "u": "https://arxiv.org/abs/2611.21143",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Benchleaking Is Accelerating: Benchmark contamination has worsened sharply in the past month -- from post-training down to pre-training base models",
-        "u": "https://arxiv.org/abs/2611.21315",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Benchleaking Is Accelerating: Benchmark contamination has worsened sharply in the past month -- from post-training down to pre-training base models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Benchmarking Large Language Models for Linguistic Annotation",
-        "u": "https://arxiv.org/abs/2611.21291",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Benchmarking Large Language Models for Linguistic Annotation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Region-VAD: Video Anomaly Localization and Detection via Region Selection",
-        "u": "https://arxiv.org/abs/2611.21132",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Region-VAD: Video Anomaly Localization and Detection via Region Selection。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "IGRecon4D: Dynamic-Object-Aware Feed-Forward Reconstruction of Driving Scenes",
-        "u": "https://arxiv.org/abs/2611.21126",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：IGRecon4D: Dynamic-Object-Aware Feed-Forward Reconstruction of Driving Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MetricHand: Geometry-Aware Flow Matching for 4D Hand Reconstruction in Metric World Space",
-        "u": "https://arxiv.org/abs/2611.21060",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、状态估计与控制，主要研究问题可概括为：MetricHand: Geometry-Aware Flow Matching for 4D Hand Reconstruction in Metric World Space。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
