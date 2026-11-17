@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:28:50.250639+00:00",
+  "updated_at": "2026-11-17T00:43:20.262440+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -15967,45 +15967,6 @@
         "uav"
       ],
       "added_at": "2026-09-01T21:26:42+08:00"
-    },
-    {
-      "id": "2608.17703",
-      "arxiv_id": "2608.17703",
-      "title": "Dijkstra as an Oracle for Online Stochastic Shortest Path Navigation with Provable Guarantees",
-      "authors": [
-        "Mansur M. Arief",
-        "Ali Akarma",
-        "Ahmad Alfan Alfian Irfan"
-      ],
-      "published": "2026-08-18",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.17703",
-      "pdf_url": "https://arxiv.org/pdf/2608.17703",
-      "code_url": "",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "math.OC"
-      ],
-      "topics": [
-        "状态估计与控制"
-      ],
-      "relevance_score": 3,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "在弱于因果性的约简代价非负条件下，Dijkstra可精确求解随机最短路径导航，据此提出在线算法DORA：固定调用最短路径oracle、不估计转移核，并以对数生存权重约束接触概率。",
-      "change_zh": "常见路线或用值迭代精确求解但计算量随地图规模增长，或确定性化重规划却缺安全保证；本文改以最短路径oracle为精确引擎，在线学习无需估计转移核，并把接触预算转为对数生存权重，获得可证明的安全导航。",
-      "why_it_matters": "对UAV目标搜索与ObjectNav等需反复规划的任务，它提供远比值迭代省且有保证的规划后端：代价未知、执行不确定时少量Dijkstra调用即可安全在线导航，接触预算机制对动态障碍下的安全接近有参考价值。",
-      "relevance_rating": 6,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 19,
-      "keywords": [
-        "benchmark",
-        "drone"
-      ],
-      "added_at": "2026-09-02T03:44:09Z"
     },
     {
       "id": "2610.03400",
