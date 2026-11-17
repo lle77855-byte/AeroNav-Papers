@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T00:43:20.262440+00:00",
+  "updated_at": "2026-11-17T02:12:32.128866+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16416,6 +16416,121 @@
       "added_at": "2026-09-18T08:54:45.554191+00:00"
     },
     {
+      "id": "2611.19037",
+      "arxiv_id": "2611.19037",
+      "title": "The Critic Can Hurt: On the Safety of Critics in LLM-Guided AutoML Search",
+      "authors": [
+        "Gaoyuan Du",
+        "Xiaoyang Liu",
+        "Rex Zhou",
+        "Dengdu Jiang",
+        "Rong Fu",
+        "Meng Ding",
+        "Defu Cao"
+      ],
+      "published": "2026-11-14",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.19037",
+      "pdf_url": "https://arxiv.org/pdf/2611.19037",
+      "code_url": "",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：The Critic Can Hurt: On the Safety of Critics in LLM-Guided AutoML Search。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：LLM critics increasingly steer iterative search in agentic AutoML, prompt optimization, and self-refinement--evaluated for whether they help, but rarely for whether they can hurt.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "deployment"
+      ],
+      "added_at": "2026-11-17T02:12:19.594828+00:00"
+    },
+    {
+      "id": "2611.19029",
+      "arxiv_id": "2611.19029",
+      "title": "SurveyWeave: An Agentic Framework for Automated Survey Generation",
+      "authors": [
+        "Franklin Zhang",
+        "Xiao Yang",
+        "Xin Luna Dong",
+        "Juhua Hu"
+      ],
+      "published": "2026-11-14",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.19029",
+      "pdf_url": "https://arxiv.org/pdf/2611.19029",
+      "code_url": "",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：SurveyWeave: An Agentic Framework for Automated Survey Generation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Surveys help researchers keep up with fast-moving fields, but they take weeks to months to write.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "evaluation"
+      ],
+      "added_at": "2026-11-17T02:12:22.820709+00:00"
+    },
+    {
+      "id": "2611.19202",
+      "arxiv_id": "2611.19202",
+      "title": "Omni-Workspace: Benchmarking Omni-Modal AI Assistants on Multimodal Workspace Tasks",
+      "authors": [
+        "Yuhao Wang",
+        "Yucheng Zhao",
+        "Yiran Zhong",
+        "Feida Zhu",
+        "Hongcheng Liu",
+        "Qichao Wang",
+        "Ming Ma",
+        "Yu Wang"
+      ],
+      "published": "2026-11-14",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.19202",
+      "pdf_url": "https://arxiv.org/pdf/2611.19202",
+      "code_url": "",
+      "categories": [
+        "cs.CL"
+      ],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Omni-Workspace: Benchmarking Omni-Modal AI Assistants on Multimodal Workspace Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Omni-modal agents are expected to move beyond multimodal understanding toward completing complex tasks in realistic multimodal environments.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "added_at": "2026-11-17T02:12:26.000541+00:00"
+    },
+    {
       "id": "2611.17730",
       "arxiv_id": "2611.17730",
       "title": "ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth",
@@ -16881,6 +16996,241 @@
         "benchmark"
       ],
       "added_at": "2026-11-16T12:28:47.249690+00:00"
+    },
+    {
+      "id": "2611.18813",
+      "arxiv_id": "2611.18813",
+      "title": "RescueVLM: Model-Agnostic Vision-Language Framework for Rescue Drone Imagery",
+      "authors": [
+        "Niklas Voigt",
+        "Tim Sibum",
+        "Julien Meine",
+        "Niklas Digakis",
+        "Hartmut Surmann"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18813",
+      "pdf_url": "https://arxiv.org/pdf/2611.18813",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 13,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：RescueVLM: Model-Agnostic Vision-Language Framework for Rescue Drone Imagery。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：A single unmanned aerial vehicle (UAV) mission over an incident site produces hundreds of images, far more than a rescue commander can review under time pressure, and human screening of destruction imagery carries a docu",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "deployment",
+        "drone",
+        "evaluation",
+        "search and rescue",
+        "uav",
+        "vlm"
+      ],
+      "added_at": "2026-11-17T02:12:03.875904+00:00"
+    },
+    {
+      "id": "2611.18880",
+      "arxiv_id": "2611.18880",
+      "title": "RAVEN-Bench: A Paired EO-IR Video QA Benchmark for Aerial Multimodal Understanding",
+      "authors": [
+        "Yu Hu",
+        "Jianyang Gu",
+        "Yue Cao",
+        "Hao Liu",
+        "Kangnan Wang",
+        "Jozsef Hamari",
+        "Zheng Liu",
+        "Mohsen Zardadi"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18880",
+      "pdf_url": "https://arxiv.org/pdf/2611.18880",
+      "code_url": "https://github.com/yuhu990424/RAVEN-Bench",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "relevance_score": 9,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：RAVEN-Bench: A Paired EO-IR Video QA Benchmark for Aerial Multimodal Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multimodal large language models (MLLMs) have advanced rapidly in image and video understanding, yet their ability to reason over paired aerial electro-optical and infrared (EO-IR) videos remains poorly understood.",
+      "why_it_matters": "与具身基准与评测、UAV 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "benchmark",
+        "evaluation",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-17T02:12:07.040826+00:00"
+    },
+    {
+      "id": "2611.18924",
+      "arxiv_id": "2611.18924",
+      "title": "Dependable Voice Command for Multi-UAV Swarms Using Small Language Models",
+      "authors": [
+        "Afshin Ameri",
+        "Luiz Giacomossi",
+        "Håkan Forsberg",
+        "Ivan Tomasic",
+        "Baran Cürüklü"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18924",
+      "pdf_url": "https://arxiv.org/pdf/2611.18924",
+      "code_url": "",
+      "categories": [
+        "cs.SD",
+        "cs.HC",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 7,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Dependable Voice Command for Multi-UAV Swarms Using Small Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Supervisory control of multiple autonomous unmanned aerial vehicles (UAVs) imposes high visual and cognitive demands on human operators, particularly when communicating mission objectives and system constraints.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "evaluation",
+        "uav"
+      ],
+      "added_at": "2026-11-17T02:12:10.171671+00:00"
+    },
+    {
+      "id": "2611.18979",
+      "arxiv_id": "2611.18979",
+      "title": "Probing Where Surprise Happens: Localized Violation-of-Expectation Evaluation of Video World Models",
+      "authors": [
+        "Yanbin Xu",
+        "Ming bo Cai"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18979",
+      "pdf_url": "https://arxiv.org/pdf/2611.18979",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "eess.IV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "世界模型"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Probing Where Surprise Happens: Localized Violation-of-Expectation Evaluation of Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Violation-of-expectation (VOE) benchmarks evaluate intuitive physics in video world models by testing whether physically impossible events produce greater prediction errors than matched possible events.",
+      "why_it_matters": "与具身基准与评测、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-17T02:12:13.336843+00:00"
+    },
+    {
+      "id": "2611.18865",
+      "arxiv_id": "2611.18865",
+      "title": "FiReIQ: Field-Level Confidence Estimation with Reasoning and Image Quality in Document Extraction",
+      "authors": [
+        "Xiao Liu",
+        "Yage Wang",
+        "Qi Yu",
+        "Giri Iyengar"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18865",
+      "pdf_url": "https://arxiv.org/pdf/2611.18865",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：FiReIQ: Field-Level Confidence Estimation with Reasoning and Image Quality in Document Extraction。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-Language Models (VLMs) have demonstrated strong performance in structured document extraction, yet their deployment in high-stakes applications requires reliable confidence estimates for individual fields.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "evaluation",
+        "vlm"
+      ],
+      "added_at": "2026-11-17T02:12:16.474420+00:00"
+    },
+    {
+      "id": "2611.18935",
+      "arxiv_id": "2611.18935",
+      "title": "Optimal Operating-Point Selection for Single-Linearization Trajectory Planning of Nonlinear Robot Manipulators",
+      "authors": [
+        "Bhanuka Dayawansa",
+        "Rohan Munasinghe"
+      ],
+      "published": "2026-11-13",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.18935",
+      "pdf_url": "https://arxiv.org/pdf/2611.18935",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Optimal Operating-Point Selection for Single-Linearization Trajectory Planning of Nonlinear Robot Manipulators。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Single-point linearization provides a computationally efficient basis for optimization-based trajectory planning of nonlinear robot manipulators.",
+      "why_it_matters": "与状态估计与控制、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "trajectory planning"
+      ],
+      "added_at": "2026-11-17T02:12:29.128113+00:00"
     },
     {
       "id": "2611.17330",
@@ -36474,111 +36824,79 @@
   ],
   "briefing": {
     "text": "",
-    "added": 13,
-    "at": "2026-11-16T12:28:50.250663+00:00",
+    "added": 9,
+    "at": "2026-11-17T02:12:32.128887+00:00",
     "new": [
       {
-        "t": "X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot",
-        "u": "https://arxiv.org/abs/2611.17598",
+        "t": "RescueVLM: Model-Agnostic Vision-Language Framework for Rescue Drone Imagery",
+        "u": "https://arxiv.org/abs/2611.18813",
         "r": null,
         "g": null,
-        "s": "该工作聚焦真机与 Sim2Real、空域 VLN，主要研究问题可概括为：X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：RescueVLM: Model-Agnostic Vision-Language Framework for Rescue Drone Imagery。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth",
-        "u": "https://arxiv.org/abs/2611.17730",
+        "t": "RAVEN-Bench: A Paired EO-IR Video QA Benchmark for Aerial Multimodal Understanding",
+        "u": "https://arxiv.org/abs/2611.18880",
         "r": null,
         "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、空间智能，主要研究问题可概括为：ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：RAVEN-Bench: A Paired EO-IR Video QA Benchmark for Aerial Multimodal Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/yuhu990424/RAVEN-Bench"
+      },
+      {
+        "t": "Dependable Voice Command for Multi-UAV Swarms Using Small Language Models",
+        "u": "https://arxiv.org/abs/2611.18924",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Dependable Voice Command for Multi-UAV Swarms Using Small Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration",
-        "u": "https://arxiv.org/abs/2611.17931",
+        "t": "Probing Where Surprise Happens: Localized Violation-of-Expectation Evaluation of Video World Models",
+        "u": "https://arxiv.org/abs/2611.18979",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Probing Where Surprise Happens: Localized Violation-of-Expectation Evaluation of Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
-        "u": "https://arxiv.org/abs/2611.18372",
+        "t": "FiReIQ: Field-Level Confidence Estimation with Reasoning and Image Quality in Document Extraction",
+        "u": "https://arxiv.org/abs/2611.18865",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：FiReIQ: Field-Level Confidence Estimation with Reasoning and Image Quality in Document Extraction。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
-        "u": "https://arxiv.org/abs/2611.17775",
+        "t": "The Critic Can Hurt: On the Safety of Critics in LLM-Guided AutoML Search",
+        "u": "https://arxiv.org/abs/2611.19037",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：The Critic Can Hurt: On the Safety of Critics in LLM-Guided AutoML Search。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
-        "u": "https://arxiv.org/abs/2611.18359",
+        "t": "SurveyWeave: An Agentic Framework for Automated Survey Generation",
+        "u": "https://arxiv.org/abs/2611.19029",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Envisioning Agentic Robotics: A New Era of Robotic Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：SurveyWeave: An Agentic Framework for Automated Survey Generation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles",
-        "u": "https://arxiv.org/abs/2611.18501",
+        "t": "Omni-Workspace: Benchmarking Omni-Modal AI Assistants on Multimodal Workspace Tasks",
+        "u": "https://arxiv.org/abs/2611.19202",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、地面 VLN，主要研究问题可概括为：In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Omni-Workspace: Benchmarking Omni-Modal AI Assistants on Multimodal Workspace Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
-        "u": "https://arxiv.org/abs/2611.18130",
+        "t": "Optimal Operating-Point Selection for Single-Linearization Trajectory Planning of Nonlinear Robot Manipulators",
+        "u": "https://arxiv.org/abs/2611.18935",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays",
-        "u": "https://arxiv.org/abs/2611.17966",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：From Images to Grounded Edits: A Real-World Benchmark for Chinese Grammatical Error Correction in Handwritten Essays。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots",
-        "u": "https://arxiv.org/abs/2611.18110",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、主动感知与重建，主要研究问题可概括为：PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
-        "u": "https://arxiv.org/abs/2611.18458",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners",
-        "u": "https://arxiv.org/abs/2611.17910",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦规划智能体、多模态大模型与智能体，主要研究问题可概括为：Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes",
-        "u": "https://arxiv.org/abs/2611.18078",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：TelePhysica: Agentic Reconstruction of Physically Interactive Scenes。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Optimal Operating-Point Selection for Single-Linearization Trajectory Planning of Nonlinear Robot Manipulators。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
