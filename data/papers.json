@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T12:42:51.836195+00:00",
+  "updated_at": "2026-11-18T18:39:35.815801+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18124,6 +18124,74 @@
       "added_at": "2026-11-17T12:49:03.226219+00:00"
     },
     {
+      "id": "2611.19901",
+      "arxiv_id": "2611.19901",
+      "title": "Remember, Replay, Adapt: Learning from Past Experience in Online Vision-and-Language Navigation",
+      "authors": [
+        "Chenhao Ding",
+        "Jizhou Han",
+        "Lixin Xiu",
+        "Muyao Wang",
+        "Songlin Dong",
+        "Hideki Nakayama"
+      ],
+      "published": "2026-11-15",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.19901",
+      "pdf_url": "https://arxiv.org/pdf/2611.19901",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "地面 VLN",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦地面 VLN、空域 VLN，主要研究问题可概括为：Remember, Replay, Adapt: Learning from Past Experience in Online Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Existing feedback-based methods for online vision-and-language navigation (VLN) primarily learn from current episode outcomes, leaving previously acquired feedback underutilized.",
+      "why_it_matters": "与地面 VLN、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "r2r",
+        "reverie"
+      ],
+      "added_at": "2026-11-18T18:39:20.184213+00:00"
+    },
+    {
+      "id": "2611.19796",
+      "arxiv_id": "2611.19796",
+      "title": "The Sense Paradigm for World Models",
+      "authors": [
+        "Haidong Hu"
+      ],
+      "published": "2026-11-15",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.19796",
+      "pdf_url": "https://arxiv.org/pdf/2611.19796",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：The Sense Paradigm for World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Latent world models predict the future in an embedding space rather than in pixels.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "world model"
+      ],
+      "added_at": "2026-11-18T18:39:23.325187+00:00"
+    },
+    {
       "id": "2611.19037",
       "arxiv_id": "2611.19037",
       "title": "The Critic Can Hurt: On the Safety of Critics in LLM-Guided AutoML Search",
@@ -18279,6 +18347,40 @@
         "waypoint"
       ],
       "added_at": "2026-11-17T12:48:22.418541+00:00"
+    },
+    {
+      "id": "2611.19621",
+      "arxiv_id": "2611.19621",
+      "title": "Toward Planning Representations That Separate Task Structure from Visual Content",
+      "authors": [
+        "Aarav Srivastava",
+        "Vishwas Sathish",
+        "Rajesh P. N. Rao"
+      ],
+      "published": "2026-11-14",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.19621",
+      "pdf_url": "https://arxiv.org/pdf/2611.19621",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "ObjectNav 目标搜索",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦ObjectNav 目标搜索、空间智能，主要研究问题可概括为：Toward Planning Representations That Separate Task Structure from Visual Content。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Effective planning requires representations that preserve task-relevant geometry and object identity while ignoring visual variation that does not alter the task.",
+      "why_it_matters": "与ObjectNav 目标搜索、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "geometry",
+        "objectnav"
+      ],
+      "added_at": "2026-11-18T18:39:26.526035+00:00"
     },
     {
       "id": "2611.17730",
@@ -19590,6 +19692,81 @@
         "localization"
       ],
       "added_at": "2026-11-17T12:48:25.769944+00:00"
+    },
+    {
+      "id": "2611.16246",
+      "arxiv_id": "2611.16246",
+      "title": "What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation",
+      "authors": [
+        "Jinze Tao",
+        "Yuxiao Han",
+        "Kangkang Dong",
+        "Yancong Wei",
+        "Xiaojun Zhu",
+        "陈博奎",
+        "Houde Liu"
+      ],
+      "published": "2026-11-12",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.16246",
+      "pdf_url": "https://arxiv.org/pdf/2611.16246",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "规划智能体"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-language-action (VLA) models drive the robot directly from camera views, yet a VLA alone shows three typical failures.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction",
+        "llm planner",
+        "reverie"
+      ],
+      "added_at": "2026-11-18T18:39:29.706222+00:00"
+    },
+    {
+      "id": "2611.17442",
+      "arxiv_id": "2611.17442",
+      "title": "Racing the Clock: Teaching VLNs Budget-Conditioned Object Search",
+      "authors": [
+        "Maitree Meher",
+        "Siming He",
+        "S. Shankar Sastry",
+        "Jitendra Malik",
+        "Claire Tomlin",
+        "Jonas Frey"
+      ],
+      "published": "2026-11-12",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.17442",
+      "pdf_url": "https://arxiv.org/pdf/2611.17442",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Racing the Clock: Teaching VLNs Budget-Conditioned Object Search。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：How do action budgets shape vision-language navigation (VLN) exploration, and what expert supervision best teaches budget-aware search?",
+      "why_it_matters": "与空间智能、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "evaluation",
+        "exploration"
+      ],
+      "added_at": "2026-11-18T18:39:32.814950+00:00"
     },
     {
       "id": "2611.15277",
@@ -38649,175 +38826,47 @@
   ],
   "briefing": {
     "text": "",
-    "added": 21,
-    "at": "2026-11-18T12:42:51.836215+00:00",
+    "added": 5,
+    "at": "2026-11-18T18:39:35.815827+00:00",
     "new": [
       {
-        "t": "Fly as Instructed: Refining World-Action Policies for UAV Vision-Language Navigation",
-        "u": "https://arxiv.org/abs/2611.22883",
+        "t": "Remember, Replay, Adapt: Learning from Past Experience in Online Vision-and-Language Navigation",
+        "u": "https://arxiv.org/abs/2611.19901",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Fly as Instructed: Refining World-Action Policies for UAV Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦地面 VLN、空域 VLN，主要研究问题可概括为：Remember, Replay, Adapt: Learning from Past Experience in Online Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Event-Based Person Detection for Maritime UAV Search",
-        "u": "https://arxiv.org/abs/2611.23088",
+        "t": "The Sense Paradigm for World Models",
+        "u": "https://arxiv.org/abs/2611.19796",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Event-Based Person Detection for Maritime UAV Search。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：The Sense Paradigm for World Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "SpatialMind: Adaptive Multi-Level Geometric Fusion for Spatial Reasoning in Multimodal Large Language Models",
-        "u": "https://arxiv.org/abs/2611.22415",
+        "t": "Toward Planning Representations That Separate Task Structure from Visual Content",
+        "u": "https://arxiv.org/abs/2611.19621",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空间智能，主要研究问题可概括为：SpatialMind: Adaptive Multi-Level Geometric Fusion for Spatial Reasoning in Multimodal Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/zhaosb-star/SpatialMind"
-      },
-      {
-        "t": "Is model self-assessment enough for diverse LVLM ensembles?",
-        "u": "https://arxiv.org/abs/2611.22956",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Is model self-assessment enough for diverse LVLM ensembles?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦ObjectNav 目标搜索、空间智能，主要研究问题可概括为：Toward Planning Representations That Separate Task Structure from Visual Content。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "When the World Is the Test Suite: Agentic Intelligence for the Physical World",
-        "u": "https://arxiv.org/abs/2611.22291",
+        "t": "What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation",
+        "u": "https://arxiv.org/abs/2611.16246",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：When the World Is the Test Suite: Agentic Intelligence for the Physical World。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Sideslip-Conditioned Drift Trajectory Planning with Flow Matching and Control Barrier Functions",
-        "u": "https://arxiv.org/abs/2611.22927",
+        "t": "Racing the Clock: Teaching VLNs Budget-Conditioned Object Search",
+        "u": "https://arxiv.org/abs/2611.17442",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、地面 VLN，主要研究问题可概括为：Sideslip-Conditioned Drift Trajectory Planning with Flow Matching and Control Barrier Functions。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space",
-        "u": "https://arxiv.org/abs/2611.22077",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、多模态大模型与智能体，主要研究问题可概括为：ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "$π^4$: A Foundation Model for 4D Scene Geometry and Motion",
-        "u": "https://arxiv.org/abs/2611.23144",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：$π^4$: A Foundation Model for 4D Scene Geometry and Motion。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/yyfz/Pi4"
-      },
-      {
-        "t": "LUTBench: Benchmarking Text-Driven Photographic Look Transfer",
-        "u": "https://arxiv.org/abs/2611.23113",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：LUTBench: Benchmarking Text-Driven Photographic Look Transfer。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model",
-        "u": "https://arxiv.org/abs/2611.22998",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Stochastic Diversity Windows: Diagnosing Noise Influence in Robotic Diffusion Sampling",
-        "u": "https://arxiv.org/abs/2611.22743",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：Stochastic Diversity Windows: Diagnosing Noise Influence in Robotic Diffusion Sampling。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Progress Predicts Policy",
-        "u": "https://arxiv.org/abs/2611.22491",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：Progress Predicts Policy。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DGV-DLIVO: Degeneracy-Guided Visual Fusion for Direct LiDAR-Inertial-Visual Odometry in Degenerate Tunnel Environments",
-        "u": "https://arxiv.org/abs/2611.22385",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：DGV-DLIVO: Degeneracy-Guided Visual Fusion for Direct LiDAR-Inertial-Visual Odometry in Degenerate Tunnel Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/0RayZhang0/DGV-DLIVO"
-      },
-      {
-        "t": "Learning Grounded Reasoning from Human Gaze",
-        "u": "https://arxiv.org/abs/2611.23209",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Learning Grounded Reasoning from Human Gaze。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "VIVID: Beyond Static Multi-Image Reasoning with Localized Visual Differences and Textual Entity Dynamics in Video MLLMs",
-        "u": "https://arxiv.org/abs/2611.23153",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：VIVID: Beyond Static Multi-Image Reasoning with Localized Visual Differences and Textual Entity Dynamics in Video MLLMs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ReTouchGS: Ultralight Render-free Aesthetic Color Enhancement and Transfer for 3D Gaussian Splatting",
-        "u": "https://arxiv.org/abs/2611.23054",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：ReTouchGS: Ultralight Render-free Aesthetic Color Enhancement and Transfer for 3D Gaussian Splatting。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-        "u": "https://arxiv.org/abs/2611.23219",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Do LLM Agents Still Need to Be Told How to Self-Improve?。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SciWorkBench: A Benchmark for Real Scientific Workflows",
-        "u": "https://arxiv.org/abs/2611.22490",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：SciWorkBench: A Benchmark for Real Scientific Workflows。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents",
-        "u": "https://arxiv.org/abs/2611.23045",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Pressure Drop: Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array",
-        "u": "https://arxiv.org/abs/2611.23120",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制、具身基准与评测，主要研究问题可概括为：Pressure Drop: Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ASTRA: ASV Simulator for Transferable Realistic Autonomy",
-        "u": "https://arxiv.org/abs/2611.21789",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：ASTRA: ASV Simulator for Transferable Realistic Autonomy。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Racing the Clock: Teaching VLNs Budget-Conditioned Object Search。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
