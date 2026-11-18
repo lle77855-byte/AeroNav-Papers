@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T18:57:37.063412+00:00",
+  "updated_at": "2026-11-18T01:29:10.005598+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -15928,45 +15928,6 @@
         "model predictive control"
       ],
       "added_at": "2026-09-02T03:44:09Z"
-    },
-    {
-      "id": "2608.18632",
-      "arxiv_id": "2608.18632",
-      "title": "Evaluation of Monocular SLAM Systems on High-Altitude Nadir UAV Footage",
-      "authors": [
-        "Gašper Spagnolo",
-        "Matej Dobrevski",
-        "Danijel Skočaj"
-      ],
-      "published": "2026-08-19",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.18632",
-      "pdf_url": "https://arxiv.org/pdf/2608.18632",
-      "code_url": "",
-      "categories": [
-        "cs.RO"
-      ],
-      "topics": [
-        "具身基准与评测"
-      ],
-      "relevance_score": 9,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "在真实与合成长航程航拍序列上，无IMU/GNSS辅助地系统评测五种单目SLAM：MASt3R-SLAM短程水平误差最低，但长程轨迹与垂直定位仍严重失真，纯视觉空中导航尚不可靠。",
-      "change_zh": "相比常见地面或带IMU融合的SLAM评测，该工作聚焦高空正下视这一弱几何约束、强感知歧义的特殊场景，剥离惯性/GNSS辅助以隔离纯视觉能力，并揭示现有系统在长航程与垂直通道上的系统性失效。",
-      "why_it_matters": "对GNSS拒止下无人机搜救侦察等主动目标搜索，可靠的视觉状态估计是前提；该评测表明现有单目SLAM在高空长航线上不可靠，为UAV导航传感器选型与依赖视觉里程计的策略设计提供了明确的负面证据与能力边界。",
-      "relevance_rating": 6,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 19,
-      "keywords": [
-        "aerial",
-        "benchmark",
-        "evaluation",
-        "uav"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
     },
     {
       "id": "2610.03400",
