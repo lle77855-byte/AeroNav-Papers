@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:33:14.461514+00:00",
+  "updated_at": "2026-11-19T18:52:13.488194+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18246,6 +18246,49 @@
       "added_at": "2026-11-19T12:33:11.460776+00:00"
     },
     {
+      "id": "2611.22755",
+      "arxiv_id": "2611.22755",
+      "title": "Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning",
+      "authors": [
+        "Yifan Xu",
+        "Ruopeng Gao",
+        "Zhixiao Wang",
+        "Jiafu Tang",
+        "Yichun Yang",
+        "Zihao Wang",
+        "Yuanxing Zhang",
+        "Limin Wang"
+      ],
+      "published": "2026-11-17",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.22755",
+      "pdf_url": "https://arxiv.org/pdf/2611.22755",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "空域 VLN"
+      ],
+      "relevance_score": 6,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/6a2e8fa842bf35120d2717a217559fece0c2bc0e",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Detailed video captioning requires comprehensive and faithful descriptions of objects, actions, and temporal events.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "evaluation",
+        "exploration",
+        "instruction"
+      ],
+      "added_at": "2026-11-19T18:52:04.195576+00:00"
+    },
+    {
       "id": "2611.20593",
       "arxiv_id": "2611.20593",
       "title": "JEPTERA: A Platform Agnostic JEPA-Assisted Model Predictive Planner for Urban UAV Navigation",
@@ -19012,6 +19055,75 @@
         "localization"
       ],
       "added_at": "2026-11-18T12:42:48.835402+00:00"
+    },
+    {
+      "id": "2611.21782",
+      "arxiv_id": "2611.21782",
+      "title": "Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models",
+      "authors": [
+        "Sheng Lu",
+        "Guangpin Tao",
+        "Tong Lu",
+        "Ying Yu Tai"
+      ],
+      "published": "2026-11-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.21782",
+      "pdf_url": "https://arxiv.org/pdf/2611.21782",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "世界模型",
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Interactive video world models serve as simulators for embodied agents: from a starting image and an action trajectory, they generate the views the agent would see.",
+      "why_it_matters": "与世界模型、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "geometry",
+        "world model"
+      ],
+      "added_at": "2026-11-19T18:52:07.319317+00:00"
+    },
+    {
+      "id": "2611.21924",
+      "arxiv_id": "2611.21924",
+      "title": "GridDriver: On-Board BEV-Based Language Planning and Reasoning",
+      "authors": [
+        "Katharina Winter",
+        "William Engel",
+        "Zain Alabedin Alishammat",
+        "Fabian B. Flohr"
+      ],
+      "published": "2026-11-16",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.21924",
+      "pdf_url": "https://arxiv.org/pdf/2611.21924",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：GridDriver: On-Board BEV-Based Language Planning and Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Bird's-Eye-View (BEV)-conditioned large language models (LLMs) enable language-interactive driving, but onboard deployment requires efficient perception and continuous planning alongside autoregressive language generatio",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "evaluation"
+      ],
+      "added_at": "2026-11-19T18:52:10.487412+00:00"
     },
     {
       "id": "2611.19818",
@@ -39913,223 +40025,31 @@
   ],
   "briefing": {
     "text": "",
-    "added": 27,
-    "at": "2026-11-19T12:33:14.461541+00:00",
+    "added": 3,
+    "at": "2026-11-19T18:52:13.488215+00:00",
     "new": [
       {
-        "t": "CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning",
-        "u": "https://arxiv.org/abs/2611.24244",
+        "t": "Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning",
+        "u": "https://arxiv.org/abs/2611.22755",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models",
-        "u": "https://arxiv.org/abs/2611.24327",
+        "t": "Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models",
+        "u": "https://arxiv.org/abs/2611.21782",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、UAV 目标搜索，主要研究问题可概括为：Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation",
-        "u": "https://arxiv.org/abs/2611.24247",
+        "t": "GridDriver: On-Board BEV-Based Language Planning and Reasoning",
+        "u": "https://arxiv.org/abs/2611.21924",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
-        "u": "https://arxiv.org/abs/2611.24077",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、UAV 目标搜索，主要研究问题可概括为：AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/starsholic/AeroRSI"
-      },
-      {
-        "t": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
-        "u": "https://arxiv.org/abs/2611.24731",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：HandWorldBench: A Unified Benchmark for Hand-Centric World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments",
-        "u": "https://arxiv.org/abs/2611.23930",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Beyond Appearance: Evidence-Guided Programmatic 3D Scene Reconstruction with Agentic Lighting Reasoning",
-        "u": "https://arxiv.org/abs/2611.24565",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Beyond Appearance: Evidence-Guided Programmatic 3D Scene Reconstruction with Agentic Lighting Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Improve How You Improve: Recursive Policy Self-Improvement for Zero-Shot Open-Vocabulary Multi-Object Navigation",
-        "u": "https://arxiv.org/abs/2611.23774",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、具身基准与评测，主要研究问题可概括为：Improve How You Improve: Recursive Policy Self-Improvement for Zero-Shot Open-Vocabulary Multi-Object Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
-        "u": "https://arxiv.org/abs/2611.24940",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、多模态大模型与智能体，主要研究问题可概括为：$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning",
-        "u": "https://arxiv.org/abs/2611.23974",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation",
-        "u": "https://arxiv.org/abs/2611.23926",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop",
-        "u": "https://arxiv.org/abs/2611.23855",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Planner-Controller Interaction for Ackermann Navigation: A Matched Simulation and Hardware Benchmark",
-        "u": "https://arxiv.org/abs/2611.24800",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空间智能，主要研究问题可概括为：Planner-Controller Interaction for Ackermann Navigation: A Matched Simulation and Hardware Benchmark。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
-        "u": "https://arxiv.org/abs/2611.24915",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Depth Before Breadth: Reverse-to-Forward Curriculum with Advantage Decomposition for LLM Agent",
-        "u": "https://arxiv.org/abs/2611.24697",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、主动感知与重建，主要研究问题可概括为：Depth Before Breadth: Reverse-to-Forward Curriculum with Advantage Decomposition for LLM Agent。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-        "u": "https://arxiv.org/abs/2611.24651",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "NereidVLA: Learning to Understand and Navigate the Underwater World",
-        "u": "https://arxiv.org/abs/2611.24864",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、空域 VLN，主要研究问题可概括为：NereidVLA: Learning to Understand and Navigate the Underwater World。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "HINT-WAM: Hindsight-Informed Training for World Action Models",
-        "u": "https://arxiv.org/abs/2611.24789",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：HINT-WAM: Hindsight-Informed Training for World Action Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Towards Vacuum-Assisted Robotic Needle Interventions: From Fluid Aspiration to Tissue Biopsy",
-        "u": "https://arxiv.org/abs/2611.24258",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Towards Vacuum-Assisted Robotic Needle Interventions: From Fluid Aspiration to Tissue Biopsy。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Remote Teleoperation of Endovascular Robots: A Network Emulation Framework for Systematic Performance Evaluation",
-        "u": "https://arxiv.org/abs/2611.24280",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Remote Teleoperation of Endovascular Robots: A Network Emulation Framework for Systematic Performance Evaluation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Read Together, Answer Apart: How Earlier Questions Help Vision-Language Models Look",
-        "u": "https://arxiv.org/abs/2611.24785",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Read Together, Answer Apart: How Earlier Questions Help Vision-Language Models Look。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "A$^3$Bench: Compositional Reasoning over Aggressive Interactions in Videos",
-        "u": "https://arxiv.org/abs/2611.24762",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：A$^3$Bench: Compositional Reasoning over Aggressive Interactions in Videos。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/austincbaker/A3Bench"
-      },
-      {
-        "t": "Predicting Species Splits: A Challenging Fine-Grained Benchmark for Category Discovery",
-        "u": "https://arxiv.org/abs/2611.24672",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Predicting Species Splits: A Challenging Fine-Grained Benchmark for Category Discovery。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "When to Refine: Selective Search for Frozen Visual World Models",
-        "u": "https://arxiv.org/abs/2611.24470",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：When to Refine: Selective Search for Frozen Visual World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Risk-Triggered Search: Behavior-Preserving Safe Control",
-        "u": "https://arxiv.org/abs/2611.24409",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：Risk-Triggered Search: Behavior-Preserving Safe Control。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
-        "u": "https://arxiv.org/abs/2611.24887",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Ground, Iterate, Trace: Decomposing AI Research Ideation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "RESCUE Jumper: A Centimeter-Scale Rolling and Jumping Robot for Search and Rescue",
-        "u": "https://arxiv.org/abs/2611.23531",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、真机与 Sim2Real，主要研究问题可概括为：RESCUE Jumper: A Centimeter-Scale Rolling and Jumping Robot for Search and Rescue。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：GridDriver: On-Board BEV-Based Language Planning and Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
