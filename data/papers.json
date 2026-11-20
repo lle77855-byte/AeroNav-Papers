@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T00:59:16.696156+00:00",
+  "updated_at": "2026-11-20T12:32:48.723333+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16335,6 +16335,754 @@
         "world model"
       ],
       "added_at": "2026-09-18T08:54:45.554191+00:00"
+    },
+    {
+      "id": "2611.26048",
+      "arxiv_id": "2611.26048",
+      "title": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
+      "authors": [
+        "Xiaofeng Jin",
+        "Ningbo Bu",
+        "Matteo Frosi",
+        "Yiran Guo",
+        "Weilun Ren",
+        "Matteo Matteucci"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26048",
+      "pdf_url": "https://arxiv.org/pdf/2611.26048",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "主动感知与重建"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：High-fidelity scene reconstruction with an unmanned aerial vehicle (UAV) requires more than identifying valuable viewpoints: the system must autonomously acquire informative observations and determine task completion und",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "exploration",
+        "uav"
+      ],
+      "added_at": "2026-11-20T12:31:53.325585+00:00"
+    },
+    {
+      "id": "2611.25866",
+      "arxiv_id": "2611.25866",
+      "title": "From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization",
+      "authors": [
+        "Ziyang Xu",
+        "Peng Han",
+        "Hai Zhou"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25866",
+      "pdf_url": "https://arxiv.org/pdf/2611.25866",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "状态估计与控制",
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "relevance_score": 6,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Active geo-localization (AGL) asks an agent to navigate a small aerial search grid and reach a target specified by an aerial image, a ground-level photograph, or text.",
+      "why_it_matters": "与状态估计与控制、UAV 目标搜索直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "exploration",
+        "localization",
+        "vlm"
+      ],
+      "added_at": "2026-11-20T12:31:56.418239+00:00"
+    },
+    {
+      "id": "2611.25558",
+      "arxiv_id": "2611.25558",
+      "title": "Communication-Aware UAV Spatio-Temporal Relay Cooperation and Planning in Complex Urban Environments",
+      "authors": [
+        "Haoyu Zhang",
+        "Yingjie He",
+        "Zehao Zhuo",
+        "Xiqun Chen",
+        "Zhenyu Gao"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25558",
+      "pdf_url": "https://arxiv.org/pdf/2611.25558",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Communication-Aware UAV Spatio-Temporal Relay Cooperation and Planning in Complex Urban Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Unmanned aerial vehicles (UAVs) are increasingly deployed in low-altitude urban airspace for delivery, emergency response, and other applications.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "uav"
+      ],
+      "added_at": "2026-11-20T12:31:59.515410+00:00"
+    },
+    {
+      "id": "2611.26595",
+      "arxiv_id": "2611.26595",
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "authors": [
+        "Yiyan Ji",
+        "Qixun Wang",
+        "Yang Shi",
+        "Zhuoran Zhang",
+        "Yifan Xu",
+        "Tengfei Liu",
+        "Yuqi Tang",
+        "Xiaohan Zhang",
+        "Shujie Li",
+        "Jiafu Tang",
+        "Xuanyu Zhu",
+        "Xinyu Liu",
+        "Yan He",
+        "Yushuo Guan",
+        "Zihao Wang",
+        "Xianghua Ying",
+        "Shixuan Liu",
+        "Haotian Wang",
+        "Wenjing Yang",
+        "Zhaoxiang Zhang",
+        "Yuanxing Zhang",
+        "Pengfei Wan",
+        "Jiaheng Liu"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26595",
+      "pdf_url": "https://arxiv.org/pdf/2611.26595",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Coda-DaVinci: Reimagining Video Generation with Code2Video。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "evaluation",
+        "instruction",
+        "instruction following"
+      ],
+      "added_at": "2026-11-20T12:32:02.610074+00:00"
+    },
+    {
+      "id": "2611.26414",
+      "arxiv_id": "2611.26414",
+      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+      "authors": [
+        "Zixuan Huang",
+        "Yang Zhou",
+        "Guli Zhang",
+        "Sunzhu Li",
+        "Hongyan Xie",
+        "Zehao Chen",
+        "Fuzhen Zhuang",
+        "Kaixuan Wang",
+        "Xiaozhi Chen",
+        "Yikun Ban",
+        "Deqing Wang"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26414",
+      "pdf_url": "https://arxiv.org/pdf/2611.26414",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "vlm"
+      ],
+      "added_at": "2026-11-20T12:32:05.702818+00:00"
+    },
+    {
+      "id": "2611.26024",
+      "arxiv_id": "2611.26024",
+      "title": "ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding",
+      "authors": [
+        "Yuchen Sun",
+        "Siyuan Cheng",
+        "Shi-Zhe Chen",
+        "Yixin Qin",
+        "Jinwen Luo",
+        "Zheng Wei"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26024",
+      "pdf_url": "https://arxiv.org/pdf/2611.26024",
+      "code_url": "https://github.com/harry0021/ForeSeek",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Long-form video understanding, as a fundamental yet crucial vision task, is being revolutionized by multimodal large language model (MLLM)-based video agents.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "exploration",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-20T12:32:08.787788+00:00"
+    },
+    {
+      "id": "2611.25680",
+      "arxiv_id": "2611.25680",
+      "title": "Beyond Entity Recognition: Vision-Centric Knowledge Visual Question Answering",
+      "authors": [
+        "Jiatong Ma",
+        "Yuchen Liu",
+        "Longteng Guo",
+        "Yichen Yuan",
+        "Yuze Wu",
+        "Dongze Hao",
+        "Ru Zhen",
+        "Yanhao Zhang",
+        "Haonan Lu",
+        "Jing Liu"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25680",
+      "pdf_url": "https://arxiv.org/pdf/2611.25680",
+      "code_url": "https://github.com/CASIA-IVA-Lab/VC-VQA",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Beyond Entity Recognition: Vision-Centric Knowledge Visual Question Answering。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We propose VC-VQA, a large-scale benchmark for vision-centric knowledge reasoning, aiming to systematically evaluate the capabilities of Multimodal Large Language Models (MLLMs) in fine-grained visual knowledge acquisiti",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-20T12:32:11.858942+00:00"
+    },
+    {
+      "id": "2611.26342",
+      "arxiv_id": "2611.26342",
+      "title": "Training LLMs to Follow Reasoning Instructions with Minimal Edits",
+      "authors": [
+        "Alexandra Yakovleva",
+        "Luat Gia Khoi Nguyen",
+        "Juho Kannala",
+        "Harri Valpola",
+        "Alexander Ilin"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26342",
+      "pdf_url": "https://arxiv.org/pdf/2611.26342",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Training LLMs to Follow Reasoning Instructions with Minimal Edits。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models increasingly rely on extended reasoning traces, yet the training signals used to shape this behavior remain coarse.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "instruction following"
+      ],
+      "added_at": "2026-11-20T12:32:14.939820+00:00"
+    },
+    {
+      "id": "2611.25927",
+      "arxiv_id": "2611.25927",
+      "title": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+      "authors": [
+        "Yao Zhang",
+        "Bin Yu",
+        "Shijie Lian",
+        "Haishan Liu",
+        "Changti Wu",
+        "Yu Wu",
+        "Kai Chen"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25927",
+      "pdf_url": "https://arxiv.org/pdf/2611.25927",
+      "code_url": "https://github.com/Sofilyzia/Fast-JEPA",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Latent world models predict the outcomes of action sequences, but comparing candidate plans through recursive rollout remains expensive at test time.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "world model"
+      ],
+      "added_at": "2026-11-20T12:32:18.028713+00:00"
+    },
+    {
+      "id": "2611.25587",
+      "arxiv_id": "2611.25587",
+      "title": "Cognitive-Horizon Action Chunking: Memory-Guided Adaptive Reasoning for Embodied Navigation",
+      "authors": [
+        "Weile Gong",
+        "Zijian Lu",
+        "Jiahao Zheng",
+        "Bo Xu",
+        "Yiping Zuo",
+        "Jiajia Guo",
+        "Xin He",
+        "Weijun Wang",
+        "Weibei Fan"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25587",
+      "pdf_url": "https://arxiv.org/pdf/2611.25587",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "地面 VLN",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦地面 VLN、具身基准与评测，主要研究问题可概括为：Cognitive-Horizon Action Chunking: Memory-Guided Adaptive Reasoning for Embodied Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Multimodal foundation models are advancing embodied navigation, but frequent inference incurs substantial computational cost.",
+      "why_it_matters": "与地面 VLN、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "r2r",
+        "waypoint"
+      ],
+      "added_at": "2026-11-20T12:32:21.090708+00:00"
+    },
+    {
+      "id": "2611.26516",
+      "arxiv_id": "2611.26516",
+      "title": "Plan4D: Generative Plannable 4D Worlds",
+      "authors": [
+        "Hangwei Zhang",
+        "Rujing Dang",
+        "Ruimin Lin",
+        "Jiahong Wu",
+        "Xiangxiang Chu",
+        "Chuanxia Zheng"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26516",
+      "pdf_url": "https://arxiv.org/pdf/2611.26516",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "空间智能",
+        "世界模型"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：Plan4D: Generative Plannable 4D Worlds。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling.",
+      "why_it_matters": "与空间智能、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "geometry",
+        "world model"
+      ],
+      "added_at": "2026-11-20T12:32:24.164086+00:00"
+    },
+    {
+      "id": "2611.26531",
+      "arxiv_id": "2611.26531",
+      "title": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models",
+      "authors": [
+        "Chang Yang",
+        "Yao Xuan",
+        "Wendan Yan",
+        "Nhat Le",
+        "Jiang Liu",
+        "Longhao Jin",
+        "Zhen Peggy Yao",
+        "Alireza Vahdatpour",
+        "Djordje Gligorijevic"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26531",
+      "pdf_url": "https://arxiv.org/pdf/2611.26531",
+      "code_url": "",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "topics": [
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands.",
+      "why_it_matters": "与多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "llm agent"
+      ],
+      "added_at": "2026-11-20T12:32:27.248040+00:00"
+    },
+    {
+      "id": "2611.26211",
+      "arxiv_id": "2611.26211",
+      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+      "authors": [
+        "Jiaming Li",
+        "Lingzhen Li",
+        "Xiaze Yang",
+        "Chenyu Zhu",
+        "Kaiqi Liu",
+        "Xiaotong Zhao",
+        "Songlian Li",
+        "Toyota Li",
+        "Alan Zhao",
+        "Haobin Zhong",
+        "Yue Ma",
+        "Zhiyuan Ma"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26211",
+      "pdf_url": "https://arxiv.org/pdf/2611.26211",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：SpecWM: Turning Verification into Refinement for Streaming World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-20T12:32:30.353498+00:00"
+    },
+    {
+      "id": "2611.25722",
+      "arxiv_id": "2611.25722",
+      "title": "DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding",
+      "authors": [
+        "Jiaming Liu",
+        "Linghe Kong",
+        "Guixu Zhang",
+        "Huaxi Huang"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25722",
+      "pdf_url": "https://arxiv.org/pdf/2611.25722",
+      "code_url": "https://github.com/liujia99/DACA",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "空间智能",
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：3D visual grounding (3D-VG) is a task that bridges the natural language and 3D space, serving as a foundational capability for embodied intelligence and human-computer interaction.",
+      "why_it_matters": "与空间智能、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "spatial reasoning",
+        "vlm"
+      ],
+      "added_at": "2026-11-20T12:32:33.443497+00:00"
+    },
+    {
+      "id": "2611.26398",
+      "arxiv_id": "2611.26398",
+      "title": "Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem",
+      "authors": [
+        "Oriol Alàs",
+        "Ian Palacín",
+        "Iván Cester",
+        "Edgar Rubión"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26398",
+      "pdf_url": "https://arxiv.org/pdf/2611.26398",
+      "code_url": "",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：EU-funded projects produce extensive evidence in the form of deliverables, reports, and case studies.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark"
+      ],
+      "added_at": "2026-11-20T12:32:36.525549+00:00"
+    },
+    {
+      "id": "2611.26336",
+      "arxiv_id": "2611.26336",
+      "title": "One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination",
+      "authors": [
+        "Asif Shahriyar Sushmit",
+        "Shefayat E Shams Adib",
+        "Abdullah Al Jubaer Gem",
+        "Ahmed Shafin Ruhan",
+        "MD. Nazmuddoha Ansary",
+        "Biplab Kumar Sarkar",
+        "Syed Rifat Raiyan",
+        "Ajwad Abrar",
+        "Abdullah Bin Hasan",
+        "Adib Sakhawat",
+        "M. Sakeef Hossain",
+        "Ahmed Alfey Sani",
+        "Arefin Mizan",
+        "Sourab Chakma",
+        "Quazi Adibur Rahman Adib",
+        "Wassie Haque",
+        "Sanjay Kumar Sen",
+        "Saad Tahmid",
+        "Mohammad Mamun Or Rashid"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26336",
+      "pdf_url": "https://arxiv.org/pdf/2611.26336",
+      "code_url": "",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Hallucination research in low-resource languages fragments easily: each newly named failure mode prompts its own dataset, spending scarce annotators on incomparable resources.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "leaderboard"
+      ],
+      "added_at": "2026-11-20T12:32:39.605429+00:00"
+    },
+    {
+      "id": "2611.26380",
+      "arxiv_id": "2611.26380",
+      "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+      "authors": [
+        "Yuqi Tang",
+        "Yang Shi",
+        "Yuran Wang",
+        "Tengfei Liu",
+        "Rundong Wang",
+        "Zongyang Qiu",
+        "Qixun Wang",
+        "Zhuoran Zhang",
+        "Xuanyu Zhu",
+        "Yifan Xu",
+        "Yiyan Ji",
+        "Shujie Li",
+        "Shixuan Liu",
+        "Haotian Wang",
+        "Yuanxing Zhang",
+        "Pengfei Wan",
+        "Chengwei Qin"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26380",
+      "pdf_url": "https://arxiv.org/pdf/2611.26380",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "added_at": "2026-11-20T12:32:42.664812+00:00"
+    },
+    {
+      "id": "2611.26510",
+      "arxiv_id": "2611.26510",
+      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+      "authors": [
+        "Guoxin Chen",
+        "Shuang Sun",
+        "Fanzhe Meng",
+        "Xinyu Tang",
+        "Ruihua Song",
+        "Wayne Xin Zhao"
+      ],
+      "published": "2026-11-19",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.26510",
+      "pdf_url": "https://arxiv.org/pdf/2611.26510",
+      "code_url": "",
+      "categories": [
+        "cs.CL"
+      ],
+      "topics": [
+        "空域 VLN",
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Task success alone does not specify which behaviors post-training should reinforce.",
+      "why_it_matters": "与空域 VLN、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "instruction",
+        "llm agent"
+      ],
+      "added_at": "2026-11-20T12:32:45.722464+00:00"
     },
     {
       "id": "2611.24244",
@@ -39985,31 +40733,151 @@
   ],
   "briefing": {
     "text": "",
-    "added": 3,
-    "at": "2026-11-19T18:52:13.488215+00:00",
+    "added": 18,
+    "at": "2026-11-20T12:32:48.723355+00:00",
     "new": [
       {
-        "t": "Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning",
-        "u": "https://arxiv.org/abs/2611.22755",
+        "t": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
+        "u": "https://arxiv.org/abs/2611.26048",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models",
-        "u": "https://arxiv.org/abs/2611.21782",
+        "t": "From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization",
+        "u": "https://arxiv.org/abs/2611.25866",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "GridDriver: On-Board BEV-Based Language Planning and Reasoning",
-        "u": "https://arxiv.org/abs/2611.21924",
+        "t": "Communication-Aware UAV Spatio-Temporal Relay Cooperation and Planning in Complex Urban Environments",
+        "u": "https://arxiv.org/abs/2611.25558",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：GridDriver: On-Board BEV-Based Language Planning and Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Communication-Aware UAV Spatio-Temporal Relay Cooperation and Planning in Complex Urban Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+        "u": "https://arxiv.org/abs/2611.26595",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Coda-DaVinci: Reimagining Video Generation with Code2Video。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+        "u": "https://arxiv.org/abs/2611.26414",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding",
+        "u": "https://arxiv.org/abs/2611.26024",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/harry0021/ForeSeek"
+      },
+      {
+        "t": "Beyond Entity Recognition: Vision-Centric Knowledge Visual Question Answering",
+        "u": "https://arxiv.org/abs/2611.25680",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Beyond Entity Recognition: Vision-Centric Knowledge Visual Question Answering。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/CASIA-IVA-Lab/VC-VQA"
+      },
+      {
+        "t": "Training LLMs to Follow Reasoning Instructions with Minimal Edits",
+        "u": "https://arxiv.org/abs/2611.26342",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Training LLMs to Follow Reasoning Instructions with Minimal Edits。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+        "u": "https://arxiv.org/abs/2611.25927",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/Sofilyzia/Fast-JEPA"
+      },
+      {
+        "t": "Cognitive-Horizon Action Chunking: Memory-Guided Adaptive Reasoning for Embodied Navigation",
+        "u": "https://arxiv.org/abs/2611.25587",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦地面 VLN、具身基准与评测，主要研究问题可概括为：Cognitive-Horizon Action Chunking: Memory-Guided Adaptive Reasoning for Embodied Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Plan4D: Generative Plannable 4D Worlds",
+        "u": "https://arxiv.org/abs/2611.26516",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：Plan4D: Generative Plannable 4D Worlds。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models",
+        "u": "https://arxiv.org/abs/2611.26531",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+        "u": "https://arxiv.org/abs/2611.26211",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：SpecWM: Turning Verification into Refinement for Streaming World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding",
+        "u": "https://arxiv.org/abs/2611.25722",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/liujia99/DACA"
+      },
+      {
+        "t": "Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem",
+        "u": "https://arxiv.org/abs/2611.26398",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination",
+        "u": "https://arxiv.org/abs/2611.26336",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+        "u": "https://arxiv.org/abs/2611.26380",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+        "u": "https://arxiv.org/abs/2611.26510",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
