@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T18:52:13.488194+00:00",
+  "updated_at": "2026-11-20T00:59:16.696156+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -13341,46 +13341,6 @@
         "uav"
       ],
       "added_at": "2026-09-02T01:29:13Z"
-    },
-    {
-      "id": "2608.20655",
-      "arxiv_id": "2608.20655",
-      "title": "Nonlinear Model Predictive Control for Trajectory Tracking of Differentially Flat Fixed-Wing Aerial Systems",
-      "authors": [
-        "Nishanth Bobbili",
-        "Pratyaksh Rao",
-        "Luca Morando",
-        "Luca Masci",
-        "Giuseppe Loianno"
-      ],
-      "published": "2026-08-21",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.20655",
-      "pdf_url": "https://arxiv.org/pdf/2608.20655",
-      "code_url": "",
-      "categories": [
-        "cs.RO"
-      ],
-      "topics": [
-        "状态估计与控制"
-      ],
-      "relevance_score": 8,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "该文针对固定翼无人机提出将微分平坦性轨迹生成与非线性模型预测控制统一的框架，并嵌入风感知采样策略以主动应对风扰，仿真与真机飞行实验表明跟踪精度与鲁棒性提升，强风下尤为显著。",
-      "change_zh": "相比常见『微分平坦+无模型控制器』路线，该文把平坦性生成嵌入NMPC预测闭环，并在框架内引入风感知采样，使参考轨迹能主动预偿风扰、严格满足气动与输入约束，兼顾生成效率与预测鲁棒性。",
-      "why_it_matters": "固定翼平台常用于长航时搜救侦察等UAV目标搜索任务，其上层搜索与航路决策最终依赖底层跟踪控制的精度与鲁棒性；该框架在强风下仍能严格满足气动约束地跟踪复杂轨迹，可作为空域目标搜索与aerial VLN系统的可靠执行层，提升真机可部署性。",
-      "relevance_rating": 7,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 21,
-      "keywords": [
-        "aerial",
-        "model predictive control",
-        "uav"
-      ],
-      "added_at": "2026-09-02T03:44:09Z"
     },
     {
       "id": "2610.11308",
