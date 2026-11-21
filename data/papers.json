@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T12:32:48.723333+00:00",
+  "updated_at": "2026-11-21T23:39:17.689361+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18134,6 +18134,85 @@
         "exploration"
       ],
       "added_at": "2026-11-19T12:33:08.362268+00:00"
+    },
+    {
+      "id": "2611.25251",
+      "arxiv_id": "2611.25251",
+      "title": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
+      "authors": [
+        "Qianzhong Chen",
+        "Muyuan Lin",
+        "孙余银",
+        "Mac Schwager",
+        "Cheng-Hao Kuo",
+        "Roberto Martín-Martín"
+      ],
+      "published": "2026-11-18",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25251",
+      "pdf_url": "https://arxiv.org/pdf/2611.25251",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "世界模型",
+        "真机与 Sim2Real",
+        "主动感知与重建"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reinforcement learning (RL) can improve vision-language-action (VLA) policies beyond imitation, but humanoid exploration is unsafe and simulator RL can exploit residual sim-to-real gaps.",
+      "why_it_matters": "与世界模型、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "exploration",
+        "real robot",
+        "world model"
+      ],
+      "added_at": "2026-11-21T23:39:11.613411+00:00"
+    },
+    {
+      "id": "2611.25066",
+      "arxiv_id": "2611.25066",
+      "title": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
+      "authors": [
+        "Jiaru Qian",
+        "Jiawei Li",
+        "胡晓龙",
+        "Zheng Shen",
+        "LiMing Zhao",
+        "Xin Zhang",
+        "Siyuan Jiang",
+        "Yongqiang Wei",
+        "Dong Liu",
+        "Jianyang Li",
+        "Yihua Chen",
+        "Yangxu Liao"
+      ],
+      "published": "2026-11-18",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25066",
+      "pdf_url": "https://arxiv.org/pdf/2611.25066",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Design verification (DV) remains a major bottleneck in hardware development, with large-scale verification using the Universal Verification Methodology (UVM) being highly labor-intensive.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark"
+      ],
+      "added_at": "2026-11-21T23:39:14.688587+00:00"
     },
     {
       "id": "2611.22883",
@@ -40733,151 +40812,23 @@
   ],
   "briefing": {
     "text": "",
-    "added": 18,
-    "at": "2026-11-20T12:32:48.723355+00:00",
+    "added": 2,
+    "at": "2026-11-21T23:39:17.689382+00:00",
     "new": [
       {
-        "t": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
-        "u": "https://arxiv.org/abs/2611.26048",
+        "t": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
+        "u": "https://arxiv.org/abs/2611.25251",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization",
-        "u": "https://arxiv.org/abs/2611.25866",
+        "t": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
+        "u": "https://arxiv.org/abs/2611.25066",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、UAV 目标搜索，主要研究问题可概括为：From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Communication-Aware UAV Spatio-Temporal Relay Cooperation and Planning in Complex Urban Environments",
-        "u": "https://arxiv.org/abs/2611.25558",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Communication-Aware UAV Spatio-Temporal Relay Cooperation and Planning in Complex Urban Environments。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
-        "u": "https://arxiv.org/abs/2611.26595",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Coda-DaVinci: Reimagining Video Generation with Code2Video。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
-        "u": "https://arxiv.org/abs/2611.26414",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding",
-        "u": "https://arxiv.org/abs/2611.26024",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/harry0021/ForeSeek"
-      },
-      {
-        "t": "Beyond Entity Recognition: Vision-Centric Knowledge Visual Question Answering",
-        "u": "https://arxiv.org/abs/2611.25680",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Beyond Entity Recognition: Vision-Centric Knowledge Visual Question Answering。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/CASIA-IVA-Lab/VC-VQA"
-      },
-      {
-        "t": "Training LLMs to Follow Reasoning Instructions with Minimal Edits",
-        "u": "https://arxiv.org/abs/2611.26342",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Training LLMs to Follow Reasoning Instructions with Minimal Edits。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
-        "u": "https://arxiv.org/abs/2611.25927",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/Sofilyzia/Fast-JEPA"
-      },
-      {
-        "t": "Cognitive-Horizon Action Chunking: Memory-Guided Adaptive Reasoning for Embodied Navigation",
-        "u": "https://arxiv.org/abs/2611.25587",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦地面 VLN、具身基准与评测，主要研究问题可概括为：Cognitive-Horizon Action Chunking: Memory-Guided Adaptive Reasoning for Embodied Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Plan4D: Generative Plannable 4D Worlds",
-        "u": "https://arxiv.org/abs/2611.26516",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、世界模型，主要研究问题可概括为：Plan4D: Generative Plannable 4D Worlds。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models",
-        "u": "https://arxiv.org/abs/2611.26531",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-        "u": "https://arxiv.org/abs/2611.26211",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：SpecWM: Turning Verification into Refinement for Streaming World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding",
-        "u": "https://arxiv.org/abs/2611.25722",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/liujia99/DACA"
-      },
-      {
-        "t": "Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem",
-        "u": "https://arxiv.org/abs/2611.26398",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination",
-        "u": "https://arxiv.org/abs/2611.26336",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
-        "u": "https://arxiv.org/abs/2611.26380",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
-        "u": "https://arxiv.org/abs/2611.26510",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
