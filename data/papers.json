@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T23:39:17.689361+00:00",
+  "updated_at": "2026-11-22T12:18:41.314928+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -5818,46 +5818,6 @@
         "waypoint"
       ],
       "added_at": "2026-09-01T21:26:42+08:00"
-    },
-    {
-      "id": "2608.22657",
-      "arxiv_id": "2608.22657",
-      "title": "Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs",
-      "authors": [
-        "Xinyuan Liu",
-        "Eren Sadikoglu",
-        "Riana Chatterjee",
-        "Ransalu Senanayake"
-      ],
-      "published": "2026-08-23",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.22657",
-      "pdf_url": "https://arxiv.org/pdf/2608.22657",
-      "code_url": "",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.MA"
-      ],
-      "topics": [
-        "规划智能体"
-      ],
-      "relevance_score": 4,
-      "evidence": "初步",
-      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
-      "summary_zh": "提出物理智能体AI机器人集群编排架构：LLM规划器将任务分解为阶段并分配机器人-技能对，确定性编排器在执行前逐技能校验能力与状态约束，经Gazebo无人机-UGV搜索派遣与真机搬运任务验证。",
-      "change_zh": "常见做法靠给LLM更多具身信息提升规划合理性，本文改为在语义规划与执行间设显式接口：确定性编排器逐技能验证能力、状态与工作流约束后才授权，并用保持计划的消融证明安全增益来自执行门控而非计划质量变化。",
-      "why_it_matters": "为无人机-UGV搜索等多机任务提供LLM编排安全层：检索加执行门控将误派发降至0%，该架构可迁移到UAV目标搜索的任务分配与ObjectNav智能体技能调用校验，并有真机试验支撑，降低具身智能体部署风险。",
-      "relevance_rating": 8,
-      "rigor_rating": 8,
-      "venue_verified": false,
-      "score": 24,
-      "keywords": [
-        "agentic",
-        "drone"
-      ],
-      "added_at": "2026-09-02T03:44:09Z"
     },
     {
       "id": "2610.11220",
@@ -13302,45 +13262,6 @@
         "task planning"
       ],
       "added_at": "2026-09-01T21:26:42+08:00"
-    },
-    {
-      "id": "2608.28665",
-      "arxiv_id": "2608.28665",
-      "title": "Understanding Temporal Semantic Stability in Open-Vocabulary UAV Perception through Metric 3D Fusion",
-      "authors": [
-        "Saurbh Singh Jamwal"
-      ],
-      "published": "2026-08-23",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.28665",
-      "pdf_url": "https://arxiv.org/pdf/2608.28665",
-      "code_url": "",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "topics": [
-        "空间智能"
-      ],
-      "relevance_score": 7,
-      "citation_count": 0,
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/1ea7f08f820362153bc8e7f93a9574c16447866f",
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "本文通过度量级三维融合将开放词汇分割的逐帧预测关联到持久世界空间体素，提出体素级评测框架，量化语义信念漂移、观测持续性与不确定性，揭示无人机感知中的时序语义不稳定现象。",
-      "change_zh": "常见开放词汇分割评测只关注单帧或聚合精度，本文把评测搬到世界空间体素层并显式建模时序稳定性，以观测持续性为分层条件，证明高聚合一致性可能掩盖重复观测不足下的语义闪烁。",
-      "why_it_matters": "对UAV主动目标搜索与ObjectNav有价值：长航时开放词汇语义是世界记忆与目标锚定的基础，其揭示的信念漂移与观测持续性条件可指导更可靠的语义建图与评测，避免导航决策建立在不稳定语义之上。",
-      "relevance_rating": 7,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 21,
-      "keywords": [
-        "aerial",
-        "evaluation",
-        "uav"
-      ],
-      "added_at": "2026-09-02T01:29:13Z"
     },
     {
       "id": "2610.11308",
