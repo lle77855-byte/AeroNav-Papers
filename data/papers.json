@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T12:18:41.314928+00:00",
+  "updated_at": "2026-11-22T17:37:41.611668+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -18134,6 +18134,46 @@
         "benchmark"
       ],
       "added_at": "2026-11-21T23:39:14.688587+00:00"
+    },
+    {
+      "id": "2611.25215",
+      "arxiv_id": "2611.25215",
+      "title": "Bridging vision-language reasoning and learned control for legged navigation in the wild",
+      "authors": [
+        "Takahiro Miki",
+        "Robin Schmid",
+        "Manthan Patel",
+        "Turcan Tuna",
+        "Julia Richter",
+        "Julian Nubert",
+        "Joonho Lee",
+        "Matthias F. Mueller",
+        "Marco Hutter"
+      ],
+      "published": "2026-11-18",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.25215",
+      "pdf_url": "https://arxiv.org/pdf/2611.25215",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "多模态大模型与智能体",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Bridging vision-language reasoning and learned control for legged navigation in the wild。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Autonomous navigation in diverse real-world environments remains one of the greatest challenges in robotics.",
+      "why_it_matters": "与空间智能、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "spatial reasoning",
+        "vlm"
+      ],
+      "added_at": "2026-11-22T17:37:38.610994+00:00"
     },
     {
       "id": "2611.22883",
@@ -40733,23 +40773,15 @@
   ],
   "briefing": {
     "text": "",
-    "added": 2,
-    "at": "2026-11-21T23:39:17.689382+00:00",
+    "added": 1,
+    "at": "2026-11-22T17:37:41.611691+00:00",
     "new": [
       {
-        "t": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
-        "u": "https://arxiv.org/abs/2611.25251",
+        "t": "Bridging vision-language reasoning and learned control for legged navigation in the wild",
+        "u": "https://arxiv.org/abs/2611.25215",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、真机与 Sim2Real，主要研究问题可概括为：WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
-        "u": "https://arxiv.org/abs/2611.25066",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Bridging vision-language reasoning and learned control for legged navigation in the wild。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
