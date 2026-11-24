@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:40:38.214706+00:00",
+  "updated_at": "2026-11-24T20:30:01.263284+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16823,6 +16823,45 @@
         "evaluation"
       ],
       "added_at": "2026-11-24T14:40:32.142673+00:00"
+    },
+    {
+      "id": "2611.30666",
+      "arxiv_id": "2611.30666",
+      "title": "Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning",
+      "authors": [
+        "Yu Zhang",
+        "Jingrui Li",
+        "Congyu Wang",
+        "Yuhang Cheng",
+        "Wenbo Chen",
+        "Xiaobo Zhang",
+        "Jing Zou",
+        "Yuxi Dai"
+      ],
+      "published": "2026-11-23",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.30666",
+      "pdf_url": "https://arxiv.org/pdf/2611.30666",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Direct visual world models predict the effects of candidate action sequences without recursive latent rollout, yet they leave the temporal structure of action effects unspecified.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "world model"
+      ],
+      "added_at": "2026-11-24T20:29:58.262334+00:00"
     },
     {
       "id": "2611.29168",
@@ -43535,127 +43574,15 @@
   ],
   "briefing": {
     "text": "",
-    "added": 15,
-    "at": "2026-11-24T14:40:38.214726+00:00",
+    "added": 1,
+    "at": "2026-11-24T20:30:01.263306+00:00",
     "new": [
       {
-        "t": "Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning",
-        "u": "https://arxiv.org/abs/2611.31215",
+        "t": "Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning",
+        "u": "https://arxiv.org/abs/2611.30666",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Autonomous UAV Navigation in an Unknown Environment via Multi-Trajectory Model Predictive Control",
-        "u": "https://arxiv.org/abs/2611.30463",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Autonomous UAV Navigation in an Unknown Environment via Multi-Trajectory Model Predictive Control。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?",
-        "u": "https://arxiv.org/abs/2611.30836",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "WorldLeague: Benchmarking Physical Agency",
-        "u": "https://arxiv.org/abs/2611.30989",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：WorldLeague: Benchmarking Physical Agency。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "World Models as Native Latent Action Models",
-        "u": "https://arxiv.org/abs/2611.30898",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：World Models as Native Latent Action Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "OmniV-Bench: Can MLLMs Comprehend Immersive Spatio-temporal Scenes?",
-        "u": "https://arxiv.org/abs/2611.31022",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：OmniV-Bench: Can MLLMs Comprehend Immersive Spatio-temporal Scenes?。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DexLatentWorld: 3D Cross-Embodiment Latent Action World Models for Zero-Shot Robotic Manipulation",
-        "u": "https://arxiv.org/abs/2611.30907",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、空间智能，主要研究问题可概括为：DexLatentWorld: 3D Cross-Embodiment Latent Action World Models for Zero-Shot Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-        "u": "https://arxiv.org/abs/2611.30900",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Generalizing Agentic Robotics via Multi-Teacher On-Policy Distillation",
-        "u": "https://arxiv.org/abs/2611.30997",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Generalizing Agentic Robotics via Multi-Teacher On-Policy Distillation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "EgoDepth-Bench: Benchmarking Metric Depth for Egocentric Manipulation",
-        "u": "https://arxiv.org/abs/2611.30734",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：EgoDepth-Bench: Benchmarking Metric Depth for Egocentric Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
-        "u": "https://arxiv.org/abs/2611.30597",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、状态估计与控制，主要研究问题可概括为：ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/NTUYWANG103/ViDiHand"
-      },
-      {
-        "t": "LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents",
-        "u": "https://arxiv.org/abs/2611.31105",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "MedUIGym: Evaluating and Training GUI Agents for Clinical Workflows",
-        "u": "https://arxiv.org/abs/2611.30983",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、规划智能体，主要研究问题可概括为：MedUIGym: Evaluating and Training GUI Agents for Clinical Workflows。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/yitong-qiao/MedUIGym"
-      },
-      {
-        "t": "Self-Evolving Evaluation Environments for Computer-Use Agents",
-        "u": "https://arxiv.org/abs/2611.30962",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Self-Evolving Evaluation Environments for Computer-Use Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "How Should a Home Robot Update Its Memories When Human Routines Change?",
-        "u": "https://arxiv.org/abs/2611.29818",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：How Should a Home Robot Update Its Memories When Human Routines Change?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
