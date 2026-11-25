@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T20:30:01.263284+00:00",
+  "updated_at": "2026-11-25T02:06:10.982572+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -15769,48 +15769,6 @@
       "added_at": "2026-09-01T13:35:05Z"
     },
     {
-      "id": "2608.25459",
-      "arxiv_id": "2608.25459",
-      "title": "Towards safe and optimal flight: Viability Kernel MPC for Fully Actuated Multirotor",
-      "authors": [
-        "Massimiliano Bertoni",
-        "Alberto Piccina",
-        "Gianni Lunardi",
-        "Elias Fontanari",
-        "Andrea Del Prete",
-        "Angelo Cenedese",
-        "Giulia Michieletto"
-      ],
-      "published": "2026-08-26",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.25459",
-      "pdf_url": "https://arxiv.org/pdf/2608.25459",
-      "code_url": "",
-      "categories": [
-        "cs.RO",
-        "eess.SY"
-      ],
-      "topics": [
-        "状态估计与控制"
-      ],
-      "relevance_score": 3,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "本文面向全驱动多旋翼提出结合生存性理论与数据驱动的MPC安全轨迹生成框架，用动态计算的轴对齐包围盒实现避障的形式化安全保证，无需离线穷举可达性分析，并在倾斜六旋翼数值仿真中验证杂乱环境实时导航。",
-      "change_zh": "常见安全飞行路线需离线穷举可达性分析求安全集，或依赖无形式保证的MPC；本文把生存核思想嵌入在线MPC，以动态计算的安全包围盒生成避障约束，免离线分析并面向全驱动构型；摘要未细述生存核在线求解与数据驱动部分的具体机制。",
-      "why_it_matters": "对UAV主动目标搜索、侦察与目标接近等任务，杂乱环境下带形式化安全保证的实时轨迹生成是底层核心能力，可支撑无人机在搜救等场景安全机动；但仅数值仿真验证，无真机与基线对比，距Sim2Real落地仍有距离。",
-      "relevance_rating": 7,
-      "rigor_rating": 5,
-      "venue_verified": false,
-      "score": 19,
-      "keywords": [
-        "aerial",
-        "model predictive control"
-      ],
-      "added_at": "2026-09-02T03:44:09Z"
-    },
-    {
       "id": "2610.03400",
       "arxiv_id": "2610.03400",
       "title": "Beyond Entropy: Self-Diagnostic Multi-Role Token Optimization for Video Reasoning",
@@ -16256,6 +16214,260 @@
         "world model"
       ],
       "added_at": "2026-09-18T08:54:45.554191+00:00"
+    },
+    {
+      "id": "2611.31803",
+      "arxiv_id": "2611.31803",
+      "title": "SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models",
+      "authors": [
+        "Yuheng Si",
+        "Linye Lyu",
+        "Jiawei Zhou",
+        "Lingyi Du",
+        "Nanfei Ye",
+        "Aobo Liu",
+        "Yu Liu",
+        "Yu Li",
+        "Cheng Zhuo"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31803",
+      "pdf_url": "https://arxiv.org/pdf/2611.31803",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "世界模型"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Interactive video world models generate navigable worlds frame by frame, but a persistent world requires previously observed scenes to remain recoverable as users move away and return.",
+      "why_it_matters": "与具身基准与评测、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-25T02:05:46.357472+00:00"
+    },
+    {
+      "id": "2611.31836",
+      "arxiv_id": "2611.31836",
+      "title": "Gaze World Model",
+      "authors": [
+        "Jiawen Zhang",
+        "Houze Yang",
+        "Xu Cao",
+        "Yifan Shen",
+        "Zhongyi Zhou",
+        "Steve Wong",
+        "Ismini Lourentzou",
+        "Inki Kim",
+        "James M. Rehg"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31836",
+      "pdf_url": "https://arxiv.org/pdf/2611.31836",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Gaze World Model。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Where a person looks indicates their focus of attention, and how their gaze shifts between targets reveals how that attention responds to a changing scene.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "localization",
+        "world model"
+      ],
+      "added_at": "2026-11-25T02:05:49.461761+00:00"
+    },
+    {
+      "id": "2611.31843",
+      "arxiv_id": "2611.31843",
+      "title": "Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty",
+      "authors": [
+        "Yonglong Zhang"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31843",
+      "pdf_url": "https://arxiv.org/pdf/2611.31843",
+      "code_url": "",
+      "categories": [
+        "cs.RO"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "世界模型"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Reactive robotic manipulation is acutely sensitive to simultaneous sensing noise, measurement dropouts, joint execution errors, and contact parameter variations.",
+      "why_it_matters": "与具身基准与评测、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "world model"
+      ],
+      "added_at": "2026-11-25T02:05:52.560459+00:00"
+    },
+    {
+      "id": "2611.31873",
+      "arxiv_id": "2611.31873",
+      "title": "RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks",
+      "authors": [
+        "Aoqi Hu",
+        "Yueao Xing"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31873",
+      "pdf_url": "https://arxiv.org/pdf/2611.31873",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "主动感知与重建"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Real-world software engineering (SWE) tasks require agents to understand repository structures, cross-module dependencies, and runtime behaviors, posing significant challenges for constructing high-quality training and e",
+      "why_it_matters": "与具身基准与评测、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "exploration"
+      ],
+      "added_at": "2026-11-25T02:05:55.663147+00:00"
+    },
+    {
+      "id": "2611.31839",
+      "arxiv_id": "2611.31839",
+      "title": "Spec-Test Coverage Gap: Detecting Overspecified Tests in SWE-Bench-Style Benchmarks",
+      "authors": [
+        "Avi Aggarwal",
+        "Yiran Hu"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31839",
+      "pdf_url": "https://arxiv.org/pdf/2611.31839",
+      "code_url": "",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "topics": [
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：Spec-Test Coverage Gap: Detecting Overspecified Tests in SWE-Bench-Style Benchmarks。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：SWE-bench-style benchmarks, such as SWE-bench Verified (Verified) and SWE-bench Pro (Pro), evaluate coding agents with tests taken from the change that originally fixed each issue.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "leaderboard"
+      ],
+      "added_at": "2026-11-25T02:05:58.762601+00:00"
+    },
+    {
+      "id": "2611.31794",
+      "arxiv_id": "2611.31794",
+      "title": "AGL-SKILL: Coding Harnesses as Agentic Optimizers",
+      "authors": [
+        "Ryan Tsui",
+        "Yuge Zhang",
+        "Yuqing Yang"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31794",
+      "pdf_url": "https://arxiv.org/pdf/2611.31794",
+      "code_url": "",
+      "categories": [
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AGL-SKILL: Coding Harnesses as Agentic Optimizers。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Frontier models are increasingly used through harnesses as agents, with growing autonomy to do useful work.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark"
+      ],
+      "added_at": "2026-11-25T02:06:01.839162+00:00"
+    },
+    {
+      "id": "2611.31755",
+      "arxiv_id": "2611.31755",
+      "title": "RVLM-X: Towards a Universal VLM Harness",
+      "authors": [
+        "Aadi Palnitkar",
+        "Dmytro Kurdydyk",
+        "Xiaomin Lin"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31755",
+      "pdf_url": "https://arxiv.org/pdf/2611.31755",
+      "code_url": "",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：RVLM-X: Towards a Universal VLM Harness。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Harnesses for vision-language models (VLMs) have grown with the models' capabilities, notably for images far larger than those seen in training, where downscaling loses small details.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "vlm"
+      ],
+      "added_at": "2026-11-25T02:06:04.920409+00:00"
     },
     {
       "id": "2611.31215",
@@ -16862,6 +17074,39 @@
         "world model"
       ],
       "added_at": "2026-11-24T20:29:58.262334+00:00"
+    },
+    {
+      "id": "2611.31689",
+      "arxiv_id": "2611.31689",
+      "title": "GeoMVGen: Joint Appearance-Geometry Modeling for Multi-View Video Generation in Robotic Manipulation",
+      "authors": [
+        "Qiaoqiao Jia",
+        "Guile Wu",
+        "Dongfeng Bai"
+      ],
+      "published": "2026-11-23",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31689",
+      "pdf_url": "https://arxiv.org/pdf/2611.31689",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "空间智能"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能，主要研究问题可概括为：GeoMVGen: Joint Appearance-Geometry Modeling for Multi-View Video Generation in Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Robotic manipulation requires predicting how robot-object interactions evolve over time, encompassing both visual appearance and scene geometry.",
+      "why_it_matters": "与空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "geometry"
+      ],
+      "added_at": "2026-11-25T02:06:07.981637+00:00"
     },
     {
       "id": "2611.29168",
@@ -43574,15 +43819,71 @@
   ],
   "briefing": {
     "text": "",
-    "added": 1,
-    "at": "2026-11-24T20:30:01.263306+00:00",
+    "added": 8,
+    "at": "2026-11-25T02:06:10.982591+00:00",
     "new": [
       {
-        "t": "Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning",
-        "u": "https://arxiv.org/abs/2611.30666",
+        "t": "SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models",
+        "u": "https://arxiv.org/abs/2611.31803",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Gaze World Model",
+        "u": "https://arxiv.org/abs/2611.31836",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Gaze World Model。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty",
+        "u": "https://arxiv.org/abs/2611.31843",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks",
+        "u": "https://arxiv.org/abs/2611.31873",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "Spec-Test Coverage Gap: Detecting Overspecified Tests in SWE-Bench-Style Benchmarks",
+        "u": "https://arxiv.org/abs/2611.31839",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Spec-Test Coverage Gap: Detecting Overspecified Tests in SWE-Bench-Style Benchmarks。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "AGL-SKILL: Coding Harnesses as Agentic Optimizers",
+        "u": "https://arxiv.org/abs/2611.31794",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AGL-SKILL: Coding Harnesses as Agentic Optimizers。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "RVLM-X: Towards a Universal VLM Harness",
+        "u": "https://arxiv.org/abs/2611.31755",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：RVLM-X: Towards a Universal VLM Harness。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": ""
+      },
+      {
+        "t": "GeoMVGen: Joint Appearance-Geometry Modeling for Multi-View Video Generation in Robotic Manipulation",
+        "u": "https://arxiv.org/abs/2611.31689",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦空间智能，主要研究问题可概括为：GeoMVGen: Joint Appearance-Geometry Modeling for Multi-View Video Generation in Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
