@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T02:06:10.982572+00:00",
+  "updated_at": "2026-11-25T02:51:52.597431+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16468,6 +16468,82 @@
         "vlm"
       ],
       "added_at": "2026-11-25T02:06:04.920409+00:00"
+    },
+    {
+      "id": "2611.31814",
+      "arxiv_id": "2611.31814",
+      "title": "Beyond the Benchmark: Localizing Released Autonomous Driving Models to Real Vehicles",
+      "authors": [
+        "Morui Zhu",
+        "Deyuan Qu",
+        "Qi Chen",
+        "Qing Yang"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31814",
+      "pdf_url": "https://arxiv.org/pdf/2611.31814",
+      "code_url": "",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topics": [
+        "具身基准与评测",
+        "地面 VLN",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 5,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、地面 VLN，主要研究问题可概括为：Beyond the Benchmark: Localizing Released Autonomous Driving Models to Real Vehicles。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Released autonomous-driving models achieve strong benchmark performance, yet deploying them on a new real vehicle remains challenging.",
+      "why_it_matters": "与具身基准与评测、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "deployment",
+        "localization",
+        "r2r"
+      ],
+      "added_at": "2026-11-25T02:51:46.537076+00:00"
+    },
+    {
+      "id": "2611.31765",
+      "arxiv_id": "2611.31765",
+      "title": "Dreamcatcher: Remembering What Surprises a World Model in Video Streams",
+      "authors": [
+        "Jinxi He",
+        "Ce Zhang",
+        "Wenhe Liu",
+        "Jianshu Zhang",
+        "Katia P. Sycara",
+        "Yaqi Xie"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.31765",
+      "pdf_url": "https://arxiv.org/pdf/2611.31765",
+      "code_url": "",
+      "categories": [
+        "cs.CV"
+      ],
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Dreamcatcher: Remembering What Surprises a World Model in Video Streams。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：As live video streams grow longer, repeatedly encoding and processing their full histories becomes increasingly costly.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "world model"
+      ],
+      "added_at": "2026-11-25T02:51:49.596651+00:00"
     },
     {
       "id": "2611.31215",
@@ -43819,71 +43895,23 @@
   ],
   "briefing": {
     "text": "",
-    "added": 8,
-    "at": "2026-11-25T02:06:10.982591+00:00",
+    "added": 2,
+    "at": "2026-11-25T02:51:52.597495+00:00",
     "new": [
       {
-        "t": "SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models",
-        "u": "https://arxiv.org/abs/2611.31803",
+        "t": "Beyond the Benchmark: Localizing Released Autonomous Driving Models to Real Vehicles",
+        "u": "https://arxiv.org/abs/2611.31814",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、地面 VLN，主要研究问题可概括为：Beyond the Benchmark: Localizing Released Autonomous Driving Models to Real Vehicles。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Gaze World Model",
-        "u": "https://arxiv.org/abs/2611.31836",
+        "t": "Dreamcatcher: Remembering What Surprises a World Model in Video Streams",
+        "u": "https://arxiv.org/abs/2611.31765",
         "r": null,
         "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Gaze World Model。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty",
-        "u": "https://arxiv.org/abs/2611.31843",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks",
-        "u": "https://arxiv.org/abs/2611.31873",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Spec-Test Coverage Gap: Detecting Overspecified Tests in SWE-Bench-Style Benchmarks",
-        "u": "https://arxiv.org/abs/2611.31839",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Spec-Test Coverage Gap: Detecting Overspecified Tests in SWE-Bench-Style Benchmarks。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "AGL-SKILL: Coding Harnesses as Agentic Optimizers",
-        "u": "https://arxiv.org/abs/2611.31794",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AGL-SKILL: Coding Harnesses as Agentic Optimizers。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "RVLM-X: Towards a Universal VLM Harness",
-        "u": "https://arxiv.org/abs/2611.31755",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：RVLM-X: Towards a Universal VLM Harness。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "GeoMVGen: Joint Appearance-Geometry Modeling for Multi-View Video Generation in Robotic Manipulation",
-        "u": "https://arxiv.org/abs/2611.31689",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能，主要研究问题可概括为：GeoMVGen: Joint Appearance-Geometry Modeling for Multi-View Video Generation in Robotic Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Dreamcatcher: Remembering What Surprises a World Model in Video Streams。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
