@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T19:46:10.404641+00:00",
+  "updated_at": "2026-11-26T00:53:38.207301+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -13218,48 +13218,6 @@
         "benchmark",
         "deployment",
         "geometry"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
-    },
-    {
-      "id": "2608.27371",
-      "arxiv_id": "2608.27371",
-      "title": "Embodied Scene Rearrangement Planning",
-      "authors": [
-        "Canzhi Chen",
-        "Zan Wang",
-        "Siqi Zhu",
-        "Qi Wu",
-        "Yixuan Li",
-        "Wei Liang"
-      ],
-      "published": "2026-08-27",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.27371",
-      "pdf_url": "https://arxiv.org/pdf/2608.27371",
-      "code_url": "",
-      "categories": [
-        "cs.RO"
-      ],
-      "topics": [
-        "具身基准与评测"
-      ],
-      "relevance_score": 4,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "提出具身场景重排任务ESRP：智能体仅凭第一人称观测与俯视目标布局在3D场景重摆家具，基于OmniGibson构建含5400余场景对、8200物体的基准，含三级指标和四种基线，现有方法均难以高效完成。",
-      "change_zh": "与常见假设全局状态可获取的重排任务不同，ESRP禁止全局状态访问并引入物体互相遮挡，迫使智能体用部分自我中心观测对齐全局目标布局，更贴近真实部署约束，并把该问题固化为大规模基准加多类基线评测。",
-      "why_it_matters": "其部分可观测下局部观测与全局目标布局对齐、长程规划的挑战，与ObjectNav/UAV目标搜索中由局部观测推断全局目标的问题同构；其分级指标与TAMP/VLM/IL/RL四类基线范式，可为具身导航与规划智能体评测提供方法参照。",
-      "relevance_rating": 7,
-      "rigor_rating": 7,
-      "venue_verified": false,
-      "score": 21,
-      "keywords": [
-        "3d scene",
-        "benchmark",
-        "deployment",
-        "task planning"
       ],
       "added_at": "2026-09-01T21:26:42+08:00"
     },
