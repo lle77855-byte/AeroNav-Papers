@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T01:24:47.501346+00:00",
+  "updated_at": "2026-11-27T13:33:58.463588+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -16955,6 +16955,199 @@
         "exploration"
       ],
       "added_at": "2026-11-26T13:35:41.039070+00:00"
+    },
+    {
+      "id": "2611.34249",
+      "arxiv_id": "2611.34249",
+      "title": "Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation",
+      "authors": [
+        "Xinyu Zhou",
+        "蔡维仁",
+        "Yitong Chen",
+        "Shenghai Yuan",
+        "Zihang Mu",
+        "Boyu Ma",
+        "Jiahua Dong",
+        "Yanshuo Lu",
+        "Jiaqi Bai",
+        "Jianfei Yang"
+      ],
+      "published": "2026-11-25",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.34249",
+      "pdf_url": "https://arxiv.org/pdf/2611.34249",
+      "code_url": "https://github.com/MarsLab-Navigent/Navigent",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "地面 VLN",
+        "空域 VLN"
+      ],
+      "relevance_score": 11,
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、地面 VLN，主要研究问题可概括为：Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-and-Language Navigation (VLN) with general-purpose multimodal large language models (MLLMs) offers a flexible alternative to task-specific navigation policies, while reliable long-horizon execution remains challen",
+      "why_it_matters": "与多模态大模型与智能体、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "geometry",
+        "mllm",
+        "multimodal large language model",
+        "r2r",
+        "vision language navigation"
+      ],
+      "added_at": "2026-11-27T13:33:42.721529+00:00"
+    },
+    {
+      "id": "2611.34130",
+      "arxiv_id": "2611.34130",
+      "title": "WorldPhy: Benchmarking Fine-Grained Physical Plausibility of World Models in Robotics",
+      "authors": [
+        "Ziyuan Chu",
+        "Mingzhi Zheng",
+        "Kaiyue Zhang",
+        "Jinan Zhang",
+        "Linchao Zhu"
+      ],
+      "published": "2026-11-25",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.34130",
+      "pdf_url": "https://arxiv.org/pdf/2611.34130",
+      "code_url": "https://github.com/chuziyuan139/",
+      "categories": [],
+      "topics": [
+        "具身基准与评测",
+        "世界模型",
+        "空域 VLN"
+      ],
+      "relevance_score": 7,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：WorldPhy: Benchmarking Fine-Grained Physical Plausibility of World Models in Robotics。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：World models are increasingly used in robotics to improve the performance of embodied models.",
+      "why_it_matters": "与具身基准与评测、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "vlm",
+        "world model"
+      ],
+      "added_at": "2026-11-27T13:33:45.864600+00:00"
+    },
+    {
+      "id": "2611.33934",
+      "arxiv_id": "2611.33934",
+      "title": "Towards 360$^\\circ$ Embodied UAV Tracking Without Turning",
+      "authors": [
+        "Bingyu Li",
+        "Wu Du",
+        "Zhiyuan Zhao",
+        "Junyu Gao",
+        "Xuelong Li"
+      ],
+      "published": "2026-11-25",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.33934",
+      "pdf_url": "https://arxiv.org/pdf/2611.33934",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN",
+        "空间智能"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Towards 360$^\\circ$ Embodied UAV Tracking Without Turning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Conventional embodied UAV tracking couples target observability with heading control because targets may leave the field of view of forward-facing cameras.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "geometry",
+        "uav"
+      ],
+      "added_at": "2026-11-27T13:33:48.986634+00:00"
+    },
+    {
+      "id": "2611.33964",
+      "arxiv_id": "2611.33964",
+      "title": "Embodied-VGGT: Preserving Reliable Local Geometry for Long-Sequence Reconstruction",
+      "authors": [
+        "Yiheng HAN",
+        "Ziang Chen",
+        "Zhuyong Fu",
+        "Yiqing Yin",
+        "Nan Ma"
+      ],
+      "published": "2026-11-25",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.33964",
+      "pdf_url": "https://arxiv.org/pdf/2611.33964",
+      "code_url": "https://github.com/Ang-Sheep/Embodied-VGGT",
+      "categories": [],
+      "topics": [
+        "空间智能",
+        "具身基准与评测",
+        "状态估计与控制"
+      ],
+      "relevance_score": 5,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/ec47142ab9b58564457af68f0c9b2a3d53ff30e7",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Embodied-VGGT: Preserving Reliable Local Geometry for Long-Sequence Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Long sequence reconstruction must correct accumulated drift while preserving locally consistent geometry.",
+      "why_it_matters": "与空间智能、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "geometry",
+        "odometry"
+      ],
+      "added_at": "2026-11-27T13:33:52.217979+00:00"
+    },
+    {
+      "id": "2611.34254",
+      "arxiv_id": "2611.34254",
+      "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "authors": [
+        "Yinjun Liu",
+        "Xinye Li",
+        "Ruisen Peng",
+        "Lang Gao",
+        "Zixiang Xu",
+        "Zirui Song",
+        "Xiuying Chen"
+      ],
+      "published": "2026-11-25",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.34254",
+      "pdf_url": "https://arxiv.org/pdf/2611.34254",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "relevance_score": 3,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language models (LLMs) perform well on chemistry knowledge benchmarks, which mainly assess question answering and isolated tasks.",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "llm agent"
+      ],
+      "added_at": "2026-11-27T13:33:55.462903+00:00"
     },
     {
       "id": "2611.31803",
@@ -45836,31 +46029,47 @@
   ],
   "briefing": {
     "text": "",
-    "added": 3,
-    "at": "2026-11-27T01:24:47.501366+00:00",
+    "added": 5,
+    "at": "2026-11-27T13:33:58.463613+00:00",
     "new": [
       {
-        "t": "AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System",
-        "u": "https://arxiv.org/abs/2611.32523",
+        "t": "Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation",
+        "u": "https://arxiv.org/abs/2611.34249",
         "r": null,
         "g": null,
-        "s": "该工作聚焦状态估计与控制、真机与 Sim2Real，主要研究问题可概括为：AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、地面 VLN，主要研究问题可概括为：Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/MarsLab-Navigent/Navigent"
+      },
+      {
+        "t": "WorldPhy: Benchmarking Fine-Grained Physical Plausibility of World Models in Robotics",
+        "u": "https://arxiv.org/abs/2611.34130",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：WorldPhy: Benchmarking Fine-Grained Physical Plausibility of World Models in Robotics。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/chuziyuan139/"
+      },
+      {
+        "t": "Towards 360$^\\circ$ Embodied UAV Tracking Without Turning",
+        "u": "https://arxiv.org/abs/2611.33934",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Towards 360$^\\circ$ Embodied UAV Tracking Without Turning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "EvoSearch: Self-Evolving Active Perception for Wide-Area Geospatial Search",
-        "u": "https://arxiv.org/abs/2611.32214",
+        "t": "Embodied-VGGT: Preserving Reliable Local Geometry for Long-Sequence Reconstruction",
+        "u": "https://arxiv.org/abs/2611.33964",
         "r": null,
         "g": null,
-        "s": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：EvoSearch: Self-Evolving Active Perception for Wide-Area Geospatial Search。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
+        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：Embodied-VGGT: Preserving Reliable Local Geometry for Long-Sequence Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/Ang-Sheep/Embodied-VGGT"
       },
       {
-        "t": "Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation",
-        "u": "https://arxiv.org/abs/2611.32400",
+        "t": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+        "u": "https://arxiv.org/abs/2611.34254",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       }
     ]
