@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T13:35:44.040074+00:00",
+  "updated_at": "2026-11-27T01:24:47.501346+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -2635,49 +2635,6 @@
         "uav"
       ],
       "added_at": "2026-09-09T09:45:53.911988+00:00"
-    },
-    {
-      "id": "2608.28270",
-      "arxiv_id": "2608.28270",
-      "title": "Spatial-Semantic Reasoning using Large Language Models for Efficient UAV Search Operations",
-      "authors": [
-        "Marin Maletic",
-        "Marijana Peti",
-        "Tamara Petrovic",
-        "Stjepan Bogdan"
-      ],
-      "published": "2026-08-28",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.28270",
-      "pdf_url": "https://arxiv.org/pdf/2608.28270",
-      "code_url": "",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "topics": [
-        "UAV 目标搜索"
-      ],
-      "relevance_score": 10,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "提出UAV ObjectNav实时语义导航框架：LLM解读自然语言指令并对检测物体与空间上下文做语义推理以优先搜索高概率区域，融合实时检测、3D建图与多项式样条轨迹规划，仿真与真机实验显示任务时长缩短且保持精度。",
-      "change_zh": "相比依赖离线推理或受仿真器离散动作空间限制的常见路线，该框架让LLM基于新观测在线滚动更新语义相关性并重排搜索区域，且用多项式样条生成平滑可行的连续UAV轨迹，实现真机实时闭环的ObjectNav。",
-      "why_it_matters": "直接命中UAV主动目标搜索与ObjectNav核心问题：用LLM空间-语义先验指导搜索区域优先级可缩短任务时长，其在线更新机制与仿真加真机验证，为空域目标搜索的实时性与sim2real落地提供可借鉴方案。",
-      "relevance_rating": 10,
-      "rigor_rating": 6,
-      "venue_verified": false,
-      "score": 26,
-      "keywords": [
-        "aerial",
-        "instruction",
-        "object goal navigation",
-        "objectnav",
-        "semantic navigation",
-        "uav"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
     },
     {
       "id": "2610.12126",
@@ -18138,6 +18095,123 @@
         "uav"
       ],
       "added_at": "2026-11-26T13:35:03.583046+00:00"
+    },
+    {
+      "id": "2611.32523",
+      "arxiv_id": "2611.32523",
+      "title": "AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System",
+      "authors": [
+        "Kuan Xu",
+        "Tianxin Hu",
+        "Ruofei Bai",
+        "Ruimeng Liu",
+        "Yuefan Hao",
+        "Zeyu Jiang",
+        "Zitong Zhan",
+        "Shenghai Yuan",
+        "Chen Wang",
+        "Lihua Xie"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.32523",
+      "pdf_url": "https://arxiv.org/pdf/2611.32523",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "状态估计与控制",
+        "真机与 Sim2Real"
+      ],
+      "relevance_score": 6,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦状态估计与控制、真机与 Sim2Real，主要研究问题可概括为：AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Visual-inertial-leg (VIL) state estimation offers cost-effective localization for legged robots, adding only a camera to the onboard IMU and joint encoders.",
+      "why_it_matters": "与状态估计与控制、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "deployment",
+        "localization",
+        "odometry",
+        "slam",
+        "state estimation"
+      ],
+      "added_at": "2026-11-27T01:24:38.048969+00:00"
+    },
+    {
+      "id": "2611.32214",
+      "arxiv_id": "2611.32214",
+      "title": "EvoSearch: Self-Evolving Active Perception for Wide-Area Geospatial Search",
+      "authors": [
+        "Zhenghao Xie",
+        "Jing Xiao",
+        "Zihao Yu",
+        "Wanyi Yu",
+        "Liang Liao",
+        "Gui-Song Xia",
+        "Mi Wang"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.32214",
+      "pdf_url": "https://arxiv.org/pdf/2611.32214",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "主动感知与重建",
+        "具身基准与评测"
+      ],
+      "relevance_score": 4,
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：EvoSearch: Self-Evolving Active Perception for Wide-Area Geospatial Search。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Geospatial search is fundamental to resource surveys and environmental monitoring, requiring the discovery of relevant evidence across large geographic areas and multiple spatial scales.",
+      "why_it_matters": "与主动感知与重建、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "active perception",
+        "benchmark",
+        "exploration"
+      ],
+      "added_at": "2026-11-27T01:24:41.231523+00:00"
+    },
+    {
+      "id": "2611.32400",
+      "arxiv_id": "2611.32400",
+      "title": "Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation",
+      "authors": [
+        "Jiewen Hou",
+        "Guanxiang Qi",
+        "Meina Kan",
+        "Shiguang Shan",
+        "Xilin Chen"
+      ],
+      "published": "2026-11-24",
+      "source": "arXiv",
+      "venue": "预印本",
+      "url": "https://arxiv.org/abs/2611.32400",
+      "pdf_url": "https://arxiv.org/pdf/2611.32400",
+      "code_url": "",
+      "categories": [],
+      "topics": [
+        "空域 VLN",
+        "地面 VLN",
+        "多模态大模型与智能体"
+      ],
+      "relevance_score": 3,
+      "citation_count": 0,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/b73afbddc1dc80fc3fc4dedd67697942dbed3065",
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-and-Language Navigation (VLN) requires an agent to follow language instructions to reach a target in an unseen 3D environment.",
+      "why_it_matters": "与空域 VLN、地面 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "instruction",
+        "r2r",
+        "vlm"
+      ],
+      "added_at": "2026-11-27T01:24:44.500523+00:00"
     },
     {
       "id": "2611.31215",
@@ -45762,184 +45836,32 @@
   ],
   "briefing": {
     "text": "",
-    "added": 22,
-    "at": "2026-11-26T13:35:44.040096+00:00",
+    "added": 3,
+    "at": "2026-11-27T01:24:47.501366+00:00",
     "new": [
       {
-        "t": "SkySearcher: High-Altitude Onboard VLM Reasoning for Aerial Semantic Search",
-        "u": "https://arxiv.org/abs/2611.34485",
+        "t": "AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System",
+        "u": "https://arxiv.org/abs/2611.32523",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：SkySearcher: High-Altitude Onboard VLM Reasoning for Aerial Semantic Search。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制、真机与 Sim2Real，主要研究问题可概括为：AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "A Simple Yet Effective Agent for Open-World Aerial Object Search",
-        "u": "https://arxiv.org/abs/2611.34115",
+        "t": "EvoSearch: Self-Evolving Active Perception for Wide-Area Geospatial Search",
+        "u": "https://arxiv.org/abs/2611.32214",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：A Simple Yet Effective Agent for Open-World Aerial Object Search。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦主动感知与重建、具身基准与评测，主要研究问题可概括为：EvoSearch: Self-Evolving Active Perception for Wide-Area Geospatial Search。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
       },
       {
-        "t": "Reference-Model-Guided Distributed MPC for UAV Swarm Formation Flying Under Switching Directed Graphs",
-        "u": "https://arxiv.org/abs/2611.34540",
+        "t": "Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation",
+        "u": "https://arxiv.org/abs/2611.32400",
         "r": null,
         "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Reference-Model-Guided Distributed MPC for UAV Swarm Formation Flying Under Switching Directed Graphs。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Verify then Steer: Progress Hallucination-Aware Recovery for Continuous Vision-and-Language Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": ""
-      },
-      {
-        "t": "Memory Is Not Ground Truth: Revising Navigation Authority under Unreliable VLM Evidence for Persistent Semantic Navigation",
-        "u": "https://arxiv.org/abs/2611.34915",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、多模态大模型与智能体，主要研究问题可概括为：Memory Is Not Ground Truth: Revising Navigation Authority under Unreliable VLM Evidence for Persistent Semantic Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
-        "u": "https://arxiv.org/abs/2611.34925",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、地面 VLN，主要研究问题可概括为：One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics",
-        "u": "https://arxiv.org/abs/2611.34644",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、空间智能，主要研究问题可概括为：Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DynaRC: Dynamics-Robust 4-D Radar Relocalization with Rate-Adaptive Sequence Matching",
-        "u": "https://arxiv.org/abs/2611.34453",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦状态估计与控制，主要研究问题可概括为：DynaRC: Dynamics-Robust 4-D Radar Relocalization with Rate-Adaptive Sequence Matching。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Autonomous Vineyard Exploration using LiDAR Sensing: A Field Evaluation on Legged-Wheeled Quadruped Robot",
-        "u": "https://arxiv.org/abs/2611.34246",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：Autonomous Vineyard Exploration using LiDAR Sensing: A Field Evaluation on Legged-Wheeled Quadruped Robot。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Tracking Any Point with Agentic Visual Reasoning",
-        "u": "https://arxiv.org/abs/2611.34943",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、状态估计与控制，主要研究问题可概括为：Tracking Any Point with Agentic Visual Reasoning。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots",
-        "u": "https://arxiv.org/abs/2611.33380",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/leggedrobotics/foci"
-      },
-      {
-        "t": "Ask to Land: Learning a Mask-Conditioned Open-Vocabulary Landing Policy via Differentiable Physics",
-        "u": "https://arxiv.org/abs/2611.34020",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Ask to Land: Learning a Mask-Conditioned Open-Vocabulary Landing Policy via Differentiable Physics。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs",
-        "u": "https://arxiv.org/abs/2611.34914",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models",
-        "u": "https://arxiv.org/abs/2611.34739",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ProbFaS: Probabilistic Video Frame Selection for MLLMs via Multi-Fidelity Calibration",
-        "u": "https://arxiv.org/abs/2611.34903",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体，主要研究问题可概括为：ProbFaS: Probabilistic Video Frame Selection for MLLMs via Multi-Fidelity Calibration。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Towards Closing the Performance Gap in Cross-Modal Place Recognition",
-        "u": "https://arxiv.org/abs/2611.34877",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Towards Closing the Performance Gap in Cross-Modal Place Recognition。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/oferidan1/CrossPlace"
-      },
-      {
-        "t": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
-        "u": "https://arxiv.org/abs/2611.34920",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "LUDIUS: A Benchmark for Embodied Social Intelligence in Everyday Human-Robot Interactions",
-        "u": "https://arxiv.org/abs/2611.34328",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：LUDIUS: A Benchmark for Embodied Social Intelligence in Everyday Human-Robot Interactions。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Autonomous Ergodic Robotic Palpation for Elastic Mapping of Curved Soft Tissues",
-        "u": "https://arxiv.org/abs/2611.34670",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦空间智能、主动感知与重建，主要研究问题可概括为：Autonomous Ergodic Robotic Palpation for Elastic Mapping of Curved Soft Tissues。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans",
-        "u": "https://arxiv.org/abs/2611.34489",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-        "u": "https://arxiv.org/abs/2611.34852",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "ZeroHero: Training Small Language Agents from Scratch",
-        "u": "https://arxiv.org/abs/2611.34635",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦规划智能体、空域 VLN，主要研究问题可概括为：ZeroHero: Training Small Language Agents from Scratch。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": ""
-      },
-      {
-        "t": "HoMe: Toward Practical Harness Optimization of Memory Systems for AI Assistants",
-        "u": "https://arxiv.org/abs/2611.34624",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测、主动感知与重建，主要研究问题可概括为：HoMe: Toward Practical Harness Optimization of Memory Systems for AI Assistants。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/agentscope-ai/ReMe"
       }
     ]
   }
