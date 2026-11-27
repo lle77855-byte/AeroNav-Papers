@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T19:33:26.813847+00:00",
+  "updated_at": "2026-11-27T12:00:23.607300+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -8089,6 +8089,43 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-11-25T12:37:51.521945+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4415796712",
+      "arxiv_id": "",
+      "title": "MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making",
+      "authors": [
+        "Yubin Kim",
+        "Chanwoo Park",
+        "Hyewon Jeong",
+        "Yik Siu Chan",
+        "Xuhai Xu",
+        "Daniel McDuff",
+        "Hyeonhoon Lee",
+        "Marzyeh Ghassemi",
+        "Cynthia Breazeal",
+        "Hae Won Park"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 602,
+      "url": "https://doi.org/10.52202/079017-2522",
+      "pdf_url": "",
+      "code_url": "https://github.com/mitmedialab/MDAgents",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Foundation models are becoming valuable tools in medicine.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "https://openalex.org/W7133216992",
@@ -19305,6 +19342,43 @@
       "added_at": "2026-11-14T16:23:19.206302+00:00"
     },
     {
+      "id": "https://openalex.org/W7196996540",
+      "arxiv_id": "",
+      "title": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+      "authors": [
+        "Shuang Zeng",
+        "Xinyuan Chang",
+        "Mengwei Xie",
+        "Xinran Liu",
+        "Yifan Bai",
+        "Zheng Pan",
+        "Mu Xu",
+        "Xing Wei"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 267,
+      "url": "https://doi.org/10.52202/085713-2257",
+      "pdf_url": "",
+      "code_url": "https://github.com/MIV-XJTU/FSDrive",
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-Language-Action (VLA) models offer significant potential for end-to-end driving, yet their reasoning is often constrained by textual Chains-of-Thought (CoT).",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "world model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "https://openalex.org/W4225796999",
       "arxiv_id": "2112.09583",
       "title": "Align and Prompt: Video-and-Language Pre-training with Entity Prompts",
@@ -19779,6 +19853,42 @@
       ],
       "is_classic": true,
       "added_at": "2026-11-13T10:50:20.771414+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4415110204",
+      "arxiv_id": "",
+      "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
+      "authors": [
+        "Guibin Zhang",
+        "Muxin Fu",
+        "Guancheng Wan",
+        "Frank Wan",
+        "Miao Yu",
+        "Shuicheng Yan"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 262,
+      "url": "https://doi.org/10.52202/085713-0439",
+      "pdf_url": "",
+      "code_url": "https://github.com/bingreeky/GMemory",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large language model (LLM)-powered multi-agent systems (MAS) have demonstrated cognitive and execution capabilities that far exceed those of single LLM agents, yet their capacity for self-evolution remains hampered by un",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "agentic",
+        "benchmark",
+        "llm agent"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "2503.19755",
@@ -20384,6 +20494,48 @@
       "added_at": "2026-11-14T16:23:19.206302+00:00"
     },
     {
+      "id": "2108.03332",
+      "arxiv_id": "2108.03332",
+      "title": "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments",
+      "authors": [
+        "Sanjana Srivastava",
+        "Chengshu Li",
+        "Michael Lingelbach",
+        "Roberto Martín-Martín",
+        "Fei Xia",
+        "Kent Vainio",
+        "Zheng Lian",
+        "Cem Gökmen",
+        "Shyamal Buch",
+        "C. Karen Liu",
+        "Silvio Savarese",
+        "Hyowon Gweon"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "Conference on Robot Learning",
+      "citation_count": 252,
+      "url": "https://arxiv.org/abs/2108.03332",
+      "pdf_url": "https://proceedings.mlr.press/v164/srivastava22a/srivastava22a.pdf",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Conference on Robot Learning），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We introduce BEHAVIOR, a benchmark for embodied AI with 100 activities in simulation, spanning a range of everyday household chores such as cleaning, maintenance, and food preparation.",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "real world"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "2306.06531",
       "arxiv_id": "2306.06531",
       "title": "AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers",
@@ -20819,6 +20971,39 @@
       "added_at": "2026-11-13T10:50:20.771414+00:00"
     },
     {
+      "id": "2011.00359",
+      "arxiv_id": "2011.00359",
+      "title": "TartanVO: A Generalizable Learning-based VO",
+      "authors": [
+        "Wenshan Wang",
+        "Yaoyu Hu",
+        "Sebastian Scherer"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "Conference on Robot Learning",
+      "citation_count": 245,
+      "url": "https://arxiv.org/abs/2011.00359",
+      "pdf_url": "https://proceedings.mlr.press/v155/wang21h/wang21h.pdf",
+      "code_url": "https://github.com/castacks/tartanvo",
+      "topics": [
+        "状态估计与控制",
+        "空间智能"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Conference on Robot Learning），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：TartanVO: A Generalizable Learning-based VO。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present the first learning-based visual odometry (VO) model, which generalizes to multiple datasets and real-world scenarios and outperforms geometry-based methods in challenging scenes.",
+      "why_it_matters": "与状态估计与控制、空间智能直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "geometry",
+        "odometry",
+        "slam"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "2506.07398",
       "arxiv_id": "2506.07398",
       "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
@@ -21013,6 +21198,43 @@
       "added_at": "2026-11-14T16:23:19.206302+00:00"
     },
     {
+      "id": "https://openalex.org/W4405222329",
+      "arxiv_id": "",
+      "title": "Evidence-based guideline: premature ovarian insufficiency,",
+      "authors": [
+        "Nick Panay",
+        "Richard A. Anderson",
+        "Amy Bennie",
+        "Marcelle Ivonne Cedars",
+        "Melanie C. Davies",
+        "Carolyn Ee",
+        "Claus Højbjerg Gravholt",
+        "Sophia Kalantaridou",
+        "Amanda Nicole Kallen",
+        "Kimberly Q Kim",
+        "Micheline Misrahi",
+        "Aya Mousa"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "Human Reproduction Open",
+      "citation_count": 242,
+      "url": "https://doi.org/10.1093/hropen/hoae065",
+      "pdf_url": "https://academic.oup.com/hropen/article-pdf/2024/4/hoae065/60972488/hoae065.pdf",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Evidence-based guideline: premature ovarian insufficiency,。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：STUDY QUESTION: How should premature/primary ovarian insufficiency (POI) be diagnosed and managed based on the best available evidence from published literature?",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "https://openalex.org/W4283262038",
       "arxiv_id": "",
       "title": "Agilicious: Open-source and open-hardware agile quadrotor for vision-based flight",
@@ -21184,6 +21406,42 @@
       "added_at": "2026-11-16T20:00:52.028427+00:00"
     },
     {
+      "id": "2212.04385",
+      "arxiv_id": "2212.04385",
+      "title": "BEVBert: Multimodal Map Pre-training for Language-guided Navigation",
+      "authors": [
+        "Dong Un An",
+        "Yuankai Qi",
+        "Li, Yangguang",
+        "Yan Huang",
+        "Liang Wang",
+        "T.N. Tan",
+        "Jing Shao"
+      ],
+      "published": "2022",
+      "source": "OpenAlex",
+      "venue": "arXiv",
+      "citation_count": 239,
+      "url": "https://arxiv.org/abs/2212.04385",
+      "pdf_url": "https://arxiv.org/pdf/2212.04385",
+      "code_url": "",
+      "topics": [
+        "空间智能",
+        "具身基准与评测"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：BEVBert: Multimodal Map Pre-training for Language-guided Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large-scale pre-training has shown promising results on the vision-and-language navigation (VLN) task.",
+      "why_it_matters": "与空间智能、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "spatial understanding"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "2403.02726",
       "arxiv_id": "2403.02726",
       "title": "Bias in Generative AI",
@@ -21212,6 +21470,54 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-11-14T16:23:19.206302+00:00"
+    },
+    {
+      "id": "2505.20279",
+      "arxiv_id": "2505.20279",
+      "title": "VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction",
+      "authors": [
+        "Zhiwen Fan",
+        "Jian Zhang",
+        "Renjie Li",
+        "Junge Zhang",
+        "Runjin Chen",
+        "Hezhen Hu",
+        "Wang, Kevin",
+        "Huaizhi Qu",
+        "Zhou, Shijie",
+        "Wang, Dilin",
+        "Zhicheng Yan",
+        "Hongyu Xu"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "arXiv",
+      "citation_count": 237,
+      "url": "https://arxiv.org/abs/2505.20279",
+      "pdf_url": "https://arxiv.org/pdf/2505.20279",
+      "code_url": "",
+      "topics": [
+        "空间智能",
+        "空域 VLN",
+        "多模态大模型与智能体"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦空间智能、空域 VLN，主要研究问题可概括为：VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The rapid advancement of Large Multimodal Models (LMMs) for 2D images and videos has motivated extending these models to understand 3D scenes, aiming for human-like visual-spatial intelligence.",
+      "why_it_matters": "与空间智能、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "benchmark",
+        "evaluation",
+        "geometry",
+        "instruction",
+        "spatial intelligence",
+        "spatial reasoning",
+        "spatial understanding"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "2103.17138",
@@ -21512,6 +21818,40 @@
       "added_at": "2026-11-21T17:14:29.581203+00:00"
     },
     {
+      "id": "https://openalex.org/W4415798308",
+      "arxiv_id": "",
+      "title": "Evaluating the World Model Implicit in a Generative Model",
+      "authors": [
+        "Keyon Vafa",
+        "Justin Y. Chen",
+        "Ashesh Rambachan",
+        "Jon Michael Kleinberg",
+        "Sendhil Mullainathan"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 232,
+      "url": "https://doi.org/10.52202/079017-0846",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Evaluating the World Model Implicit in a Generative Model。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Recent work suggests that large language models may implicitly learn world models.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "evaluation",
+        "world model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "https://openalex.org/W3215792940",
       "arxiv_id": "",
       "title": "Countries with sustained greenhouse gas emissions reductions: an analysis of trends and progress by sector",
@@ -21750,6 +22090,44 @@
       "added_at": "2026-11-16T20:00:52.028427+00:00"
     },
     {
+      "id": "2310.01361",
+      "arxiv_id": "2310.01361",
+      "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+      "authors": [
+        "Wang, Lirui",
+        "Yiyang Ling",
+        "Zhecheng Yuan",
+        "Mohit Shridhar",
+        "Bao Chen",
+        "Yuzhe Qin",
+        "Bailin Wang",
+        "Huazhe Xu",
+        "Xiaolong Wang"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "International Conference on Learning Representations",
+      "citation_count": 227,
+      "url": "https://arxiv.org/abs/2310.01361",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/143ea4a156ef64f32d4d905206cf32e1-Paper-Conference.pdf",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（International Conference on Learning Representations），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：GenSim: Generating Robotic Simulation Tasks via Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Collecting large amounts of real-world interaction data to train general robotic policies is often prohibitively expensive, thus motivating the use of simulation data.",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "real world"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "2404.18861",
       "arxiv_id": "2404.18861",
       "title": "Visual Mamba: A Survey and New Outlooks",
@@ -21779,6 +22157,43 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-11-20T11:23:01.544336+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4414957333",
+      "arxiv_id": "",
+      "title": "Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning of Vision Language Models",
+      "authors": [
+        "Huajie Tan",
+        "Yuheng Ji",
+        "Xiaoshuai Hao",
+        "Xiansheng Chen",
+        "Pengwei Wang",
+        "Zhongyuan Wang",
+        "Shanghang Zhang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 225,
+      "url": "https://doi.org/10.52202/085713-0204",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning of Vision Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Visual reasoning abilities play a crucial role in understanding complex multimodal data, advancing both domain-specific applications and artificial general intelligence (AGI).",
+      "why_it_matters": "与多模态大模型与智能体、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "vision language model",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "https://openalex.org/W4406643700",
@@ -21917,6 +22332,34 @@
       ],
       "is_classic": true,
       "added_at": "2026-09-05T06:35:42Z"
+    },
+    {
+      "id": "https://openalex.org/W4384823019",
+      "arxiv_id": "",
+      "title": "New Examination Approach for Real-World Creativity and Problem-Solving Skills in Mathematics",
+      "authors": [
+        "Jonny Nilimaa"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Trends in Higher Education",
+      "citation_count": 224,
+      "url": "https://doi.org/10.3390/higheredu2030028",
+      "pdf_url": "https://www.mdpi.com/2813-4346/2/3/28/pdf?version=1689596239",
+      "code_url": "",
+      "topics": [
+        "主动感知与重建"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦主动感知与重建，主要研究问题可概括为：New Examination Approach for Real-World Creativity and Problem-Solving Skills in Mathematics。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：This paper presents a new and innovative examination method designed to foster creativity, problem-solving, and collaboration in mathematics education.",
+      "why_it_matters": "与主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "https://openalex.org/W7220847659",
@@ -22279,6 +22722,47 @@
       "added_at": "2026-09-05T18:45:24.442900+00:00"
     },
     {
+      "id": "2306.11565",
+      "arxiv_id": "2306.11565",
+      "title": "HomeRobot: Open-Vocabulary Mobile Manipulation",
+      "authors": [
+        "Sriram Yenamandra",
+        "Ramachandran, Arun",
+        "Karmesh Yadav",
+        "Austin Wang",
+        "Mukul Khanna",
+        "Théophile Gervet",
+        "Tsung-Yen Yang",
+        "Jain, Vidhi",
+        "Alexander Clegg",
+        "John C. Turner",
+        "Zsolt Kira",
+        "Manolis Savva"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "Conference on Robot Learning",
+      "citation_count": 218,
+      "url": "https://arxiv.org/abs/2306.11565",
+      "pdf_url": "https://arxiv.org/pdf/2306.11565",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "真机与 Sim2Real"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Conference on Robot Learning），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：HomeRobot: Open-Vocabulary Mobile Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：HomeRobot (noun): An affordable compliant robot that navigates homes and manipulates a wide range of objects in order to complete everyday tasks.",
+      "why_it_matters": "与具身基准与评测、真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "real world"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "2309.11382",
       "arxiv_id": "2309.11382",
       "title": "Discuss Before Moving: Visual Language Navigation via Multi-expert Discussions",
@@ -22339,6 +22823,47 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "2511.04670",
+      "arxiv_id": "2511.04670",
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "authors": [
+        "Shusheng Yang",
+        "Jihan Yang",
+        "Huang, Pinzhi",
+        "Ellis Brown",
+        "Zihao Yang",
+        "Yu, Yue",
+        "Shengbang Tong",
+        "Zheng, Zihan",
+        "Yifan Xu",
+        "Wang, Muhan",
+        "Lu, Daohan",
+        "Rob Fergus"
+      ],
+      "published": "2026",
+      "source": "OpenAlex",
+      "venue": "International Conference on Learning Representations",
+      "citation_count": 217,
+      "url": "https://arxiv.org/abs/2511.04670",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/7e3dcf772fa2e8d9087b599c7c07d4cf-Paper-Conference.pdf",
+      "code_url": "",
+      "topics": [
+        "世界模型",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（International Conference on Learning Representations），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Cambrian-S: Towards Spatial Supersensing in Video。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We argue that progress in true multimodal intelligence calls for a shift from reactive, task-driven systems and brute-force long context towards a broader paradigm of supersensing.",
+      "why_it_matters": "与世界模型、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "world model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "2503.01661",
@@ -22449,6 +22974,39 @@
       ],
       "is_classic": true,
       "added_at": "2026-11-16T20:00:52.028427+00:00"
+    },
+    {
+      "id": "2501.03218",
+      "arxiv_id": "2501.03218",
+      "title": "Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction",
+      "authors": [
+        "Rui Qian",
+        "Shuangrui Ding",
+        "Xiaoyi Dong",
+        "Pan Zhang",
+        "Yuhang Zang",
+        "Yuhang Cao",
+        "Dahua Lin",
+        "Jiaqi Wang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "citation_count": 216,
+      "url": "https://arxiv.org/abs/2501.03218",
+      "pdf_url": "https://arxiv.org/pdf/2501.03218",
+      "code_url": "https://github.com/Mark12Ding/Dispider",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Active real-time interaction with video LLMs introduces a new paradigm for human-computer interaction, where the model not only understands user intent but also responds while continuously processing streaming video on t",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "2410.23875",
@@ -22563,6 +23121,39 @@
       ],
       "is_classic": true,
       "added_at": "2026-10-16T14:33:52.712573+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4415797946",
+      "arxiv_id": "",
+      "title": "Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs",
+      "authors": [
+        "Liyi Chen",
+        "Panrong Tong",
+        "Zhongming Jin",
+        "Ying Sun",
+        "Jieping Ye",
+        "Hui Xiong"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 215,
+      "url": "https://doi.org/10.52202/079017-1189",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦主动感知与重建，主要研究问题可概括为：Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Large Language Models (LLMs) have shown remarkable reasoning capabilities on complex tasks, but they still suffer from out-of-date knowledge, hallucinations, and opaque decision-making.",
+      "why_it_matters": "与主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "https://openalex.org/W4285043263",
@@ -22756,6 +23347,39 @@
       "added_at": "2026-11-14T16:23:19.206302+00:00"
     },
     {
+      "id": "2105.00636",
+      "arxiv_id": "2105.00636",
+      "title": "Learning to drive from a world on rails",
+      "authors": [
+        "Dian Chen",
+        "Vladlen Koltun",
+        "Philipp Krähenbühl"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "citation_count": 212,
+      "url": "https://arxiv.org/abs/2105.00636",
+      "pdf_url": "https://arxiv.org/pdf/2105.00636",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测",
+        "世界模型"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE/CVF International Conference on Computer Vision (ICCV)），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Learning to drive from a world on rails。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We learn an interactive vision-based driving policy from pre-recorded driving logs via a model-based approach.",
+      "why_it_matters": "与具身基准与评测、世界模型直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "world model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "https://openalex.org/W7161800012",
       "arxiv_id": "",
       "title": "Lactate metabolism and lactylation in cancer: from pathogenesis to therapeutic advances",
@@ -22791,6 +23415,52 @@
       "added_at": "2026-11-21T17:14:29.581203+00:00"
     },
     {
+      "id": "https://openalex.org/W4416075795",
+      "arxiv_id": "",
+      "title": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics",
+      "authors": [
+        "Enshen Zhou",
+        "Jingkun An",
+        "Cheng Chi",
+        "Yi Han",
+        "Shanyu Rong",
+        "Chi Zhang",
+        "Pengwei Wang",
+        "Zhongyuan Wang",
+        "Tiejun Huang",
+        "Lu Sheng",
+        "Shanghang Zhang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 211,
+      "url": "https://doi.org/10.52202/085713-0957",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "空间智能",
+        "多模态大模型与智能体",
+        "空域 VLN"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Spatial referring is a fundamental capability of embodied robots to interact with the 3D physical world.",
+      "why_it_matters": "与空间智能、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "3d scene",
+        "benchmark",
+        "instruction",
+        "spatial reasoning",
+        "spatial understanding",
+        "vision language model",
+        "vlm"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "https://openalex.org/W3194492341",
       "arxiv_id": "",
       "title": "Technological advances in cancer immunity: from immunogenomics to single-cell analysis and artificial intelligence",
@@ -22820,6 +23490,33 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-11-21T17:14:29.581203+00:00"
+    },
+    {
+      "id": "https://openalex.org/W3196537174",
+      "arxiv_id": "",
+      "title": "Student Engagement in a Flipped Secondary Mathematics Classroom",
+      "authors": [
+        "Mustafa Çevikbaş",
+        "Gabriele Kaiser"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "International Journal of Science and Mathematics Education",
+      "citation_count": 209,
+      "url": "https://doi.org/10.1007/s10763-021-10213-x",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10763-021-10213-x.pdf",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：Student Engagement in a Flipped Secondary Mathematics Classroom。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Many students are becoming increasingly disengaged in school, particularly in mathematics.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "https://openalex.org/W4313332248",
@@ -22857,6 +23554,41 @@
       "added_at": "2026-11-14T16:23:19.206302+00:00"
     },
     {
+      "id": "https://openalex.org/W4401024025",
+      "arxiv_id": "",
+      "title": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
+      "authors": [
+        "Gilles Baechler",
+        "Srinivas Sunkara",
+        "Maria Wang",
+        "Fedir Zubach",
+        "Hassan Mansoor",
+        "Vincent Etter",
+        "Victor Cărbune",
+        "Jason Lin",
+        "Jindong Chen",
+        "Abhanshu Sharma"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "citation_count": 208,
+      "url": "https://doi.org/10.24963/ijcai.2024/339",
+      "pdf_url": "https://www.ijcai.org/proceedings/2024/0339.pdf",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：ScreenAI: A Vision-Language Model for UI and Infographics Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Screen user interfaces (UIs) and infographics, sharing similar visual language and design principles, play important roles in human communication and human-machine interaction.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "2102.10808",
       "arxiv_id": "2102.10808",
       "title": "ikd-Tree: An Incremental K-D Tree for Robotic Applications",
@@ -22885,6 +23617,40 @@
       ],
       "is_classic": true,
       "added_at": "2026-11-21T17:14:29.581203+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4414428140",
+      "arxiv_id": "",
+      "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+      "authors": [
+        "Chi-Pin Huang",
+        "Yueh-Hua Wu",
+        "Min-Hung Chen",
+        "Yu-Chiang Frank Wang",
+        "Fu-En Yang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 207,
+      "url": "https://doi.org/10.52202/085713-2773",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Vision-language-action (VLA) reasoning tasks require agents to interpret multimodal instructions, perform long-horizon planning, and act adaptively in dynamic environments.",
+      "why_it_matters": "与空域 VLN、具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "2403.09227",
@@ -22961,6 +23727,43 @@
       "added_at": "2026-11-14T16:23:19.206302+00:00"
     },
     {
+      "id": "2107.11015",
+      "arxiv_id": "2107.11015",
+      "title": "Trajectory Design for UAV-Based Internet of Things Data Collection: A Deep Reinforcement Learning Approach",
+      "authors": [
+        "Yang Wang",
+        "Zhen Gao",
+        "Jun Zhang",
+        "Xianbin Cao",
+        "Dezhi Zheng",
+        "Yue Gao",
+        "Derrick Wing Kwan Ng",
+        "Marco Di Renzo"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE Internet of Things Journal",
+      "citation_count": 204,
+      "url": "https://arxiv.org/abs/2107.11015",
+      "pdf_url": "https://arxiv.org/pdf/2107.11015",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Trajectory Design for UAV-Based Internet of Things Data Collection: A Deep Reinforcement Learning Approach。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：In this article, we investigate an unmanned aerial vehicle (UAV)-assisted Internet of Things (IoT) system in a sophisticated 3-D environment, where the UAV’s trajectory is optimized to efficiently collect data from multi",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "uav"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "https://openalex.org/W2981033335",
       "arxiv_id": "",
       "title": "scikit-mobility : A Python Library for the Analysis, Generation, and Risk Assessment of Mobility Data",
@@ -22988,6 +23791,68 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-11-14T16:23:19.206302+00:00"
+    },
+    {
+      "id": "2408.11812",
+      "arxiv_id": "2408.11812",
+      "title": "Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation",
+      "authors": [
+        "Ria Doshi",
+        "Homer Walke",
+        "Oier Mees",
+        "Sudeep Dasari",
+        "Sergey Levine"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Conference on Robot Learning",
+      "citation_count": 202,
+      "url": "https://arxiv.org/abs/2408.11812",
+      "pdf_url": "https://arxiv.org/pdf/2408.11812",
+      "code_url": "",
+      "topics": [
+        "真机与 Sim2Real"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Conference on Robot Learning），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Modern machine learning systems rely on large datasets to attain broad generalization, and this often poses a challenge in robot learning, where each robotic platform and task might have only a small dataset.",
+      "why_it_matters": "与真机与 Sim2Real直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "real world"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4206124306",
+      "arxiv_id": "",
+      "title": "A survey on user-centric cell-free massive MIMO systems",
+      "authors": [
+        "Shuaifei Chen",
+        "Jiayi Zhang",
+        "Jing Zhang",
+        "Emil Björnson",
+        "Bo Ai"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "Digital Communications and Networks",
+      "citation_count": 202,
+      "url": "https://doi.org/10.1016/j.dcan.2021.12.005",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "具身导航"
+      ],
+      "evidence": "初步",
+      "evidence_note": "主要依据预印本摘要，实验规模、消融与复现性需要阅读全文确认。",
+      "summary_zh": "该工作聚焦具身导航，主要研究问题可概括为：A survey on user-centric cell-free massive MIMO systems。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The mobile data traffic has been exponentially growing during the last several decades.",
+      "why_it_matters": "与具身导航直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "2203.05137",
@@ -23057,6 +23922,84 @@
       "added_at": "2026-11-16T20:00:52.028427+00:00"
     },
     {
+      "id": "https://openalex.org/W3165816055",
+      "arxiv_id": "",
+      "title": "UAV-Based Real-Time Survivor Detection System in Post-Disaster Search and Rescue Operations",
+      "authors": [
+        "Jiong Dong",
+        "Kaoru Ota",
+        "Mianxiong Dong"
+      ],
+      "published": "2021",
+      "source": "OpenAlex",
+      "venue": "IEEE Journal on Miniaturization for Air and Space Systems",
+      "citation_count": 201,
+      "url": "https://doi.org/10.1109/jmass.2021.3083659",
+      "pdf_url": "",
+      "code_url": "",
+      "topics": [
+        "UAV 目标搜索",
+        "空域 VLN"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：UAV-Based Real-Time Survivor Detection System in Post-Disaster Search and Rescue Operations。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：When a natural disaster occurs, the most critical task is to search and rescue trapped people as soon as possible.",
+      "why_it_matters": "与UAV 目标搜索、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "aerial",
+        "drone",
+        "search and rescue",
+        "uav"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
+      "id": "2412.13178",
+      "arxiv_id": "2412.13178",
+      "title": "SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents",
+      "authors": [
+        "Yin, Sheng",
+        "Xianghe Pang",
+        "Yudan Ding",
+        "Chen, Menglan",
+        "Bi, Yutong",
+        "Xiong, Yichen",
+        "Wenhao Huang",
+        "Zhen Xiang",
+        "Jing Shao",
+        "Siheng Chen"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "arXiv",
+      "citation_count": 199,
+      "url": "https://arxiv.org/abs/2412.13178",
+      "pdf_url": "https://arxiv.org/pdf/2412.13178",
+      "code_url": "https://github.com/shengyin1224/SafeAgentBench",
+      "topics": [
+        "具身基准与评测",
+        "多模态大模型与智能体",
+        "规划智能体"
+      ],
+      "evidence": "中",
+      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
+      "summary_zh": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：With the integration of large language models (LLMs), embodied agents have strong capabilities to understand and plan complicated natural language instructions.",
+      "why_it_matters": "与具身基准与评测、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation",
+        "instruction",
+        "llm agent",
+        "real world",
+        "task planning"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
       "id": "https://openalex.org/W4297924435",
       "arxiv_id": "",
       "title": "Smart city re-imagined: City planning and GeoAI in the age of big data",
@@ -23082,6 +24025,157 @@
       "keywords": [],
       "is_classic": true,
       "added_at": "2026-11-14T16:23:19.206302+00:00"
+    },
+    {
+      "id": "https://openalex.org/W4415797415",
+      "arxiv_id": "",
+      "title": "DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution",
+      "authors": [
+        "Yang Yue",
+        "Yulin Wang",
+        "Bingyi Kang",
+        "Yizeng Han",
+        "Shenzhi Wang",
+        "Shiji Song",
+        "Jiashi Feng",
+        "Gao Huang"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "neural information processing systems",
+      "citation_count": 197,
+      "url": "https://doi.org/10.52202/079017-1803",
+      "pdf_url": "",
+      "code_url": "https://github.com/yueyang130/DeeR-VLA",
+      "topics": [
+        "多模态大模型与智能体",
+        "空域 VLN",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（neural information processing systems），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：MLLMs have demonstrated remarkable comprehension and reasoning capabilities with complex language and visual data.",
+      "why_it_matters": "与多模态大模型与智能体、空域 VLN直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "mllm",
+        "multimodal large language model"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
+      "id": "2505.03233",
+      "arxiv_id": "2505.03233",
+      "title": "GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data",
+      "authors": [
+        "Deng, Shengliang",
+        "Yan, Mi",
+        "Songlin Wei",
+        "Ma, Haixin",
+        "Yang, Yuxin",
+        "Chen, Jiayi",
+        "Zhang, Zhiqi",
+        "Yang, Taoyu",
+        "Xuheng Zhang",
+        "Zhang, Wenhao",
+        "Heming Cui",
+        "Zhizheng Zhang"
+      ],
+      "published": "2025",
+      "source": "OpenAlex",
+      "venue": "Conference on Robot Learning",
+      "citation_count": 196,
+      "url": "https://arxiv.org/abs/2505.03233",
+      "pdf_url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/deng25a/deng25a.pdf",
+      "code_url": "",
+      "topics": [
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（Conference on Robot Learning），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦具身基准与评测，主要研究问题可概括为：GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：Embodied foundation models are gaining increasing attention for their zero-shot generalization, scalability, and adaptability to new tasks through few-shot post-training.",
+      "why_it_matters": "与具身基准与评测直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "evaluation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
+      "id": "2305.11854",
+      "arxiv_id": "2305.11854",
+      "title": "Multimodal Web Navigation with Instruction-Finetuned Foundation Models",
+      "authors": [
+        "Furuta, Hiroki",
+        "Kuang-Huei Lee",
+        "Ofir Nachum",
+        "Yutaka Matsuo",
+        "Aleksandra Faust",
+        "Shixiang Gu",
+        "İzzeddin Gür"
+      ],
+      "published": "2024",
+      "source": "OpenAlex",
+      "venue": "International Conference on Learning Representations",
+      "citation_count": 195,
+      "url": "https://arxiv.org/abs/2305.11854",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/7ef7d8359036afd8c2378d82c21058a4-Paper-Conference.pdf",
+      "code_url": "",
+      "topics": [
+        "空域 VLN",
+        "多模态大模型与智能体",
+        "具身基准与评测"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（International Conference on Learning Representations），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Multimodal Web Navigation with Instruction-Finetuned Foundation Models。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：The progress of autonomous web navigation has been hindered by the dependence on billions of exploratory interactions via online reinforcement learning, and domain-specific model designs that make it difficult to leverag",
+      "why_it_matters": "与空域 VLN、多模态大模型与智能体直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "benchmark",
+        "instruction",
+        "multimodal agent"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
+    },
+    {
+      "id": "2303.03480",
+      "arxiv_id": "2303.03480",
+      "title": "Can an Embodied Agent Find Your “Cat-shaped Mug”? LLM-Based Zero-Shot Object Navigation",
+      "authors": [
+        "Vishnu Sashank Dorbala",
+        "James F. Mullen",
+        "Dinesh Manocha"
+      ],
+      "published": "2023",
+      "source": "OpenAlex",
+      "venue": "IEEE Robotics and Automation Letters",
+      "citation_count": 194,
+      "url": "https://arxiv.org/abs/2303.03480",
+      "pdf_url": "https://arxiv.org/pdf/2303.03480",
+      "code_url": "",
+      "topics": [
+        "ObjectNav 目标搜索",
+        "主动感知与重建"
+      ],
+      "evidence": "强",
+      "evidence_note": "发表来源命中白名单（IEEE Robotics and Automation Letters），摘要包含实验或基准证据；仍建议阅读全文核对设置。",
+      "summary_zh": "该工作聚焦ObjectNav 目标搜索、主动感知与重建，主要研究问题可概括为：Can an Embodied Agent Find Your “Cat-shaped Mug”? LLM-Based Zero-Shot Object Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+      "change_zh": "摘要首句：We present language-guided exploration (LGX), a novel algorithm forLanguage-Driven Zero-Shot Object Goal Navigation(L-ZSON), where an embodied agent navigates to anuniquely describedtarget object in apreviously unseenenv",
+      "why_it_matters": "与ObjectNav 目标搜索、主动感知与重建直接相关，可重点检查其空间表征、决策闭环和相对现有基线的增益。",
+      "keywords": [
+        "exploration",
+        "object goal navigation",
+        "object navigation"
+      ],
+      "is_classic": true,
+      "added_at": "2026-11-27T12:00:23.607300+00:00"
     },
     {
       "id": "2206.08312",
@@ -27517,281 +28611,280 @@
       "excluded_at": "2026-10-09"
     }
   },
-  "last_citation_refresh": "2026-11-26T19:33:26.813847+00:00",
   "briefing": {
     "text": "",
     "added": 30,
-    "at": "2026-11-25T12:37:51.521945+00:00",
+    "at": "2026-11-27T12:00:23.607300+00:00",
     "new": [
       {
-        "t": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
-        "u": "https://arxiv.org/abs/2010.03768",
+        "t": "MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making",
+        "u": "https://doi.org/10.52202/079017-2522",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：ALFWorld: Aligning Text and Embodied Environments for Interactive Learning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/mitmedialab/MDAgents",
+        "cit": 602
+      },
+      {
+        "t": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+        "u": "https://doi.org/10.52202/085713-2257",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/MIV-XJTU/FSDrive",
+        "cit": 267
+      },
+      {
+        "t": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
+        "u": "https://doi.org/10.52202/085713-0439",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/bingreeky/GMemory",
+        "cit": 262
+      },
+      {
+        "t": "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments",
+        "u": "https://arxiv.org/abs/2108.03332",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 1644
+        "cit": 252
       },
       {
-        "t": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
-        "u": "https://openalex.org/W7236514781",
+        "t": "TartanVO: A Generalizable Learning-based VO",
+        "u": "https://arxiv.org/abs/2011.00359",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：WebArena: A Realistic Web Environment for Building Autonomous Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦状态估计与控制、空间智能，主要研究问题可概括为：TartanVO: A Generalizable Learning-based VO。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/castacks/tartanvo",
+        "cit": 245
+      },
+      {
+        "t": "Evidence-based guideline: premature ovarian insufficiency,",
+        "u": "https://doi.org/10.1093/hropen/hoae065",
+        "r": null,
+        "g": null,
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Evidence-based guideline: premature ovarian insufficiency,。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 1359
+        "cit": 242
       },
       {
-        "t": "AFlow: Automating Agentic Workflow Generation",
-        "u": "https://arxiv.org/abs/2410.10762",
+        "t": "BEVBert: Multimodal Map Pre-training for Language-guided Navigation",
+        "u": "https://arxiv.org/abs/2212.04385",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：AFlow: Automating Agentic Workflow Generation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/FoundationAgents/AFlow",
-        "cit": 936
-      },
-      {
-        "t": "Executable Code Actions Elicit Better LLM Agents",
-        "u": "https://arxiv.org/abs/2402.01030",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：Executable Code Actions Elicit Better LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、具身基准与评测，主要研究问题可概括为：BEVBert: Multimodal Map Pre-training for Language-guided Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 921
+        "cit": 239
       },
       {
-        "t": "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models",
-        "u": "https://openalex.org/W7238670041",
+        "t": "VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction",
+        "u": "https://arxiv.org/abs/2505.20279",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、空域 VLN，主要研究问题可概括为：VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 879
+        "cit": 237
       },
       {
-        "t": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
-        "u": "https://arxiv.org/abs/2510.04618",
+        "t": "Evaluating the World Model Implicit in a Generative Model",
+        "u": "https://doi.org/10.52202/079017-0846",
         "r": null,
         "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Evaluating the World Model Implicit in a Generative Model。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 666
+        "cit": 232
       },
       {
-        "t": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
-        "u": "https://arxiv.org/abs/2410.02644",
+        "t": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+        "u": "https://arxiv.org/abs/2310.01361",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/agiresearch/ASB",
-        "cit": 643
-      },
-      {
-        "t": "The 2024 state of the climate report: Perilous times on planet Earth",
-        "u": "https://doi.org/10.1093/biosci/biae087",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：The 2024 state of the climate report: Perilous times on planet Earth。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：GenSim: Generating Robotic Simulation Tasks via Large Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 635
+        "cit": 227
       },
       {
-        "t": "Are aligned neural networks adversarially aligned?",
-        "u": "https://doi.org/10.52202/075280-2687",
+        "t": "Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning of Vision Language Models",
+        "u": "https://doi.org/10.52202/085713-0204",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：Are aligned neural networks adversarially aligned?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦多模态大模型与智能体、具身基准与评测，主要研究问题可概括为：Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning of Vision Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 603
+        "cit": 225
       },
       {
-        "t": "OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents",
-        "u": "https://doi.org/10.52202/075280-3138",
+        "t": "New Examination Approach for Real-World Creativity and Problem-Solving Skills in Mathematics",
+        "u": "https://doi.org/10.3390/higheredu2030028",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦主动感知与重建，主要研究问题可概括为：New Examination Approach for Real-World Creativity and Problem-Solving Skills in Mathematics。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 600
+        "cit": 224
       },
       {
-        "t": "Language Models can Solve Computer Tasks",
-        "u": "https://doi.org/10.52202/075280-1723",
+        "t": "HomeRobot: Open-Vocabulary Mobile Manipulation",
+        "u": "https://arxiv.org/abs/2306.11565",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Language Models can Solve Computer Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/posgnu/rci-agent",
-        "cit": 598
-      },
-      {
-        "t": "On Evaluating Adversarial Robustness of Large Vision-Language Models",
-        "u": "https://doi.org/10.52202/075280-2355",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦多模态大模型与智能体、真机与 Sim2Real，主要研究问题可概括为：On Evaluating Adversarial Robustness of Large Vision-Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/yunqing-me/AttackVLM",
-        "cit": 594
-      },
-      {
-        "t": "2022 ESC Guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS)",
-        "u": "https://doi.org/10.1093/ehjci/jeac106",
-        "r": null,
-        "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：2022 ESC Guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS)。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：HomeRobot: Open-Vocabulary Mobile Manipulation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 587
+        "cit": 218
       },
       {
-        "t": "AgentTuning: Enabling Generalized Agent Abilities for LLMs",
-        "u": "https://doi.org/10.18653/v1/2024.findings-acl.181",
+        "t": "Cambrian-S: Towards Spatial Supersensing in Video",
+        "u": "https://arxiv.org/abs/2511.04670",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：AgentTuning: Enabling Generalized Agent Abilities for LLMs。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦世界模型、具身基准与评测，主要研究问题可概括为：Cambrian-S: Towards Spatial Supersensing in Video。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 521
+        "cit": 217
       },
       {
-        "t": "Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline",
-        "u": "https://doi.org/10.52202/068431-0443",
+        "t": "Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction",
+        "u": "https://arxiv.org/abs/2501.03218",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、状态估计与控制，主要研究问题可概括为：Trajectory-Guided Control Prediction for End-To-End Autonomous Driving: A Simple Yet Strong Baseline。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "https://github.com/OpenPerceptionX/TCP",
-        "cit": 504
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/Mark12Ding/Dispider",
+        "cit": 216
       },
       {
-        "t": "EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought",
-        "u": "https://doi.org/10.52202/075280-1090",
+        "t": "Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs",
+        "u": "https://doi.org/10.52202/079017-1189",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦主动感知与重建，主要研究问题可概括为：Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 486
+        "cit": 215
       },
       {
-        "t": "NaVILA: Legged Robot Vision-Language-Action Model for Navigation",
-        "u": "https://arxiv.org/abs/2412.04453",
+        "t": "Learning to drive from a world on rails",
+        "u": "https://arxiv.org/abs/2105.00636",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：NaVILA: Legged Robot Vision-Language-Action Model for Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测、世界模型，主要研究问题可概括为：Learning to drive from a world on rails。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 422
+        "cit": 212
       },
       {
-        "t": "ZSON: Zero-Shot Object-Goal Navigation Using Multimodal Goal Embeddings",
-        "u": "https://doi.org/10.52202/068431-2343",
+        "t": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics",
+        "u": "https://doi.org/10.52202/085713-0957",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、ObjectNav 目标搜索，主要研究问题可概括为：ZSON: Zero-Shot Object-Goal Navigation Using Multimodal Goal Embeddings。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 400
+        "cit": 211
       },
       {
-        "t": "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
-        "u": "https://doi.org/10.52202/085713-0942",
+        "t": "Student Engagement in a Flipped Secondary Mathematics Classroom",
+        "u": "https://doi.org/10.1007/s10763-021-10213-x",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：Student Engagement in a Flipped Secondary Mathematics Classroom。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 374
+        "cit": 209
       },
       {
-        "t": "Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?",
-        "u": "https://doi.org/10.52202/075280-0031",
+        "t": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
+        "u": "https://doi.org/10.24963/ijcai.2024/339",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：ScreenAI: A Vision-Language Model for UI and Infographics Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 365
+        "cit": 208
       },
       {
-        "t": "Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making",
-        "u": "https://doi.org/10.52202/079017-3188",
+        "t": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+        "u": "https://doi.org/10.52202/085713-2773",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、具身基准与评测，主要研究问题可概括为：ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 336
+        "cit": 207
       },
       {
-        "t": "SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks",
-        "u": "https://doi.org/10.52202/075280-1034",
+        "t": "Trajectory Design for UAV-Based Internet of Things Data Collection: A Deep Reinforcement Learning Approach",
+        "u": "https://arxiv.org/abs/2107.11015",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：Trajectory Design for UAV-Based Internet of Things Data Collection: A Deep Reinforcement Learning Approach。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 316
+        "cit": 204
       },
       {
-        "t": "Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems",
-        "u": "https://arxiv.org/abs/2410.02506",
+        "t": "Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation",
+        "u": "https://arxiv.org/abs/2408.11812",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身基准与评测、真机与 Sim2Real，主要研究问题可概括为：Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦真机与 Sim2Real，主要研究问题可概括为：Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 300
+        "cit": 202
       },
       {
-        "t": "How to use digital devices to detect and manage arrhythmias: an EHRA practical guide",
-        "u": "https://doi.org/10.1093/europace/euac038",
+        "t": "A survey on user-centric cell-free massive MIMO systems",
+        "u": "https://doi.org/10.1016/j.dcan.2021.12.005",
         "r": null,
         "g": null,
-        "s": "该工作聚焦具身导航，主要研究问题可概括为：How to use digital devices to detect and manage arrhythmias: an EHRA practical guide。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身导航，主要研究问题可概括为：A survey on user-centric cell-free massive MIMO systems。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 299
+        "cit": 202
       },
       {
-        "t": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence",
-        "u": "https://doi.org/10.52202/085713-0457",
+        "t": "UAV-Based Real-Time Survivor Detection System in Post-Disaster Search and Rescue Operations",
+        "u": "https://doi.org/10.1109/jmass.2021.3083659",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦UAV 目标搜索、空域 VLN，主要研究问题可概括为：UAV-Based Real-Time Survivor Detection System in Post-Disaster Search and Rescue Operations。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 285
+        "cit": 201
       },
       {
-        "t": "SG-Nav: Online 3D Scene Graph Prompting for LLM-based Zero-shot Object Navigation",
-        "u": "https://doi.org/10.52202/079017-0171",
+        "t": "SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents",
+        "u": "https://arxiv.org/abs/2412.13178",
         "r": null,
         "g": null,
-        "s": "该工作聚焦ObjectNav 目标搜索、空间智能，主要研究问题可概括为：SG-Nav: Online 3D Scene Graph Prompting for LLM-based Zero-shot Object Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 283
+        "s": "该工作聚焦具身基准与评测、多模态大模型与智能体，主要研究问题可概括为：SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/shengyin1224/SafeAgentBench",
+        "cit": 199
       },
       {
-        "t": "Is A Picture Worth A Thousand Words? Delving Into Spatial Reasoning for Vision Language Models",
-        "u": "https://doi.org/10.52202/079017-2400",
+        "t": "DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution",
+        "u": "https://doi.org/10.52202/079017-1803",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：Is A Picture Worth A Thousand Words? Delving Into Spatial Reasoning for Vision Language Models。当前自动研判未启用，建议结合英文摘要阅读。",
-        "c": "",
-        "cit": 280
+        "s": "该工作聚焦多模态大模型与智能体、空域 VLN，主要研究问题可概括为：DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution。当前自动研判未启用，建议结合英文摘要阅读。",
+        "c": "https://github.com/yueyang130/DeeR-VLA",
+        "cit": 197
       },
       {
-        "t": "InstructNav: Zero-shot System for Generic Instruction Navigation in Unexplored Environment",
-        "u": "https://arxiv.org/abs/2406.04882",
+        "t": "GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data",
+        "u": "https://arxiv.org/abs/2505.03233",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN、地面 VLN，主要研究问题可概括为：InstructNav: Zero-shot System for Generic Instruction Navigation in Unexplored Environment。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦具身基准与评测，主要研究问题可概括为：GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 274
+        "cit": 196
       },
       {
-        "t": "MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence",
-        "u": "https://arxiv.org/abs/2505.23764",
+        "t": "Multimodal Web Navigation with Instruction-Finetuned Foundation Models",
+        "u": "https://arxiv.org/abs/2305.11854",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空间智能、多模态大模型与智能体，主要研究问题可概括为：MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦空域 VLN、多模态大模型与智能体，主要研究问题可概括为：Multimodal Web Navigation with Instruction-Finetuned Foundation Models。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 268
+        "cit": 195
       },
       {
-        "t": "DocLLM: A Layout-Aware Generative Language Model for Multimodal Document Understanding",
-        "u": "https://doi.org/10.18653/v1/2024.acl-long.463",
+        "t": "Can an Embodied Agent Find Your “Cat-shaped Mug”? LLM-Based Zero-Shot Object Navigation",
+        "u": "https://arxiv.org/abs/2303.03480",
         "r": null,
         "g": null,
-        "s": "该工作聚焦空域 VLN，主要研究问题可概括为：DocLLM: A Layout-Aware Generative Language Model for Multimodal Document Understanding。当前自动研判未启用，建议结合英文摘要阅读。",
+        "s": "该工作聚焦ObjectNav 目标搜索、主动感知与重建，主要研究问题可概括为：Can an Embodied Agent Find Your “Cat-shaped Mug”? LLM-Based Zero-Shot Object Navigation。当前自动研判未启用，建议结合英文摘要阅读。",
         "c": "",
-        "cit": 268
+        "cit": 194
       }
     ]
   }
