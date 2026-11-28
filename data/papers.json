@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:33:58.463588+00:00",
+  "updated_at": "2026-11-28T01:23:08.287169+00:00",
   "catalog": [
     {
       "id": "uav-target-search",
@@ -5737,44 +5737,6 @@
         "exploration"
       ],
       "added_at": "2026-09-02T01:29:13Z"
-    },
-    {
-      "id": "2608.29315",
-      "arxiv_id": "2608.29315",
-      "title": "SGE: Semantically-Guided Exploration for Unstructured Environments via Image-Space Waypoint Sampling",
-      "authors": [
-        "Christopher Tatsch",
-        "Yu Gu"
-      ],
-      "published": "2026-08-29",
-      "source": "arXiv",
-      "venue": "预印本",
-      "url": "https://arxiv.org/abs/2608.29315",
-      "pdf_url": "https://arxiv.org/pdf/2608.29315",
-      "code_url": "",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "topics": [
-        "主动感知与重建"
-      ],
-      "relevance_score": 5,
-      "evidence": "中",
-      "evidence_note": "预印本或发表状态尚未确认，但摘要报告了实验/基准验证。",
-      "summary_zh": "SGE将像素级语义分割融入地面机器人探索的图像空间航点采样与效用评估，结合实时TSP滚动时域路线优化，并用禁忌区域与图回溯机制应对导航失败，在标准仿真基准与校园、矿井多平台真机实验中验证有效。",
-      "change_zh": "与常见的几何/边界探索在3D空间采样不同，SGE直接在图像空间用语义感知效用函数评估候选航点，把可通行性、障碍距离、兴趣目标与深度收益统一纳入采样，使探索可被语义任务偏置，并新增禁忌区与图回溯提升鲁棒性。",
-      "why_it_matters": "主动探索是UAV目标搜索与ObjectNav的基础能力，SGE的图像空间语义效用采样与目标偏置思路可迁移到目标导向的飞行探索与开放词汇目标导航；其跨平台、跨场景（含矿井）的真机验证也为探索方法的sim2real落地提供参考。",
-      "relevance_rating": 8,
-      "rigor_rating": 8,
-      "venue_verified": false,
-      "score": 24,
-      "keywords": [
-        "benchmark",
-        "exploration",
-        "waypoint"
-      ],
-      "added_at": "2026-09-01T21:26:42+08:00"
     },
     {
       "id": "2610.11220",
